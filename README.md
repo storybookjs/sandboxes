@@ -1,10 +1,34 @@
-# Storybook Reproduction Templates
+<h1>Storybook Reproduction Templates</h1>
 
-![Storybook Latest Badge](https://img.shields.io/npm/v/@storybook/react/next)
+<img
+  alt="Storybook next Badge"
+  src="https://img.shields.io/npm/v/@storybook/react/next"
+/>
 
-The repros have been generated with the latest stable version of Storybook
+<p>
+  The following repros have been generated with the `next` version of Storybook.
+</p>
 
-Preview any repro live on [StackBlitz](http://stackblitz.com/):
+<p>
+  Preview any repro live on <a href="http://stackblitz.com/">StackBlitz:</a>
+</p>
 
-- [Create React App](https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-js/after-storybook?preset=node)
-- [Create React App + TypeScript](https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-ts/after-storybook?preset=node)
+<details>
+  <summary><b>CRA</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-js/after-storybook?preset=node"
+      >
+        Create React App (Javascript)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-ts/after-storybook?preset=node"
+      >
+        Create React App (Typescript)
+      </a>
+    </li>
+  </ul>
+</details>
