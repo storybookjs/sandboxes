@@ -18,16 +18,29 @@
   <ul>
     <li>
       <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-js/after-storybook?preset=node"
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/cra/default-js/after-storybook?preset=node"
       >
         Create React App (Javascript)
       </a>
     </li>
     <li>
       <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/main/cra/default-ts/after-storybook?preset=node"
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/cra/default-ts/after-storybook?preset=node"
       >
         Create React App (Typescript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Angular</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular/latest/after-storybook?preset=node"
+      >
+        Angular (latest)
       </a>
     </li>
   </ul>
