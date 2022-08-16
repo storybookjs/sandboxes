@@ -32,16 +32,3 @@
     </li>
   </ul>
 </details>
-
-<details>
-  <summary><b>Angular</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular/latest/after-storybook?preset=node"
-      >
-        Angular (latest)
-      </a>
-    </li>
-  </ul>
-</details>
