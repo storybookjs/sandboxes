@@ -14,20 +14,13 @@
 </p>
 
 <details>
-  <summary><b>CRA</b></summary>
+  <summary><b>React-vite</b></summary>
   <ul>
     <li>
       <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/cra/default-js/after-storybook?preset=node"
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-vite/default-js/after-storybook?preset=node"
       >
-        Create React App (Javascript)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/cra/default-ts/after-storybook?preset=node"
-      >
-        Create React App (Typescript)
+        React Vite (JS)
       </a>
     </li>
   </ul>
