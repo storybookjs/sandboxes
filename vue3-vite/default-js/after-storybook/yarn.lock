@@ -1817,13 +1817,6 @@
     prop-types "^15.7.2"
     react-syntax-highlighter "^15.5.0"
 
-"@storybook/addon-svelte-csf@^2.0.0":
-  version "2.0.7"
-  resolved "http://localhost:6001/@storybook%2faddon-svelte-csf/-/addon-svelte-csf-2.0.7.tgz#e6702eff8b7fe5ec2ee2073a86462e4f93438978"
-  integrity sha512-D5xc//FI3DPTcFuy3ldGEZfPEjHEe6fr+h9HmPcK0gBYN38i7tINX9grL5fWsYM/e3j5uBjpGBGtcNfU0T4ijw==
-  dependencies:
-    ts-dedent "^2.0.0"
-
 "@storybook/addon-toolbars@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
   resolved "http://localhost:6001/@storybook%2faddon-toolbars/-/addon-toolbars-7.0.0-alpha.25.tgz#66a6feb3878533e3a42e9441f0f3da194877c328"
@@ -1987,8 +1980,8 @@
 
 "@storybook/builder-vite@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.25.tgz#75e6a62d335ff3a8befbdc251b940fe8ef75b469"
-  integrity sha512-ivkUvCryZTAQYHSHRoP99762rQhnj8AHdHLbgqj79slQVgi8SYYdLH6BWgIKzpyCkJb38LKePM2zONKtmAJaBA==
+  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.25.tgz#4f6a990c50fef1b1197ed24bbd579e138ce1d787"
+  integrity sha512-JmHeQqceT3cXF3NkI38WIP/4SiKATglnSeDL3TzJlASsetRBnX00LMwudeRf+I2bkMismbHWltoWoVSHiWiQBQ==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
     "@storybook/addons" "7.0.0-alpha.25"
@@ -2009,6 +2002,7 @@
     magic-string "^0.26.1"
     react-docgen "^6.0.0-alpha.0"
     slash "^3.0.0"
+    sveltedoc-parser "^4.2.1"
     vite "3"
 
 "@storybook/builder-webpack5@7.0.0-alpha.25":
@@ -2094,8 +2088,8 @@
 
 "@storybook/cli@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.25.tgz#794b2bf7e57665437a70cd8c004d31881bf5cbf5"
-  integrity sha512-BsrP3Qc/CjSWJYvDeNx9CMg2fl8JCznjSwBSFYtGpwDaf+KdSBdsaUMUdVdoBjryHlNopE4cL+Ibmr0hJtiHbQ==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.25.tgz#c71d97113b891c508c34ea8bf56baf7baa6b6d7a"
+  integrity sha512-82SoqJ6vzLYN2EdbXnn70YGZjkX2230P9zlx9Q7er10vlf4kzABYtLXm5QeeBdfjC+8YU4hbxpMXKql5CAfFrA==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2221,8 +2215,8 @@
 
 "@storybook/core-common@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2fcore-common/-/core-common-7.0.0-alpha.25.tgz#4780b735ed4aaa4cb1c378c02954adc2b90b14e4"
-  integrity sha512-l2sh1Pcn9SVu7iRzoc/dgYoj47Zi27VVMY50cBTj/7/HV8n8yu6mp3V4cRXKcUnpWbJ4GRV7oI1v3cfYRSOE7A==
+  resolved "http://localhost:6001/@storybook%2fcore-common/-/core-common-7.0.0-alpha.25.tgz#8b6f671ca1e21f5b5c2280a821e2397b5b3ea295"
+  integrity sha512-WIf2VpGlkzckZFEkay1Ok2Dpx72fN/aOlLwNitRGHUWXxKQbkBpbS15qtDh1TzlhTt8zpr5/47PCx667PgTZyg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
@@ -2253,7 +2247,6 @@
     "@types/express" "^4.7.0"
     "@types/node" "^14.0.10 || ^16.0.0"
     "@types/pretty-hrtime" "^1.0.0"
-    babel-loader "^8.2.5"
     babel-plugin-macros "^3.0.1"
     babel-plugin-polyfill-corejs3 "^0.1.0"
     chalk "^4.1.0"
@@ -2705,8 +2698,8 @@
 
 "@storybook/react@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2freact/-/react-7.0.0-alpha.25.tgz#a0bfe6f5ef63b98ff8ae0e8bb96d04ef5f96cc4c"
-  integrity sha512-tBsXGYqO0uS6HsePkZMzXIBZ6Ve/Bcgi7STveui0M0upA4xixjv3zbicK5AqtvBbbPeuH8RYiDMbmepNf5tOVg==
+  resolved "http://localhost:6001/@storybook%2freact/-/react-7.0.0-alpha.25.tgz#a7b9359f378cb1ee08c9868190764df27e0feb38"
+  integrity sha512-TIoQpaDXKKer+kMLcVsdvlWQdKdeY1jUGrBJZEKjYTcUwDj3VtvBrUGdShk83Pke3Zue8D0rKkketnzCBeoGfA==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.25"
     "@storybook/client-logger" "7.0.0-alpha.25"
@@ -2811,28 +2804,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/svelte-vite@7.0.0-alpha.25":
-  version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2fsvelte-vite/-/svelte-vite-7.0.0-alpha.25.tgz#16bc61030c647f6c783f21753c96995feda9f752"
-  integrity sha512-6uhbr0VAXKqx/NjHQW4tNBVlBpj01LRr1st4Dt+MovJhoIN4/cFQ7F3CXtpYQUMGfljCGwftzv0InQ8mE95p6A==
-  dependencies:
-    "@rollup/pluginutils" "^4.2.0"
-    "@storybook/addon-svelte-csf" "^2.0.0"
-    "@storybook/builder-vite" "7.0.0-alpha.25"
-    "@storybook/core-server" "7.0.0-alpha.25"
-    "@storybook/node-logger" "7.0.0-alpha.25"
-    "@storybook/svelte" "7.0.0-alpha.25"
-    "@sveltejs/vite-plugin-svelte" "^1.0.0"
-    "@types/node" "^14.14.20 || ^16.0.0"
-    "@vitejs/plugin-react" "^1.0.8"
-    ast-types "^0.14.2"
-    core-js "^3.8.2"
-    magic-string "^0.26.1"
-    regenerator-runtime "^0.13.7"
-    svelte "^3.0.0"
-    sveltedoc-parser "^4.2.1"
-    vite "3"
-
 "@storybook/svelte-webpack5@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
   resolved "http://localhost:6001/@storybook%2fsvelte-webpack5/-/svelte-webpack5-7.0.0-alpha.25.tgz#b736b81e938aabf469d1b1f61188e72cf0afc5b7"
@@ -2848,8 +2819,8 @@
 
 "@storybook/svelte@7.0.0-alpha.25":
   version "7.0.0-alpha.25"
-  resolved "http://localhost:6001/@storybook%2fsvelte/-/svelte-7.0.0-alpha.25.tgz#b9617c37bbd6f84cb9c3826b0f193ed14c5deac1"
-  integrity sha512-g8RYtCkjovky0KJRLXRJg19FdoRd/IsXV0yNpOdfY4huLaaH8rGK/hwrIlyX2yzWl4jO5VMZ6PlcXVOAcvGXTQ==
+  resolved "http://localhost:6001/@storybook%2fsvelte/-/svelte-7.0.0-alpha.25.tgz#4cf2970ae2250a61db5e44fedf2d78dc10f275bf"
+  integrity sha512-fVzMlKlWa070aQwIb2W3aZCNyuwjSJe+5R34yYIJmAFoJP1aqFQML0+aqfk7oOaFMuiOkuG9L68bB0HPBKoZlw==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.25"
     "@storybook/client-logger" "7.0.0-alpha.25"
@@ -3018,18 +2989,6 @@
     react "16.14.0"
     react-dom "16.14.0"
     ts-dedent "^2.0.0"
-
-"@sveltejs/vite-plugin-svelte@^1.0.0":
-  version "1.0.2"
-  resolved "http://localhost:6001/@sveltejs%2fvite-plugin-svelte/-/vite-plugin-svelte-1.0.2.tgz#d9997e9f1aeca7b5f72634e774c4f0c7207134b3"
-  integrity sha512-8tTVbNuraeDchBaArNbwaZLpO0feM7BRSdZU5yeM4Clasx2p1p1CYBoWh+VgxZlxiark49HXummkHqKztbl8lA==
-  dependencies:
-    "@rollup/pluginutils" "^4.2.1"
-    debug "^4.3.4"
-    deepmerge "^4.2.2"
-    kleur "^4.1.5"
-    magic-string "^0.26.2"
-    svelte-hmr "^0.14.12"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -4917,7 +4876,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
+debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2:
   version "4.3.4"
   resolved "http://localhost:6001/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -7763,7 +7722,7 @@ kleur@^3.0.3:
   resolved "http://localhost:6001/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-kleur@^4.0.3, kleur@^4.1.5:
+kleur@^4.0.3:
   version "4.1.5"
   resolved "http://localhost:6001/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
@@ -10756,16 +10715,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "http://localhost:6001/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-svelte-hmr@^0.14.12:
-  version "0.14.12"
-  resolved "http://localhost:6001/svelte-hmr/-/svelte-hmr-0.14.12.tgz#a127aec02f1896500b10148b2d4d21ddde39973f"
-  integrity sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==
-
-svelte@^3.0.0:
-  version "3.49.0"
-  resolved "http://localhost:6001/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
-  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
 sveltedoc-parser@4.1.0:
   version "4.1.0"
