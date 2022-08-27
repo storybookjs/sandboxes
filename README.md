@@ -72,3 +72,23 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Svelte-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-vite/default-js/after-storybook?preset=node"
+      >
+        Svelte Vite (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-vite/default-ts/after-storybook?preset=node"
+      >
+        Svelte Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
