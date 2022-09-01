@@ -83,12 +83,5 @@
         Svelte Vite (JS)
       </a>
     </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-vite/default-ts/after-storybook?preset=node"
-      >
-        Svelte Vite (TS)
-      </a>
-    </li>
   </ul>
 </details>
