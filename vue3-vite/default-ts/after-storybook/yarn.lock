@@ -2018,8 +2018,8 @@
 
 "@storybook/cli@7.0.0-alpha.31":
   version "7.0.0-alpha.31"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.31.tgz#8841dc229a7a6ebd54f5a71fc672ec0bdaf275e4"
-  integrity sha512-XSE4hsqogFaiv9IHvSNFQ9mDCzR9c8aKUu64fix7804Q/05pZtvXKFjp1TzOWNu3zKgOxtYmSj6QVyp2NMybpQ==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.31.tgz#30105362596f351768fb71b7f899d38e5e2e997d"
+  integrity sha512-xHGGci68WJPsSn+UTvKkSrTe4quJq6UL55Vlolmjm/2ETDVu3P2X13mVXBi5t4HPCexn3YyP/QKwaD9DQcY5ag==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2744,8 +2744,8 @@
 
 "@storybook/vue3-vite@7.0.0-alpha.31", "@storybook/vue3-vite@^7.0.0-alpha.31":
   version "7.0.0-alpha.31"
-  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.31.tgz#c07891e60887d83ad1c34d87cbdbfece47db8a14"
-  integrity sha512-lT1HsimAMV36CTBfLZH7voo/xlK0zwDkwvNPzpxSL1sXpKRdDe6IJjruauD9eKtbFOCv3eh3YJfSTH7WkLE0gQ==
+  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.31.tgz#484811018a6b561dab34f685e37cf2ded9a7fb46"
+  integrity sha512-ITJOuPPi/wgObmhqEN532nkfACdH1AeG+ikOjj7tfOiz7qsln+JzmbnQ02+MDAjig2a7jL309wtSU3jNsFsxNg==
   dependencies:
     "@storybook/builder-vite" "7.0.0-alpha.31"
     "@storybook/core-server" "7.0.0-alpha.31"
@@ -2798,6 +2798,18 @@
     react "16.14.0"
     react-dom "16.14.0"
     ts-dedent "^2.0.0"
+
+"@storybook/web-components-vite@7.0.0-alpha.31":
+  version "7.0.0-alpha.31"
+  resolved "http://localhost:6001/@storybook%2fweb-components-vite/-/web-components-vite-7.0.0-alpha.31.tgz#d4e4f41873a97b33ad9707c5e53f7125ddcc515e"
+  integrity sha512-bTd35RjiEJwJaP7CwCvr7KGp0CHqTlnA1ZLZ/ngphtGhSGaBBezsIYteWlFJFKpyNg1Du0N0NVLoAcoMSR3u/w==
+  dependencies:
+    "@storybook/builder-vite" "7.0.0-alpha.31"
+    "@storybook/core-server" "7.0.0-alpha.31"
+    "@storybook/web-components" "7.0.0-alpha.31"
+    "@vitejs/plugin-vue" "^3.0.3"
+    magic-string "^0.26.1"
+    vite "3"
 
 "@storybook/web-components-webpack5@7.0.0-alpha.31":
   version "7.0.0-alpha.31"
@@ -4247,9 +4259,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001370:
-  version "1.0.30001396"
-  resolved "http://localhost:6001/caniuse-lite/-/caniuse-lite-1.0.30001396.tgz#1c3ee1b7ccd60f3efd7461201740c8de9fe1025d"
-  integrity sha512-Df93cp39XVZRoOl2EoiuNp2rc4Dnsb9mDQEs4qFa7/uTx3FnfEq+jyHLf/0Ik7GVJA6wvJuAI5ZKUtUEenAm9Q==
+  version "1.0.30001397"
+  resolved "http://localhost:6001/caniuse-lite/-/caniuse-lite-1.0.30001397.tgz#010d9d56e3b8abcd8df261d0a94b22426271a15f"
+  integrity sha512-SW9N2TbCdLf0eiNDRrrQXx2sOkaakNZbCjgNpPyMJJbiOrU5QzMIrXOVMRM1myBXTD5iTkdrtU/EguCrBocHlA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
