@@ -1920,8 +1920,8 @@
 
 "@storybook/builder-vite@7.0.0-alpha.33":
   version "7.0.0-alpha.33"
-  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.33.tgz#2daa86ed0119926ad3662d21eb0c159e4b9bbc89"
-  integrity sha512-8S4s+nHnpZio4CXaQBIVQCpmyN4yB7NrrMDi/EZLecg0kA1v0TFDOwTTflFp5ikk2WXyGNSoGOYem7g4LT0kVw==
+  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.33.tgz#279899bf4b7b733d6fa90108e7f486661a096d24"
+  integrity sha512-HPsewg2qeLms6xT1fKvR6qUoPsl4xufuqDLy98Meab5cXHyIZhUmIXw142QlwofkrDpPVDN2/ZoiVn6GYwjx4g==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
     "@storybook/addons" "7.0.0-alpha.33"
@@ -2018,8 +2018,8 @@
 
 "@storybook/cli@7.0.0-alpha.33":
   version "7.0.0-alpha.33"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.33.tgz#dde83655dbd3b80e0230d5ca6815c43c0d263a40"
-  integrity sha512-a3PVAEGMPsepiRP7q0iLnMUXDvubODZvL7oC393gmJDJaXziGAA2a57QPp0byVGjuQV+g9ZRIglP/GSdshnvrA==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.33.tgz#81c810eded8dd3d618ef1e3f1057e7a3e98a3ef7"
+  integrity sha512-8LGCqGKfV1NxYt3aeBVdnJFU/FA09TaM4Vd0U9cqEHw0X03+4LewGhEbTrHdHVsEW1Ambg86KZzizKCgShfMxw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2447,8 +2447,8 @@
 
 "@storybook/preset-vue-webpack@7.0.0-alpha.33":
   version "7.0.0-alpha.33"
-  resolved "http://localhost:6001/@storybook%2fpreset-vue-webpack/-/preset-vue-webpack-7.0.0-alpha.33.tgz#9203c93778d467f729249960371b1baeb59386d5"
-  integrity sha512-Io1iXewK3WOSNzFfmXZuvEW+9EZeOCeph3ILwYmiExcpec6+f/88Y/gnqdA5+IO9lbmHcpS3KoBrScefKehIPA==
+  resolved "http://localhost:6001/@storybook%2fpreset-vue-webpack/-/preset-vue-webpack-7.0.0-alpha.33.tgz#fa3e4669c2671e57eedde8389c32539325d0a88d"
+  integrity sha512-/obI47g8eLsb6+Pv+fgCit2OE0rAHw8uP0a5f7HpbBU3fdefJllBtKXhRhay9rIo1lXuAMTx1Tf5XtiqFMQ2ow==
   dependencies:
     "@storybook/core-webpack" "7.0.0-alpha.33"
     "@storybook/docs-tools" "7.0.0-alpha.33"
@@ -3349,7 +3349,7 @@
     "@vue/compiler-core" "3.2.39"
     "@vue/shared" "3.2.39"
 
-"@vue/compiler-sfc@3.2.39", "@vue/compiler-sfc@^3.2.0", "@vue/compiler-sfc@^3.2.38":
+"@vue/compiler-sfc@3.2.39", "@vue/compiler-sfc@^3.2.0", "@vue/compiler-sfc@^3.2.38", "@vue/compiler-sfc@^3.2.39":
   version "3.2.39"
   resolved "http://localhost:6001/@vue%2fcompiler-sfc/-/compiler-sfc-3.2.39.tgz#8fe29990f672805b7c5a2ecfa5b05e681c862ea2"
   integrity sha512-fqAQgFs1/BxTUZkd0Vakn3teKUt//J3c420BgnYgEOoVdTwYpBTSXCMJ88GOBCylmUBbtquGPli9tVs7LzsWIA==
@@ -11259,10 +11259,19 @@ vue-inbrowser-compiler-independent-utils@^4.52.0:
   resolved "http://localhost:6001/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.54.1.tgz#2628fe92c99a06672d1b91b0f838e0272551ed02"
   integrity sha512-hQN3mzLmWM33Ua2Oua5OgF8/BJjP6+T1Wzea5xHDRYCwVvJo2pxSJLhVqluaeBe3PB5vquMddceaKC4mhLe25A==
 
-vue-loader@^16.0.0, vue-loader@^16.8.3:
+vue-loader@^16.0.0:
   version "16.8.3"
   resolved "http://localhost:6001/vue-loader/-/vue-loader-16.8.3.tgz#d43e675def5ba9345d6c7f05914c13d861997087"
   integrity sha512-7vKN45IxsKxe5GcVCbc2qFU5aWzyiLrYJyUuMz4BQLKctCj/fmCa0w6fGiiQ2cLFetNcek1ppGJQDCup0c1hpA==
+  dependencies:
+    chalk "^4.1.0"
+    hash-sum "^2.0.0"
+    loader-utils "^2.0.0"
+
+vue-loader@^17.0.0:
+  version "17.0.0"
+  resolved "http://localhost:6001/vue-loader/-/vue-loader-17.0.0.tgz#2eaa80aab125b19f00faa794b5bd867b17f85acb"
+  integrity sha512-OWSXjrzIvbF2LtOUmxT3HYgwwubbfFelN8PAP9R9dwpIkj48TVioHhWWSx7W7fk+iF5cgg3CBJRxwTdtLU4Ecg==
   dependencies:
     chalk "^4.1.0"
     hash-sum "^2.0.0"
