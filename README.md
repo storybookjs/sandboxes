@@ -85,3 +85,16 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Angular-cli</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/default-ts/after-storybook?preset=node"
+      >
+        Angular CLI (latest)
+      </a>
+    </li>
+  </ul>
+</details>
