@@ -87,13 +87,20 @@
 </details>
 
 <details>
-  <summary><b>Angular-cli</b></summary>
+  <summary><b>Vue-cli</b></summary>
   <ul>
     <li>
       <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/default-ts/after-storybook?preset=node"
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue-cli/default-js/after-storybook?preset=node"
       >
-        Angular CLI (latest)
+        Vue-CLI (Default JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue-cli/vue2-default-js/after-storybook?preset=node"
+      >
+        Vue-CLI (Vue2 JS)
       </a>
     </li>
   </ul>
