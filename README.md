@@ -85,3 +85,16 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Vue-cli</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue-cli/default-js/after-storybook?preset=node"
+      >
+        Vue-CLI (Default JS)
+      </a>
+    </li>
+  </ul>
+</details>
