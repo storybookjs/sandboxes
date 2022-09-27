@@ -28,15 +28,16 @@
   /**
    * Optional click handler
    */
-  function onClick(event) {
+  export let onClick = (event) => {
     dispatch('click', event);
-  }
+  };
 </script>
 
 <button
   type="button"
   class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
   {style}
-  on:click={onClick}>
+  on:click={onClick}
+>
   {label}
 </button>
