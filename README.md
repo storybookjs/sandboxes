@@ -87,6 +87,26 @@
 </details>
 
 <details>
+  <summary><b>Lit-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/lit-vite/default-js/after-storybook?preset=node"
+      >
+        Lit Vite (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/lit-vite/default-ts/after-storybook?preset=node"
+      >
+        Lit Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Vue-cli</b></summary>
   <ul>
     <li>

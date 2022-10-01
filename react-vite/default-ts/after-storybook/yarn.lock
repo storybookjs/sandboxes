@@ -2021,8 +2021,8 @@
 
 "@storybook/cli@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.34.tgz#765f0069a220988a43825ffa17574d7adbb2468c"
-  integrity sha512-HNCyEoMceTbB+1dZzUm70URZepMKbwyEhWyEws5YA6MyO5gPY2i8qQTsGUMKEzXdcxZ2A5ehEEtJOUOvPr21wg==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.34.tgz#738a383020e99cc4ed137ac3505af272cb03fbda"
+  integrity sha512-DCgp0vTmWAAMplCvkizAQQsykD/wm8kE2+VassEaVN++oGla1myZ8A2sShMFwjQZF6EfJMNhYu1lvkUPVEwicw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2756,8 +2756,8 @@
 
 "@storybook/vue3-vite@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.34.tgz#408381b2dda4577d6be042a5fe91bd31d770cb3c"
-  integrity sha512-kV9Z0mZEcf2aT1VlqF8oIobunTMDX7A5iJhg9eOgkfTt8oIP78oQNNCg7HhbgPVJNya7vwfOPklrbUtHUX46cQ==
+  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.34.tgz#fab9cafb264bb77b98250e9302223c012571d622"
+  integrity sha512-7XVu0y+JWfvA0tne+k5hdK2xErUtf3vULCUeEKTq+z39wpNRr1fDb3nGkrUPEVxaXxg3s55krnXqVhXNWae+fA==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.34"
     "@storybook/builder-vite" "7.0.0-alpha.34"
@@ -2816,6 +2816,24 @@
     react-dom "16.14.0"
     ts-dedent "^2.0.0"
 
+"@storybook/web-components-vite@7.0.0-alpha.34":
+  version "7.0.0-alpha.34"
+  resolved "http://localhost:6001/@storybook%2fweb-components-vite/-/web-components-vite-7.0.0-alpha.34.tgz#ceb39e08bac473e14dc8db3766017fad733af7de"
+  integrity sha512-G5nEAsCgGHvC6NIVRWhsRXdxocF29rRHZ0xie6dtXpPiNh183+AHboX9J4zRme+11NuOsHeVPA/VWFjzqq63uA==
+  dependencies:
+    "@storybook/addons" "7.0.0-alpha.34"
+    "@storybook/builder-vite" "7.0.0-alpha.34"
+    "@storybook/channel-postmessage" "7.0.0-alpha.34"
+    "@storybook/channel-websocket" "7.0.0-alpha.34"
+    "@storybook/client-api" "7.0.0-alpha.34"
+    "@storybook/core-server" "7.0.0-alpha.34"
+    "@storybook/node-logger" "7.0.0-alpha.34"
+    "@storybook/preview-web" "7.0.0-alpha.34"
+    "@storybook/web-components" "7.0.0-alpha.34"
+    "@vitejs/plugin-vue" "^3.0.3"
+    magic-string "^0.26.1"
+    vite "3"
+
 "@storybook/web-components-webpack5@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
   resolved "http://localhost:6001/@storybook%2fweb-components-webpack5/-/web-components-webpack5-7.0.0-alpha.34.tgz#7b06ae9b54198debfe13c04eafdac46eaed4341a"
@@ -2832,8 +2850,8 @@
 
 "@storybook/web-components@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fweb-components/-/web-components-7.0.0-alpha.34.tgz#a88f607517826a12bcea182710d1f4cb6d78bfbf"
-  integrity sha512-P6N2c39G3IRZpBFLJXiHvUbcS+RqtfsWJQFmIZYDqFnRkor1TEBXLpwFNKqjwj0EPDD1ErC5TPBgN6/T+DKRwg==
+  resolved "http://localhost:6001/@storybook%2fweb-components/-/web-components-7.0.0-alpha.34.tgz#748830d656e3e7c46bd035178b20d3638fdccbc2"
+  integrity sha512-5SWWZmo16YZaq95wlmj9W7U9+q+yw/yofXbbPcdlkUZXwNl5sNF9ei9nLJyKMgM+Edab4r6XNkl3vyzP7Vd1vA==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.34"
     "@storybook/api" "7.0.0-alpha.34"
