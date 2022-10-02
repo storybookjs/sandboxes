@@ -1930,8 +1930,8 @@
 
 "@storybook/builder-vite@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.34.tgz#f848166cd4925852a3ef2007c46a8731e22683f2"
-  integrity sha512-n2Nvcr1v+rD0H2uMY4+xwXr8sBzqT9cQXVAW7L/dW89adTJ8k1vavocNUM3PtsVaZBvOuYC+6Ah35u4B2GxUEA==
+  resolved "http://localhost:6001/@storybook%2fbuilder-vite/-/builder-vite-7.0.0-alpha.34.tgz#a0e7b4a03485a0ab064360bdd8c5558973ddcaa2"
+  integrity sha512-dHiRSmdsJeatWTxinOP3TodmLp/49YdlHMg+OAMcw5piNorY58e6OMGaest4dSX8yY9Onz/EHYNzOrzIffJMUw==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
     "@storybook/client-api" "7.0.0-alpha.34"
@@ -1948,7 +1948,7 @@
     glob-promise "^4.2.0"
     magic-string "^0.26.1"
     slash "^3.0.0"
-    vite "3"
+    vite "^3.1.3"
 
 "@storybook/builder-webpack5@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
@@ -2026,8 +2026,8 @@
 
 "@storybook/cli@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.34.tgz#738a383020e99cc4ed137ac3505af272cb03fbda"
-  integrity sha512-DCgp0vTmWAAMplCvkizAQQsykD/wm8kE2+VassEaVN++oGla1myZ8A2sShMFwjQZF6EfJMNhYu1lvkUPVEwicw==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.34.tgz#f3a2ec6683e6e48954abb167cfc33ce829a66b4e"
+  integrity sha512-nmumLZj93uHZvLPNimlKOlfjP5reo6gIjPym9chF9CyiZg8z+502ED4HGr4Il3L2oWQEGq/1UZQqM6aCtzhBcg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2532,8 +2532,8 @@
 
 "@storybook/react-vite@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2freact-vite/-/react-vite-7.0.0-alpha.34.tgz#82b8ab65bc810569a4d58a6d04652a31a7fe979d"
-  integrity sha512-pH3ft4UTuVt/CRvXac9pXWy3Brx42wvs2eGzz1Ygllaqwz+j2hUWzxik7vrqiPji/fxxfV3Fdt5pVAuLny3qYA==
+  resolved "http://localhost:6001/@storybook%2freact-vite/-/react-vite-7.0.0-alpha.34.tgz#2ef853b3f3f87389395a6e8cc5e6614a5ace8303"
+  integrity sha512-EOEdG6p14dKEip7QvDVMX2m7vUEw208yIdlJC5YBb64j9pIKHkt2lzUserNC5XIBhaA0TKIGhKRb6LWTqGYGng==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.0.5"
     "@rollup/pluginutils" "^4.2.0"
@@ -2548,7 +2548,7 @@
     ast-types "^0.14.2"
     magic-string "^0.26.1"
     react-docgen "^6.0.0-alpha.3"
-    vite "3"
+    vite "^3.1.3"
 
 "@storybook/react-webpack5@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
@@ -2660,8 +2660,8 @@
 
 "@storybook/svelte-vite@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fsvelte-vite/-/svelte-vite-7.0.0-alpha.34.tgz#bcd04b30e0466a9d1df1ea656c8d856b05a9f55b"
-  integrity sha512-gqsW4s1H+omMyXzVGq1kTnvDlYBOGCoEe0XWgpROcPwbxKFW9DuNElqtKM6ra037NYeOEfy6diLiKJkJLCwrVw==
+  resolved "http://localhost:6001/@storybook%2fsvelte-vite/-/svelte-vite-7.0.0-alpha.34.tgz#6b024804a50e9fe108103af1b5e7ae672b56311a"
+  integrity sha512-fyCn5de1dhZWNaF1JekXsGL0kcazswNom6Sb86ws/SLRDajwz4U6yqJY18Kornvhy3a2KRH3nD01LCinUw34AQ==
   dependencies:
     "@storybook/addon-svelte-csf" "^2.0.0"
     "@storybook/addons" "7.0.0-alpha.34"
@@ -2676,7 +2676,7 @@
     magic-string "^0.26.1"
     svelte "^3.0.0"
     sveltedoc-parser "^4.2.1"
-    vite "3"
+    vite "^3.1.3"
 
 "@storybook/svelte-webpack5@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
@@ -2735,6 +2735,19 @@
   resolved "http://localhost:6001/@storybook%2fui/-/ui-7.0.0-alpha.34.tgz#e98b5437bb97267a152ef33f8f57a754915f540c"
   integrity sha512-jZUTLxlk8ATPTLV5fzboLa4oX+Q55r2r2nikU690ZR93+LQiQLnydv5ggY0oPC3EviDGZlj2wkYS+d4p2zs0ng==
 
+"@storybook/vue-vite@7.0.0-alpha.34":
+  version "7.0.0-alpha.34"
+  resolved "http://localhost:6001/@storybook%2fvue-vite/-/vue-vite-7.0.0-alpha.34.tgz#db1e3e783021543bfcef412b62e378939c7a4513"
+  integrity sha512-+DIiFyrjsdEUyLR7Um/bwQPS8BSh0wV17PtgTu75fce0wwinmIGIS2IX4FkGWghwS9EIB8rxsm+1HkXrg0yG2w==
+  dependencies:
+    "@storybook/builder-vite" "7.0.0-alpha.34"
+    "@storybook/core-common" "7.0.0-alpha.34"
+    "@storybook/core-server" "7.0.0-alpha.34"
+    "@storybook/vue" "7.0.0-alpha.34"
+    magic-string "^0.26.1"
+    vite "^3.1.3"
+    vue-docgen-api "^4.40.0"
+
 "@storybook/vue-webpack5@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
   resolved "http://localhost:6001/@storybook%2fvue-webpack5/-/vue-webpack5-7.0.0-alpha.34.tgz#9cbf01f175bbf84b4e8bae5fa7a620132c080b88"
@@ -2750,8 +2763,8 @@
 
 "@storybook/vue3-vite@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.34.tgz#fab9cafb264bb77b98250e9302223c012571d622"
-  integrity sha512-7XVu0y+JWfvA0tne+k5hdK2xErUtf3vULCUeEKTq+z39wpNRr1fDb3nGkrUPEVxaXxg3s55krnXqVhXNWae+fA==
+  resolved "http://localhost:6001/@storybook%2fvue3-vite/-/vue3-vite-7.0.0-alpha.34.tgz#2e0b45555e853f30c6405bc933eb298b145610e8"
+  integrity sha512-4vm5PZDk5Q/25ztyhRC/gNyLAKkjHVh+7aUWbAY6WBGoQgyyv8Y4IVe9a6FNKl+Fv7ajyqPSlBctMWYwj+DYxA==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.34"
     "@storybook/builder-vite" "7.0.0-alpha.34"
@@ -2763,7 +2776,7 @@
     "@storybook/vue3" "7.0.0-alpha.34"
     "@vitejs/plugin-vue" "^3.0.3"
     magic-string "^0.26.1"
-    vite "3"
+    vite "^3.1.3"
     vue-docgen-api "^4.40.0"
 
 "@storybook/vue3-webpack5@7.0.0-alpha.34":
@@ -2796,8 +2809,8 @@
 
 "@storybook/vue@7.0.0-alpha.34":
   version "7.0.0-alpha.34"
-  resolved "http://localhost:6001/@storybook%2fvue/-/vue-7.0.0-alpha.34.tgz#7f7f1a3d7e8ae995824c9e6900a22d3bd59188d7"
-  integrity sha512-DPPOykRjD5fzY7qqptNcWHi8cs2c1IdqgiSPtNX0DVMbEhWV9JFUZcEZGzrasyVecOEpPfnueqbukV4jBL4/9Q==
+  resolved "http://localhost:6001/@storybook%2fvue/-/vue-7.0.0-alpha.34.tgz#c35b61b7c19912de16f3461acb5c40d86aabc084"
+  integrity sha512-Kr4e+Ed1Bxexk3hk1vRWKXyxDsbUYgFo2aQaLa57LNoJbeVdXgoRt4k7u541JXbkIDWxOQvYlem/gKVblTgsmg==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.34"
     "@storybook/client-logger" "7.0.0-alpha.34"
@@ -3287,9 +3300,9 @@
     react-refresh "^0.14.0"
 
 "@vitejs/plugin-vue@^3.0.3":
-  version "3.1.0"
-  resolved "http://localhost:6001/@vitejs%2fplugin-vue/-/plugin-vue-3.1.0.tgz#3a423ea6943a450e806da412a911150e928598ed"
-  integrity sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==
+  version "3.1.2"
+  resolved "http://localhost:6001/@vitejs%2fplugin-vue/-/plugin-vue-3.1.2.tgz#3cd52114e8871a0b5e7bd7d837469c032e503036"
+  integrity sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==
 
 "@vue/compiler-core@3.2.40":
   version "3.2.40"
@@ -11125,7 +11138,7 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite@3, vite@^3.1.0:
+vite@3, vite@^3.1.0, vite@^3.1.3:
   version "3.1.4"
   resolved "http://localhost:6001/vite/-/vite-3.1.4.tgz#b75824b819d8354a6f36e4b988943c7e4947e155"
   integrity sha512-JoQI08aBjY9lycL7jcEq4p9o1xUjq5aRvdH4KWaXtkSx7e7RpAh9D3IjzDWRD4Fg44LS3oDAIOG/Kq1L+82psA==
