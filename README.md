@@ -54,19 +54,6 @@
 </details>
 
 <details>
-  <summary><b>Vue2-vite</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
-      >
-        Vue2 Vite (vue 2.7 JS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Vue3-vite</b></summary>
   <ul>
     <li>
