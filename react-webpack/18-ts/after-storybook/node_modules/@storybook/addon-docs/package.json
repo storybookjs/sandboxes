@@ -1,0 +1,114 @@
+{
+  "name": "@storybook/addon-docs",
+  "version": "7.0.0-alpha.34",
+  "description": "Document component usage and properties in Markdown",
+  "keywords": [
+    "addon",
+    "notes",
+    "documentation",
+    "storybook",
+    "essentials",
+    "organize"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/addons/docs",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "addons/docs"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "angular/**/*",
+    "common/**/*",
+    "ember/**/*",
+    "html/**/*",
+    "svelte/**/*",
+    "postinstall/**/*",
+    "react/**/*",
+    "vue/**/*",
+    "web-components/**/*",
+    "lit/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!__testfixtures__"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "node ../../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/preset-env": "^7.12.11",
+    "@jest/transform": "^26.6.2",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addons": "7.0.0-alpha.34",
+    "@storybook/api": "7.0.0-alpha.34",
+    "@storybook/blocks": "7.0.0-alpha.34",
+    "@storybook/components": "7.0.0-alpha.34",
+    "@storybook/core-common": "7.0.0-alpha.34",
+    "@storybook/core-events": "7.0.0-alpha.34",
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "@storybook/csf-tools": "7.0.0-alpha.34",
+    "@storybook/docs-tools": "7.0.0-alpha.34",
+    "@storybook/mdx1-csf": "0.0.5-canary.13.9ce928a.0",
+    "@storybook/node-logger": "7.0.0-alpha.34",
+    "@storybook/postinstall": "7.0.0-alpha.34",
+    "@storybook/preview-web": "7.0.0-alpha.34",
+    "@storybook/source-loader": "7.0.0-alpha.34",
+    "@storybook/store": "7.0.0-alpha.34",
+    "@storybook/theming": "7.0.0-alpha.34",
+    "babel-loader": "^8.2.5",
+    "dequal": "^2.0.2",
+    "global": "^4.4.0",
+    "lodash": "^4.17.21",
+    "remark-external-links": "^8.0.0",
+    "remark-slug": "^6.0.0",
+    "ts-dedent": "^2.0.0",
+    "util-deprecate": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/mdx2-csf": "0.0.4-canary.14.04ffbe8.0",
+    "@types/util-deprecate": "^1.0.0",
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "@storybook/mdx2-csf": "0.0.4-canary.14.04ffbe8.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@storybook/mdx2-csf": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f",
+  "storybook": {
+    "displayName": "Docs",
+    "icon": "https://user-images.githubusercontent.com/263385/101991672-48355c80-3c7c-11eb-82d9-95fa12438f64.png",
+    "unsupportedFrameworks": [
+      "react-native"
+    ]
+  }
+}
