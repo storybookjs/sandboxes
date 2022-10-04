@@ -1,0 +1,126 @@
+{
+  "name": "@storybook/preset-react-webpack",
+  "version": "7.0.0-alpha.34",
+  "description": "Storybook for React: Develop React Component in isolation with Hot Reloading.",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/presets/react-webpack",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "presets/react-webpack"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./preset": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/framework-preset-cra": {
+      "require": "./dist/framework-preset-cra.js",
+      "import": "./dist/framework-preset-cra.mjs",
+      "types": "./dist/framework-preset-cra.d.ts"
+    },
+    "./dist/framework-preset-react-docs": {
+      "require": "./dist/framework-preset-react-docs.js",
+      "import": "./dist/framework-preset-react-docs.mjs",
+      "types": "./dist/framework-preset-react-docs.d.ts"
+    },
+    "./dist/framework-preset-react-dom-hack": {
+      "require": "./dist/framework-preset-react-dom-hack.js",
+      "import": "./dist/framework-preset-react-dom-hack.mjs",
+      "types": "./dist/framework-preset-react-dom-hack.d.ts"
+    },
+    "./dist/framework-preset-react": {
+      "require": "./dist/framework-preset-react.js",
+      "import": "./dist/framework-preset-react.mjs",
+      "types": "./dist/framework-preset-react.d.ts"
+    },
+    "./package.json": {
+      "require": "./package.json",
+      "import": "./package.json",
+      "types": "./package.json"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "types/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@babel/preset-flow": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@storybook/core-webpack": "7.0.0-alpha.34",
+    "@storybook/docs-tools": "7.0.0-alpha.34",
+    "@storybook/node-logger": "7.0.0-alpha.34",
+    "@storybook/react": "7.0.0-alpha.34",
+    "@storybook/react-docgen-typescript-plugin": "1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0",
+    "@storybook/semver": "^7.3.2",
+    "@types/node": "^14.14.20 || ^16.0.0",
+    "babel-plugin-add-react-displayname": "^0.0.5",
+    "babel-plugin-react-docgen": "^4.2.1",
+    "fs-extra": "^9.0.1",
+    "react-refresh": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/util-deprecate": "^1.0.0",
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.11.5",
+    "jest-specific-snapshot": "^4.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "require-from-string": "^2.0.2",
+    "webpack": "5"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/framework-preset-cra.ts",
+      "./src/framework-preset-react-docs.ts",
+      "./src/framework-preset-react-dom-hack.ts",
+      "./src/framework-preset-react.ts"
+    ],
+    "platform": "node"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}

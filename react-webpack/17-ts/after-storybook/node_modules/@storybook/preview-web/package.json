@@ -1,0 +1,61 @@
+{
+  "name": "@storybook/preview-web",
+  "version": "7.0.0-alpha.34",
+  "description": "",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/lib/preview-web",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "lib/preview-web"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "node ../../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@storybook/addons": "7.0.0-alpha.34",
+    "@storybook/channels": "7.0.0-alpha.34",
+    "@storybook/client-logger": "7.0.0-alpha.34",
+    "@storybook/core-events": "7.0.0-alpha.34",
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "@storybook/store": "7.0.0-alpha.34",
+    "ansi-to-html": "^0.6.11",
+    "global": "^4.4.0",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.0",
+    "synchronous-promise": "^2.0.15",
+    "ts-dedent": "^2.0.0",
+    "util-deprecate": "^1.0.2"
+  },
+  "devDependencies": {
+    "@storybook/channel-postmessage": "7.0.0-alpha.34",
+    "react": "16.14.0",
+    "ts-jest": "^28.0.8",
+    "typescript": "~4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}

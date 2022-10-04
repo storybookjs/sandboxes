@@ -1,0 +1,104 @@
+{
+  "name": "@storybook/react",
+  "version": "7.0.0-alpha.34",
+  "description": "Storybook React renderer",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/renderers/react",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "renderers/react"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./preview": {
+      "require": "./dist/config.js",
+      "import": "./dist/config.mjs",
+      "types": "./dist/config.d.ts"
+    },
+    "./package.json": {
+      "require": "./package.json",
+      "import": "./package.json",
+      "types": "./package.json"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "types/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@storybook/addons": "7.0.0-alpha.34",
+    "@storybook/client-logger": "7.0.0-alpha.34",
+    "@storybook/core-client": "7.0.0-alpha.34",
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "@storybook/docs-tools": "7.0.0-alpha.34",
+    "@storybook/store": "7.0.0-alpha.34",
+    "@types/estree": "^0.0.51",
+    "@types/node": "^14.14.20 || ^16.0.0",
+    "acorn": "^7.4.1",
+    "acorn-jsx": "^5.3.1",
+    "acorn-walk": "^7.2.0",
+    "escodegen": "^2.0.0",
+    "global": "^4.4.0",
+    "html-tags": "^3.1.0",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.7.2",
+    "react-element-to-jsx-string": "^15.0.0",
+    "ts-dedent": "^2.0.0",
+    "util-deprecate": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@types/util-deprecate": "^1.0.0",
+    "jest-specific-snapshot": "^4.0.0",
+    "require-from-string": "^2.0.2",
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/config.ts"
+    ],
+    "platform": "browser"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}
