@@ -34,26 +34,6 @@
 </details>
 
 <details>
-  <summary><b>React-webpack</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/18-ts/after-storybook?preset=node"
-      >
-        React Webpack5 (TS)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/17-ts/after-storybook?preset=node"
-      >
-        React Webpack5 (TS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>React-vite</b></summary>
   <ul>
     <li>
