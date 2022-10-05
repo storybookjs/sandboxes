@@ -1,0 +1,55 @@
+{
+  "name": "@storybook/source-loader",
+  "version": "7.0.0-alpha.34",
+  "description": "Source loader",
+  "keywords": [
+    "lib",
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/lib/source-loader",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "lib/source-loader"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "node ../../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "estraverse": "^5.2.0",
+    "lodash": "^4.17.21",
+    "prettier": ">=2.2.1 <=2.3.0"
+  },
+  "devDependencies": {
+    "jest-specific-snapshot": "^4.0.0",
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}
