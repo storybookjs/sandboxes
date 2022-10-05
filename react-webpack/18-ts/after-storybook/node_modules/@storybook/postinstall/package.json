@@ -21,9 +21,17 @@
   },
   "license": "MIT",
   "sideEffects": false,
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*",
     "README.md",
@@ -32,7 +40,7 @@
   ],
   "scripts": {
     "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
-    "prep": "node ../../../scripts/prepare.js"
+    "prep": "../../../scripts/prepare/bundle.ts"
   },
   "devDependencies": {
     "jest": "^26.6.3",
@@ -42,6 +50,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts"
+    ]
   },
   "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
 }
