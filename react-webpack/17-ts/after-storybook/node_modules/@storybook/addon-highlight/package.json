@@ -1,0 +1,60 @@
+{
+  "name": "@storybook/addon-highlight",
+  "version": "7.0.0-alpha.34",
+  "description": "Highlight DOM nodes within your stories",
+  "keywords": [
+    "storybook-addons",
+    "essentials",
+    "style",
+    "appearance"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/addons/highlight",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "addons/highlight"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "author": "winkerVSbecks",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "node ../../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@storybook/addons": "7.0.0-alpha.34",
+    "@storybook/core-events": "7.0.0-alpha.34",
+    "global": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.16.0",
+    "typescript": "~4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f",
+  "sbmodern": "dist/modern/index.js",
+  "storybook": {
+    "displayName": "Highlight",
+    "unsupportedFrameworks": [
+      "react-native"
+    ],
+    "icon": "https://user-images.githubusercontent.com/42671/162045505-9d06fe2e-8fcb-4c41-9486-e0553bce10cc.png"
+  }
+}
