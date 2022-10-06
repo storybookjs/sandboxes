@@ -43,13 +43,6 @@
         React Webpack5 (TS)
       </a>
     </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/17-ts/after-storybook?preset=node"
-      >
-        React Webpack5 (TS)
-      </a>
-    </li>
   </ul>
 </details>
 
@@ -154,6 +147,19 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue-cli/vue2-default-js/after-storybook?preset=node"
       >
         Vue-CLI (Vue2 JS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Html-webpack</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
+      >
+        HTML Webpack5
       </a>
     </li>
   </ul>
