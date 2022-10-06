@@ -1,0 +1,101 @@
+{
+  "name": "@storybook/core-common",
+  "version": "7.0.0-alpha.34",
+  "description": "Storybook framework-agnostic API",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/lib/core-common",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "lib/core-common"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": {
+      "require": "./package.json",
+      "import": "./package.json",
+      "types": "./package.json"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "types/**/*",
+    "templates/**/*",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "@storybook/node-logger": "7.0.0-alpha.34",
+    "@types/babel__core": "^7.0.0",
+    "@types/express": "^4.7.0",
+    "@types/node": "^14.0.10 || ^16.0.0",
+    "@types/pretty-hrtime": "^1.0.0",
+    "chalk": "^4.1.0",
+    "esbuild": "^0.14.48",
+    "esbuild-register": "^3.3.3",
+    "express": "^4.17.1",
+    "file-system-cache": "^2.0.0",
+    "find-up": "^5.0.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "handlebars": "^4.7.7",
+    "lazy-universal-dotenv": "^3.0.1",
+    "picomatch": "^2.3.0",
+    "pkg-dir": "^5.0.0",
+    "pretty-hrtime": "^1.0.3",
+    "resolve-from": "^5.0.0",
+    "slash": "^3.0.0",
+    "telejson": "^6.0.8",
+    "ts-dedent": "^2.0.0",
+    "util-deprecate": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/mock-fs": "^4.13.0",
+    "@types/picomatch": "^2.3.0",
+    "mock-fs": "^4.13.0",
+    "type-fest": "^2.17.0",
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts"
+    ],
+    "platform": "node"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}

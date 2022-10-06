@@ -6,18 +6,28 @@
   "author": "",
   "scripts": {
     "dev": "webpack serve --open",
-    "build": "webpack build"
+    "build": "webpack build",
+    "storybook": "npx storybook dev -p 6006",
+    "build-storybook": "npx storybook build"
   },
   "dependencies": {
-    "babel-loader": "latest",
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
+    "babel-loader": "latest",
     "css-loader": "latest",
+    "webpack": "^5",
     "webpack-cli": "latest",
-    "webpack-dev-server": "latest",
-    "webpack": "^5"
+    "webpack-dev-server": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-alpha.34",
+    "@storybook/addon-interactions": "^7.0.0-alpha.34",
+    "@storybook/addon-links": "^7.0.0-alpha.34",
+    "@storybook/html": "^7.0.0-alpha.34",
+    "@storybook/html-webpack5": "^7.0.0-alpha.34",
+    "@storybook/testing-library": "^0.0.13",
+    "storybook": "^7.0.0-alpha.34"
+  },
   "resolutions": {
     "@storybook/addon-a11y": "7.0.0-alpha.34",
     "@storybook/addon-actions": "7.0.0-alpha.34",

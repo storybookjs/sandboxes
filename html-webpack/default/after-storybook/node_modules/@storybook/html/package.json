@@ -1,0 +1,84 @@
+{
+  "name": "@storybook/html",
+  "version": "7.0.0-alpha.34",
+  "description": "Storybook HTML renderer",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/main/renderers/html",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "renderers/html"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./preview": {
+      "require": "./dist/config.js",
+      "import": "./dist/config.mjs",
+      "types": "./dist/config.d.ts"
+    },
+    "./package.json": {
+      "require": "./package.json",
+      "import": "./package.json",
+      "types": "./package.json"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@storybook/addons": "7.0.0-alpha.34",
+    "@storybook/core-client": "7.0.0-alpha.34",
+    "@storybook/csf": "0.0.2--canary.0899bb7.0",
+    "@storybook/docs-tools": "7.0.0-alpha.34",
+    "@storybook/preview-web": "7.0.0-alpha.34",
+    "@storybook/store": "7.0.0-alpha.34",
+    "global": "^4.4.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "ts-dedent": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.6.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "*"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/config.ts"
+    ],
+    "platform": "browser"
+  },
+  "gitHead": "fc90fc875462421c1faa35862ac4bc436de8e75f"
+}
