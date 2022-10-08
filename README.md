@@ -165,16 +165,3 @@
     </li>
   </ul>
 </details>
-
-<details>
-  <summary><b>Html-webpack</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
-      >
-        HTML Webpack5
-      </a>
-    </li>
-  </ul>
-</details>
