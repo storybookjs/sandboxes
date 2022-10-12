@@ -1,5 +1,5 @@
 <template>
-  <button type="button" :class="classes" @click="onClick" :style="style">{{ label }}</button>
+  <button type="button" :class="classes" @click="onClick" :style="style">{{ children }}</button>
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
   name: 'my-button',
 
   props: {
-    label: {
+    children: {
       type: String,
       required: true,
     },

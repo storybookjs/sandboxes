@@ -1,0 +1,1 @@
+import{a,c as n}from"./chunk-EX2QXXYQ.mjs";var e=a((r,s)=>{n();function t(i){return{aliases:["pycon"],contains:[{className:"meta",starts:{end:/ |$/,starts:{end:"$",subLanguage:"python"}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}s.exports=t});export default e();

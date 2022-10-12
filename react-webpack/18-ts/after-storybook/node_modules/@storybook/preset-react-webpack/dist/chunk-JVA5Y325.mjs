@@ -1,0 +1,1 @@
+var e=(a=>typeof require!="undefined"?require:typeof Proxy!="undefined"?new Proxy(a,{get:(b,c)=>(typeof require!="undefined"?require:b)[c]}):a)(function(a){if(typeof require!="undefined")return require.apply(this,arguments);throw new Error('Dynamic require of "'+a+'" is not supported')});var h={};export{e as a,h as b};

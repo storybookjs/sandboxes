@@ -1,0 +1,1 @@
+import{a as s,c as m}from"./chunk-EX2QXXYQ.mjs";var a=s((r,e)=>{m();e.exports=t;t.displayName="git";t.aliases=[];function t(i){i.languages.git={comment:/^#.*/m,deleted:/^[-–].*/m,inserted:/^\+.*/m,string:/("|')(?:\\.|(?!\1)[^\\\r\n])*\1/,command:{pattern:/^.*\$ git .*$/m,inside:{parameter:/\s--?\w+/}},coord:/^@@.*@@$/m,"commit-sha1":/^commit \w{40}$/m}}});export{a};

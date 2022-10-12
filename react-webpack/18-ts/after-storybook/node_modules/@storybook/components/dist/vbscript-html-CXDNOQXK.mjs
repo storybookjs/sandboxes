@@ -1,0 +1,1 @@
+import{a as e,c as n}from"./chunk-EX2QXXYQ.mjs";var s=e((u,t)=>{n();function i(a){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}t.exports=i});export default s();

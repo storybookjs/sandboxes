@@ -1,0 +1,1 @@
+import{a,c as s}from"./chunk-EX2QXXYQ.mjs";var l=a((i,e)=>{s();function n(t){return{name:"Shell Session",aliases:["console"],contains:[{className:"meta",begin:/^\s{0,3}[/~\w\d[\]()@-]*[>%$#]/,starts:{end:/[^\\](?=\s*$)/,subLanguage:"bash"}}]}}e.exports=n});export default l();
