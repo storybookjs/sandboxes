@@ -8,8 +8,8 @@ export default {
   component: Page,
 };
 
-const Template = ({ children, ...args }) => ({
-  view: () => m(Page, args, children),
+const Template = ({ label, ...args }) => ({
+  view: () => m(Page, args, label),
 });
 
 export const LoggedIn = Template.bind({});

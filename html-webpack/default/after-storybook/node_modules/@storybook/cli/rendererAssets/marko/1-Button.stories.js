@@ -6,7 +6,7 @@ export default {
   title: 'Button',
   // More on argTypes: https://storybook.js.org/docs/marko/api/argtypes
   argTypes: {
-    children: { control: 'text' },
+    label: { control: 'text' },
   },
 };
 
@@ -19,6 +19,6 @@ const Template = (args) => ({
 export const Text = Template.bind({});
 // More on args: https://storybook.js.org/docs/marko/writing-stories/args
 Text.args = {
-  children: 'Button',
+  label: 'Button',
   onClick: action('onClick'),
 };

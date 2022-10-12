@@ -4,7 +4,7 @@ import { customElement, bindable } from 'aurelia';
   name: 'storybook-button-component',
   template: `
   <template>
-    <button click.delegate="onClick($event)">\${text}</button>
+    <button click.delegate="onClick($event)">\${label}</button>
     <style>
     button {
       border: 1px solid #eee;
@@ -21,7 +21,7 @@ import { customElement, bindable } from 'aurelia';
 })
 export default class Button {
   @bindable()
-  text = '';
+  label = '';
 
   @bindable()
   onClick: MouseEvent;

@@ -7,26 +7,26 @@ export default {
   title: 'Button',
   // More on argTypes: https://storybook.js.org/docs/ember/api/argtypes
   argTypes: {
-    children: { control: 'text' },
+    label: { control: 'text' },
   },
 };
 
 // More on component templates: https://storybook.js.org/docs/ember/writing-stories/introduction#using-args
 const Template = (args) => ({
-  template: hbs`<button {{action onClick}}>{{children}}</button>`,
+  template: hbs`<button {{action onClick}}>{{label}}</button>`,
   context: args,
 });
 
 export const Text = Template.bind({});
 // More on args: https://storybook.js.org/docs/ember/writing-stories/args
 Text.args = {
-  children: 'Button',
+  label: 'Button',
   onClick: action('onClick'),
 };
 
 export const Emoji = Template.bind({});
 Emoji.args = {
-  children: '😀 😎 👍 💯',
+  label: '😀 😎 👍 💯',
 };
 
 export const TextWithAction = () => ({

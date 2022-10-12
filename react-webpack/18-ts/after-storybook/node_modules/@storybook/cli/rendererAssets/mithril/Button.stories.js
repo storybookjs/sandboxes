@@ -14,30 +14,30 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/mithril/writing-stories/introduction#using-args
-const Template = ({ children, ...args }) => ({
-  view: () => m(Button, args, children),
+const Template = ({ label, ...args }) => ({
+  view: () => m(Button, args, label),
 });
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/mithril/writing-stories/args
 Primary.args = {
   primary: true,
-  children: 'Button',
+  label: 'Button',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  children: 'Button',
+  label: 'Button',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  children: 'Button',
+  label: 'Button',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  children: 'Button',
+  label: 'Button',
 };

@@ -7,7 +7,7 @@ Portable documentation components for building design systems in Storybook.
 To bootstrap, in the monorepo root:
 
 ```sh
-yarn && yarn bootstrap --core
+yarn start
 ```
 
 To develop this package, in the monorepo root:

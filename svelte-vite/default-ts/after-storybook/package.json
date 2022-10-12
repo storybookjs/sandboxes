@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "storybook": "npx storybook dev -p 6006",
-    "build-storybook": "npx storybook build"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-alpha.35",

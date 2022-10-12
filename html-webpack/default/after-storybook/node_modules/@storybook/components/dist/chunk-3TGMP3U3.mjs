@@ -1,0 +1,1 @@
+import{a as i,c as a}from"./chunk-EX2QXXYQ.mjs";var r=i((o,t)=>{a();t.exports=s;s.displayName="hsts";s.aliases=[];function s(e){e.languages.hsts={directive:{pattern:/\b(?:includeSubDomains|max-age|preload)(?=[\s;=]|$)/i,alias:"property"},operator:/=/,punctuation:/;/}}});export{r as a};

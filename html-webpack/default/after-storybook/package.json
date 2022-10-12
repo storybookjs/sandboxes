@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "webpack serve --open",
     "build": "webpack build",
-    "storybook": "npx storybook dev -p 6006",
-    "build-storybook": "npx storybook build"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@babel/core": "latest",

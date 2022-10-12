@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "storybook": "npx storybook dev -p 6006",
-    "build-storybook": "npx storybook build"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "vue": "^3.2.37"

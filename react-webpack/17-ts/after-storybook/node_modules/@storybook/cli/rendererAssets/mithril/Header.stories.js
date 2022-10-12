@@ -7,8 +7,8 @@ export default {
   component: Header,
 };
 
-const Template = ({ children, ...args }) => ({
-  view: () => m(Header, args, children),
+const Template = ({ label, ...args }) => ({
+  view: () => m(Header, args, label),
 });
 
 export const LoggedIn = Template.bind({});

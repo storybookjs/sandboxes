@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import style from './style';
 
-export default function CenterView({ children }) {
-  return <View style={style.main}>{children}</View>;
+export default function CenterView({ label }) {
+  return <View style={style.main}>{label}</View>;
 }
 
 CenterView.defaultProps = {
-  children: null,
+  label: null,
 };
 
 CenterView.propTypes = {
-  children: PropTypes.node,
+  label: PropTypes.node,
 };

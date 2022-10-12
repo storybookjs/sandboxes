@@ -7,7 +7,7 @@ export default {
   title: 'Button',
   component: Button,
   argTypes: {
-    text: { control: 'text' },
+    label: { control: 'text' },
   },
 };
 
@@ -18,19 +18,19 @@ const Template = (args) => ({
 
 export const Text = Template.bind({});
 Text.args = {
-  text: 'Button',
+  label: 'Button',
   onClick: action('onClick'),
 };
 
 export const Emoji = Template.bind({});
 Emoji.args = {
-  text: '😀 😎 👍 💯',
+  label: '😀 😎 👍 💯',
 };
 
 export const TextWithAction = () => ({
   component: Button,
   props: {
-    text: 'Trigger Action',
+    label: 'Trigger Action',
     onClick: () => action('This was clicked')(),
   },
 });
@@ -41,7 +41,7 @@ TextWithAction.parameters = { notes: 'My notes on a button with emojis' };
 export const ButtonWithLinkToAnotherStory = () => ({
   component: Button,
   props: {
-    text: 'Go to Welcome Story',
+    label: 'Go to Welcome Story',
     onClick: linkTo('example-introduction--page'),
   },
 });

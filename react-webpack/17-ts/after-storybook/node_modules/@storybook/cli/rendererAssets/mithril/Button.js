@@ -4,7 +4,7 @@ import m from 'mithril';
 import './button.css';
 
 export const Button = {
-  view: ({ children, attrs }) => {
+  view: ({ label, attrs }) => {
     const mode = attrs.primary ? 'storybook-button--primary' : 'storybook-button--secondary';
     const size = attrs.size || 'medium';
 
@@ -15,7 +15,7 @@ export const Button = {
         style={attrs.backgroundColor && { backgroundColor: attrs.backgroundColor }}
         onclick={attrs.onClick}
       >
-        {children}
+        {label}
       </button>
     );
   },

@@ -127,33 +127,6 @@
 </details>
 
 <details>
-  <summary><b>Angular-cli</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/default-ts/after-storybook?preset=node"
-      >
-        Angular CLI (latest)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/13-ts/after-storybook?preset=node"
-      >
-        Angular CLI (Version 13)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/12-ts/after-storybook?preset=node"
-      >
-        Angular CLI (Version 12)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Lit-vite</b></summary>
   <ul>
     <li>
@@ -188,6 +161,19 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue-cli/vue2-default-js/after-storybook?preset=node"
       >
         Vue-CLI (Vue2 JS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Html-webpack</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
+      >
+        HTML Webpack5
       </a>
     </li>
   </ul>
