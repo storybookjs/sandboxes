@@ -12,8 +12,5 @@ module.exports = {
   "framework": {
     "name": "@storybook/svelte-vite",
     "options": {}
-  },
-  "svelteOptions": {
-    "preprocess": require("../svelte.config.js").preprocess
   }
 }

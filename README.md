@@ -127,6 +127,26 @@
 </details>
 
 <details>
+  <summary><b>Angular-cli</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/default-ts/after-storybook?preset=node"
+      >
+        Angular CLI (latest)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/13-ts/after-storybook?preset=node"
+      >
+        Angular CLI (Version 13)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Lit-vite</b></summary>
   <ul>
     <li>
@@ -174,6 +194,26 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
       >
         HTML Webpack5
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Preact-webpack5</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-webpack5/default-js/after-storybook?preset=node"
+      >
+        Preact CLI (Default JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-webpack5/default-ts/after-storybook?preset=node"
+      >
+        Preact CLI (Default TS)
       </a>
     </li>
   </ul>

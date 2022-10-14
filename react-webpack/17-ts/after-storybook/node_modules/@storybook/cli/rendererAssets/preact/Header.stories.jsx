@@ -1,5 +1,3 @@
-/** @jsx h */
-import { h } from 'preact';
 import { Header } from './Header';
 
 export default {
