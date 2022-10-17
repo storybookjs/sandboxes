@@ -1,1 +1,1 @@
-export * from './dist/esm/highlight';
+export * from './dist/highlight';

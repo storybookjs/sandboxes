@@ -2039,8 +2039,8 @@
 
 "@storybook/addon-docs@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2faddon-docs/-/addon-docs-7.0.0-alpha.38.tgz#5e1c946d93e129f68d96c9b054f3ef053b332529"
-  integrity sha512-Uqs+0oBtpFQmGBIt6DPZu0tp+NjmvwL82BhtOxGKNG2n0XfaIlJ+cX9OZQEvPvCZzCcW04vtVQQCyq+4cOMK3g==
+  resolved "http://localhost:6001/@storybook%2faddon-docs/-/addon-docs-7.0.0-alpha.38.tgz#d316e6b629c8b383a945c077032b2ab81d1c7321"
+  integrity sha512-aiqAyMm8xaL6KbKCivl6q0XAvaRaJ0OEy5hgTrieTDjiLopsNct2rHm1pqHtY4w0OpzyHYFCwFSp4sRKeGORxQ==
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.12.12"
     "@babel/preset-env" "^7.12.11"
@@ -2064,6 +2064,7 @@
     "@storybook/theming" "7.0.0-alpha.38"
     babel-loader "^8.2.5"
     dequal "^2.0.2"
+    fs-extra "^9.0.1"
     global "^4.4.0"
     lodash "^4.17.21"
     remark-external-links "^8.0.0"
@@ -2093,8 +2094,8 @@
 
 "@storybook/addon-highlight@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2faddon-highlight/-/addon-highlight-7.0.0-alpha.38.tgz#3b2173ac189999c799e7c90ce5b5a6f5698fe072"
-  integrity sha512-CFxzGLo+10FBnNhDEuxXrKiH65edj3x1ncJ1IM3q9pCEVETuZWAc3eTUUY3lY9PohSnCfZGRJVMulUaBOwBKNg==
+  resolved "http://localhost:6001/@storybook%2faddon-highlight/-/addon-highlight-7.0.0-alpha.38.tgz#4c0d4cb12438135060353038e719cb71f7bbf26b"
+  integrity sha512-OurSW6FBxQ1DcfSNhws5R/EEQMsJIilM9jI2NWzceTj8VWXtBf37iUjWI0AeGXrfgh2oZ+lBEfqkoxeTbcOjWA==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.38"
     "@storybook/core-events" "7.0.0-alpha.38"
@@ -2487,8 +2488,8 @@
 
 "@storybook/cli@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.38.tgz#4f4deac288bdfa07d01a15b7ff0fa3d72bf67e8a"
-  integrity sha512-Di6Fo75l2gHxWvnt0idLVuktHDueAfi+Ljh54w2oDxtP+3J6migsrJrAoO1WS68oZbvWYpE7jY2IsNTnYcB4Rw==
+  resolved "http://localhost:6001/@storybook%2fcli/-/cli-7.0.0-alpha.38.tgz#015ff7553fe74a400441f50684a4dc032f81b49c"
+  integrity sha512-8/sEaKIYtuBoqzbq2GHeXW3insO727GGUpeHWkhfUCkzZKnWqmjCE/SWJby8rpfb1X46//j95n5nhELwQDfvdg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2548,8 +2549,8 @@
 
 "@storybook/codemod@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2fcodemod/-/codemod-7.0.0-alpha.38.tgz#11eae24ebe279808c644308d8b5f5f8a703ed0ca"
-  integrity sha512-Eb302f7ueL0g3zhItzyrXGn0vZTCWR0w6HUpRRrVGeRZexuo/ZrYjen2gn/94BVv9dTxWYTyFoCcVeUwYnjFjw==
+  resolved "http://localhost:6001/@storybook%2fcodemod/-/codemod-7.0.0-alpha.38.tgz#f5c1380d9022a5ca49e828c1f27c7493c4edb772"
+  integrity sha512-r2dzo4snZAcDyCdsy+pNiiasOXJ10MxBneh2lC9hoxFoqA6Xpu2W9nQZQIUnoBHVj0Ppd9zHOLxgqeqJC/2Jmg==
   dependencies:
     "@babel/types" "^7.12.11"
     "@mdx-js/mdx" "^1.6.22"
@@ -2562,6 +2563,7 @@
     lodash "^4.17.21"
     prettier ">=2.2.1 <=2.3.0"
     recast "^0.19.0"
+    util "^0.12.4"
 
 "@storybook/components@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
@@ -2802,6 +2804,29 @@
     prettier ">=2.2.1 <=2.3.0"
     ts-dedent "^2.0.0"
 
+"@storybook/nextjs@7.0.0-alpha.38":
+  version "7.0.0-alpha.38"
+  resolved "http://localhost:6001/@storybook%2fnextjs/-/nextjs-7.0.0-alpha.38.tgz#468d6d02d995c373b67da227098666ad1a7e77a8"
+  integrity sha512-M06UEYMnucEs/OH3ciCikKFn+Yh4jCVDGCfExlsy74/ZFUhIIAK9764fkFRw0rGG2JU8CIqOr1xVUE2YBKSPCw==
+  dependencies:
+    "@storybook/addons" "7.0.0-alpha.38"
+    "@storybook/builder-webpack5" "7.0.0-alpha.38"
+    "@storybook/core-common" "7.0.0-alpha.38"
+    "@storybook/node-logger" "7.0.0-alpha.38"
+    "@storybook/preset-react-webpack" "7.0.0-alpha.38"
+    "@storybook/react" "7.0.0-alpha.38"
+    "@types/node" "^14.14.20 || ^16.0.0"
+    fs-extra "^9.0.1"
+    image-size "^1.0.0"
+    loader-utils "^3.2.0"
+    pnp-webpack-plugin "^1.7.0"
+    postcss-loader "^6.2.1"
+    resolve-url-loader "^5.0.0"
+    sass-loader "^12.4.0"
+    semver "^7.3.5"
+    tsconfig-paths "^4.0.0"
+    tsconfig-paths-webpack-plugin "^3.5.2"
+
 "@storybook/node-logger@7.0.0-alpha.38", "@storybook/node-logger@^7.0.0-alpha.38":
   version "7.0.0-alpha.38"
   resolved "http://localhost:6001/@storybook%2fnode-logger/-/node-logger-7.0.0-alpha.38.tgz#bb22cdddab90823bf12bf5cd649190ecceaa933d"
@@ -2976,8 +3001,8 @@
 
 "@storybook/preview-web@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2fpreview-web/-/preview-web-7.0.0-alpha.38.tgz#23faa9390e9facdca681066920986891cf13bb2f"
-  integrity sha512-lmt7lrxvLB/eriUuuNosFRWSOLTt5m8z5EIc12kIn4JvJkf5qdx3j7XlnG0OcMQj3K4p1/O2JEr+raEDxQYEhw==
+  resolved "http://localhost:6001/@storybook%2fpreview-web/-/preview-web-7.0.0-alpha.38.tgz#4941f08998417c505bf37a8a43f97c8889998c46"
+  integrity sha512-45izv8mEn0ZapHcI67bjQZP1JiInIdSZX22WR63qM8FbHIZBG6e4vPOiixsaVr89pixkmfR3f/ndY8P38khq4g==
   dependencies:
     "@storybook/addons" "7.0.0-alpha.38"
     "@storybook/channels" "7.0.0-alpha.38"
@@ -3177,8 +3202,8 @@
 
 "@storybook/telemetry@7.0.0-alpha.38":
   version "7.0.0-alpha.38"
-  resolved "http://localhost:6001/@storybook%2ftelemetry/-/telemetry-7.0.0-alpha.38.tgz#26d49fa6649113fe24214d9ed03f21e9b8a8fbde"
-  integrity sha512-XAK1aXNixP9DHyMgT4qJjMsSy3LIZSqKUEahXzhodT7ATtQlmualdOmTuLhFXYQqbnX4umRypawXh/vHjQfttg==
+  resolved "http://localhost:6001/@storybook%2ftelemetry/-/telemetry-7.0.0-alpha.38.tgz#9b2f264c21699363fdafc1f8ccd31d815e605b61"
+  integrity sha512-JhxQe/HmkGOPYGtj+f1nvRiZJ5e9LNdNk6foyZCKuPR8VBaSbfTu47Rek8l5QJ6J7kWcWAVXEC2BfBfQwdLX8w==
   dependencies:
     "@storybook/client-logger" "7.0.0-alpha.38"
     "@storybook/core-common" "7.0.0-alpha.38"
@@ -3839,7 +3864,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.0.tgz#f38c7139247a1d619f6cc6f27b072606af7c289d"
   integrity sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==
 
-"@types/node@^16.0.0":
+"@types/node@^14.14.20 || ^16.0.0", "@types/node@^16.0.0":
   version "16.11.66"
   resolved "http://localhost:6001/@types%2fnode/-/node-16.11.66.tgz#97f6891c3b8770e21163b93918d57fd1b799e235"
   integrity sha512-+xvMrGl3eAygKcf5jm+4zA4tbfEgmKM9o6/glTmN0RFVdu2VuFXMYYtRmuv3zTGCgAYMnEZLde3B7BTp+Yxcig==
@@ -8478,6 +8503,13 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
+image-size@^1.0.0:
+  version "1.0.2"
+  resolved "http://localhost:6001/image-size/-/image-size-1.0.2.tgz#d778b6d0ab75b2737c1556dd631652eb963bc486"
+  integrity sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==
+  dependencies:
+    queue "6.0.2"
+
 immer@^9.0.7:
   version "9.0.15"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
@@ -10852,7 +10884,7 @@ minimatch@^5.0.1:
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
   version "1.2.7"
-  resolved "http://localhost:6001/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 mixin-deep@^1.2.0:
@@ -12089,7 +12121,7 @@ postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.36:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.10, postcss@^8.3.5, postcss@^8.4.14, postcss@^8.4.16, postcss@^8.4.4, postcss@^8.4.7:
+postcss@^8.1.10, postcss@^8.2.14, postcss@^8.3.5, postcss@^8.4.14, postcss@^8.4.16, postcss@^8.4.4, postcss@^8.4.7:
   version "8.4.18"
   resolved "http://localhost:6001/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
   integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
@@ -12447,6 +12479,13 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+queue@6.0.2:
+  version "6.0.2"
+  resolved "http://localhost:6001/queue/-/queue-6.0.2.tgz#b91525283e2315c7553d2efa18d83e76432fed65"
+  integrity sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==
+  dependencies:
+    inherits "~2.0.3"
 
 quick-lru@^5.1.1:
   version "5.1.1"
@@ -13144,6 +13183,17 @@ resolve-url-loader@^4.0.0:
     postcss "^7.0.35"
     source-map "0.6.1"
 
+resolve-url-loader@^5.0.0:
+  version "5.0.0"
+  resolved "http://localhost:6001/resolve-url-loader/-/resolve-url-loader-5.0.0.tgz#ee3142fb1f1e0d9db9524d539cfa166e9314f795"
+  integrity sha512-uZtduh8/8srhBoMx//5bwqjQ+rfYOUq8zC9NrMUGtjBiGTtFJM42s58/36+hTqeqINcnYe08Nj3LkK9lW4N8Xg==
+  dependencies:
+    adjust-sourcemap-loader "^4.0.0"
+    convert-source-map "^1.7.0"
+    loader-utils "^2.0.0"
+    postcss "^8.2.14"
+    source-map "0.6.1"
+
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "http://localhost:6001/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -13319,7 +13369,7 @@ sanitize.css@*:
   resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-13.0.0.tgz#2675553974b27964c75562ade3bd85d79879f173"
   integrity sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==
 
-sass-loader@^12.3.0, sass-loader@^12.6.0:
+sass-loader@^12.3.0, sass-loader@^12.4.0, sass-loader@^12.6.0:
   version "12.6.0"
   resolved "http://localhost:6001/sass-loader/-/sass-loader-12.6.0.tgz#5148362c8e2cdd4b950f3c63ac5d16dbfed37bcb"
   integrity sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==
@@ -14412,6 +14462,15 @@ tsconfig-paths@^3.14.1, tsconfig-paths@^3.9.0:
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.1"
+    minimist "^1.2.6"
+    strip-bom "^3.0.0"
+
+tsconfig-paths@^4.0.0:
+  version "4.1.0"
+  resolved "http://localhost:6001/tsconfig-paths/-/tsconfig-paths-4.1.0.tgz#f8ef7d467f08ae3a695335bf1ece088c5538d2c1"
+  integrity sha512-AHx4Euop/dXFC+Vx589alFba8QItjF+8hf8LtmuiCwHyI4rHXQtOOENaM8kvYf5fR0dRChy3wzWIZ9WbB7FWow==
+  dependencies:
+    json5 "^2.2.1"
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 

@@ -23,9 +23,22 @@
   },
   "license": "MIT",
   "author": "winkerVSbecks",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./preview": {
+      "require": "./dist/highlight.js",
+      "import": "./dist/highlight.mjs",
+      "types": "./dist/highlight.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*",
     "README.md",
@@ -34,7 +47,7 @@
   ],
   "scripts": {
     "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
-    "prep": "node ../../../scripts/prepare.js"
+    "prep": "../../../scripts/prepare/bundle.ts"
   },
   "dependencies": {
     "@storybook/addons": "7.0.0-alpha.38",
@@ -47,6 +60,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/highlight.ts"
+    ]
   },
   "gitHead": "438114fcf62a763f0e8c07e2c34890dd987ca431",
   "sbmodern": "dist/modern/index.js",

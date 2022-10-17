@@ -1,0 +1,19 @@
+import global from 'global';
+
+const { document } = global;
+
+export default {
+  title: 'Function',
+};
+
+export const functionStory = () => {
+  const btn = document.createElement('button');
+  btn.innerHTML = 'Hello Button';
+  btn.addEventListener('click', action('Click'));
+  return btn;
+};
+
+functionStory.story = {
+  name: 'function',
+  height: '100px',
+};

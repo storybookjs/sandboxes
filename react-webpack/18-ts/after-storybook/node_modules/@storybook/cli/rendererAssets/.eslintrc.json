@@ -7,5 +7,13 @@
     "import/extensions": "off",
     "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["nextjs/**/*.@(jsx|tsx)"],
+      "rules": {
+        "react/no-unknown-property": "off"
+      }
+    }
+  ]
 }

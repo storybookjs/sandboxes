@@ -20,19 +20,21 @@
   },
   "license": "MIT",
   "sideEffects": false,
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "jsnext:main": "src/index.js",
-  "files": [
-    "dist/**/*",
-    "README.md",
-    "*.js",
-    "*.d.ts",
-    "!__testfixtures__"
-  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "check": "../../../scripts/node_modules/.bin/tsc --noEmit",
-    "prep": "node ../../../scripts/prepare.js"
+    "prep": "../../../scripts/prepare/bundle.ts"
   },
   "dependencies": {
     "@babel/types": "^7.12.11",
@@ -45,7 +47,8 @@
     "jscodeshift": "^0.13.1",
     "lodash": "^4.17.21",
     "prettier": ">=2.2.1 <=2.3.0",
-    "recast": "^0.19.0"
+    "recast": "^0.19.0",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "jest": "^26.6.3",
@@ -54,6 +57,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bundler": {
+    "platform": "node",
+    "entries": [
+      "./src/index.js"
+    ]
   },
   "gitHead": "438114fcf62a763f0e8c07e2c34890dd987ca431"
 }
