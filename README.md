@@ -127,6 +127,26 @@
 </details>
 
 <details>
+  <summary><b>Svelte-kit</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-js/after-storybook?preset=node"
+      >
+        Svelte Kit (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
+      >
+        Svelte Kit (TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Angular-cli</b></summary>
   <ul>
     <li>
