@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/vue3-vite",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

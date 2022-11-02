@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/vue3-webpack5",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

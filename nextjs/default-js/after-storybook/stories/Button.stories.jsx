@@ -6,6 +6,8 @@ import { Button } from './Button';
 export default {
   title: 'Example/Button',
   component: Button,
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/react/writing-docs/docs-page
+  tags: ['docsPage'],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },

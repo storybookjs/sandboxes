@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/angular",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

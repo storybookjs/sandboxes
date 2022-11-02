@@ -1,16 +1,23 @@
-import type { Meta, StoryFn } from '@storybook/web-components';
-import { Header, HeaderProps } from './Header';
+import type { Meta, StoryObj } from '@storybook/web-components';
+import type { HeaderProps } from './Header';
+import { Header } from './Header';
 
-export default {
+const meta: Meta<HeaderProps> = {
   title: 'Example/Header',
-} as Meta;
-
-const Template: StoryFn<HeaderProps> = (args) => Header(args);
-
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/web-components/writing-docs/docs-page
+  tags: ['docsPage'],
+  render: (args) => Header(args),
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export default meta;
+type Story = StoryObj<HeaderProps>;
+
+export const LoggedIn: Story = {
+  args: {
+    user: {
+      name: 'Jonh Doe',
+    },
+  },
+};
+
+export const LoggedOut: Story = {};

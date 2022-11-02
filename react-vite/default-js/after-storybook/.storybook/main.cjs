@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

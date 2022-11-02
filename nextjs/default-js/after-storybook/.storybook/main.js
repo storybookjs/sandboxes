@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/nextjs",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

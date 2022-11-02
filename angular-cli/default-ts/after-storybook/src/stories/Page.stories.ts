@@ -1,4 +1,5 @@
-import { moduleMetadata, StoryFn, Meta } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular';
+import { moduleMetadata } from '@storybook/angular';
 import { within, userEvent } from '@storybook/testing-library';
 import { CommonModule } from '@angular/common';
 
@@ -6,7 +7,7 @@ import Button from './button.component';
 import Header from './header.component';
 import Page from './page.component';
 
-export default {
+const meta: Meta<Page> = {
   title: 'Example/Page',
   component: Page,
   parameters: {
@@ -19,18 +20,27 @@ export default {
       imports: [CommonModule],
     }),
   ],
-} as Meta;
+};
 
-const Template: StoryFn<Page> = (args: Page) => ({
-  props: args,
-});
+export default meta;
+type Story = StoryObj<Page>;
 
-export const LoggedOut = Template.bind({});
+export const LoggedOut: Story = {
+  render: (args: Page) => ({
+    props: args,
+  }),
+};
 
 // More on interaction testing: https://storybook.js.org/docs/angular/writing-tests/interaction-testing
-export const LoggedIn = Template.bind({});
-LoggedIn.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  const loginButton = await canvas.getByRole('button', { name: /Log in/i });
-  await userEvent.click(loginButton);
+export const LoggedIn: Story = {
+  render: (args: Page) => ({
+    props: args,
+  }),
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const loginButton = await canvas.getByRole('button', {
+      name: /Log in/i,
+    });
+    await userEvent.click(loginButton);
+  },
 };

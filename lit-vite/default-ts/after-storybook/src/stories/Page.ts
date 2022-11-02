@@ -2,8 +2,12 @@ import { html } from 'lit-html';
 import { Header } from './Header';
 import './page.css';
 
+type User = {
+  name: string;
+};
+
 export interface PageProps {
-  user?: {};
+  user?: User;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;

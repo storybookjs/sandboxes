@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/preact-webpack5",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

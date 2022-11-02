@@ -2,14 +2,17 @@ import { Header } from './Header';
 
 export default {
   title: 'Example/Header',
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/web-components/vue/writing-docs/docs-page
+  tags: ['docsPage'],
+  render: (args) => Header(args),
 };
 
-const Template = (args) => Header(args);
-
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const LoggedIn = {
+  args: {
+    user: {
+      name: 'Jane Doe',
+    },
+  },
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const LoggedOut = {};

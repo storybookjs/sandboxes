@@ -1,5 +1,4 @@
 import { useState } from 'preact/hooks';
-
 import { Header } from './Header';
 import './page.css';
 

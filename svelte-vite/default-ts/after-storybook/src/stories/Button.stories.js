@@ -5,6 +5,16 @@ import Button from './Button.svelte';
 export default {
   title: 'Example/Button',
   component: Button,
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/svelte/writing-docs/docs-page
+  tags: ['docsPage'],
+  // More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args
+  render: (args) => ({
+    Component: Button,
+    props: args,
+    on: {
+      click: args.onClick,
+    },
+  }),
   argTypes: {
     backgroundColor: { control: 'color' },
     label: { control: 'text' },
@@ -17,35 +27,29 @@ export default {
   },
 };
 
-// More on component templates: https://storybook.js.org/docs/svelte/writing-stories/introduction#using-args
-const Template = (args) => ({
-  Component: Button,
-  props: args,
-  on: {
-    click: args.onClick,
+export const Primary = {
+  args: {
+    primary: true,
+    label: 'Button',
   },
-});
-
-// More on args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Button',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
+export const Secondary = {
+  args: {
+    label: 'Button',
+  },
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
+export const Large = {
+  args: {
+    size: 'large',
+    label: 'Button',
+  },
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
+export const Small = {
+  args: {
+    size: 'small',
+    label: 'Button',
+  },
 };

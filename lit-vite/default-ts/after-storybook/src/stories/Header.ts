@@ -3,8 +3,12 @@ import { html } from 'lit-html';
 import { Button } from './Button';
 import './header.css';
 
+type User = {
+  name: string;
+};
+
 export interface HeaderProps {
-  user?: {};
+  user?: User;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;

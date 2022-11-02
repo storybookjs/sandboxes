@@ -34,26 +34,6 @@
 </details>
 
 <details>
-  <summary><b>React-webpack</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/18-ts/after-storybook?preset=node"
-      >
-        React Webpack5 (TS)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/17-ts/after-storybook?preset=node"
-      >
-        React Webpack5 (TS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>React-vite</b></summary>
   <ul>
     <li>
@@ -68,6 +48,26 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-vite/default-ts/after-storybook?preset=node"
       >
         React Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>React-webpack</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/18-ts/after-storybook?preset=node"
+      >
+        React Webpack5 (TS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/react-webpack/17-ts/after-storybook?preset=node"
+      >
+        React Webpack5 (TS)
       </a>
     </li>
   </ul>
@@ -234,6 +234,26 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-webpack5/default-ts/after-storybook?preset=node"
       >
         Preact CLI (Default TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Nextjs</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-js/after-storybook?preset=node"
+      >
+        Next.js (JavaScript)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-ts/after-storybook?preset=node"
+      >
+        Next.js (TypeScript)
       </a>
     </li>
   </ul>

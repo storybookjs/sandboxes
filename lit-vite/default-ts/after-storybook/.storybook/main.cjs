@@ -11,5 +11,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/web-components-vite",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }

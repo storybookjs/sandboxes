@@ -12,5 +12,8 @@ module.exports = {
   "framework": {
     "name": "@storybook/svelte-vite",
     "options": {}
+  },
+  "docs": {
+    "docsPage": true
   }
 }
