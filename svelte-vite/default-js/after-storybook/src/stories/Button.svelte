@@ -9,7 +9,7 @@
   /**
    * What background color to use
    */
-  export let backgroundColor = undefined;
+  export let backgroundColor;
   /**
    * How large should the button be?
    */
@@ -19,9 +19,9 @@
    */
   export let label = '';
 
-  $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  let mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 
-  $: style = backgroundColor ? `background-color: ${backgroundColor}` : '';
+  let style = backgroundColor ? `background-color: ${backgroundColor}` : '';
 
   const dispatch = createEventDispatcher();
 
