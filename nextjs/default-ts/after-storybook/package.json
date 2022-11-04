@@ -11,13 +11,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",
-    "next": "13.0.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
+    "next": "13.0.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-alpha.47",
@@ -26,6 +24,7 @@
     "@storybook/nextjs": "^7.0.0-alpha.47",
     "@storybook/react": "^7.0.0-alpha.47",
     "@storybook/testing-library": "^0.0.13",
+    "eslint-plugin-storybook": "^0.6.7",
     "storybook": "^7.0.0-alpha.47"
   },
   "resolutions": {

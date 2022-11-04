@@ -1,7 +1,8 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import React from 'react';
+
 import { Header } from './Header';
 
-const meta: Meta<typeof Header> = {
+export default {
   title: 'Example/Header',
   component: Header,
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/react/writing-docs/docs-page
@@ -12,15 +13,14 @@ const meta: Meta<typeof Header> = {
   },
 };
 
-export default meta;
-type Story = StoryObj<typeof Header>;
+const Template = (args) => <Header {...args} />;
 
-export const LoggedIn: Story = {
-  args: {
-    user: {
-      name: 'Jane Doe',
-    },
+export const LoggedIn = Template.bind({});
+LoggedIn.args = {
+  user: {
+    name: 'Jane Doe',
   },
 };
 
-export const LoggedOut: Story = {};
+export const LoggedOut = Template.bind({});
+LoggedOut.args = {};
