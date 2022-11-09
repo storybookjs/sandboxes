@@ -34,6 +34,26 @@
 </details>
 
 <details>
+  <summary><b>Nextjs</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-js/after-storybook?preset=node"
+      >
+        Next.js (JavaScript)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-ts/after-storybook?preset=node"
+      >
+        Next.js (TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>React-vite</b></summary>
   <ul>
     <li>
@@ -74,19 +94,6 @@
 </details>
 
 <details>
-  <summary><b>Vue2-vite</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
-      >
-        Vue2 Vite (vue 2.7 JS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Vue3-vite</b></summary>
   <ul>
     <li>
@@ -101,6 +108,32 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue3-vite/default-ts/after-storybook?preset=node"
       >
         Vue3 Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Vue2-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
+      >
+        Vue2 Vite (vue 2.7 JS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Html-webpack</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
+      >
+        HTML Webpack5
       </a>
     </li>
   </ul>
@@ -127,26 +160,6 @@
 </details>
 
 <details>
-  <summary><b>Svelte-kit</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-js/after-storybook?preset=node"
-      >
-        Svelte Kit (JS)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
-      >
-        Svelte Kit (TS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Angular-cli</b></summary>
   <ul>
     <li>
@@ -161,6 +174,26 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/13-ts/after-storybook?preset=node"
       >
         Angular CLI (Version 13)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Svelte-kit</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-js/after-storybook?preset=node"
+      >
+        Svelte Kit (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
+      >
+        Svelte Kit (TS)
       </a>
     </li>
   </ul>
@@ -207,19 +240,6 @@
 </details>
 
 <details>
-  <summary><b>Html-webpack</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-webpack/default/after-storybook?preset=node"
-      >
-        HTML Webpack5
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Preact-webpack5</b></summary>
   <ul>
     <li>
@@ -234,26 +254,6 @@
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-webpack5/default-ts/after-storybook?preset=node"
       >
         Preact CLI (Default TS)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>Nextjs</b></summary>
-  <ul>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-js/after-storybook?preset=node"
-      >
-        Next.js (JavaScript)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-ts/after-storybook?preset=node"
-      >
-        Next.js (TypeScript)
       </a>
     </li>
   </ul>
