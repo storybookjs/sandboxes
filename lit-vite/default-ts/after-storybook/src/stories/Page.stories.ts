@@ -6,7 +6,7 @@ import * as HeaderStories from './Header.stories';
 
 const meta: Meta<PageProps> = {
   title: 'Example/Page',
-  render: (args) => Page(args),
+  render: (args: PageProps) => Page(args),
 };
 
 export default meta;

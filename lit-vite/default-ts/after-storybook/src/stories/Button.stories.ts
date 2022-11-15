@@ -7,7 +7,7 @@ const meta: Meta<ButtonProps> = {
   title: 'Example/Button',
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/web-components/writing-docs/docs-page
   tags: ['docsPage'],
-  render: (args) => Button(args),
+  render: (args: ButtonProps) => Button(args),
   // More on argTypes: https://storybook.js.org/docs/web-components/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
