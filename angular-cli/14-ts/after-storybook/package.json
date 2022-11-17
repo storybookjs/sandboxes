@@ -1,0 +1,40 @@
+{
+  "name": "angular-v14",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
+    "storybook": "yarn docs:json && storybook dev -p 6006",
+    "build-storybook": "yarn docs:json && storybook build"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.9",
+    "@angular/cli": "~14.2.9",
+    "@angular/compiler-cli": "^14.2.0",
+    "@compodoc/compodoc": "^1.1.19",
+    "@storybook/addon-essentials": "^7.0.0-alpha.50",
+    "@storybook/addon-interactions": "^7.0.0-alpha.50",
+    "@storybook/addon-links": "^7.0.0-alpha.50",
+    "@storybook/angular": "^7.0.0-alpha.50",
+    "@storybook/testing-library": "^0.0.13",
+    "storybook": "^7.0.0-alpha.50",
+    "typescript": "~4.7.2"
+  }
+}
