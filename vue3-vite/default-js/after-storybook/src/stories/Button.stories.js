@@ -1,27 +1,10 @@
 import MyButton from './Button.vue';
 
-// More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
+// More on how to set up stories at: https://storybook.js.org/docs/7.0/vue/writing-stories/introduction
 export default {
   title: 'Example/Button',
   component: MyButton,
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/vue/writing-docs/docs-page
   tags: ['docsPage'],
-  // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
-  render: (args) => ({
-    // Components used in your story `template` are defined in the `components` object
-    components: {
-      MyButton,
-    },
-    // The story's `args` need to be mapped into the template through the `setup()` method
-    setup() {
-      return {
-        args,
-      };
-    },
-    // And then the `args` are bound to your component with `v-bind="args"`
-    template: '<my-button v-bind="args" />',
-  }),
-  // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
   argTypes: {
     backgroundColor: {
       control: 'color',
@@ -36,6 +19,7 @@ export default {
   },
 };
 
+// More on writing stories with args: https://storybook.js.org/docs/7.0/vue/writing-stories/args
 export const Primary = {
   args: {
     primary: true,

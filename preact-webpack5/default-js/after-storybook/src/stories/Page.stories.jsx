@@ -6,14 +6,14 @@ export default {
   title: 'Example/Page',
   component: Page,
   parameters: {
-    // More on Story layout: https://storybook.js.org/docs/preact/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/preact/configure/story-layout
     layout: 'fullscreen',
   },
 };
 
 export const LoggedOut = {};
 
-// More on interaction testing: https://storybook.js.org/docs/preact/writing-tests/interaction-testing
+// More on interaction testing: https://storybook.js.org/docs/7.0/preact/writing-tests/interaction-testing
 export const LoggedIn = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);

@@ -11,7 +11,7 @@ const meta: Meta<Page> = {
   title: 'Example/Page',
   component: Page,
   parameters: {
-    // More on StoryFn layout: https://storybook.js.org/docs/angular/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/angular/configure/story-layout
     layout: 'fullscreen',
   },
   decorators: [
@@ -31,7 +31,7 @@ export const LoggedOut: Story = {
   }),
 };
 
-// More on interaction testing: https://storybook.js.org/docs/angular/writing-tests/interaction-testing
+// More on interaction testing: https://storybook.js.org/docs/7.0/angular/writing-tests/interaction-testing
 export const LoggedIn: Story = {
   render: (args: Page) => ({
     props: args,
