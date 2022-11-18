@@ -171,6 +171,13 @@
     </li>
     <li>
       <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/14-ts/after-storybook?preset=node"
+      >
+        Angular CLI (Version 14)
+      </a>
+    </li>
+    <li>
+      <a
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/angular-cli/13-ts/after-storybook?preset=node"
       >
         Angular CLI (Version 13)
