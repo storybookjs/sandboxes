@@ -3,7 +3,7 @@ import MyHeader from './Header.vue';
 export default {
   title: 'Example/Header',
   component: MyHeader,
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/vue/writing-docs/docs-page
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/vue/writing-docs/docs-page
   tags: ['docsPage'],
   render: (args) => ({
     // Components used in your story `template` are defined in the `components` object
@@ -21,7 +21,7 @@ export default {
     template: '<my-header :user="user" />',
   }),
   parameters: {
-    // More on Story layout: https://storybook.js.org/docs/vue/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/vue/configure/story-layout
     layout: 'fullscreen',
   },
 };

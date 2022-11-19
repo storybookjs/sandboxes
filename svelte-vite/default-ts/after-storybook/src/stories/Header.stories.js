@@ -3,7 +3,7 @@ import Header from './Header.svelte';
 export default {
   title: 'Example/Header',
   component: Header,
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/svelte/writing-docs/docs-page
+  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/svelte/writing-docs/docs-page
   tags: ['docsPage'],
   render: (args) => ({
     Component: Header,
@@ -15,7 +15,7 @@ export default {
     },
   }),
   parameters: {
-    // More on Story layout: https://storybook.js.org/docs/svelte/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/svelte/configure/story-layout
     layout: 'fullscreen',
   },
   argTypes: {

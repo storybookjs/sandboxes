@@ -4,21 +4,15 @@ import MyPage from './Page.vue';
 export default {
   title: 'Example/Page',
   component: MyPage,
-  render: () => ({
-    // Components used in your story `template` are defined in the `components` object
-    components: { MyPage },
-    // Here we define the `template`
-    template: '<my-page />',
-  }),
   parameters: {
-    // More on Story layout: https://storybook.js.org/docs/vue/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/vue/configure/story-layout
     layout: 'fullscreen',
   },
 };
 
 export const LoggedOut = {};
 
-// More on interaction testing: https://storybook.js.org/docs/vue/writing-tests/interaction-testing
+// More on interaction testing: https://storybook.js.org/docs/7.0/vue/writing-tests/interaction-testing
 export const LoggedIn = {
   render: () => ({
     components: {
