@@ -3,17 +3,17 @@ import { within, userEvent } from '@storybook/testing-library';
 
 import Page from './Page.svelte';
 
-const meta = {
+const meta: Meta<Page> = {
   title: 'Example/Page',
   component: Page,
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/svelte/configure/story-layout
     layout: 'fullscreen',
   },
-} satisfies Meta<Page>;
+};
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<Page>;
 
 export const LoggedOut: Story = {};
 
