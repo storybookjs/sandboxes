@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Header } from './Header';
 
-const meta = {
+const meta: Meta<typeof Header> = {
   title: 'Example/Header',
   component: Header,
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
@@ -10,10 +10,10 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/react/configure/story-layout
     layout: 'fullscreen',
   },
-} satisfies Meta<typeof Header>;
+};
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<typeof Header>;
 
 export const LoggedIn: Story = {
   args: {
