@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
   import './button.css';
-  import { createEventDispatcher } from 'svelte';
+
   /**
    * Is this the principal call to action on the page?
    */
@@ -9,11 +9,11 @@
   /**
    * What background color to use
    */
-  export let backgroundColor = undefined;
+  export let backgroundColor: string | undefined = undefined;
   /**
    * How large should the button be?
    */
-  export let size = 'medium';
+  export let size: 'small' | 'medium' | 'large' = 'medium';
   /**
    * Button contents
    */
@@ -22,22 +22,13 @@
   $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 
   $: style = backgroundColor ? `background-color: ${backgroundColor}` : '';
-
-  const dispatch = createEventDispatcher();
-
-  /**
-   * Optional click handler
-   */
-  export let onClick = (event) => {
-    dispatch('click', event);
-  };
 </script>
 
 <button
   type="button"
   class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
   {style}
-  on:click={onClick}
+  on:click
 >
   {label}
 </button>
