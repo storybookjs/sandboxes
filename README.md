@@ -38,6 +38,13 @@
   <ul>
     <li>
       <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/12-js/after-storybook?preset=node"
+      >
+        Next.js v12 (JavaScript)
+      </a>
+    </li>
+    <li>
+      <a
         href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/nextjs/default-js/after-storybook?preset=node"
       >
         Next.js (JavaScript)
