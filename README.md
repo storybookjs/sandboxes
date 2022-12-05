@@ -147,6 +147,26 @@
 </details>
 
 <details>
+  <summary><b>Html-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-vite/default-js/after-storybook?preset=node"
+      >
+        HTML Vite JS
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/html-vite/default-ts/after-storybook?preset=node"
+      >
+        HTML Vite TS
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Svelte-vite</b></summary>
   <ul>
     <li>

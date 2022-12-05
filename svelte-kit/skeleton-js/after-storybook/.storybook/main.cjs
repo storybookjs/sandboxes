@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = {
   "stories": [
     "../src/**/*.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)"
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
@@ -10,7 +10,7 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/svelte-vite",
+    "name": "@storybook/sveltekit",
     "options": {}
   },
   "docs": {

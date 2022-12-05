@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import './button.css';
 
   /**
@@ -9,15 +9,15 @@
   /**
    * What background color to use
    */
-  export let backgroundColor: string | undefined = undefined;
+  export let backgroundColor = undefined;
   /**
    * How large should the button be?
    */
-  export let size: 'small' | 'medium' | 'large' = 'medium';
+  export let size = 'medium';
   /**
    * Button contents
    */
-  export let label = '';
+  export let label;
 
   $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 

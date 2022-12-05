@@ -7,17 +7,15 @@
   export let primary = false;
 
   /**
-   * @type {string} What background color to use
+   * What background color to use
    */
   export let backgroundColor = undefined;
-
   /**
-   * @type {'small' | 'medium' | 'large'} How large should the button be?
+   * How large should the button be?
    */
   export let size = 'medium';
-
   /**
-   * @type {string} Button contents
+   * Button contents
    */
   export let label;
 
