@@ -17,7 +17,7 @@
   /**
    * Button contents
    */
-  export let label = '';
+  export let label: string = '';
 
   $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 

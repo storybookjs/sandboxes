@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 import Header from './Header.svelte';
 
-const meta: Meta<Header> = {
+const meta = {
   title: 'Example/Header',
   component: Header,
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
@@ -10,10 +10,10 @@ const meta: Meta<Header> = {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/svelte/configure/story-layout
     layout: 'fullscreen',
   },
-};
+} satisfies Meta<Header>;
 
 export default meta;
-type Story = StoryObj<Header>;
+type Story = StoryObj<typeof meta>;
 
 export const LoggedIn: Story = {
   args: {
