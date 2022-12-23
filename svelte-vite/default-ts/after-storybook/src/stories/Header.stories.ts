@@ -4,8 +4,8 @@ import Header from './Header.svelte';
 const meta = {
   title: 'Example/Header',
   component: Header,
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
-  tags: ['docsPage'],
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
+  tags: ['autodocs'],
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/svelte/configure/story-layout
     layout: 'fullscreen',

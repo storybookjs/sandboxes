@@ -5,7 +5,7 @@ import { Button } from './Button';
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/web-components/writing-stories/introduction
 const meta: Meta<ButtonProps> = {
   title: 'Example/Button',
-  tags: ['docsPage'],
+  tags: ['autodocs'],
   render: (args) => Button(args),
   argTypes: {
     backgroundColor: { control: 'color' },

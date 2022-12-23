@@ -4,7 +4,7 @@ import MyButton from './Button.vue';
 export default {
   title: 'Example/Button',
   component: MyButton,
-  tags: ['docsPage'],
+  tags: ['autodocs'],
   render: (args, { argTypes }) => ({
     props: Object.keys(argTypes),
     components: { MyButton },

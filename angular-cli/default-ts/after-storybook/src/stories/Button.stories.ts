@@ -5,7 +5,7 @@ import Button from './button.component';
 const meta: Meta<Button> = {
   title: 'Example/Button',
   component: Button,
-  tags: ['docsPage'],
+  tags: ['autodocs'],
   render: (args: Button) => ({
     props: {
       backgroundColor: null,

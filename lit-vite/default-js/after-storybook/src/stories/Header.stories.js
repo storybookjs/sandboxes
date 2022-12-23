@@ -2,8 +2,8 @@ import { Header } from './Header';
 
 export default {
   title: 'Example/Header',
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/web-components/vue/writing-docs/docs-page
-  tags: ['docsPage'],
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/web-components/vue/writing-docs/docs-page
+  tags: ['autodocs'],
   render: (args) => Header(args),
 };
 

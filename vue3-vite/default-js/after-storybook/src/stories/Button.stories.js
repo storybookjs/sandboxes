@@ -4,7 +4,7 @@ import MyButton from './Button.vue';
 export default {
   title: 'Example/Button',
   component: MyButton,
-  tags: ['docsPage'],
+  tags: ['autodocs'],
   argTypes: {
     backgroundColor: {
       control: 'color',

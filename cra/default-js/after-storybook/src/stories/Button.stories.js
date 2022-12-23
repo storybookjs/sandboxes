@@ -4,7 +4,7 @@ import { Button } from './Button';
 export default {
   title: 'Example/Button',
   component: Button,
-  tags: ['docsPage'],
+  tags: ['autodocs'],
   argTypes: {
     backgroundColor: { control: 'color' },
   },

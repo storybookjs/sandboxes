@@ -2,8 +2,8 @@ import { createHeader } from './Header';
 
 export default {
   title: 'Example/Header',
-  // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/7.0/html/writing-docs/docs-page
-  tags: ['docsPage'],
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/html/writing-docs/docs-page
+  tags: ['autodocs'],
   render: (args) => createHeader(args),
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/html/configure/story-layout
