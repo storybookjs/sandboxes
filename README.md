@@ -292,3 +292,23 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Preact-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-vite/default-js/after-storybook?preset=node"
+      >
+        Preact Vite (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/preact-vite/default-ts/after-storybook?preset=node"
+      >
+        Preact Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
