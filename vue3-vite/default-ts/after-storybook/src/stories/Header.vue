@@ -21,21 +21,17 @@
   </header>
 </template>
 
-<script>
+<script lang="ts" setup>
 import './header.css';
 import MyButton from './Button.vue';
 
-export default {
-  name: 'my-header',
+defineProps<{ user: { name: string } | null }>();
 
-  components: { MyButton },
+defineEmits<{
+  (event: 'createAccount'): void;
+  (event: 'login'): void;
+  (event: 'logout'): void;
+}>();
 
-  props: {
-    user: {
-      type: Object,
-    },
-  },
-
-  emits: ['login', 'logout', 'createAccount'],
-};
 </script>
+
