@@ -45,8 +45,8 @@ export default {
       })),
       onClick() {
         emit('click');
-      }
-    }
+      },
+    };
   },
 };
 </script>

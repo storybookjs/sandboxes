@@ -1,11 +1,6 @@
 <template>
   <article>
-    <my-header
-      :user="user"
-      @login="onLogin"
-      @logout="onLogout"
-      @createAccount="onCreateAccount"
-    />
+    <my-header :user="user" @login="onLogin" @logout="onLogout" @createAccount="onCreateAccount" />
 
     <section>
       <h2>Pages in Storybook</h2>
@@ -69,8 +64,8 @@ export default {
 
   data() {
     return {
-      user: null
-    }
+      user: null,
+    };
   },
 
   methods: {
