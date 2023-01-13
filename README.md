@@ -312,3 +312,23 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Internal</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/internal/ssv6-vite/after-storybook?preset=node"
+      >
+        StoryStore v6 (react-vite/default-ts)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/internal/ssv6-webpack/after-storybook?preset=node"
+      >
+        StoryStore v6 (react-webpack/18-ts)
+      </a>
+    </li>
+  </ul>
+</details>
