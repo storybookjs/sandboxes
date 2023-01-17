@@ -3,15 +3,28 @@
 </template>
 
 <script lang="ts" setup>
+import './button.css';
 import { computed } from 'vue';
-type Props = {
-  label: string,
-  primary?: boolean,
-  size?: 'small' | 'medium' | 'large',
-  backgroundColor?: string,
-}
 
-const props = withDefaults(defineProps<Props>(), { primary: false });
+const props = withDefaults(defineProps<{
+  /**
+   * The label of the button
+   */
+  label: string,
+  /**
+   * primary or secondary button
+   */
+  primary?: boolean,
+  /**
+   * size of the button
+   */
+  size?: 'small' | 'medium' | 'large',
+  /**
+   * background color of the button
+   */
+  backgroundColor?: string,
+
+}>(), { primary: false });
 
 const emit = defineEmits<{
   (e: 'click', id: number): void;

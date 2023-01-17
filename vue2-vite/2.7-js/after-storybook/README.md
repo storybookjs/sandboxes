@@ -5,7 +5,7 @@
 </p>
 
 <a
-  href="https://stackblitz.com/github/storybookjs/repro-templates-temp/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
+  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
   >View it in Stackblitz</a
 >
 
