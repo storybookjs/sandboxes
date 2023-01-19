@@ -203,13 +203,6 @@
         Angular CLI (Version 14)
       </a>
     </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/13-ts/after-storybook?preset=node"
-      >
-        Angular CLI (Version 13)
-      </a>
-    </li>
   </ul>
 </details>
 
