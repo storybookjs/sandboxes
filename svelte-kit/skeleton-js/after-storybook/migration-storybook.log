@@ -1,0 +1,77 @@
+🔎 checking possible migrations..
+
+attention => Storybook now collects completely anonymous telemetry regarding usage.
+This information is used to shape Storybook's roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://storybook.js.org/telemetry
+
+
+⚠️  failed to check fix sveltekitFramework
+
+Error: The given node must be a string literal or an object expression with a "name" property that is a string literal.
+    at ConfigFile._getPresetValue (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:7388)
+    at ConfigFile.getNameFromPath (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:6824)
+    at Object.check (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:244:154)
+    at async automigrate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:311:743)
+    at async doInitiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:372:361)
+    at async withTelemetry (/home/runner/work/storybook/storybook/code/lib/core-server/dist/index.js:33:5540)
+    at async initiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:378:133)
+
+⚠️  failed to check fix newFrameworks
+
+Error: The given node must be a string literal or an object expression with a "name" property that is a string literal.
+    at ConfigFile._getPresetValue (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:7388)
+    at ConfigFile.getNameFromPath (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:6824)
+    at Object.check (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:181:161)
+    at async automigrate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:311:743)
+    at async doInitiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:372:361)
+    at async withTelemetry (/home/runner/work/storybook/storybook/code/lib/core-server/dist/index.js:33:5540)
+    at async initiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:378:133)
+
+⚠️  failed to check fix missing-babelrc
+
+Error: The given node must be a string literal or an object expression with a "name" property that is a string literal.
+    at ConfigFile._getPresetValue (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:7388)
+    at ConfigFile.getNameFromPath (/home/runner/work/storybook/storybook/code/lib/csf-tools/dist/index.js:74:6824)
+    at Object.check (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:296:255)
+    at async automigrate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:311:743)
+    at async doInitiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:372:361)
+    at async withTelemetry (/home/runner/work/storybook/storybook/code/lib/core-server/dist/index.js:33:5540)
+    at async initiate (/home/runner/work/storybook/storybook/code/lib/cli/dist/generate.js:378:133)
+
+╭ Migration check ran with failures ───────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│   Failed migrations:                                                         │
+│                                                                              │
+│   sveltekitFramework:                                                        │
+│   The given node must be a string literal or an object expression with a     │
+│   "name" property that is a string literal.                                  │
+│                                                                              │
+│   newFrameworks:                                                             │
+│   The given node must be a string literal or an object expression with a     │
+│   "name" property that is a string literal.                                  │
+│                                                                              │
+│   missing-babelrc:                                                           │
+│   The given node must be a string literal or an object expression with a     │
+│   "name" property that is a string literal.                                  │
+│                                                                              │
+│                                                                              │
+│   You can find the full logs in /home/runner/work/storybook/storybook/repr   │
+│   os/svelte-kit/skeleton-js/tmp/migration-storybook.log                      │
+│                                                                              │
+│   ─────────────────────────────────────────────────                          │
+│                                                                              │
+│   If you'd like to run the migrations again, you can do so by running 'npx   │
+│   storybook@next automigrate'                                                │
+│                                                                              │
+│   The automigrations try to migrate common patterns in your project, but     │
+│   might not contain everything needed to migrate to the latest version of    │
+│   Storybook.                                                                 │
+│                                                                              │
+│   Please check the changelog and migration guide for manual migrations and   │
+│   more information: https://storybook.js.org/migration-guides/7.0            │
+│   And reach out on Discord if you need help: https://discord.gg/storybook    │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

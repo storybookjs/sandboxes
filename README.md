@@ -307,6 +307,19 @@
 </details>
 
 <details>
+  <summary><b>Qwik-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/qwik-vite/default-ts/after-storybook?preset=node"
+      >
+        Qwik CLI (Default TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Internal</b></summary>
   <ul>
     <li>
