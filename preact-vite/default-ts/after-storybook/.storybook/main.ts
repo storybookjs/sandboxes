@@ -1,5 +1,6 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/preact-vite';
+
+const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -10,10 +11,11 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/angular",
+    "name": "@storybook/preact-vite",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

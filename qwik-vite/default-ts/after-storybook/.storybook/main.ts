@@ -1,19 +1,20 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from 'storybook-framework-qwik';
+
+const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-essentials"
   ],
   "framework": {
-    "name": "@storybook/sveltekit",
+    "name": "storybook-framework-qwik",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

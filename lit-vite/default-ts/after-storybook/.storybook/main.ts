@@ -1,5 +1,6 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/web-components-vite';
+
+const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -15,4 +16,5 @@ module.exports = {
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

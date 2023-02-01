@@ -2,9 +2,10 @@
   "extends": "../tsconfig.app.json",
   "compilerOptions": {
     "types": ["node"],
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
-  "include": ["../src/**/*"],
+  "include": ["../src/**/*", "./preview.ts"],
   "files": ["./typings.d.ts"]
 }

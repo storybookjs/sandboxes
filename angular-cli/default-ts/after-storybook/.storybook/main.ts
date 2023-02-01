@@ -1,5 +1,6 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/angular';
+
+const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -7,17 +8,14 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/preset-create-react-app",
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/react-webpack5",
+    "name": "@storybook/angular",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
-  },
-  "staticDirs": [
-    "../public"
-  ]
-}
+  }
+};
+export default config;

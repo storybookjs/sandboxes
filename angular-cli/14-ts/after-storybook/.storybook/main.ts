@@ -1,8 +1,9 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/angular';
+
+const config: StorybookConfig = {
   "stories": [
-    "../stories/**/*.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
@@ -10,10 +11,11 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/html-vite",
+    "name": "@storybook/angular",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

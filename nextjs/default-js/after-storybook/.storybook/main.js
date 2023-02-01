@@ -1,5 +1,4 @@
-const path = require('path');
-module.exports = {
+export default {
   "stories": [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)"
@@ -16,4 +15,4 @@ module.exports = {
   "docs": {
     "autodocs": "tag"
   }
-}
+};

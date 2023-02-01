@@ -1,8 +1,7 @@
-const path = require('path');
-module.exports = {
+export default {
   "stories": [
-    "../stories/**/*.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)"
   ],
   "addons": [
     "@storybook/addon-links",
@@ -10,10 +9,10 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/nextjs",
+    "name": "@storybook/svelte-vite",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};

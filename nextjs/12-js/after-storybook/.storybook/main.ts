@@ -1,5 +1,6 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/nextjs';
+
+const config: StorybookConfig = {
   "stories": [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)"
@@ -10,10 +11,11 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/vue-vite",
+    "name": "@storybook/nextjs",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

@@ -1,5 +1,4 @@
-const path = require('path');
-module.exports = {
+export default {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -10,10 +9,10 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/vue3-vite",
+    "name": "@storybook/react-vite",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};

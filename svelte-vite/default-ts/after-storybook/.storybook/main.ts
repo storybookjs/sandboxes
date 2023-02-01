@@ -1,8 +1,9 @@
-const path = require('path');
-module.exports = {
+import { StorybookConfig } from '@storybook/svelte-vite';
+
+const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)"
   ],
   "addons": [
     "@storybook/addon-links",
@@ -10,10 +11,11 @@ module.exports = {
     "@storybook/addon-interactions"
   ],
   "framework": {
-    "name": "@storybook/vue3-vite",
+    "name": "@storybook/svelte-vite",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   }
-}
+};
+export default config;

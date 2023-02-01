@@ -1,5 +1,4 @@
-const path = require('path');
-module.exports = {
+export default {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -20,4 +19,4 @@ module.exports = {
   "staticDirs": [
     "../public"
   ]
-}
+};
