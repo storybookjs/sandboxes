@@ -1,4 +1,4 @@
-import { StorybookConfig } from '@storybook/preact-webpack5';
+import type { StorybookConfig } from '@storybook/preact-webpack5';
 
 const config: StorybookConfig = {
   "stories": [

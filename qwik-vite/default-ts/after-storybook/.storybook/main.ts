@@ -1,4 +1,4 @@
-import { StorybookConfig } from 'storybook-framework-qwik';
+import type { StorybookConfig } from 'storybook-framework-qwik';
 
 const config: StorybookConfig = {
   "stories": [

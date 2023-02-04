@@ -1,4 +1,4 @@
-import { StorybookConfig } from '@storybook/angular';
+import type { StorybookConfig } from '@storybook/angular';
 
 const config: StorybookConfig = {
   "stories": [

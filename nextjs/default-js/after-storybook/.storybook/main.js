@@ -1,4 +1,5 @@
-export default {
+/** @type { import('@storybook/nextjs').StorybookConfig } */
+const config = {
   "stories": [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)"
@@ -16,3 +17,4 @@ export default {
     "autodocs": "tag"
   }
 };
+export default config;

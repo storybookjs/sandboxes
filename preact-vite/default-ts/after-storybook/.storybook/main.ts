@@ -1,4 +1,4 @@
-import { StorybookConfig } from '@storybook/preact-vite';
+import type { StorybookConfig } from '@storybook/preact-vite';
 
 const config: StorybookConfig = {
   "stories": [

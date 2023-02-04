@@ -1,4 +1,5 @@
-export default {
+/** @type { import('@storybook/react-webpack5').StorybookConfig } */
+const config = {
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
@@ -20,3 +21,4 @@ export default {
     "../public"
   ]
 };
+export default config;
