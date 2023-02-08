@@ -87,14 +87,14 @@
       <a
         href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/18-ts/after-storybook?preset=node"
       >
-        React Webpack5 (TS)
+        React 18 Webpack5 (TS)
       </a>
     </li>
     <li>
       <a
         href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/17-ts/after-storybook?preset=node"
       >
-        React Webpack5 (TS)
+        React 17 Webpack5 (TS)
       </a>
     </li>
   </ul>
