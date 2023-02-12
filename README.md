@@ -101,6 +101,26 @@
 </details>
 
 <details>
+  <summary><b>Solid-vite</b></summary>
+  <ul>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-js/after-storybook?preset=node"
+      >
+        SolidJS Vite (JS)
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-ts/after-storybook?preset=node"
+      >
+        SolidJS Vite (TS)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Vue3-vite</b></summary>
   <ul>
     <li>
