@@ -1,4 +1,3 @@
-import type { Meta, StoryObj } from 'storybook-solidjs';
 import { within, userEvent } from '@storybook/testing-library';
 
 import { Page } from './Page';
@@ -10,16 +9,14 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/solid/configure/story-layout
     layout: 'fullscreen',
   },
-} satisfies Meta<typeof Page>;
+};
 
 export default meta;
-type Story = StoryObj<typeof meta>;
-
-export const LoggedOut: Story = {};
+export const LoggedOut = {};
 
 // More on interaction testing: https://storybook.js.org/docs/7.0/solid/writing-tests/interaction-testing
-export const LoggedIn: Story = {
-  play: async ({ canvasElement }: any) => {
+export const LoggedIn = {
+  play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const loginButton = canvas.getByRole('button', {
       name: /Log in/i,

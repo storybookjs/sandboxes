@@ -2,18 +2,7 @@ import { html } from 'lit-html';
 import { Header } from './Header';
 import './page.css';
 
-type User = {
-  name: string;
-};
-
-export interface PageProps {
-  user?: User;
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-}
-
-export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) => html`
+export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => html`
   <article>
     ${Header({
       user,

@@ -1,13 +1,9 @@
-import { Component, createSignal } from 'solid-js';
+import { createSignal } from 'solid-js';
 import { Header } from './Header';
 import './page.css';
 
-type User = {
-  name: string;
-};
-
-export const Page: Component = () => {
-  const [user, setUser] = createSignal<User>();
+export const Page = () => {
+  const [user, setUser] = createSignal();
 
   return (
     <article>

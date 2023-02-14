@@ -1,5 +1,3 @@
-import type { Meta, StoryObj } from 'storybook-solidjs';
-
 import { Button } from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/solid/writing-stories/introduction
@@ -10,33 +8,32 @@ const meta = {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} satisfies Meta<typeof Button>;
+};
 
 export default meta;
-type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/7.0/solid/writing-stories/args
-export const Primary: Story = {
+export const Primary = {
   args: {
     primary: true,
     label: 'Button',
   },
 };
 
-export const Secondary: Story = {
+export const Secondary = {
   args: {
     label: 'Button',
   },
 };
 
-export const Large: Story = {
+export const Large = {
   args: {
     size: 'large',
     label: 'Button',
   },
 };
 
-export const Small: Story = {
+export const Small = {
   args: {
     size: 'small',
     label: 'Button',

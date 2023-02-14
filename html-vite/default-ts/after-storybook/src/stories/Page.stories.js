@@ -1,8 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/html';
 import { within, userEvent } from '@storybook/testing-library';
 import { createPage } from './Page';
 
-const meta: Meta = {
+export default {
   title: 'Example/Page',
   render: () => createPage(),
   parameters: {
@@ -11,12 +10,10 @@ const meta: Meta = {
   },
 };
 
-export default meta;
-
-export const LoggedOut: StoryObj = {};
+export const LoggedOut = {};
 
 // More on interaction testing: https://storybook.js.org/docs/7.0/html/writing-tests/interaction-testing
-export const LoggedIn: StoryObj = {
+export const LoggedIn = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const loginButton = await canvas.getByRole('button', {

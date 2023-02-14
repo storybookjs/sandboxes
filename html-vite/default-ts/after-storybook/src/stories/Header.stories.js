@@ -1,8 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/html';
-import type { HeaderProps } from './Header';
 import { createHeader } from './Header';
 
-const meta: Meta<HeaderProps> = {
+export default {
   title: 'Example/Header',
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/html/writing-docs/docs-page
   tags: ['autodocs'],
@@ -19,15 +17,12 @@ const meta: Meta<HeaderProps> = {
   },
 };
 
-export default meta;
-type Story = StoryObj<HeaderProps>;
-
-export const LoggedIn: Story = {
+export const LoggedIn = {
   args: {
     user: {
-      name: 'John Doe',
+      name: 'Jane Doe',
     },
   },
 };
 
-export const LoggedOut: Story = {};
+export const LoggedOut = {};

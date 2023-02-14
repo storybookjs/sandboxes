@@ -1,14 +1,7 @@
 import './header.css';
 import { createButton } from './Button';
 
-export interface HeaderProps {
-  user?: { name: string };
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-}
-
-export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }: HeaderProps) => {
+export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }) => {
   const header = document.createElement('header');
 
   const wrapper = document.createElement('div');
