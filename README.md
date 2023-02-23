@@ -356,5 +356,12 @@
         StoryStore v6 (react-webpack/18-ts)
       </a>
     </li>
+    <li>
+      <a
+        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/pnp/after-storybook?preset=node"
+      >
+        PNP (react-webpack/18-ts)
+      </a>
+    </li>
   </ul>
 </details>
