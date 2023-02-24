@@ -11730,10 +11730,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.2.0", {\
-          "packageLocation": "./.yarn/cache/minipass-npm-4.2.0-a3e8517966-3c3ce269ea.zip/node_modules/minipass/",\
+        ["npm:4.2.1", {\
+          "packageLocation": "./.yarn/cache/minipass-npm-4.2.1-05fad0aa98-727641018e.zip/node_modules/minipass/",\
           "packageDependencies": [\
-            ["minipass", "npm:4.2.0"]\
+            ["minipass", "npm:4.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16050,7 +16050,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tar", "npm:6.1.13"],\
             ["chownr", "npm:2.0.0"],\
             ["fs-minipass", "npm:2.1.0"],\
-            ["minipass", "npm:4.2.0"],\
+            ["minipass", "npm:4.2.1"],\
             ["minizlib", "npm:2.1.2"],\
             ["mkdirp", "npm:1.0.4"],\
             ["yallist", "npm:4.0.0"]\
