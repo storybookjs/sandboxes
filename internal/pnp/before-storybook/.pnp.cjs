@@ -4362,7 +4362,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/body-parser", "npm:1.19.2"],\
             ["@types/express-serve-static-core", "npm:4.17.33"],\
             ["@types/qs", "npm:6.9.7"],\
-            ["@types/serve-static", "npm:1.15.0"]\
+            ["@types/serve-static", "npm:1.15.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4608,10 +4608,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/serve-static", [\
-        ["npm:1.15.0", {\
-          "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.0-ec80a4ac87-b6ac93d471.zip/node_modules/@types/serve-static/",\
+        ["npm:1.15.1", {\
+          "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.1-27b3deb72c-2e078bdc1e.zip/node_modules/@types/serve-static/",\
           "packageDependencies": [\
-            ["@types/serve-static", "npm:1.15.0"],\
+            ["@types/serve-static", "npm:1.15.1"],\
             ["@types/mime", "npm:3.0.1"],\
             ["@types/node", "npm:18.14.1"]\
           ],\
@@ -6149,7 +6149,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["browserslist", "npm:4.21.5"],\
             ["caniuse-lite", "npm:1.0.30001457"],\
-            ["electron-to-chromium", "npm:1.4.308"],\
+            ["electron-to-chromium", "npm:1.4.310"],\
             ["node-releases", "npm:2.0.10"],\
             ["update-browserslist-db", "virtual:e3b9e9d029ed690d72cbb29196ba0a23f15b398eeb926347678187be937db870a04cbf984eecc8e0ec9c290158a9cd8607d12f0188665abe039fa4a9051a22ac#npm:1.0.10"]\
           ],\
@@ -7707,10 +7707,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["electron-to-chromium", [\
-        ["npm:1.4.308", {\
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.308-f86fb0c48f-6e49a6c0e0.zip/node_modules/electron-to-chromium/",\
+        ["npm:1.4.310", {\
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.310-c8f8360eff-f7d070b36c.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
-            ["electron-to-chromium", "npm:1.4.308"]\
+            ["electron-to-chromium", "npm:1.4.310"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16805,7 +16805,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/connect-history-api-fallback", "npm:1.3.5"],\
             ["@types/express", "npm:4.17.17"],\
             ["@types/serve-index", "npm:1.9.1"],\
-            ["@types/serve-static", "npm:1.15.0"],\
+            ["@types/serve-static", "npm:1.15.1"],\
             ["@types/sockjs", "npm:0.3.33"],\
             ["@types/webpack", null],\
             ["@types/webpack-cli", null],\
