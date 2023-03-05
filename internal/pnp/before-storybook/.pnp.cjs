@@ -4123,7 +4123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["aria-query", "npm:5.1.3"],\
             ["chalk", "npm:4.1.2"],\
             ["dom-accessibility-api", "npm:0.5.16"],\
-            ["lz-string", "npm:1.4.4"],\
+            ["lz-string", "npm:1.5.0"],\
             ["pretty-format", "npm:27.5.1"]\
           ],\
           "linkType": "HARD"\
@@ -11481,10 +11481,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lz-string", [\
-        ["npm:1.4.4", {\
-          "packageLocation": "./.yarn/cache/lz-string-npm-1.4.4-59a2091d3f-54e31238a6.zip/node_modules/lz-string/",\
+        ["npm:1.5.0", {\
+          "packageLocation": "./.yarn/cache/lz-string-npm-1.5.0-3860794e30-1ee98b4580.zip/node_modules/lz-string/",\
           "packageDependencies": [\
-            ["lz-string", "npm:1.4.4"]\
+            ["lz-string", "npm:1.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
