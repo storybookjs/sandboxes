@@ -1,7 +1,19 @@
+import { Component } from 'solid-js';
 import { Button } from './Button';
 import './header.css';
 
-export const Header = (props) => (
+type User = {
+  name: string;
+};
+
+interface HeaderProps {
+  user?: User;
+  onLogin: () => void;
+  onLogout: () => void;
+  onCreateAccount: () => void;
+}
+
+export const Header: Component<HeaderProps> = (props) => (
   <header>
     <div class="wrapper">
       <div>

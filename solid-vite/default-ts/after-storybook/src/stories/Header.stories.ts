@@ -1,3 +1,4 @@
+import type { Meta, StoryObj } from 'storybook-solidjs';
 import { Header } from './Header';
 
 const meta = {
@@ -9,11 +10,12 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/solid/configure/story-layout
     layout: 'fullscreen',
   },
-};
+} satisfies Meta<typeof Header>;
 
 export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const LoggedIn = {
+export const LoggedIn: Story = {
   args: {
     user: {
       name: 'Jane Doe',
@@ -21,4 +23,4 @@ export const LoggedIn = {
   },
 };
 
-export const LoggedOut = {};
+export const LoggedOut: Story = {};

@@ -3,7 +3,18 @@ import { html } from 'lit';
 import { Button } from './Button';
 import './header.css';
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => html`
+type User = {
+  name: string;
+};
+
+export interface HeaderProps {
+  user?: User;
+  onLogin: () => void;
+  onLogout: () => void;
+  onCreateAccount: () => void;
+}
+
+export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => html`
   <header>
     <div class="wrapper">
       <div>
