@@ -1,4 +1,4 @@
-<h1>PNP (react-webpack/18-ts)</h1>
+<h1>PNP (cra/default-ts)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

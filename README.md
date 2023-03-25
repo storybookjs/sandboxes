@@ -353,14 +353,14 @@
       <a
         href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/ssv6-webpack/after-storybook?preset=node"
       >
-        StoryStore v6 (react-webpack/18-ts)
+        StoryStore v6 (cra/default-ts)
       </a>
     </li>
     <li>
       <a
         href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/pnp/after-storybook?preset=node"
       >
-        PNP (react-webpack/18-ts)
+        PNP (cra/default-ts)
       </a>
     </li>
   </ul>
