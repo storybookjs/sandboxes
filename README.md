@@ -356,12 +356,5 @@
         StoryStore v6 (cra/default-ts)
       </a>
     </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/pnp/after-storybook?preset=node"
-      >
-        PNP (cra/default-ts)
-      </a>
-    </li>
   </ul>
 </details>
