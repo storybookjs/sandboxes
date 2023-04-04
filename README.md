@@ -1,12 +1,12 @@
 <h1>Storybook Reproduction Templates</h1>
 
 <img
-  alt="Storybook next Badge"
-  src="https://img.shields.io/npm/v/@storybook/react/next"
+  alt="Storybook main Badge"
+  src="https://img.shields.io/npm/v/@storybook/react/main"
 />
 
 <p>
-  The following repros have been generated with the `next` version of Storybook.
+  The following repros have been generated with the `main` version of Storybook.
 </p>
 
 <p>
@@ -354,13 +354,6 @@
         href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/ssv6-webpack/after-storybook?preset=node"
       >
         StoryStore v6 (cra/default-ts)
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/pnp/after-storybook?preset=node"
-      >
-        PNP (cra/default-ts)
       </a>
     </li>
   </ul>
