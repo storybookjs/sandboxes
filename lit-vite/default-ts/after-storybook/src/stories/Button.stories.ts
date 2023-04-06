@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/web-components';
 import type { ButtonProps } from './Button';
 import { Button } from './Button';
 
-// More on how to set up stories at: https://storybook.js.org/docs/7.0/web-components/writing-stories/introduction
+// More on how to set up stories at: https://storybook.js.org/docs/web-components/writing-stories/introduction
 const meta = {
   title: 'Example/Button',
   tags: ['autodocs'],
@@ -20,7 +20,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<ButtonProps>;
 
-// More on writing stories with args: https://storybook.js.org/docs/7.0/web-components/writing-stories/args
+// More on writing stories with args: https://storybook.js.org/docs/web-components/writing-stories/args
 export const Primary: Story = {
   args: {
     primary: true,

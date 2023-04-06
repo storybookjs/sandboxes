@@ -4,7 +4,7 @@ import { Header } from './Header';
 const meta: Meta<typeof Header> = {
   title: 'Example/Header',
   component: Header,
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout

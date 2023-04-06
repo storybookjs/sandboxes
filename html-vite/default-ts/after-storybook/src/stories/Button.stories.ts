@@ -26,7 +26,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<ButtonProps>;
 
-// More on writing stories with args: https://storybook.js.org/docs/7.0/html/writing-stories/args
+// More on writing stories with args: https://storybook.js.org/docs/html/writing-stories/args
 export const Primary: Story = {
   args: {
     primary: true,

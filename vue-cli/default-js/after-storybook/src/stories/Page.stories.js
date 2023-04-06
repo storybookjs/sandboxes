@@ -5,14 +5,14 @@ export default {
   title: 'Example/Page',
   component: MyPage,
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/7.0/vue/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/vue/configure/story-layout
     layout: 'fullscreen',
   },
 };
 
 export const LoggedOut = {};
 
-// More on interaction testing: https://storybook.js.org/docs/7.0/vue/writing-tests/interaction-testing
+// More on interaction testing: https://storybook.js.org/docs/vue/writing-tests/interaction-testing
 export const LoggedIn = {
   render: () => ({
     components: {
