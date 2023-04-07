@@ -14,7 +14,7 @@ type Story = StoryObj<PageProps>;
 
 export const LoggedIn: Story = {
   args: {
-    // More on composing args: https://storybook.js.org/docs/7.0/web-components/writing-stories/args#args-composition
+    // More on composing args: https://storybook.js.org/docs/web-components/writing-stories/args#args-composition
     ...HeaderStories.LoggedIn.args,
   },
 };

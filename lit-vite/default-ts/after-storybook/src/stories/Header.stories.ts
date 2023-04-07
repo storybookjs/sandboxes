@@ -4,7 +4,7 @@ import { Header } from './Header';
 
 const meta = {
   title: 'Example/Header',
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/web-components/writing-docs/docs-page
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/web-components/writing-docs/autodocs
   tags: ['autodocs'],
   render: (args: HeaderProps) => Header(args),
 } satisfies Meta<HeaderProps>;

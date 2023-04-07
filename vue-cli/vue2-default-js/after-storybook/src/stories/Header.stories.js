@@ -3,7 +3,7 @@ import MyHeader from './Header.vue';
 export default {
   title: 'Example/Header',
   component: MyHeader,
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/vue/writing-docs/docs-page
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/vue/writing-docs/autodocs
   tags: ['autodocs'],
   render: (args, { argTypes }) => ({
     props: Object.keys(argTypes),
@@ -14,7 +14,7 @@ export default {
       '<my-header :user="user" @onLogin="onLogin" @onLogout="onLogout" @onCreateAccount="onCreateAccount" />',
   }),
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/7.0/vue/configure/story-layout
+    // More on how to position stories at: https://storybook.js.org/docs/vue/configure/story-layout
     layout: 'fullscreen',
   },
 };

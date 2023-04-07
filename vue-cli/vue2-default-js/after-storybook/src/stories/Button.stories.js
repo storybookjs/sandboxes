@@ -1,6 +1,6 @@
 import MyButton from './Button.vue';
 
-// More on how to set up stories at: https://storybook.js.org/docs/7.0/vue/writing-stories/introduction
+// More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
   title: 'Example/Button',
   component: MyButton,
@@ -19,7 +19,7 @@ export default {
   },
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/7.0/vue/writing-stories/args
+// More on writing stories with args: https://storybook.js.org/docs/vue/writing-stories/args
 export const Primary = {
   args: {
     primary: true,
