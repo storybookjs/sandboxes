@@ -3,18 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/my-element.es.js",
-  "exports": {
-    ".": "./dist/my-element.es.js"
-  },
-  "types": "types/my-element.d.ts",
-  "files": [
-    "dist",
-    "types"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -26,12 +18,12 @@
     "@storybook/addon-links": "^7.0.6",
     "@storybook/blocks": "^7.0.6",
     "@storybook/web-components": "^7.0.6",
-    "@storybook/web-components-vite": "^7.0.6",
+    "@storybook/web-components-webpack5": "^7.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.0.6",
-    "typescript": "^4.9.3",
-    "vite": "^4.2.0"
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0"
   },
   "resolutions": {
     "@storybook/addon-a11y": "7.0.6",
