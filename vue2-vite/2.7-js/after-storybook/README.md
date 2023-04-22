@@ -4,10 +4,9 @@
   This is project generated to serve as a reproduction starter for Storybook.
 </p>
 
-<a
-  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
-  >View it in Stackblitz</a
->
+<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue2-vite/2.7-js/after-storybook?preset=node=">
+  View it in Stackblitz
+</a>
 
 <h3>Testing instructions</h3>
 

@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook/web-components-vite'
+import type { StorybookConfig } from '@storybook/web-components-vite';
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
@@ -9,5 +9,5 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
-}
-export default config
+};
+export default config;

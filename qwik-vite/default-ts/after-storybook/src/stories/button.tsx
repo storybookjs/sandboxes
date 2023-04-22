@@ -1,10 +1,5 @@
-import {
-  component$,
-  QRL,
-  QwikMouseEvent,
-  Slot,
-  useStylesScoped$,
-} from "@builder.io/qwik";
+import type { PropFunction, QwikMouseEvent } from "@builder.io/qwik";
+import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import buttonStyles from "./button.css?inline";
 
 export interface ButtonProps {
@@ -21,9 +16,13 @@ export interface ButtonProps {
    */
   size?: "small" | "medium" | "large";
   /**
+   * Button contents
+   */
+  label: string;
+  /**
    * Optional click handler
    */
-  onClick$?: QRL<onClickEvent> | undefined;
+  onClick$?: PropFunction<onClickEvent> | undefined;
 }
 
 export const getClassForSize = (size: "small" | "medium" | "large") => {
@@ -37,13 +36,13 @@ export const getClassForSize = (size: "small" | "medium" | "large") => {
   }
 };
 
-type onClickEvent = (
+export type onClickEvent = (
   event: QwikMouseEvent<HTMLButtonElement, MouseEvent>,
   element: Element
-) => any;
+) => void;
 
 export const Button = component$<ButtonProps>(
-  ({ primary = false, size = "medium", backgroundColor, onClick$ }) => {
+  ({ primary = false, size = "medium", backgroundColor, label, onClick$ }) => {
     useStylesScoped$(buttonStyles);
     const classes = [
       "storybook-button",
@@ -54,9 +53,9 @@ export const Button = component$<ButtonProps>(
       <button
         class={classes}
         style={backgroundColor ? { backgroundColor } : {}}
-        onClick$={(event, element) => onClick$?.(event, element)}
+        onClick$={onClick$}
       >
-        <Slot />
+        {label}
       </button>
     );
   }
