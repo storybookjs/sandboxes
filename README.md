@@ -191,6 +191,12 @@
   <summary><b>Angular-cli</b></summary>
   <ul>
     <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/prerelease/after-storybook?preset=node"
+      >
+        Angular CLI (Prerelease)
+      </a>
+    </li>
+    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/default-ts/after-storybook?preset=node"
       >
         Angular CLI (latest)
