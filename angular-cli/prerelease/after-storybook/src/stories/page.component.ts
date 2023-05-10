@@ -10,7 +10,7 @@ import type { User } from './User';
       (onLogin)="doLogin()"
       (onCreateAccount)="doCreateAccount()"
     ></storybook-header>
-    <section>
+    <section class="storybook-page">
       <h2>Pages in Storybook</h2>
       <p>
         We recommend building UIs with a

@@ -328,5 +328,11 @@
         StoryStore v6 (cra/default-ts)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/server-webpack5/after-storybook?preset=node"
+      >
+        Server Webpack5
+      </a>
+    </li>
   </ul>
 </details>

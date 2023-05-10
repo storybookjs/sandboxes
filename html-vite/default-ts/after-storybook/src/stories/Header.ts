@@ -12,7 +12,7 @@ export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }: Heade
   const header = document.createElement('header');
 
   const wrapper = document.createElement('div');
-  wrapper.className = 'wrapper';
+  wrapper.className = 'storybook-header';
 
   const logo = `<div>
     <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
