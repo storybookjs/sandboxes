@@ -329,6 +329,12 @@
       </a>
     </li>
     <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/swc-webpack/after-storybook?preset=node"
+      >
+        SWC (react-webpack/18-ts)
+      </a>
+    </li>
+    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/server-webpack5/after-storybook?preset=node"
       >
         Server Webpack5
