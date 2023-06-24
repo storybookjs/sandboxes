@@ -342,3 +342,21 @@
     </li>
   </ul>
 </details>
+
+<details>
+  <summary><b>Bench</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-vite-default-ts/after-storybook?preset=node"
+      >
+        Bench (react-vite/default-ts)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-webpack-18-ts/after-storybook?preset=node"
+      >
+        Bench (react-webpack/18-ts)
+      </a>
+    </li>
+  </ul>
+</details>
