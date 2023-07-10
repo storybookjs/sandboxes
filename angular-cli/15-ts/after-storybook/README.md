@@ -1,10 +1,10 @@
-<h1>Angular CLI (Version 14)</h1>
+<h1>Angular CLI (Version 15)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
 </p>
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/14-ts/after-storybook?preset=node=">
+<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/15-ts/after-storybook?preset=node=">
   View it in Stackblitz
 </a>
 
