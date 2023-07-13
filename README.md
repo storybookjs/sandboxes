@@ -203,9 +203,9 @@
       </a>
     </li>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/14-ts/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/15-ts/after-storybook?preset=node"
       >
-        Angular CLI (Version 14)
+        Angular CLI (Version 15)
       </a>
     </li>
   </ul>
