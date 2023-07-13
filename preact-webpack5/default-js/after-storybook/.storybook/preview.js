@@ -1,6 +1,5 @@
-import type { Preview } from '@storybook/preact';
-
-const preview: Preview = {
+/** @type { import('@storybook/preact').Preview } */
+const preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
