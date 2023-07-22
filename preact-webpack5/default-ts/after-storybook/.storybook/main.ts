@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/preact-webpack5';
+
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
