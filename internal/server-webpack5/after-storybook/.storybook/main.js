@@ -1,13 +1,13 @@
 /** @type { import('@storybook/server-webpack5').StorybookConfig } */
 const config = {
-  stories: ["../stories/**/*.mdx", "../stories/**/*.stories.@(json|yaml|yml)"],
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
+  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(json|yaml|yml)'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   framework: {
-    name: "@storybook/server-webpack5",
+    name: '@storybook/server-webpack5',
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: 'tag',
   },
 };
 export default config;

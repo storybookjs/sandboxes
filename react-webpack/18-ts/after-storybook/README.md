@@ -1,4 +1,4 @@
-<h1>React v18 (Webpack5 | TypeScript | npm)</h1>
+<h1>React 18 Webpack5 (TS)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

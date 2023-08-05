@@ -1,4 +1,4 @@
-<h1>Vue.js v3 (Webpack5 | JavaScript | npm)</h1>
+<h1>Vue-CLI (Default JS)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

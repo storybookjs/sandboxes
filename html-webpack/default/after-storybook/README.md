@@ -1,4 +1,4 @@
-<h1>HTML (Webpack5 | JavaScript | npm)</h1>
+<h1>HTML Webpack5</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

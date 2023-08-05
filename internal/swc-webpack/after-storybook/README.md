@@ -1,4 +1,4 @@
-<h1>SWC React (Webpack5 | TypeScript | npm)</h1>
+<h1>SWC (react-webpack/18-ts)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
