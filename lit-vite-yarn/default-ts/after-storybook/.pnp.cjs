@@ -5577,12 +5577,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["agentkeepalive", [\
-        ["npm:4.4.0", {\
-          "packageLocation": "./.yarn/cache/agentkeepalive-npm-4.4.0-e79a75e614-36e0919a75.zip/node_modules/agentkeepalive/",\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/agentkeepalive-npm-4.5.0-f237b580b2-13278cd5b1.zip/node_modules/agentkeepalive/",\
           "packageDependencies": [\
-            ["agentkeepalive", "npm:4.4.0"],\
-            ["debug", "virtual:98fbaaf7d82eb568962a3cbb0539d3a6cd8f7bc2baa49961cdb24e1950eac5c573503e029ec78bd289a222d03b6fe602b6d0af7fd09d9928cc2bb32809bcd8ba#npm:4.3.4"],\
-            ["depd", "npm:2.0.0"],\
+            ["agentkeepalive", "npm:4.5.0"],\
             ["humanize-ms", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
@@ -8569,7 +8567,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/make-fetch-happen-npm-11.1.1-f32b79aaaa-7268bf274a.zip/node_modules/make-fetch-happen/",\
           "packageDependencies": [\
             ["make-fetch-happen", "npm:11.1.1"],\
-            ["agentkeepalive", "npm:4.4.0"],\
+            ["agentkeepalive", "npm:4.5.0"],\
             ["cacache", "npm:17.1.3"],\
             ["http-cache-semantics", "npm:4.1.1"],\
             ["http-proxy-agent", "npm:5.0.0"],\

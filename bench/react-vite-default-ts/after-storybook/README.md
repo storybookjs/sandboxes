@@ -1,4 +1,4 @@
-<h1>Bench (react-vite/default-ts)</h1>
+<h1>Bench React (Vite | TypeScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

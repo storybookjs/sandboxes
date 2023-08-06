@@ -1,4 +1,4 @@
-<h1>Vue3 Vite (TS)</h1>
+<h1>Vue.js v3 (Vite | TypeScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

@@ -32,10 +32,10 @@ Inside your project, you'll see the following directory structure:
 
 ## Add Integrations and deployment
 
-Use the `yarn qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
+Use the `npm run qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
 
 ```shell
-yarn qwik add # or `yarn qwik add`
+npm run qwik add # or `yarn qwik add`
 ```
 
 ## Development
@@ -53,7 +53,7 @@ npm start # or `yarn start`
 The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
 
 ```shell
-yarn preview # or `yarn preview`
+npm run preview # or `yarn preview`
 ```
 
 ## Production
@@ -61,5 +61,5 @@ yarn preview # or `yarn preview`
 The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
 
 ```shell
-yarn build # or `yarn build`
+npm run build # or `yarn build`
 ```

@@ -1,4 +1,4 @@
-<h1>Angular CLI (Version 15)</h1>
+<h1>Angular v15 (Webpack5 | TypeScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
