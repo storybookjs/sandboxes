@@ -1,4 +1,4 @@
-<h1>SvelteKit (Vite | JavaScript | npm)</h1>
+<h1>Svelte Kit (JS)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

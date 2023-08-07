@@ -1,4 +1,4 @@
-<h1>Create React App (Webpack5 | TypeScript | npm)</h1>
+<h1>Create React App (Typescript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
