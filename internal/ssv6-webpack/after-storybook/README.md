@@ -1,4 +1,4 @@
-<h1>StoryStore v6 (cra/default-ts)</h1>
+<h1>StoryStore v6 CRA (Webpack5 | TypeScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

@@ -1,4 +1,4 @@
-<h1>SolidJS Vite (TS)</h1>
+<h1>Solid.js (Vite | TypeScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
