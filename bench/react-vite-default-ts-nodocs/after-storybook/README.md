@@ -1,10 +1,10 @@
-<h1>Bench (react-vite/default-ts)</h1>
+<h1>Bench (react-vite/default-ts, no docs)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
 </p>
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-vite-default-ts/after-storybook?preset=node=">
+<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-vite-default-ts-nodocs/after-storybook?preset=node=">
   View it in Stackblitz
 </a>
 
