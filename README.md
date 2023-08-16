@@ -359,5 +359,11 @@
         Bench (react-webpack/18-ts)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/bench/react-vite-default-ts-nodocs/after-storybook?preset=node"
+      >
+        Bench (react-vite/default-ts, no docs)
+      </a>
+    </li>
   </ul>
 </details>
