@@ -1,4 +1,4 @@
-<h1>Next.js (JavaScript)</h1>
+<h1>Next.js v13 (Webpack5 | JavaScript | npm)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
