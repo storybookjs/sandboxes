@@ -1,4 +1,4 @@
-<h1>Angular CLI (Prerelease)</h1>
+<h1>Angular CLI Prerelease (Webpack | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

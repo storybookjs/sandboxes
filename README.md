@@ -19,13 +19,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/cra/default-js/after-storybook?preset=node"
       >
-        Create React App (Javascript)
+        Create React App Latest (Webpack | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/cra/default-ts/after-storybook?preset=node"
       >
-        Create React App (Typescript)
+        Create React App Latest (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -37,19 +37,19 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/12-js/after-storybook?preset=node"
       >
-        Next.js v12 (JavaScript)
+        Next.js v12 (Webpack | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/default-js/after-storybook?preset=node"
       >
-        Next.js (JavaScript)
+        Next.js Latest (Webpack | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/default-ts/after-storybook?preset=node"
       >
-        Next.js (TypeScript)
+        Next.js Latest (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -61,13 +61,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/default-js/after-storybook?preset=node"
       >
-        React Vite (JS)
+        React Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/default-ts/after-storybook?preset=node"
       >
-        React Vite (TS)
+        React Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -79,13 +79,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/18-ts/after-storybook?preset=node"
       >
-        React 18 Webpack5 (TS)
+        React Latest (Webpack | TypeScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/17-ts/after-storybook?preset=node"
       >
-        React 17 Webpack5 (TS)
+        React v17 (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -97,13 +97,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-js/after-storybook?preset=node"
       >
-        SolidJS Vite (JS)
+        SolidJS Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-ts/after-storybook?preset=node"
       >
-        SolidJS Vite (TS)
+        SolidJS Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -115,13 +115,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/default-js/after-storybook?preset=node"
       >
-        Vue3 Vite (JS)
+        Vue v3 (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/default-ts/after-storybook?preset=node"
       >
-        Vue3 Vite (TS)
+        Vue v3 (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -133,7 +133,7 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
       >
-        Vue2 Vite (vue 2.7 JS)
+        Vue v2 (Vite | JavaScript)
       </a>
     </li>
   </ul>
@@ -145,7 +145,7 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-webpack/default/after-storybook?preset=node"
       >
-        HTML Webpack5
+        HTML Latest (Webpack | JavaScript)
       </a>
     </li>
   </ul>
@@ -157,13 +157,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-vite/default-js/after-storybook?preset=node"
       >
-        HTML Vite JS
+        HTML Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-vite/default-ts/after-storybook?preset=node"
       >
-        HTML Vite TS
+        HTML Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -175,13 +175,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-vite/default-js/after-storybook?preset=node"
       >
-        Svelte Vite (JS)
+        Svelte Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-vite/default-ts/after-storybook?preset=node"
       >
-        Svelte Vite (TS)
+        Svelte Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -193,19 +193,19 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/prerelease/after-storybook?preset=node"
       >
-        Angular CLI (Prerelease)
+        Angular CLI Prerelease (Webpack | TypeScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/default-ts/after-storybook?preset=node"
       >
-        Angular CLI (latest)
+        Angular CLI Latest (Webpack | TypeScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/15-ts/after-storybook?preset=node"
       >
-        Angular CLI (Version 15)
+        Angular CLI v15 (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -217,13 +217,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/skeleton-js/after-storybook?preset=node"
       >
-        Svelte Kit (JS)
+        SvelteKit Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
       >
-        Svelte Kit (TS)
+        SvelteKit Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -235,13 +235,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-vite/default-js/after-storybook?preset=node"
       >
-        Lit Vite (JS)
+        Lit Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-vite/default-ts/after-storybook?preset=node"
       >
-        Lit Vite (TS)
+        Lit Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -253,13 +253,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue-cli/default-js/after-storybook?preset=node"
       >
-        Vue-CLI (Default JS)
+        Vue CLI v3 (Webpack | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue-cli/vue2-default-js/after-storybook?preset=node"
       >
-        Vue-CLI (Vue2 JS)
+        Vue CLI v2 (Webpack | JavaScript)
       </a>
     </li>
   </ul>
@@ -271,13 +271,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-webpack5/default-js/after-storybook?preset=node"
       >
-        Preact CLI (Default JS)
+        Preact CLI Latest (Webpack | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-webpack5/default-ts/after-storybook?preset=node"
       >
-        Preact CLI (Default TS)
+        Preact CLI Latest (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -289,13 +289,13 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/default-js/after-storybook?preset=node"
       >
-        Preact Vite (JS)
+        Preact Latest (Vite | JavaScript)
       </a>
     </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/default-ts/after-storybook?preset=node"
       >
-        Preact Vite (TS)
+        Preact Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
@@ -307,7 +307,7 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/qwik-vite/default-ts/after-storybook?preset=node"
       >
-        Qwik CLI (Default TS)
+        Qwik CLI Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
