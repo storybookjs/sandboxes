@@ -1,4 +1,4 @@
-<h1>Create React App (Javascript)</h1>
+<h1>Create React App Latest (Webpack | JavaScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
