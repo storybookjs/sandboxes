@@ -7977,9 +7977,9 @@ jstransformer@1.0.0:
     promise "^7.0.1"
 
 keyv@^4.5.3:
-  version "4.5.3"
-  resolved "http://localhost:6001/keyv/-/keyv-4.5.3.tgz#00873d2b046df737963157bd04f294ca818c9c25"
-  integrity sha512-QCiSav9WaX1PgETJ+SpNnx2PRRapJ/oRSXM4VO5OGYGSjrxbKPVFVhB3l2OCbLCk329N8qyAtsJjSjvVBWzEug==
+  version "4.5.4"
+  resolved "http://localhost:6001/keyv/-/keyv-4.5.4.tgz#a879a99e29452f942439f2a405e3af8b31d4de93"
+  integrity sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==
   dependencies:
     json-buffer "3.0.1"
 
@@ -8028,12 +8028,12 @@ kolorist@^1.2.10:
   integrity sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==
 
 launch-editor@^2.6.0:
-  version "2.6.0"
-  resolved "http://localhost:6001/launch-editor/-/launch-editor-2.6.0.tgz#4c0c1a6ac126c572bd9ff9a30da1d2cae66defd7"
-  integrity sha512-JpDCcQnyAAzZZaZ7vEiSqL690w7dAEyLao+KC96zBplnYbJS7TYNjvM3M7y3dGz+v7aIsJk3hllWuc0kWAjyRQ==
+  version "2.6.1"
+  resolved "http://localhost:6001/launch-editor/-/launch-editor-2.6.1.tgz#f259c9ef95cbc9425620bbbd14b468fcdb4ffe3c"
+  integrity sha512-eB/uXmFVpY4zezmGp5XtU21kwo7GBbKB+EQ+UZeWtGb9yAM5xt/Evk+lYH3eRNAtId+ej4u7TYPFZ07w4s7rRw==
   dependencies:
     picocolors "^1.0.0"
-    shell-quote "^1.7.3"
+    shell-quote "^1.8.1"
 
 lazy-universal-dotenv@^4.0.0:
   version "4.0.0"
@@ -10642,7 +10642,7 @@ shebang-regex@^3.0.0:
   resolved "http://localhost:6001/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shell-quote@^1.7.3:
+shell-quote@^1.8.1:
   version "1.8.1"
   resolved "http://localhost:6001/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
@@ -10761,7 +10761,7 @@ source-map@^0.5.6:
   resolved "http://localhost:6001/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==
 
-source-map@^0.7.3:
+source-map@^0.7.3, source-map@^0.7.4:
   version "0.7.4"
   resolved "http://localhost:6001/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
@@ -11242,14 +11242,15 @@ ts-dedent@^2.0.0, ts-dedent@^2.2.0:
   integrity sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==
 
 ts-loader@^9.2.8:
-  version "9.4.4"
-  resolved "http://localhost:6001/ts-loader/-/ts-loader-9.4.4.tgz#6ceaf4d58dcc6979f84125335904920884b7cee4"
-  integrity sha512-MLukxDHBl8OJ5Dk3y69IsKVFRA/6MwzEqBgh+OXMPB/OD01KQuWPFd1WAQP8a5PeSCAxfnkhiuWqfmFJzJQt9w==
+  version "9.5.0"
+  resolved "http://localhost:6001/ts-loader/-/ts-loader-9.5.0.tgz#f0a51dda37cc4d8e43e6cb14edebbc599b0c3aa2"
+  integrity sha512-LLlB/pkB4q9mW2yLdFMnK3dEHbrBjeZTYguaaIfusyojBgAGf5kF+O6KcWqiGzWqHk0LBsoolrp4VftEURhybg==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
     micromatch "^4.0.0"
     semver "^7.3.4"
+    source-map "^0.7.4"
 
 ts-map@^1.0.3:
   version "1.0.3"
