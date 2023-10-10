@@ -3889,9 +3889,11 @@
     form-data "^4.0.0"
 
 "@types/node@*":
-  version "20.8.3"
-  resolved "http://localhost:6001/@types/node/-/node-20.8.3.tgz#c4ae2bb1cfab2999ed441a95c122bbbe1567a66d"
-  integrity sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==
+  version "20.8.4"
+  resolved "http://localhost:6001/@types/node/-/node-20.8.4.tgz#0e9ebb2ff29d5c3302fc84477d066fa7c6b441aa"
+  integrity sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==
+  dependencies:
+    undici-types "~5.25.1"
 
 "@types/node@^16.0.0":
   version "16.18.58"
@@ -3943,9 +3945,9 @@
     "@types/react" "^16"
 
 "@types/react@>=16":
-  version "18.2.25"
-  resolved "http://localhost:6001/@types/react/-/react-18.2.25.tgz#99fa44154132979e870ff409dc5b6e67f06f0199"
-  integrity sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==
+  version "18.2.27"
+  resolved "http://localhost:6001/@types/react/-/react-18.2.27.tgz#746e52b06f3ccd5d7a724fd53769b70792601440"
+  integrity sha512-Wfv7B7FZiR2r3MIqbAlXoY1+tXm4bOqfz4oRr+nyXdBqapDBZ0l/IGcSlAfvxIHEEJjkPU0MYAc/BlFPOcrgLw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4606,10 +4608,10 @@ babel-plugin-istanbul@^6.1.1:
     istanbul-lib-instrument "^5.0.4"
     test-exclude "^6.0.0"
 
-babel-plugin-jsx-dom-expressions@^0.36.18:
-  version "0.36.18"
-  resolved "http://localhost:6001/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.36.18.tgz#4d5ccaeffe055a6e0b67ff821e9e20f0dff69b86"
-  integrity sha512-8K0CHgzNMB0+1OC+GQf1O49Nc6DfHAoWDjY4YTW3W/3il5KrDKAj65723oPmya68kKKOkqDKuz+Zh1u7VFHthw==
+babel-plugin-jsx-dom-expressions@^0.37.0:
+  version "0.37.0"
+  resolved "http://localhost:6001/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.37.0.tgz#0b58bbe98bf3c98e76778f792c7a6ecc1bc1a71e"
+  integrity sha512-WLUY+Eaeej9fmRMRD2YSTskmdfBxmVdgeSRHHiZyWcHe+SQY0xqKTdX4Ilbmf/MxKcDPJhwkuq41OBe42P3EVg==
   dependencies:
     "@babel/helper-module-imports" "7.18.6"
     "@babel/plugin-syntax-jsx" "^7.18.6"
@@ -4679,11 +4681,11 @@ babel-preset-current-node-syntax@^1.0.0:
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
 
 babel-preset-solid@^1.7.2:
-  version "1.7.12"
-  resolved "http://localhost:6001/babel-preset-solid/-/babel-preset-solid-1.7.12.tgz#94391c2cad6f2dd6c1b7b2883107530b5daf65a5"
-  integrity sha512-vNZn34Dv6IsWK/F59HhZlN8gP0ihZfkhPp8Lx/nxlY+rKtSZEAmmYlXWtds6EDKSiXoj2TEHuCcuqp6cO7oLSg==
+  version "1.8.0"
+  resolved "http://localhost:6001/babel-preset-solid/-/babel-preset-solid-1.8.0.tgz#5792dcd54bd1df268b63aa9c1f1e803da6e89b14"
+  integrity sha512-TCsC3kTNYRi+0/mHYFvC2VsSq++GZPFyHF3QTP7L37TXaVFD0HZQPyLQnf+waOGPHQuAhKXo0GEQziquSwBAVw==
   dependencies:
-    babel-plugin-jsx-dom-expressions "^0.36.18"
+    babel-plugin-jsx-dom-expressions "^0.37.0"
 
 babel-walk@3.0.0-canary-5:
   version "3.0.0-canary-5"
@@ -5851,9 +5853,9 @@ ejs@^3.1.8:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.535:
-  version "1.4.544"
-  resolved "http://localhost:6001/electron-to-chromium/-/electron-to-chromium-1.4.544.tgz#fcb156d83f0ee6e4c9d030c6fedb2a37594f3abf"
-  integrity sha512-54z7squS1FyFRSUqq/knOFSptjjogLZXbKcYk3B0qkE1KZzvqASwRZnY2KzZQJqIYLVD38XZeoiMRflYSwyO4w==
+  version "1.4.547"
+  resolved "http://localhost:6001/electron-to-chromium/-/electron-to-chromium-1.4.547.tgz#b8f34e83641aca0858cbb4dc98b033ff1f298128"
+  integrity sha512-QC99aDjzNir+D4c1jE7QWt3RybAxBWYXBdCoaUaAumkD7nDwPLgyt03qNgpVscn18UIGJIZZbFlzNaUSwhPLiA==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -10447,10 +10449,10 @@ serialize-javascript@^6.0.1:
   dependencies:
     randombytes "^2.1.0"
 
-seroval@^0.5.0:
-  version "0.5.1"
-  resolved "http://localhost:6001/seroval/-/seroval-0.5.1.tgz#e6d17365cdaaae7e50815c7e0bcd7102facdadf3"
-  integrity sha512-ZfhQVB59hmIauJG5Ydynupy8KHyr5imGNtdDhbZG68Ufh1Ynkv9KOYOAABf71oVbQxJ8VkWnMHAjEHE7fWkH5g==
+seroval@^0.10.4:
+  version "0.10.4"
+  resolved "http://localhost:6001/seroval/-/seroval-0.10.4.tgz#7c47761d7651b2471bcdb44906213df4114bb1d0"
+  integrity sha512-TdaE9JkoATjKu+vjwllieX8zWyBTUVxbgWDnOsDJFfmKbM7vLSukuCXuD3pO3kkCtX4daywOW8ps2VCdPhS8/w==
 
 serve-static@1.15.0:
   version "1.15.0"
@@ -10596,12 +10598,12 @@ solid-devtools@^0.27.3:
     "@solid-devtools/shared" "^0.12.3"
 
 solid-js@^1.7.6:
-  version "1.7.12"
-  resolved "http://localhost:6001/solid-js/-/solid-js-1.7.12.tgz#e196aceb03790c15aedf109771c5bb9cc92516ea"
-  integrity sha512-QoyoOUKu14iLoGxjxWFIU8+/1kLT4edQ7mZESFPonsEXZ//VJtPKD8Ud1aTKzotj+MNWmSs9YzK6TdY+fO9Eww==
+  version "1.8.0"
+  resolved "http://localhost:6001/solid-js/-/solid-js-1.8.0.tgz#b12f5ec448d0b924930f7de17a34bbff9aef4c30"
+  integrity sha512-SYVRIUPwCW8K56/add1Yf7xYMOipDUcxGHIxzieRNu9tieqJpaygqcGdJOGXtrMBHSHyVEC7cSp9jz1cNZTFLA==
   dependencies:
     csstype "^3.1.0"
-    seroval "^0.5.0"
+    seroval "^0.10.4"
 
 solid-refresh@^0.5.0:
   version "0.5.3"
@@ -11218,6 +11220,11 @@ uglify-js@^3.1.4:
   version "3.17.4"
   resolved "http://localhost:6001/uglify-js/-/uglify-js-3.17.4.tgz#61678cf5fa3f5b7eb789bb345df29afb8257c22c"
   integrity sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==
+
+undici-types@~5.25.1:
+  version "5.25.3"
+  resolved "http://localhost:6001/undici-types/-/undici-types-5.25.3.tgz#e044115914c85f0bcbb229f346ab739f064998c3"
+  integrity sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
