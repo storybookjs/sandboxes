@@ -52,6 +52,12 @@
         Next.js Latest (Webpack | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/prerelease/after-storybook?preset=node"
+      >
+        Next.js Prerelease (Webpack | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
