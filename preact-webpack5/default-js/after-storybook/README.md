@@ -1,4 +1,4 @@
-<h1>Preact CLI (Default JS)</h1>
+<h1>Preact CLI Latest (Webpack | JavaScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

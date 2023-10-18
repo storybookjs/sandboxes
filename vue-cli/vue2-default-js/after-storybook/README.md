@@ -1,4 +1,4 @@
-<h1>Vue-CLI (Vue2 JS)</h1>
+<h1>Vue CLI v2 (Webpack | JavaScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

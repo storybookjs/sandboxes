@@ -1,4 +1,4 @@
-<h1>Angular CLI (latest)</h1>
+<h1>Angular CLI Latest (Webpack | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

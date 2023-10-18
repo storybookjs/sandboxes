@@ -1,4 +1,4 @@
-<h1>HTML Vite TS</h1>
+<h1>HTML Latest (Vite | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

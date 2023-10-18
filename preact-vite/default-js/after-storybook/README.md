@@ -1,4 +1,4 @@
-<h1>Preact Vite (JS)</h1>
+<h1>Preact Latest (Vite | JavaScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

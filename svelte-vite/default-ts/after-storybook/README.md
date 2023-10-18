@@ -1,4 +1,4 @@
-<h1>Svelte Vite (TS)</h1>
+<h1>Svelte Latest (Vite | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
