@@ -370,5 +370,17 @@
         Bench (react-vite/default-ts, no docs)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-vite-default-ts-test-build/after-storybook?preset=node"
+      >
+        Bench (react-vite/default-ts, test-build)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-webpack-18-ts-test-build/after-storybook?preset=node"
+      >
+        Bench (react-webpack/18-ts, test-build)
+      </a>
+    </li>
   </ul>
 </details>
