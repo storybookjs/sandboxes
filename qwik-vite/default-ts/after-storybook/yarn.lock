@@ -1136,25 +1136,28 @@
   resolved "http://localhost:6001/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@builder.io/qwik-city@^1.1.4", "@builder.io/qwik-city@^1.2.15":
-  version "1.2.15"
-  resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.2.15.tgz#42d7e94d2fb9f4c2c516ef72d469eb313e09e5ae"
-  integrity sha512-sJSxYAwiSXZN9MMsCKN2TJBkVKaEdX1rTwi0SdmyqaEKxVAdtzc2sEyAcetZijhFMEh5Zd7sxz0mtu9fQGufLQ==
+"@builder.io/qwik-city@^1.1.4", "@builder.io/qwik-city@^1.2.16":
+  version "1.2.16"
+  resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.2.16.tgz#5c3f9e1245031e00256872a2d03abc0e9ebdbc78"
+  integrity sha512-oyVRrKsWqoXY09WPIqkVGjT6pqRSjn0PmxiS29CCym8MLxQGcOEIog5WCaYlMjMiu8EDlRbRX9KsGDk31A5u7w==
   dependencies:
     "@mdx-js/mdx" "2.3.0"
     "@types/mdx" "^2.0.8"
     source-map "0.7.4"
     svgo "^3.0.2"
+    undici "^5.26.0"
     vfile "^6.0.1"
+    vite "^4.4.11"
     vite-imagetools "^5.0.9"
     zod "^3.22.4"
 
-"@builder.io/qwik@^1.2.15":
-  version "1.2.15"
-  resolved "http://localhost:6001/@builder.io/qwik/-/qwik-1.2.15.tgz#3a9576e08a09955c6d7d881c4d6292dc5362e17c"
-  integrity sha512-5aiU1VL4quzEd8pGdeFfJOiN/SUYr6wu1FLEX3piqBxoJL+j8H/3jZeOl4TUZawNNYWZOckH74a3VzAXai/4ZA==
+"@builder.io/qwik@^1.2.16":
+  version "1.2.16"
+  resolved "http://localhost:6001/@builder.io/qwik/-/qwik-1.2.16.tgz#5aa286193164c3276bb3c8bb1279b79d1c4ffedb"
+  integrity sha512-ZadMArtIZpdeHeH2Qw5HEbGurCnKJ22i8fvZDlKybPercD8Obf6xk5ox1XcTsliodQWH3O0UJChvXArCrJR0LQ==
   dependencies:
     csstype "^3.1.2"
+    vite "^4.4.11"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -3882,9 +3885,9 @@
     "@types/react" "^16"
 
 "@types/react@>=16":
-  version "18.2.33"
-  resolved "http://localhost:6001/@types/react/-/react-18.2.33.tgz#055356243dc4350a9ee6c6a2c07c5cae12e38877"
-  integrity sha512-v+I7S+hu3PIBoVkKGpSYYpiBT1ijqEzWpzQD62/jm4K74hPpSP7FF9BnKG6+fg2+62weJYkkBWDJlZt5JO/9hg==
+  version "18.2.34"
+  resolved "http://localhost:6001/@types/react/-/react-18.2.34.tgz#aed20f19473721ba328feb99d1ec3307ebc1a8dd"
+  integrity sha512-U6eW/alrRk37FU/MS2RYMjx0Va2JGIVXELTODaTIYgvWGCV4Y4TfTUzG8DdmpDNIT0Xpj/R7GfyHOJJrDttcvg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -6034,9 +6037,9 @@ ejs@^3.1.8:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.535:
-  version "1.4.572"
-  resolved "http://localhost:6001/electron-to-chromium/-/electron-to-chromium-1.4.572.tgz#ed9876658998138fe9e3aa47ecfa0bf914192a86"
-  integrity sha512-RlFobl4D3ieetbnR+2EpxdzFl9h0RAJkPK3pfiwMug2nhBin2ZCsGIAJWdpNniLz43sgXam/CgipOmvTA+rUiA==
+  version "1.4.574"
+  resolved "http://localhost:6001/electron-to-chromium/-/electron-to-chromium-1.4.574.tgz#6de04d7c6e244e5ffcae76d2e2a33b02cab66781"
+  integrity sha512-bg1m8L0n02xRzx4LsTTMbBPiUd9yIR+74iPtS/Ao65CuXvhVZHP0ym1kSdDG3yHFDXqHQQBKujlN1AQ8qZnyFg==
 
 elliptic@^6.5.3, elliptic@^6.5.4:
   version "6.5.4"
@@ -6114,9 +6117,9 @@ entities@^4.2.0:
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
 
 envinfo@^7.7.3:
-  version "7.10.0"
-  resolved "http://localhost:6001/envinfo/-/envinfo-7.10.0.tgz#55146e3909cc5fe63c22da63fb15b05aeac35b13"
-  integrity sha512-ZtUjZO6l5mwTHvc1L9+1q5p/R3wTopcfqMW8r5t8SJSKqeVI/LtajORwRFEKpEFuekjD0VBjwu1HMxL4UalIRw==
+  version "7.11.0"
+  resolved "http://localhost:6001/envinfo/-/envinfo-7.11.0.tgz#c3793f44284a55ff8c82faf1ffd91bc6478ea01f"
+  integrity sha512-G9/6xF1FPbIw0TtalAMaVPpiq2aDEuKLXM314jPVAO9r2fo2a4BLqMNkmRS7O/xPPZ+COAhGIz3ETvHEV3eUcg==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -6313,10 +6316,10 @@ escodegen@^2.1.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-qwik@^1.2.15:
-  version "1.2.15"
-  resolved "http://localhost:6001/eslint-plugin-qwik/-/eslint-plugin-qwik-1.2.15.tgz#4e1ca8f3771952d4c8fa6469ed25b6774d80a36c"
-  integrity sha512-1bmKSI51MnKAgHnXHepBqJt9OHJUGa3psrj9YhbnOnZ/eERWIZWewcomszleHwInAvDeRGdv5nHUpeWE2Rd5/w==
+eslint-plugin-qwik@^1.2.16:
+  version "1.2.16"
+  resolved "http://localhost:6001/eslint-plugin-qwik/-/eslint-plugin-qwik-1.2.16.tgz#c397e44f3a941de14d7899ad408aa7442bcd51fb"
+  integrity sha512-GrgRYjH/ozzrOuK/j10EfmgV6Hv552fHq/0+1ULyImU5DwoiN0jTDaWOKVIl2E8LEkSBsdg8AT+pPs8kOZy1TQ==
   dependencies:
     jsx-ast-utils "^3.3.5"
 
@@ -10318,9 +10321,9 @@ property-information@^5.0.0:
     xtend "^4.0.0"
 
 property-information@^6.0.0:
-  version "6.3.0"
-  resolved "http://localhost:6001/property-information/-/property-information-6.3.0.tgz#ba4a06ec6b4e1e90577df9931286953cdf4282c3"
-  integrity sha512-gVNZ74nqhRMiIUYWGQdosYetaKc83x8oT41a0LlV3AAFCAZwCpg4vmGkq8t34+cUhp3cnM4XDiU/7xlgK7HGrg==
+  version "6.4.0"
+  resolved "http://localhost:6001/property-information/-/property-information-6.4.0.tgz#6bc4c618b0c2d68b3bb8b552cbb97f8e300a0f82"
+  integrity sha512-9t5qARVofg2xQqKtytzt+lZ4d1Qvj8t5B8fEwXK6qOfgRLgH/b13QlgEyDh033NOS31nXeFbYv7CLUDG1CeifQ==
 
 proxy-addr@~2.0.7:
   version "2.0.7"
@@ -12020,9 +12023,9 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     safe-regex "^1.1.0"
 
 tocbot@^4.20.1:
-  version "4.21.3"
-  resolved "http://localhost:6001/tocbot/-/tocbot-4.21.3.tgz#8172136dd0fc5233a74d32811c2efb2133542e26"
-  integrity sha512-UKFkjz0nRB4s5WAeVnQJ3iIKmaKBbWDxzHYlRzJPZO7Doyp6v12nkJMN6T3HiMoQFHldvO1MZLAKRJqDMzkv2A==
+  version "4.21.6"
+  resolved "http://localhost:6001/tocbot/-/tocbot-4.21.6.tgz#64e3685a3cb41e23841a06eedba9ad807270190f"
+  integrity sha512-bAnyV6SU2n1AvuBvEgi8t7KiIn5rRiEmwFp4+elx/1ueuncAUyubITfXDMwOqStgUwh8pDzLdWgDKLicsJPikw==
 
 toidentifier@1.0.1:
   version "1.0.1"
@@ -12382,9 +12385,9 @@ unist-util-visit@^4.0.0:
     unist-util-visit-parents "^5.1.1"
 
 universalify@^2.0.0:
-  version "2.0.0"
-  resolved "http://localhost:6001/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
-  integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
+  version "2.0.1"
+  resolved "http://localhost:6001/universalify/-/universalify-2.0.1.tgz#168efc2180964e6386d061e094df61afe239b18d"
+  integrity sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
