@@ -6,7 +6,8 @@
 />
 
 <p>
-  The following repros have been generated with the `next` version of Storybook.
+  The following repros have been generated with the `next` version of Storybook.<br>
+  These serve as examples, like the <a href="https://github.com/storybookjs/storybook/tree/release-6-5/examples">examples in the storybook 6 monorepo</a> did.
 </p>
 
 <p>
