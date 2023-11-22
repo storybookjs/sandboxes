@@ -8,7 +8,11 @@ const config = {
   ],
   framework: {
     name: "@storybook/preact-webpack5",
-    options: {},
+    options: {
+      builder: {
+        useSWC: true,
+      },
+    },
   },
   docs: {
     autodocs: "tag",
