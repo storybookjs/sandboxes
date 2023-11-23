@@ -1,4 +1,4 @@
-import { within, userEvent } from '@storybook/test';
+import { within, userEvent } from '@storybook/testing-library';
 
 import { Page } from './Page';
 
