@@ -8,7 +8,7 @@ export default {
 
 export const LoggedIn = {
   args: {
-    // More on composing args: https://storybook.js.org/docs/web-components/writing-stories/args#args-composition
+    // More on composing args: https://storybook.js.org/docs/writing-stories/args#args-composition
     ...HeaderStories.LoggedIn.args,
   },
 };

@@ -323,18 +323,6 @@
   <summary><b>Internal</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/ssv6-vite/after-storybook?preset=node"
-      >
-        StoryStore v6 (react-vite/default-ts)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/ssv6-webpack/after-storybook?preset=node"
-      >
-        StoryStore v6 (cra/default-ts)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/swc-webpack/after-storybook?preset=node"
       >
         SWC (react-webpack/18-ts)

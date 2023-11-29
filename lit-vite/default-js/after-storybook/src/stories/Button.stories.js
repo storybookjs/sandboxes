@@ -1,6 +1,6 @@
 import { Button } from './Button';
 
-// More on how to set up stories at: https://storybook.js.org/docs/web-components/writing-stories/introduction
+// More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
   title: 'Example/Button',
   tags: ['autodocs'],
@@ -15,7 +15,7 @@ export default {
   },
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/web-components/writing-stories/args
+// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary = {
   args: {
     primary: true,
