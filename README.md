@@ -232,12 +232,6 @@
         SvelteKit Latest (Vite | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/prerelease-ts/after-storybook?preset=node"
-      >
-        SvelteKit Prerelease (Vite | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 
