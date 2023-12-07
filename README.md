@@ -134,18 +134,6 @@
 </details>
 
 <details>
-  <summary><b>Vue2-vite</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue2-vite/2.7-js/after-storybook?preset=node"
-      >
-        Vue v2 (Vite | JavaScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Html-webpack</b></summary>
   <ul>
     <li>
@@ -266,12 +254,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue-cli/default-js/after-storybook?preset=node"
       >
         Vue CLI v3 (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue-cli/vue2-default-js/after-storybook?preset=node"
-      >
-        Vue CLI v2 (Webpack | JavaScript)
       </a>
     </li>
   </ul>
