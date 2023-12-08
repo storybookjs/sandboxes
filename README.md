@@ -36,12 +36,6 @@
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/12-js/after-storybook?preset=node"
-      >
-        Next.js v12 (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/default-js/after-storybook?preset=node"
       >
         Next.js Latest (Webpack | JavaScript)
@@ -261,12 +255,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/vue-cli/default-js/after-storybook?preset=node"
       >
         Vue CLI v3 (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/vue-cli/vue2-default-js/after-storybook?preset=node"
-      >
-        Vue CLI v2 (Webpack | JavaScript)
       </a>
     </li>
   </ul>
