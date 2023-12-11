@@ -308,6 +308,24 @@
 </details>
 
 <details>
+  <summary><b>Ember</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/ember/3-js/after-storybook?preset=node"
+      >
+        Ember v3 (Webpack | JavaScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/ember/default-js/after-storybook?preset=node"
+      >
+        Ember v4 (Webpack | JavaScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Internal</b></summary>
   <ul>
     <li>
