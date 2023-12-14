@@ -260,24 +260,6 @@
 </details>
 
 <details>
-  <summary><b>Preact-webpack5</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-webpack5/default-js/after-storybook?preset=node"
-      >
-        Preact CLI Latest (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-webpack5/default-ts/after-storybook?preset=node"
-      >
-        Preact CLI Latest (Webpack | TypeScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Preact-vite</b></summary>
   <ul>
     <li>
