@@ -1,41 +1,24 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { moduleMetadata } from '@storybook/angular';
-import { CommonModule } from '@angular/common';
 import { within, userEvent, expect } from '@storybook/test';
 
-import Button from './button.component';
-import Header from './header.component';
-import Page from './page.component';
+import { PageComponent } from './page.component';
 
-const meta: Meta<Page> = {
+const meta: Meta<PageComponent> = {
   title: 'Example/Page',
-  component: Page,
+  component: PageComponent,
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
-  decorators: [
-    moduleMetadata({
-      declarations: [Button, Header],
-      imports: [CommonModule],
-    }),
-  ],
 };
 
 export default meta;
-type Story = StoryObj<Page>;
+type Story = StoryObj<PageComponent>;
 
-export const LoggedOut: Story = {
-  render: (args: Page) => ({
-    props: args,
-  }),
-};
+export const LoggedOut: Story = {};
 
 // More on interaction testing: https://storybook.js.org/docs/writing-tests/interaction-testing
 export const LoggedIn: Story = {
-  render: (args: Page) => ({
-    props: args,
-  }),
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const loginButton = canvas.getByRole('button', { name: /Log in/i });
