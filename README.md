@@ -317,6 +317,12 @@
       </a>
     </li>
     <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/react16-webpack/after-storybook?preset=node"
+      >
+        React 16 (Webpack | TypeScript)
+      </a>
+    </li>
+    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/server-webpack5/after-storybook?preset=node"
       >
         Server Webpack5
