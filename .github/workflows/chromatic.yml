@@ -12,7 +12,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          node-version: 21.x
 
       - name: Install dependencies
         run: npm ci
