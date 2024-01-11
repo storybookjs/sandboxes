@@ -5,16 +5,13 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
   ],
   framework: {
     name: "@storybook/react-webpack5",
-    options: {
-      builder: {
-        useSWC: true,
-      },
-    },
+    options: {},
   },
   docs: {
     autodocs: "tag",

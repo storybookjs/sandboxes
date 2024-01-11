@@ -311,9 +311,9 @@
   <summary><b>Internal</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/swc-webpack/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/react18-webpack-babel/after-storybook?preset=node"
       >
-        SWC (react-webpack/18-ts)
+        React with Babel Latest (Webpack | TypeScript)
       </a>
     </li>
     <li>

@@ -4,15 +4,12 @@ const config = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-interactions",
   ],
   framework: {
     name: "@storybook/vue3-webpack5",
-    options: {
-      builder: {
-        useSWC: true,
-      },
-    },
+    options: {},
   },
   docs: {
     autodocs: "tag",
