@@ -1139,28 +1139,28 @@
   resolved "http://localhost:6001/@base2/pretty-print-object/-/pretty-print-object-1.0.1.tgz#371ba8be66d556812dc7fb169ebc3c08378f69d4"
   integrity sha512-4iri8i1AqYHJE2DstZYkyEprg6Pq6sKx3xn5FpySk9sNhH7qN2LLlHJCfDTZRILNwQNPD7mATWM0TBui7uC1pA==
 
-"@builder.io/qwik-city@^1.3.0", "@builder.io/qwik-city@^1.3.3":
-  version "1.3.3"
-  resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.3.3.tgz#ac1284b3333a70308a550b63ca180e6c97c1f90c"
-  integrity sha512-AOTYNVPyCIXNW+Wm9LNDB6gVw+HuMubCJkF96VtcU2sXndO3KG6v/gYi2EjFcfcAYjUU1rOY8DvCsNjKQG1gZA==
+"@builder.io/qwik-city@^1.3.0", "@builder.io/qwik-city@^1.3.4":
+  version "1.3.4"
+  resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.3.4.tgz#d632e332132e9e7b467b277518a63e191e3b3c5c"
+  integrity sha512-xcc89MFVFCTEMDQqJXndaggzqfvqHKO+RK7wuruWhE5P7gFN0xLpZLLI4T49c63Q2qZKUkawoAJOYNOQCJBa4w==
   dependencies:
     "@mdx-js/mdx" "2.3.0"
     "@types/mdx" "^2.0.8"
     source-map "0.7.4"
-    svgo "^3.0.2"
-    undici "^5.26.0"
+    svgo "^3.2.0"
+    undici "^6.3.0"
     vfile "^6.0.1"
-    vite "^5.0.6"
-    vite-imagetools "^6.2.7"
+    vite "^5.0.11"
+    vite-imagetools "^6.2.9"
     zod "^3.22.4"
 
-"@builder.io/qwik@^1.3.3":
-  version "1.3.3"
-  resolved "http://localhost:6001/@builder.io/qwik/-/qwik-1.3.3.tgz#fa9f2a8233da4ff5a12ba0b02f747b7219e5aeaa"
-  integrity sha512-FMcdVOFy7orTTFX29ESGeX54BU77EA2uqO6BCG+U24NK2psElMFOFv3j/LNbHwjzqNJWpIOdW20pKPI99lfoyQ==
+"@builder.io/qwik@^1.3.4":
+  version "1.3.4"
+  resolved "http://localhost:6001/@builder.io/qwik/-/qwik-1.3.4.tgz#c8247106579ba0eb3aa135f410d059a3b28c7f8e"
+  integrity sha512-JXazkjG22wtkwom334S/FGN4EzKHzPZpBfIk//CMW+2NVipl06gT8f9G9RR2AP4jkCBeL0nVQR9nJ1iXbfEu8g==
   dependencies:
-    csstype "^3.1.2"
-    vite "^5.0.6"
+    csstype "^3.1.3"
+    vite "^5.0.11"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -3826,7 +3826,7 @@
     "@types/eslint" "*"
     "@types/estree" "*"
 
-"@types/eslint@*", "@types/eslint@^8.44.8":
+"@types/eslint@*", "@types/eslint@^8.56.1":
   version "8.56.2"
   resolved "http://localhost:6001/@types/eslint/-/eslint-8.56.2.tgz#1c72a9b794aa26a8b94ad26d5b9aa51c8a6384bb"
   integrity sha512-uQDwm1wFHmbBbCZCqAlq6Do9LYwByNZHWzXppSnay9SuwJ+VRbjkbLABer54kcPnMSlG6Fdiy2yaFXm/z9Z5gw==
@@ -4021,10 +4021,10 @@
     "@types/node" "*"
     form-data "^4.0.0"
 
-"@types/node@*", "@types/node@^20.10.3":
-  version "20.10.8"
-  resolved "http://localhost:6001/@types/node/-/node-20.10.8.tgz#f1e223cbde9e25696661d167a5b93a9b2a5d57c7"
-  integrity sha512-f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==
+"@types/node@*", "@types/node@^20.10.8":
+  version "20.11.0"
+  resolved "http://localhost:6001/@types/node/-/node-20.11.0.tgz#8e0b99e70c0c1ade1a86c4a282f7b7ef87c9552f"
+  integrity sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -4178,7 +4178,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^6.13.2":
+"@typescript-eslint/eslint-plugin@^6.18.1":
   version "6.18.1"
   resolved "http://localhost:6001/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.18.1.tgz#0df881a47da1c1a9774f39495f5f7052f86b72e0"
   integrity sha512-nISDRYnnIpk7VCFrGcu1rnZfM1Dh9LRHnfgdkjcbi/l7g16VYRri3TjXi9Ir4lOZSw5N/gnV/3H7jIPQ8Q4daA==
@@ -4195,7 +4195,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@^6.13.2":
+"@typescript-eslint/parser@^6.18.1":
   version "6.18.1"
   resolved "http://localhost:6001/@typescript-eslint/parser/-/parser-6.18.1.tgz#3c3987e186b38c77b30b6bfa5edf7c98ae2ec9d3"
   integrity sha512-zct/MdJnVaRRNy9e84XnVtRv9Vf91/qqe+hZJtKanjojud4wAVy/7lXxJmMyX6X6J+xc6c//YEWvpeif8cAhWA==
@@ -4294,52 +4294,52 @@
     loupe "^2.3.6"
     pretty-format "^29.5.0"
 
-"@vue/compiler-core@3.4.8", "@vue/compiler-core@^3.0.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-core/-/compiler-core-3.4.8.tgz#c6d96030692724f257751068e2997c9665244f0f"
-  integrity sha512-GjAwOydZV6UyVBi1lYW5v4jjfU6wOeyi3vBATKJOwV7muYF0/nZi4kfdJc0pwdT5lXwbbx57lyA2Y356rFpw1A==
+"@vue/compiler-core@3.4.10", "@vue/compiler-core@^3.0.0":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-core/-/compiler-core-3.4.10.tgz#1da03a0b8df05f2054add983f7ad9171e5fbb7aa"
+  integrity sha512-53vxh7K9qbx+JILnGEhrFRyr7H7e4NdT8RuTNU3m6HhJKFvcAqFTNXpYMHnyuAzzRGdsbsYHBgQC3H6xEXTG6w==
   dependencies:
     "@babel/parser" "^7.23.6"
-    "@vue/shared" "3.4.8"
+    "@vue/shared" "3.4.10"
     entities "^4.5.0"
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
-"@vue/compiler-dom@3.4.8", "@vue/compiler-dom@^3.2.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-dom/-/compiler-dom-3.4.8.tgz#5acd8de409d3f623c80e81fbf22f2ce53eee6562"
-  integrity sha512-GsPyji42zmkSJlaDFKXvwB97ukTlHzlFH/iVzPFYz/APnSzuhu/CMFQbsYmrtsnc2yscF39eC4rKzvKR27aBug==
+"@vue/compiler-dom@3.4.10", "@vue/compiler-dom@^3.2.0":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-dom/-/compiler-dom-3.4.10.tgz#aaed699125ea6da2daf540bf8f68ade08e95086b"
+  integrity sha512-QAALBJksIFpXGYuo74rtMgnwpVZDvd3kYbUa4gYX9s/5QiqEvZSgbKtOdUGydXcxKPt3ifC+0/bhPVHXN2694A==
   dependencies:
-    "@vue/compiler-core" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-core" "3.4.10"
+    "@vue/shared" "3.4.10"
 
 "@vue/compiler-sfc@^3.2.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-sfc/-/compiler-sfc-3.4.8.tgz#1e4b1d8786abcbb3da205e1c996b01f281a64d1b"
-  integrity sha512-3ZcurOa6bQdZ6VZLtMqYSUZqpsMqfX0MC3oCxQG0VIJFCqouZAgRYJN1c8QvGs7HW5wW8aXVvUOQU0ILVlYHKA==
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-sfc/-/compiler-sfc-3.4.10.tgz#3ff0abf204d7a24317ad2111e087b7b775970f6b"
+  integrity sha512-sTOssaQySgrMjrhZxmAqdp6n+E51VteIVIDaOR537H2P63DyzMmig21U0XXFxiXmMIfrK91lAInnc+bIAYemGw==
   dependencies:
     "@babel/parser" "^7.23.6"
-    "@vue/compiler-core" "3.4.8"
-    "@vue/compiler-dom" "3.4.8"
-    "@vue/compiler-ssr" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-core" "3.4.10"
+    "@vue/compiler-dom" "3.4.10"
+    "@vue/compiler-ssr" "3.4.10"
+    "@vue/shared" "3.4.10"
     estree-walker "^2.0.2"
     magic-string "^0.30.5"
     postcss "^8.4.32"
     source-map-js "^1.0.2"
 
-"@vue/compiler-ssr@3.4.8":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-ssr/-/compiler-ssr-3.4.8.tgz#36a5611883672d451d4f2050db7c26ed1bb36071"
-  integrity sha512-nxN79LHeAemhBpIa2PQ6rz57cW7W4C/XIJCOMSn2g49u6q2ekirmJI0osAOTErQPApOR0KwP2QyeTexX4zQCrw==
+"@vue/compiler-ssr@3.4.10":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-ssr/-/compiler-ssr-3.4.10.tgz#526a55c718249de43e13914b0df03ddadfcc3cb1"
+  integrity sha512-Y90TL1abretWbUiK5rv+9smS1thCHE5sSuhZgiLh6cxgZ2Pcy3BEvDd3reID0iwNcTdMbTeE6NI3Aq4Mux6hqQ==
   dependencies:
-    "@vue/compiler-dom" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-dom" "3.4.10"
+    "@vue/shared" "3.4.10"
 
-"@vue/shared@3.4.8":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/shared/-/shared-3.4.8.tgz#160687109233a1e4ad1b8fe1c4762f9019599fa8"
-  integrity sha512-ChLCWzXiJboQ009oVkemhEoUdrxHme7v3ip+Kh+/kDDeF1WtHWGt0knRLGm1Y4YqCRTSs9QxsZIY8paJj5Szrw==
+"@vue/shared@3.4.10":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/shared/-/shared-3.4.10.tgz#d2399901586bdb1bc727c8d61f0e543b25b2461c"
+  integrity sha512-C0mIVhwW1xQLMFyqMJxnhq6fWyE02lCgcE+TDdtGpg6B3H6kh/0YcqS54qYc76UJNlWegf3VgsLqgk6D9hBmzQ==
 
 "@webassemblyjs/ast@1.11.6", "@webassemblyjs/ast@^1.11.5":
   version "1.11.6"
@@ -5795,7 +5795,7 @@ csso@^5.0.5:
   dependencies:
     css-tree "~2.2.0"
 
-csstype@^3.0.2, csstype@^3.1.2:
+csstype@^3.0.2, csstype@^3.1.3:
   version "3.1.3"
   resolved "http://localhost:6001/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
@@ -6475,10 +6475,10 @@ escodegen@^2.1.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-qwik@^1.3.3:
-  version "1.3.3"
-  resolved "http://localhost:6001/eslint-plugin-qwik/-/eslint-plugin-qwik-1.3.3.tgz#1396e05d2c4436fde349dd574f2282bfc981bca4"
-  integrity sha512-NV5/iKuygEluc1UuIcMHiXxS1MZD9YP93bbfzZTiBSJvPsitI7M4SBzC8GkSdokGrGB7d2qW0G5sfoB7VO4+vw==
+eslint-plugin-qwik@^1.3.4:
+  version "1.3.4"
+  resolved "http://localhost:6001/eslint-plugin-qwik/-/eslint-plugin-qwik-1.3.4.tgz#4490d99fc72069f23b253af38994f71778c80080"
+  integrity sha512-K6/UfnX/k0Xq2i/FU4fFhwCb4NTIyokVRNzBRmlKI+YsiLao6tBL+Xelfs2+p/eStMOi8MpkzEekdpJGJDy6IQ==
   dependencies:
     jsx-ast-utils "^3.3.5"
 
@@ -6559,7 +6559,7 @@ eslint@8.4.1:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint@^8.55.0:
+eslint@^8.56.0:
   version "8.56.0"
   resolved "http://localhost:6001/eslint/-/eslint-8.56.0.tgz#4957ce8da409dc0809f99ab07a1b94832ab74b15"
   integrity sha512-Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ==
@@ -10347,7 +10347,7 @@ prettier@^2.8.0:
   resolved "http://localhost:6001/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-prettier@^3.1.0:
+prettier@^3.1.1:
   version "3.1.1"
   resolved "http://localhost:6001/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
   integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
@@ -10708,9 +10708,9 @@ react-docgen-typescript@^2.2.2:
   integrity sha512-tvg2ZtOpOi6QDwsb3GZhOjDkkX0h8Z2gipvTg6OVMUyoYoURhEiRNePT8NZItTVCDh39JJHnLdfCOkzoLbFnTg==
 
 react-docgen@^7.0.0:
-  version "7.0.2"
-  resolved "http://localhost:6001/react-docgen/-/react-docgen-7.0.2.tgz#312e0c2e54c85f903643f52f34a049e853857c39"
-  integrity sha512-Lco0KbqCYk+19oiyNALvhqUk+Q1Q0un68V3SYKPw4GQY6vB4E1ilwCjoxiZT8cKADPt7HYSy+bz01OiliECQJw==
+  version "7.0.3"
+  resolved "http://localhost:6001/react-docgen/-/react-docgen-7.0.3.tgz#f811b785f07b1f2023cb899b6bcf9d522b21b95d"
+  integrity sha512-i8aF1nyKInZnANZ4uZrH49qn1paRgBZ7wZiCNBMnenlPzEv0mRl+ShpTVEI6wZNl8sSc79xZkivtgLKQArcanQ==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/traverse" "^7.18.9"
@@ -11206,9 +11206,9 @@ safe-identifier@^0.4.1:
   integrity sha512-6pNbSMW6OhAi9j+N8V+U715yBQsaWJ7eyEUaOrawX+isg5ZxhUlV1NipNtgaKHmFGiABwt+ZF04Ii+3Xjkg+8w==
 
 safe-regex-test@^1.0.0:
-  version "1.0.1"
-  resolved "http://localhost:6001/safe-regex-test/-/safe-regex-test-1.0.1.tgz#207369b445fd007e534864635b28b2ae7b105783"
-  integrity sha512-Y5NejJTTliTyY4H7sipGqY+RX5P87i3F7c4Rcepy72nq+mNLhIsD0W4c7kEmduMDQCSqtPsXPlSTsFhh2LQv+g==
+  version "1.0.2"
+  resolved "http://localhost:6001/safe-regex-test/-/safe-regex-test-1.0.2.tgz#3ba32bdb3ea35f940ee87e5087c60ee786c3f6c5"
+  integrity sha512-83S9w6eFq12BBIJYvjMux6/dkirb8+4zJRA9cxNBVb7Wq5fJBW+Xze48WqR8pxua7bDuAaaAxtVVd4Idjp1dBQ==
   dependencies:
     call-bind "^1.0.5"
     get-intrinsic "^1.2.2"
@@ -11894,7 +11894,7 @@ sveltedoc-parser@^4.2.1:
     espree "9.2.0"
     htmlparser2-svelte "4.1.0"
 
-svgo@^3.0.2:
+svgo@^3.2.0:
   version "3.2.0"
   resolved "http://localhost:6001/svgo/-/svgo-3.2.0.tgz#7a5dff2938d8c6096e00295c2390e8e652fa805d"
   integrity sha512-4PP6CMW/V7l/GmKRKzsLR8xxjdHTV4IMvhTnpuHwwBazSIlw5W/5SmPjN8Dwyt7lKbSJrRDgp4t9ph0HgChFBQ==
@@ -12320,10 +12320,10 @@ undici-types@~5.26.4:
   resolved "http://localhost:6001/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
-undici@^5.26.0:
-  version "5.28.2"
-  resolved "http://localhost:6001/undici/-/undici-5.28.2.tgz#fea200eac65fc7ecaff80a023d1a0543423b4c91"
-  integrity sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==
+undici@^6.3.0:
+  version "6.3.0"
+  resolved "http://localhost:6001/undici/-/undici-6.3.0.tgz#ad105a56ec80fb74ecb3252e6dc27947bf69d275"
+  integrity sha512-zkSMOXs2topAR1LF0PxAaNNvhdX4LYEcmRMJLMh3mjgfZpBtc/souXOp4aYiR5Q46HrBPA2/8DkEZhD3eNFE1Q==
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
@@ -12654,7 +12654,7 @@ vfile@^6.0.1:
     unist-util-stringify-position "^4.0.0"
     vfile-message "^4.0.0"
 
-vite-imagetools@^6.2.7:
+vite-imagetools@^6.2.9:
   version "6.2.9"
   resolved "http://localhost:6001/vite-imagetools/-/vite-imagetools-6.2.9.tgz#dbeb80d54220ab700aa7ab2d24153e4e7b333ef3"
   integrity sha512-C4ZYhgj2vAj43/TpZ06XlDNP0p/7LIeYbgUYr+xG44nM++4HGX6YZBKAYpiBNgiCFUTJ6eXkRppWBrfPMevgmg==
@@ -12671,7 +12671,7 @@ vite-tsconfig-paths@^4.2.1:
     globrex "^0.1.2"
     tsconfck "^2.1.0"
 
-vite@^5.0.6:
+vite@^5.0.11:
   version "5.0.11"
   resolved "http://localhost:6001/vite/-/vite-5.0.11.tgz#31562e41e004cb68e1d51f5d2c641ab313b289e4"
   integrity sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==

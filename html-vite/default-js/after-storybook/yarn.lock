@@ -3807,9 +3807,9 @@
     form-data "^4.0.0"
 
 "@types/node@*":
-  version "20.10.8"
-  resolved "http://localhost:6001/@types/node/-/node-20.10.8.tgz#f1e223cbde9e25696661d167a5b93a9b2a5d57c7"
-  integrity sha512-f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==
+  version "20.11.0"
+  resolved "http://localhost:6001/@types/node/-/node-20.11.0.tgz#8e0b99e70c0c1ade1a86c4a282f7b7ef87c9552f"
+  integrity sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -3999,52 +3999,52 @@
     loupe "^2.3.6"
     pretty-format "^29.5.0"
 
-"@vue/compiler-core@3.4.8", "@vue/compiler-core@^3.0.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-core/-/compiler-core-3.4.8.tgz#c6d96030692724f257751068e2997c9665244f0f"
-  integrity sha512-GjAwOydZV6UyVBi1lYW5v4jjfU6wOeyi3vBATKJOwV7muYF0/nZi4kfdJc0pwdT5lXwbbx57lyA2Y356rFpw1A==
+"@vue/compiler-core@3.4.10", "@vue/compiler-core@^3.0.0":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-core/-/compiler-core-3.4.10.tgz#1da03a0b8df05f2054add983f7ad9171e5fbb7aa"
+  integrity sha512-53vxh7K9qbx+JILnGEhrFRyr7H7e4NdT8RuTNU3m6HhJKFvcAqFTNXpYMHnyuAzzRGdsbsYHBgQC3H6xEXTG6w==
   dependencies:
     "@babel/parser" "^7.23.6"
-    "@vue/shared" "3.4.8"
+    "@vue/shared" "3.4.10"
     entities "^4.5.0"
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
-"@vue/compiler-dom@3.4.8", "@vue/compiler-dom@^3.2.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-dom/-/compiler-dom-3.4.8.tgz#5acd8de409d3f623c80e81fbf22f2ce53eee6562"
-  integrity sha512-GsPyji42zmkSJlaDFKXvwB97ukTlHzlFH/iVzPFYz/APnSzuhu/CMFQbsYmrtsnc2yscF39eC4rKzvKR27aBug==
+"@vue/compiler-dom@3.4.10", "@vue/compiler-dom@^3.2.0":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-dom/-/compiler-dom-3.4.10.tgz#aaed699125ea6da2daf540bf8f68ade08e95086b"
+  integrity sha512-QAALBJksIFpXGYuo74rtMgnwpVZDvd3kYbUa4gYX9s/5QiqEvZSgbKtOdUGydXcxKPt3ifC+0/bhPVHXN2694A==
   dependencies:
-    "@vue/compiler-core" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-core" "3.4.10"
+    "@vue/shared" "3.4.10"
 
 "@vue/compiler-sfc@^3.2.0":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-sfc/-/compiler-sfc-3.4.8.tgz#1e4b1d8786abcbb3da205e1c996b01f281a64d1b"
-  integrity sha512-3ZcurOa6bQdZ6VZLtMqYSUZqpsMqfX0MC3oCxQG0VIJFCqouZAgRYJN1c8QvGs7HW5wW8aXVvUOQU0ILVlYHKA==
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-sfc/-/compiler-sfc-3.4.10.tgz#3ff0abf204d7a24317ad2111e087b7b775970f6b"
+  integrity sha512-sTOssaQySgrMjrhZxmAqdp6n+E51VteIVIDaOR537H2P63DyzMmig21U0XXFxiXmMIfrK91lAInnc+bIAYemGw==
   dependencies:
     "@babel/parser" "^7.23.6"
-    "@vue/compiler-core" "3.4.8"
-    "@vue/compiler-dom" "3.4.8"
-    "@vue/compiler-ssr" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-core" "3.4.10"
+    "@vue/compiler-dom" "3.4.10"
+    "@vue/compiler-ssr" "3.4.10"
+    "@vue/shared" "3.4.10"
     estree-walker "^2.0.2"
     magic-string "^0.30.5"
     postcss "^8.4.32"
     source-map-js "^1.0.2"
 
-"@vue/compiler-ssr@3.4.8":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/compiler-ssr/-/compiler-ssr-3.4.8.tgz#36a5611883672d451d4f2050db7c26ed1bb36071"
-  integrity sha512-nxN79LHeAemhBpIa2PQ6rz57cW7W4C/XIJCOMSn2g49u6q2ekirmJI0osAOTErQPApOR0KwP2QyeTexX4zQCrw==
+"@vue/compiler-ssr@3.4.10":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/compiler-ssr/-/compiler-ssr-3.4.10.tgz#526a55c718249de43e13914b0df03ddadfcc3cb1"
+  integrity sha512-Y90TL1abretWbUiK5rv+9smS1thCHE5sSuhZgiLh6cxgZ2Pcy3BEvDd3reID0iwNcTdMbTeE6NI3Aq4Mux6hqQ==
   dependencies:
-    "@vue/compiler-dom" "3.4.8"
-    "@vue/shared" "3.4.8"
+    "@vue/compiler-dom" "3.4.10"
+    "@vue/shared" "3.4.10"
 
-"@vue/shared@3.4.8":
-  version "3.4.8"
-  resolved "http://localhost:6001/@vue/shared/-/shared-3.4.8.tgz#160687109233a1e4ad1b8fe1c4762f9019599fa8"
-  integrity sha512-ChLCWzXiJboQ009oVkemhEoUdrxHme7v3ip+Kh+/kDDeF1WtHWGt0knRLGm1Y4YqCRTSs9QxsZIY8paJj5Szrw==
+"@vue/shared@3.4.10":
+  version "3.4.10"
+  resolved "http://localhost:6001/@vue/shared/-/shared-3.4.10.tgz#d2399901586bdb1bc727c8d61f0e543b25b2461c"
+  integrity sha512-C0mIVhwW1xQLMFyqMJxnhq6fWyE02lCgcE+TDdtGpg6B3H6kh/0YcqS54qYc76UJNlWegf3VgsLqgk6D9hBmzQ==
 
 "@webassemblyjs/ast@1.11.6", "@webassemblyjs/ast@^1.11.5":
   version "1.11.6"
@@ -9872,9 +9872,9 @@ react-docgen-typescript@^2.2.2:
   integrity sha512-tvg2ZtOpOi6QDwsb3GZhOjDkkX0h8Z2gipvTg6OVMUyoYoURhEiRNePT8NZItTVCDh39JJHnLdfCOkzoLbFnTg==
 
 react-docgen@^7.0.0:
-  version "7.0.2"
-  resolved "http://localhost:6001/react-docgen/-/react-docgen-7.0.2.tgz#312e0c2e54c85f903643f52f34a049e853857c39"
-  integrity sha512-Lco0KbqCYk+19oiyNALvhqUk+Q1Q0un68V3SYKPw4GQY6vB4E1ilwCjoxiZT8cKADPt7HYSy+bz01OiliECQJw==
+  version "7.0.3"
+  resolved "http://localhost:6001/react-docgen/-/react-docgen-7.0.3.tgz#f811b785f07b1f2023cb899b6bcf9d522b21b95d"
+  integrity sha512-i8aF1nyKInZnANZ4uZrH49qn1paRgBZ7wZiCNBMnenlPzEv0mRl+ShpTVEI6wZNl8sSc79xZkivtgLKQArcanQ==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/traverse" "^7.18.9"
