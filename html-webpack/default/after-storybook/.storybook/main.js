@@ -2,9 +2,10 @@
 const config = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
+    "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-webpack5-compiler-swc",
+    "@chromatic-com/storybook",
     "@storybook/addon-interactions",
   ],
   framework: {
