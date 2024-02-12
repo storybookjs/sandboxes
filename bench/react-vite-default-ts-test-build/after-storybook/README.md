@@ -1,21 +1,30 @@
-<h1>Bench (react-vite/default-ts, test-build)</h1>
+# React + TypeScript + Vite
 
-<p>
-  This is project generated to serve as a reproduction starter for Storybook.
-</p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-vite-default-ts-test-build/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
+Currently, two official plugins are available:
 
-<h3>Testing instructions</h3>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
+## Expanding the ESLint configuration
 
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

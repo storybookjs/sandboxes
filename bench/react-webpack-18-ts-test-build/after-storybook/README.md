@@ -1,21 +1,10 @@
-<h1>Bench (react-webpack/18-ts, test-build)</h1>
+# before-storybook
 
-<p>
-  This is project generated to serve as a reproduction starter for Storybook.
-</p>
+Please do not use this for actual projects.
+We wrote this to test storybook with.
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/bench/react-webpack-18-ts-test-build/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
+Storybook is a OSS tool that bootstraps on top of existing projects, like CRA, NextJS etc.
+But it also can be initialized on top of custom projects.
+That is what this is to simulate.
 
-<h3>Testing instructions</h3>
-
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
-
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+If you have any questions, please reach out to us on Discord.
