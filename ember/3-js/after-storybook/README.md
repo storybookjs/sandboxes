@@ -1,56 +1,21 @@
-# before-storybook
+<h1>Ember v3 (Webpack | JavaScript)</h1>
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+<p>
+  This is project generated to serve as a reproduction starter for Storybook.
+</p>
 
-## Prerequisites
+<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/ember/3-js/after-storybook?preset=node=">
+  View it in Stackblitz
+</a>
 
-You will need the following things properly installed on your computer.
+<h3>Testing instructions</h3>
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+<p>Install dependencies:</p>
+<pre>
+  yarn
+</pre>
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd before-storybook`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+<p>Run Storybook:</p>
+<pre>
+  yarn storybook
+</pre>
