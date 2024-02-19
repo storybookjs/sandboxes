@@ -1144,7 +1144,22 @@
   resolved "http://localhost:6001/@base2/pretty-print-object/-/pretty-print-object-1.0.1.tgz#371ba8be66d556812dc7fb169ebc3c08378f69d4"
   integrity sha512-4iri8i1AqYHJE2DstZYkyEprg6Pq6sKx3xn5FpySk9sNhH7qN2LLlHJCfDTZRILNwQNPD7mATWM0TBui7uC1pA==
 
-"@builder.io/qwik-city@^1.3.0", "@builder.io/qwik-city@^1.4.5":
+"@builder.io/qwik-city@1.4.1":
+  version "1.4.1"
+  resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.4.1.tgz#5c4511aeb29d6dd414dc8cc00f0101091cc3d190"
+  integrity sha512-SUNxptxOkJJEZN0X1o0SkR2f+8NqAONXKMSAhM6iOfzhJd9ceFpEoz2Jl1oalrZrWnPWVu386EB9f5899fhWAg==
+  dependencies:
+    "@mdx-js/mdx" "2.3.0"
+    "@types/mdx" "^2.0.8"
+    source-map "0.7.4"
+    svgo "^3.2.0"
+    undici "*"
+    vfile "^6.0.1"
+    vite "^5.0.12"
+    vite-imagetools "^6.2.9"
+    zod "^3.22.4"
+
+"@builder.io/qwik-city@^1.4.5":
   version "1.4.5"
   resolved "http://localhost:6001/@builder.io/qwik-city/-/qwik-city-1.4.5.tgz#d9aeecec17f990fc8ea086a8eb670c050fb96a1d"
   integrity sha512-M9hr82u49Um8VdRDZGva66VB3E5yhXj5Q9cCe2URj/wDgLdKSbsGYER20ivp6GvkVwPy6MSr8krgzqolUUGB0Q==
@@ -2585,7 +2600,7 @@
     process "^0.11.10"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.6.16", "@storybook/builder-vite@>=7.0.0":
+"@storybook/builder-vite@7.6.16", "@storybook/builder-vite@^7.6.16":
   version "7.6.16"
   resolved "http://localhost:6001/@storybook/builder-vite/-/builder-vite-7.6.16.tgz#2581ca3b1f964cd3d46a05844a7c1a3c0b446677"
   integrity sha512-i0nL6ajWpcThnTP4ndUXdIKdOatYC6vWE4HxMjuRjfEgKBXn4pJbDBbQZ+L5jFau7aLGOTXiSQ69ONEhSjhllg==
@@ -2913,7 +2928,7 @@
   resolved "http://localhost:6001/@storybook/docs-mdx/-/docs-mdx-0.1.0.tgz#33ba0e39d1461caf048b57db354b2cc410705316"
   integrity sha512-JDaBR9lwVY4eSH5W8EGHrhODjygPd6QImRbwjAuJNEnY0Vw4ie3bPkeGfnacB3OBW6u/agqPv2aRlR46JcAQLg==
 
-"@storybook/docs-tools@7.6.16", "@storybook/docs-tools@>=7.0.0":
+"@storybook/docs-tools@7.6.16", "@storybook/docs-tools@^7.6.16":
   version "7.6.16"
   resolved "http://localhost:6001/@storybook/docs-tools/-/docs-tools-7.6.16.tgz#61a2c3178ca6a0537855f0aa7a562b46276fe337"
   integrity sha512-meuq5uLGBLOSJXKeCt9iEH0uVKgGqwfEBi2T4E2w3BcubC/6oQ3VeZl25/KO+l1XcLmOg9LkN2ZOtLV9TEiVLQ==
@@ -8905,7 +8920,7 @@ magic-string@^0.27.0:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
-magic-string@^0.30.0, magic-string@^0.30.3, magic-string@^0.30.5, magic-string@^0.30.6:
+magic-string@^0.30.0, magic-string@^0.30.3, magic-string@^0.30.5, magic-string@^0.30.6, magic-string@^0.30.7:
   version "0.30.7"
   resolved "http://localhost:6001/magic-string/-/magic-string-0.30.7.tgz#0cecd0527d473298679da95a2d7aeb8c64048505"
   integrity sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==
@@ -11857,17 +11872,17 @@ store2@^2.14.2:
   resolved "http://localhost:6001/store2/-/store2-2.14.3.tgz#24077d7ba110711864e4f691d2af941ec533deb5"
   integrity sha512-4QcZ+yx7nzEFiV4BMLnr/pRa5HYzNITX2ri0Zh6sT9EyQHbBHacC6YigllUPU9X3D0f/22QCgfokpKs52YRrUg==
 
-storybook-framework-qwik@^0.2.5:
-  version "0.2.5"
-  resolved "http://localhost:6001/storybook-framework-qwik/-/storybook-framework-qwik-0.2.5.tgz#316ca30d035165402959d00096e45ee2fdae6660"
-  integrity sha512-wnJJwgV2zWK1+AfoEj5x1sSfpkac9p1SWX/Z+FHD0q78j4MbWRMcMIHvwIu777mBNDG3ixZRg3sY7dRW7C010g==
+storybook-framework-qwik@^0.3.0:
+  version "0.3.0"
+  resolved "http://localhost:6001/storybook-framework-qwik/-/storybook-framework-qwik-0.3.0.tgz#9ffbc2556f2889fff4af2ed83922176bcae0062a"
+  integrity sha512-rpHfE0kGTgeD+DIwZ0rLdpImUrjnTiLCEbym7Y/hiLZkhgWfVXHaJs+LSQGv8+j8uWauz+Sy6lxpul5HkqyZAw==
   dependencies:
-    "@storybook/builder-vite" ">=7.0.0"
-    "@storybook/docs-tools" ">=7.0.0"
-    magic-string "^0.30.5"
+    "@storybook/builder-vite" "^7.6.16"
+    "@storybook/docs-tools" "^7.6.16"
+    magic-string "^0.30.7"
     react-docgen-typescript "^2.2.2"
   optionalDependencies:
-    "@builder.io/qwik-city" "^1.3.0"
+    "@builder.io/qwik-city" "1.4.1"
 
 storybook@7.6.16, storybook@^7.6.16:
   version "7.6.16"
