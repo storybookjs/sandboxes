@@ -1,4 +1,4 @@
-import type { PropFunction, QwikMouseEvent } from "@builder.io/qwik";
+import type { PropFunction } from "@builder.io/qwik";
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import buttonStyles from "./button.css?inline";
 
@@ -37,7 +37,7 @@ export const getClassForSize = (size: "small" | "medium" | "large") => {
 };
 
 export type onClickEvent = (
-  event: QwikMouseEvent<HTMLButtonElement, MouseEvent>,
+  event: MouseEvent,
   element: Element
 ) => void;
 

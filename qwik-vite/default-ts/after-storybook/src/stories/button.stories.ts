@@ -1,20 +1,12 @@
-import { action } from "@storybook/addon-actions";
-import { $ } from "@builder.io/qwik";
 import type { Meta, StoryObj } from "storybook-framework-qwik";
-import type { ButtonProps, onClickEvent } from "./button";
+import type { ButtonProps } from "./button";
 import { Button } from "./button";
 
 const meta = {
   title: "Button",
-  args: {
-    // automatic actions are not yet supported.
-    // See https://github.com/literalpie/storybook-framework-qwik/issues/16
-    // For now, use the legacy addon-actions API wrapped in a $ to make your own QRL action.
-    onClick$: $<onClickEvent>((event, element) => {
-      action("click action")({ event, element });
-    }),
-  },
+  args: { },
   argTypes: {
+    onClick$: { action: 'onClick'},
     backgroundColor: { control: "color" },
   },
   component: Button,
