@@ -36,6 +36,12 @@
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/13-ts/after-storybook?preset=node"
+      >
+        Next.js v13.5 (Webpack | TypeScript)
+      </a>
+    </li>
+    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/default-js/after-storybook?preset=node"
       >
         Next.js Latest (Webpack | JavaScript)
@@ -129,18 +135,6 @@
 </details>
 
 <details>
-  <summary><b>Vue2-vite</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/vue2-vite/2.7-js/after-storybook?preset=node"
-      >
-        Vue v2 (Vite | JavaScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Html-webpack</b></summary>
   <ul>
     <li>
@@ -227,6 +221,12 @@
         SvelteKit Latest (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/svelte-kit/prerelease-ts/after-storybook?preset=node"
+      >
+        SvelteKit Prerelease (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -255,24 +255,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/vue-cli/default-js/after-storybook?preset=node"
       >
         Vue CLI v3 (Webpack | JavaScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>Preact-webpack5</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/preact-webpack5/default-js/after-storybook?preset=node"
-      >
-        Preact CLI Latest (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/preact-webpack5/default-ts/after-storybook?preset=node"
-      >
-        Preact CLI Latest (Webpack | TypeScript)
       </a>
     </li>
   </ul>
@@ -309,12 +291,36 @@
 </details>
 
 <details>
+  <summary><b>Ember</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/ember/3-js/after-storybook?preset=node"
+      >
+        Ember v3 (Webpack | JavaScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/ember/default-js/after-storybook?preset=node"
+      >
+        Ember v4 (Webpack | JavaScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Internal</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/internal/swc-webpack/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/internal/react18-webpack-babel/after-storybook?preset=node"
       >
-        SWC (react-webpack/18-ts)
+        React with Babel Latest (Webpack | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/internal/react16-webpack/after-storybook?preset=node"
+      >
+        React 16 (Webpack | TypeScript)
       </a>
     </li>
     <li>

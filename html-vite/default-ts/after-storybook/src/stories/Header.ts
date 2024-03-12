@@ -3,9 +3,9 @@ import { createButton } from './Button';
 
 export interface HeaderProps {
   user?: { name: string };
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
+  onLogin?: () => void;
+  onLogout?: () => void;
+  onCreateAccount?: () => void;
 }
 
 export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }: HeaderProps) => {

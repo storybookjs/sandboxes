@@ -1,4 +1,5 @@
 import { Header } from './Header';
+import { fn } from '@storybook/test';
 
 export default {
   title: 'Example/Header',
@@ -8,6 +9,11 @@ export default {
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
+  },
+  args: {
+    onLogin: fn(),
+    onLogout: fn(),
+    onCreateAccount: fn(),
   },
 };
 

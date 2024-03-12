@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
 import { HeaderComponent } from './header.component';
+import { fn } from '@storybook/test';
 
 const meta: Meta<HeaderComponent> = {
   title: 'Example/Header',
@@ -10,6 +11,11 @@ const meta: Meta<HeaderComponent> = {
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
+  },
+  args: {
+    onLogin: fn(),
+    onLogout: fn(),
+    onCreateAccount: fn(),
   },
 };
 
