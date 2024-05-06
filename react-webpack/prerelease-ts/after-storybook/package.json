@@ -15,8 +15,8 @@
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "@babel/preset-typescript": "latest",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
     "babel-loader": "latest",
     "babel-preset-react-app": "latest",
     "html-webpack-plugin": "latest",
@@ -28,6 +28,8 @@
     "webpack-dev-server": "latest"
   },
   "resolutions": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
     "@storybook/addon-a11y": "8.1.0-alpha.7",
     "@storybook/addon-actions": "8.1.0-alpha.7",
     "@storybook/addon-backgrounds": "8.1.0-alpha.7",

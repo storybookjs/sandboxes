@@ -9,20 +9,24 @@
     "build": "webpack build"
   },
   "dependencies": {
-    "react": "beta",
-    "@types/react": "^18",
-    "react-dom": "beta",
-    "@types/react-dom": "^18",
-    "html-webpack-plugin": "latest",
-    "webpack-cli": "latest",
-    "webpack-dev-server": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
     "babel-loader": "latest",
     "babel-preset-react-app": "latest",
-    "@babel/core": "latest",
-    "@babel/preset-typescript": "latest",
-    "@babel/preset-react": "latest",
-    "@babel/preset-env": "latest",
+    "html-webpack-plugin": "latest",
+    "react": "beta",
+    "react-dom": "beta",
+    "typescript": "^4.8",
     "webpack": "^5",
-    "typescript": "^4.8"
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "resolutions": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
   }
 }

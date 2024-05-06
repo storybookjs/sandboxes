@@ -76,6 +76,12 @@
         React Latest (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/prerelease-ts/after-storybook?preset=node"
+      >
+        React Prerelease (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -92,6 +98,12 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/17-ts/after-storybook?preset=node"
       >
         React v17 (Webpack | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-webpack/prerelease-ts/after-storybook?preset=node"
+      >
+        React Prerelease (Webpack | TypeScript)
       </a>
     </li>
   </ul>
