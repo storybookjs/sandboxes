@@ -12,8 +12,5 @@ const config = {
     name: "@storybook/vue3-webpack5",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
 };
 export default config;

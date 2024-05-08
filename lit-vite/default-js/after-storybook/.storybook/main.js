@@ -10,8 +10,5 @@ const config = {
     name: "@storybook/web-components-vite",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
 };
 export default config;

@@ -13,9 +13,6 @@ const config = {
     name: '@storybook/ember',
     options: {},
   },
-  docs: {
-    autodocs: 'tag',
-  },
   staticDirs: ['../dist'],
 };
 export default config;
