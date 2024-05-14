@@ -12,8 +12,5 @@ const config: StorybookConfig = {
     name: "storybook-framework-qwik",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
 };
 export default config;

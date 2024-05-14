@@ -1,0 +1,32 @@
+{
+  "name": "before-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "dev": "webpack serve --open",
+    "build": "webpack build"
+  },
+  "dependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "babel-loader": "latest",
+    "babel-preset-react-app": "latest",
+    "html-webpack-plugin": "latest",
+    "react": "beta",
+    "react-dom": "beta",
+    "typescript": "^4.8",
+    "webpack": "^5",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "resolutions": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
+  }
+}
