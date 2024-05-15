@@ -3072,7 +3072,7 @@
 
 "@types/babel__traverse@*", "@types/babel__traverse@^7.18.0":
   version "7.20.5"
-  resolved "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.20.5.tgz#7b7502be0aa80cc4ef22978846b983edaafcd4dd"
+  resolved "http://localhost:6001/@types/babel__traverse/-/babel__traverse-7.20.5.tgz#7b7502be0aa80cc4ef22978846b983edaafcd4dd"
   integrity sha512-WXCyOcRtH37HAUkpXhUduaxdm82b4GSlyTqajXviN4EfiuPgNYR109xMCKvpl6zPIpua0DGlMEDCq+g8EdoheQ==
   dependencies:
     "@babel/types" "^7.20.7"
@@ -3767,7 +3767,7 @@ acorn-import-assertions@^1.9.0:
 
 acorn-jsx@^5.3.1, acorn-jsx@^5.3.2:
   version "5.3.2"
-  resolved "http://localhost:6001/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
+  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
 
 acorn-walk@^7.2.0:
@@ -5267,9 +5267,9 @@ ejs@^3.1.10:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.668:
-  version "1.4.767"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.767.tgz#b885cfefda5a2e7a7ee356c567602012294ed260"
-  integrity sha512-nzzHfmQqBss7CE3apQHkHjXW77+8w3ubGCIoEijKCJebPufREaFETgGXWTkh32t259F3Kcq+R8MZdFdOJROgYw==
+  version "1.4.768"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.768.tgz#3795bd000ccb8978be1af2d06320b2dac810a372"
+  integrity sha512-z2U3QcvNuxdkk33YV7R1bVMNq7fL23vq3WfO5BHcqrm4TnDGReouBfYKLEFh5umoK1XACjEwp8mmnhXk2EJigw==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.5.5"
@@ -5519,7 +5519,7 @@ eslint-visitor-keys@^2.0.0:
 
 eslint-visitor-keys@^3.1.0, eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4.3:
   version "3.4.3"
-  resolved "http://localhost:6001/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz#0cd72fe8550e3c2eae156a96a4dddcd1c8ac5800"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz#0cd72fe8550e3c2eae156a96a4dddcd1c8ac5800"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
 eslint@8.4.1:
@@ -9016,12 +9016,12 @@ react-docgen@^7.0.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
-react-dom@^19.0.0-beta-9d76c954cf-20240510:
-  version "19.0.0-beta-9d76c954cf-20240510"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0-beta-9d76c954cf-20240510.tgz#83293b1e42fee72893b981ee9b53f7403854d900"
-  integrity sha512-/Yh2B8Av7VBqRTRow4Scxrh5RO0z3vgANrO1UhomeQjq/Nz0oy6YtTNz3GXDlCAMqRuDVCBi4xCRO/KAjtsz1g==
+react-dom@^19.0.0-beta-26f2496093-20240514:
+  version "19.0.0-beta-26f2496093-20240514"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0-beta-26f2496093-20240514.tgz#5fe4e829db8d379303057f539900a61ed6ca2615"
+  integrity sha512-UvQ+K1l3DFQ34LDgfFSNuUGi9EC+yfE9tS6MdpNTd5fx7qC7KLfepfC/KpxWMQZ7JfE3axD4ZO6H4cBSpAZpqw==
   dependencies:
-    scheduler "0.25.0-beta-9d76c954cf-20240510"
+    scheduler "0.25.0-beta-26f2496093-20240514"
 
 react-element-to-jsx-string@^15.0.0:
   version "15.0.0"
@@ -9092,10 +9092,10 @@ react-style-singleton@^2.2.1:
   dependencies:
     loose-envify "^1.1.0"
 
-react@^19.0.0-beta-9d76c954cf-20240510:
-  version "19.0.0-beta-9d76c954cf-20240510"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.0.0-beta-9d76c954cf-20240510.tgz#1f54f4ec2f2764efdca97011de1c7a0027235b64"
-  integrity sha512-LNCQIqNkPCMz6/WstO1joeHev+jB36dG5+HD1iUxy3sL6RRhOQL8KNV7mra6P6Z92iAW1zCgM0jeFFi6+22Qyw==
+react@^19.0.0-beta-26f2496093-20240514:
+  version "19.0.0-beta-26f2496093-20240514"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.0.0-beta-26f2496093-20240514.tgz#3a0d63746b3f9ebd461a0731191bd08047fb1dbb"
+  integrity sha512-ZsU/WjNZ6GfzMWsq2DcGjElpV9it8JmETHm9mAJuOJNhuJcWJxt8ltCJabONFRpDFq1A/DP0d0KFj9CTJVM4VA==
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -9507,10 +9507,10 @@ sb@8.1.0:
   dependencies:
     "@storybook/cli" "8.1.0"
 
-scheduler@0.25.0-beta-9d76c954cf-20240510:
-  version "0.25.0-beta-9d76c954cf-20240510"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0-beta-9d76c954cf-20240510.tgz#f07931134ef8cf5d46f53fef955d847fa5765fb0"
-  integrity sha512-PK8FvV7a0BZeqGuN1L+pQvvG8Kqkd3nzGjdlKamDlF8A2kFHOnM3XRw0d9birdksqdraYONBxgJfQgkckBJgqw==
+scheduler@0.25.0-beta-26f2496093-20240514:
+  version "0.25.0-beta-26f2496093-20240514"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0-beta-26f2496093-20240514.tgz#a3bc0ff694ec6de7a78c1e48e1f8f4a8555bd77d"
+  integrity sha512-vDwOytLHFnA3SW2B1lNcbO+/qKVyLCX+KLpm+tRGNDsXpyxzRgkIaYGWmX+S70AJGchUHCtuqQ50GFeFgDbXUw==
 
 scheduler@^0.23.2:
   version "0.23.2"
