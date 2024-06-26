@@ -1,6 +1,6 @@
 /** @type { import('@storybook/preact-vite').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs)"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
