@@ -1946,15 +1946,15 @@
   integrity sha512-3QLocdTRVIrFNye5YocZl+KKpYKP+fksi1QhmOArgx7GyhIbQp/WrJRu176jm8IxromS7RIkzMiMINVdBtC8Aw==
 
 "@inquirer/checkbox@^2.3.6":
-  version "2.3.7"
-  resolved "http://localhost:6001/@inquirer/checkbox/-/checkbox-2.3.7.tgz#17bf59db4fb025096e12b2b437b90c47257af91a"
-  integrity sha512-CWzAu56xue6x3+3YwVJZAru4L9rjoOtZ7f+pUL4jL0YATxg/DgfWAt6PFYw645VJhzhGR7bix5I/eqKQMZrQ+A==
+  version "2.3.8"
+  resolved "http://localhost:6001/@inquirer/checkbox/-/checkbox-2.3.8.tgz#9119bb3d54201e54e18616de999a91fb612489e7"
+  integrity sha512-r6q3ViCa80EjBBCduaaiAlNwYtVX3MfFSqwvLOvBBVzGRve7jgghXnP8o+iAcTA564YGRyXDpcAKTIRRZj9m8g==
   dependencies:
-    "@inquirer/core" "^8.2.4"
+    "@inquirer/core" "^9.0.0"
     "@inquirer/figures" "^1.0.3"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/type" "^1.4.0"
     ansi-escapes "^4.3.2"
-    picocolors "^1.0.1"
+    yoctocolors-cjs "^2.1.1"
 
 "@inquirer/confirm@3.1.10":
   version "3.1.10"
@@ -1965,14 +1965,14 @@
     "@inquirer/type" "^1.3.3"
 
 "@inquirer/confirm@^3.1.10":
-  version "3.1.11"
-  resolved "http://localhost:6001/@inquirer/confirm/-/confirm-3.1.11.tgz#7b91d1ec548253780165d6abfce02b0b21cfa5c5"
-  integrity sha512-3wWw10VPxQP279FO4bzWsf8YjIAq7NdwATJ4xS2h1uwsXZu/RmtOVV95rZ7yllS1h/dzu+uLewjMAzNDEj8h2w==
+  version "3.1.12"
+  resolved "http://localhost:6001/@inquirer/confirm/-/confirm-3.1.12.tgz#9727d43116c0c4cfc292ed0b37a5b0abb5a82fde"
+  integrity sha512-s5Sod79QsBBi5Qm7zxCq9DcAD0i7WRcjd/LzsiIAWqWZKW4+OJTGrCgVSLGIHTulwbZgdxM4AAxpCXe86hv4/Q==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
 
-"@inquirer/core@^8.2.3", "@inquirer/core@^8.2.4":
+"@inquirer/core@^8.2.3":
   version "8.2.4"
   resolved "http://localhost:6001/@inquirer/core/-/core-8.2.4.tgz#300de755849d3166d15127e2341cef6aa4bd031d"
   integrity sha512-7vsXSfxtrrbwMTirfaKwPcjqJy7pzeuF/bP62yo1NQrRJ5HjmMlrhZml/Ljm9ODc1RnbhJlTeSnCkjtFddKjwA==
@@ -1991,23 +1991,42 @@
     strip-ansi "^6.0.1"
     wrap-ansi "^6.2.0"
 
-"@inquirer/editor@^2.1.10":
-  version "2.1.11"
-  resolved "http://localhost:6001/@inquirer/editor/-/editor-2.1.11.tgz#3ed3c15d7fe5b953686e0137b55c98b42d1174e5"
-  integrity sha512-SwBPrf+MrkAz3ZkpPFCI5ZN3Xcj47L7NhfjfEuLvHigmQgKDAwawcO3DdNPT0xYBqy8d5acdPYYWy6wWCVdAig==
+"@inquirer/core@^9.0.0":
+  version "9.0.0"
+  resolved "http://localhost:6001/@inquirer/core/-/core-9.0.0.tgz#e039fff684b9cd615c3b0071519a8beb82944254"
+  integrity sha512-y3q+fkCTGmvwk9Wf6yZlI3QGlLXbEm5M7Y7Eh8abaUbv+ffvmw2aB4FxSUrWaoaozwvEJSG60raHbCaUorXEzA==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/figures" "^1.0.3"
+    "@inquirer/type" "^1.4.0"
+    "@types/mute-stream" "^0.0.4"
+    "@types/node" "^20.14.9"
+    "@types/wrap-ansi" "^3.0.0"
+    ansi-escapes "^4.3.2"
+    cli-spinners "^2.9.2"
+    cli-width "^4.1.0"
+    mute-stream "^1.0.0"
+    signal-exit "^4.1.0"
+    strip-ansi "^6.0.1"
+    wrap-ansi "^6.2.0"
+    yoctocolors-cjs "^2.1.1"
+
+"@inquirer/editor@^2.1.10":
+  version "2.1.12"
+  resolved "http://localhost:6001/@inquirer/editor/-/editor-2.1.12.tgz#bb26dcaa7e49505e19ab652a26acd5ad3bcc8e88"
+  integrity sha512-rKd/mOkLlqVqQqQihgD6KM8FqRYRcgF1Y0oiYI8BYUk/KJOit7noWxsydJFQoHfrSU6mrpDtc6a+6wcVYH/V6A==
+  dependencies:
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
     external-editor "^3.1.0"
 
 "@inquirer/expand@^2.1.10":
-  version "2.1.11"
-  resolved "http://localhost:6001/@inquirer/expand/-/expand-2.1.11.tgz#994ea49ab5b5b083e944901d9b2bcaa117196dad"
-  integrity sha512-jpeDRqHAsA7Gx8xsYG7eEUZLjMsbLsAJ+PkPEIyfTduKVSV8Es8m9pDf2u5Q6TqOx4DN67WiM6vduqSPOOYSpQ==
+  version "2.1.12"
+  resolved "http://localhost:6001/@inquirer/expand/-/expand-2.1.12.tgz#eec46c5d5380171e429c57dec988d6dbbf6e54a6"
+  integrity sha512-Q3pG0TD0Ra4hhlKcgXEJf8FACp70F2mW6NXXIbsIEDLKDdiihlAc4Y98RnsME9b0zwqbBMYlUrGJ/bYgXt3cIw==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
-    picocolors "^1.0.1"
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
+    yoctocolors-cjs "^2.1.1"
 
 "@inquirer/figures@^1.0.3":
   version "1.0.3"
@@ -2015,20 +2034,20 @@
   integrity sha512-ErXXzENMH5pJt5/ssXV0DfWUZqly8nGzf0UcBV9xTnP+KyffE2mqyxIMBrZ8ijQck2nU0TQm40EQB53YreyWHw==
 
 "@inquirer/input@^2.1.10":
-  version "2.1.11"
-  resolved "http://localhost:6001/@inquirer/input/-/input-2.1.11.tgz#aeaa3692e8050de4fd976271b21c3c5e7ca05109"
-  integrity sha512-Ip/YLkdG2IXxjWY2SZyNxTi9st/U20eTDJAxlvN6h8wnql2PDj8zJs+RQ2F26hhEVBP19aNvT0I8D8GiPVJqaQ==
+  version "2.1.12"
+  resolved "http://localhost:6001/@inquirer/input/-/input-2.1.12.tgz#5545171aba35dc8ad0d2c9cf2c0e077b56c50c4b"
+  integrity sha512-buCMz8eVevE+TGEriC4hG6w1jaf4jDHUb7qcIVAgUG8BydtHw8YRkgwtcbxVaKBd9CvMLzF607fyZnMtEteDPg==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
 
 "@inquirer/password@^2.1.10":
-  version "2.1.11"
-  resolved "http://localhost:6001/@inquirer/password/-/password-2.1.11.tgz#ff76bbbad7bbf908950e7594d7f05cd7abd1df6e"
-  integrity sha512-8B17+1eBvBHANmgypLBxxASJiHEP3PFMVDuKYINtoGnUsiY13wdHktc2aavWihXCJhaHRo2l+DX2oea2RfB5cg==
+  version "2.1.12"
+  resolved "http://localhost:6001/@inquirer/password/-/password-2.1.12.tgz#a00fa855e335a497f491f37733e56a317e94a876"
+  integrity sha512-nXGVXOlEAqDXqggy5Vk1eQuSya7HOffQTFzBpCUg9PT5vhIsgApRp6jRqAn7creWkkn9on+mZfezGLVolCOerw==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
     ansi-escapes "^4.3.2"
 
 "@inquirer/prompts@5.0.6":
@@ -2046,29 +2065,31 @@
     "@inquirer/select" "^2.3.6"
 
 "@inquirer/rawlist@^2.1.10":
-  version "2.1.11"
-  resolved "http://localhost:6001/@inquirer/rawlist/-/rawlist-2.1.11.tgz#9ffe867d8f364636de6a5eb49f342e1a229a9ff8"
-  integrity sha512-S3I2Q1mg+evVfsUUctuqi3MG7IlQxSD6Ha+0jXni6B2wUDuujxtJ/SkzmaTSMIZAES5sjAgHHLlK69Nb+tiuOw==
+  version "2.1.12"
+  resolved "http://localhost:6001/@inquirer/rawlist/-/rawlist-2.1.12.tgz#d9df151fd8669822810a0c0c01535183cebd9649"
+  integrity sha512-avwuYZp4R69BtDTpb93hAR+Zk5QKBhZYEf59IhVlW6oYTAztA80vW5m9heh+D4tv58Xy41qbVKbCF7tVl/WNpA==
   dependencies:
-    "@inquirer/core" "^8.2.4"
-    "@inquirer/type" "^1.3.3"
-    picocolors "^1.0.1"
+    "@inquirer/core" "^9.0.0"
+    "@inquirer/type" "^1.4.0"
+    yoctocolors-cjs "^2.1.1"
 
 "@inquirer/select@^2.3.6":
-  version "2.3.7"
-  resolved "http://localhost:6001/@inquirer/select/-/select-2.3.7.tgz#6cfb2f986e1507d6604a9464b97f4edbc11ece54"
-  integrity sha512-11+4klLDhnhvT8FgpFkq3+CUvWVRqk8N8f3TnM84Orzt6UmdynRRzT9glcc5JD7u9uN8rvUJNyskf4QKlR+flA==
+  version "2.3.8"
+  resolved "http://localhost:6001/@inquirer/select/-/select-2.3.8.tgz#484d749e4f5e0232f2c3b5c293394aaa6378f990"
+  integrity sha512-x4gJq9OVw8i0K03V3tJwTt2svz4J7ghqEhXaFBprRTnmbYJwQZRnnLf3PFBg+fWOti7b7fD0Oc4SLXqGeQLByg==
   dependencies:
-    "@inquirer/core" "^8.2.4"
+    "@inquirer/core" "^9.0.0"
     "@inquirer/figures" "^1.0.3"
-    "@inquirer/type" "^1.3.3"
+    "@inquirer/type" "^1.4.0"
     ansi-escapes "^4.3.2"
-    picocolors "^1.0.1"
+    yoctocolors-cjs "^2.1.1"
 
-"@inquirer/type@^1.3.3":
-  version "1.3.3"
-  resolved "http://localhost:6001/@inquirer/type/-/type-1.3.3.tgz#26b2628630fd2381c7fa1e3ab396feb9bbc575da"
-  integrity sha512-xTUt0NulylX27/zMx04ZYar/kr1raaiFTVvQ5feljQsiAgdm0WPj4S73/ye0fbslh+15QrIuDvfCXTek7pMY5A==
+"@inquirer/type@^1.3.3", "@inquirer/type@^1.4.0":
+  version "1.4.0"
+  resolved "http://localhost:6001/@inquirer/type/-/type-1.4.0.tgz#3dd0c8f78c0548bbc18b9c07af16a86c4007e1f0"
+  integrity sha512-AjOqykVyjdJQvtfkNDGUyMYGF8xN50VUxftCQWsOyIo4DFRLr6VQhW0VItGI1JIyQGCGgIpKa7hMMwNhZb4OIw==
+  dependencies:
+    mute-stream "^1.0.0"
 
 "@istanbuljs/schema@^0.1.3":
   version "0.1.3"
@@ -4325,24 +4346,24 @@
     loupe "^2.3.7"
     pretty-format "^29.7.0"
 
-"@volar/language-core@2.3.4", "@volar/language-core@~2.3.1":
-  version "2.3.4"
-  resolved "http://localhost:6001/@volar/language-core/-/language-core-2.3.4.tgz#51de0263039a567a12a1eea90e02e59cdbf5de3b"
-  integrity sha512-wXBhY11qG6pCDAqDnbBRFIDSIwbqkWI7no+lj5+L7IlA7HRIjRP7YQLGzT0LF4lS6eHkMSsclXqy9DwYJasZTQ==
+"@volar/language-core@2.4.0-alpha.5", "@volar/language-core@~2.4.0-alpha.2":
+  version "2.4.0-alpha.5"
+  resolved "http://localhost:6001/@volar/language-core/-/language-core-2.4.0-alpha.5.tgz#4d982899675da830f17a06e4a31aa5f396a27352"
+  integrity sha512-CX+0vrNoCcO3tGZYIn7kNHug/u6+EImfbZe0tI6x/lCZc0MBJ7t9f6AKJT+mHJZ3ePhva6NVNv8mY1tNEURd5A==
   dependencies:
-    "@volar/source-map" "2.3.4"
+    "@volar/source-map" "2.4.0-alpha.5"
 
-"@volar/source-map@2.3.4":
-  version "2.3.4"
-  resolved "http://localhost:6001/@volar/source-map/-/source-map-2.3.4.tgz#1d285610134fe565ca59a54e5a99c12befc70c93"
-  integrity sha512-C+t63nwcblqLIVTYXaVi/+gC8NukDaDIQI72J3R7aXGvtgaVB16c+J8Iz7/VfOy7kjYv7lf5GhBny6ACw9fTGQ==
+"@volar/source-map@2.4.0-alpha.5":
+  version "2.4.0-alpha.5"
+  resolved "http://localhost:6001/@volar/source-map/-/source-map-2.4.0-alpha.5.tgz#bc0a1e1ec6c3d7762523eabee6bd92f13fb8c70c"
+  integrity sha512-5OxMPGqbxaMuFXfj10k3xWwmJ2nb0b20kNaONAKxwUQxGY6nh6skX5AAFhIAbC8woplsVJpR0tAhgQR4S96VYQ==
 
-"@volar/typescript@~2.3.1":
-  version "2.3.4"
-  resolved "http://localhost:6001/@volar/typescript/-/typescript-2.3.4.tgz#bfa2834c79bd0b9a38cdfdf220fea0afa8ed64b0"
-  integrity sha512-acCvt7dZECyKcvO5geNybmrqOsu9u8n5XP1rfiYsOLYGPxvHRav9BVmEdRyZ3vvY6mNyQ1wLL5Hday4IShe17w==
+"@volar/typescript@~2.4.0-alpha.2":
+  version "2.4.0-alpha.5"
+  resolved "http://localhost:6001/@volar/typescript/-/typescript-2.4.0-alpha.5.tgz#948d727af9f2e1a09c0717a2a35884c52b916aa4"
+  integrity sha512-D9nzGP09afyLlsXC5rzVeLzEaMLOmW1GGPyOiuXRRGTLshX+/cp+MNsUbwUd3pih0OhRmpUFl4VHpUGA2M4iBw==
   dependencies:
-    "@volar/language-core" "2.3.4"
+    "@volar/language-core" "2.4.0-alpha.5"
     path-browserify "^1.0.1"
     vscode-uri "^3.0.8"
 
@@ -4388,12 +4409,12 @@
     "@vue/compiler-dom" "3.4.31"
     "@vue/shared" "3.4.31"
 
-"@vue/language-core@2.0.22":
-  version "2.0.22"
-  resolved "http://localhost:6001/@vue/language-core/-/language-core-2.0.22.tgz#2f8164ecc83f85f27301521d0a6ce37cc59bb23a"
-  integrity sha512-dNTAAtEOuMiz7N1s5tKpypnVVCtawxVSF5BukD0ELcYSw+DSbrSlYYSw8GuwvurodCeYFSHsmslE+c2sYDNoiA==
+"@vue/language-core@2.0.24":
+  version "2.0.24"
+  resolved "http://localhost:6001/@vue/language-core/-/language-core-2.0.24.tgz#078c9e6c31228e31f981c149123a0e0488963daa"
+  integrity sha512-997YD6Lq/66LXr3ZOLNxDCmyn13z9NP8LU1UZn9hGCDWhzlbXAIP0hOgL3w3x4RKEaWTaaRtsHP9DzHvmduruQ==
   dependencies:
-    "@volar/language-core" "~2.3.1"
+    "@volar/language-core" "~2.4.0-alpha.2"
     "@vue/compiler-dom" "^3.4.0"
     "@vue/shared" "^3.4.0"
     computeds "^0.0.1"
@@ -5366,9 +5387,9 @@ camel-case@^4.1.2:
     tslib "^2.0.3"
 
 caniuse-lite@^1.0.30001599, caniuse-lite@^1.0.30001629:
-  version "1.0.30001638"
-  resolved "http://localhost:6001/caniuse-lite/-/caniuse-lite-1.0.30001638.tgz#598e1f0c2ac36f37ebc3f5b8887a32ca558e5d56"
-  integrity sha512-5SuJUJ7cZnhPpeLHaH0c/HPAnAHZvS6ElWyHK9GSIbVOQABLzowiI2pjmpvZ1WEbkyz46iFd4UXlOHR5SqgfMQ==
+  version "1.0.30001639"
+  resolved "http://localhost:6001/caniuse-lite/-/caniuse-lite-1.0.30001639.tgz#972b3a6adeacdd8f46af5fc7f771e9639f6c1521"
+  integrity sha512-eFHflNTBIlFwP2AIKaYuBQN/apnUoKNhBdza8ZnW/h2di4LCZ4xFqYlxUxo+LQ76KFI1PGcC1QDxMbxTZpSCAg==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -7698,9 +7719,9 @@ globalthis@^1.0.3:
     gopd "^1.0.1"
 
 globby@^14.0.0, globby@^14.0.1:
-  version "14.0.1"
-  resolved "http://localhost:6001/globby/-/globby-14.0.1.tgz#a1b44841aa7f4c6d8af2bc39951109d77301959b"
-  integrity sha512-jOMLD2Z7MAhyG8aJpNOpmziMOP4rPLcc95oQPKXBazW82z+CEgPFBQvEpRUa1KeIMUJo4Wsm+q6uzO/Q/4BksQ==
+  version "14.0.2"
+  resolved "http://localhost:6001/globby/-/globby-14.0.2.tgz#06554a54ccfe9264e5a9ff8eded46aa1e306482f"
+  integrity sha512-s3Fq41ZVh7vbbe2PN3nrW7yC7U7MFVc5c98/iTl9c2GawNMKx/J648KQRW6WKkuU8GIbbh2IXfIRQjOZnXcTnw==
   dependencies:
     "@sindresorhus/merge-streams" "^2.1.0"
     fast-glob "^3.3.2"
@@ -12490,9 +12511,9 @@ string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
     strip-ansi "^6.0.1"
 
 string-width@^7.0.0:
-  version "7.1.0"
-  resolved "http://localhost:6001/string-width/-/string-width-7.1.0.tgz#d994252935224729ea3719c49f7206dc9c46550a"
-  integrity sha512-SEIJCWiX7Kg4c129n48aDRwLbFb2LJmXXFrWBG4NGaRtMQ3myKPKbwrD1BKqQn74oCoNMBVrfDEr5M9YxCsrkw==
+  version "7.2.0"
+  resolved "http://localhost:6001/string-width/-/string-width-7.2.0.tgz#b5bb8e2165ce275d4d43476dd2700ad9091db6dc"
+  integrity sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==
   dependencies:
     emoji-regex "^10.3.0"
     get-east-asian-width "^1.0.0"
@@ -13249,9 +13270,9 @@ unpipe@1.0.0, unpipe@~1.0.0:
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
 unplugin@^1.3.1:
-  version "1.10.2"
-  resolved "http://localhost:6001/unplugin/-/unplugin-1.10.2.tgz#439b82e5e9419727ce5e5a75f4d0508bfa4110e1"
-  integrity sha512-KuPqnjU4HBcrSwmQatfdc5hU4xzaQrhoKqCKylwmLnbBvqj5udXL8cHrkOuYDoI4ESCwJIiAIKMujroIUKLgow==
+  version "1.11.0"
+  resolved "http://localhost:6001/unplugin/-/unplugin-1.11.0.tgz#09237b4011075e65c8f4d0ae06e221dee12750e3"
+  integrity sha512-3r7VWZ/webh0SGgJScpWl2/MRCZK5d3ZYFcNaeci/GQ7Teop7zf0Nl2pUuz7G21BwPd9pcUPOC5KmJ2L3WgC5g==
   dependencies:
     acorn "^8.11.3"
     chokidar "^3.6.0"
@@ -13438,19 +13459,19 @@ vscode-uri@^3.0.8:
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
 
 vue-component-meta@^2.0.0:
-  version "2.0.22"
-  resolved "http://localhost:6001/vue-component-meta/-/vue-component-meta-2.0.22.tgz#66a10d015ee62ecc5fe2af061dee8bee52fb65a0"
-  integrity sha512-9MZPbCdv7DPCJqvdRc/zNPJmGHrE9JWCffaNB6W1v83mku1E31CKWPTFcbuCWofD/fkpK5eCeOpNxQ+k5JcRww==
+  version "2.0.24"
+  resolved "http://localhost:6001/vue-component-meta/-/vue-component-meta-2.0.24.tgz#633c9f468177bf28ec4aca0d4dd5603c792b8c53"
+  integrity sha512-Ailudk7Cv+Harc/U7JB+xC6vcEou0t//lu9ejh9yjB35Wwg7vZ7XedDn8INRZATaKBREKIKcJ2vL5LkQXr4bhQ==
   dependencies:
-    "@volar/typescript" "~2.3.1"
-    "@vue/language-core" "2.0.22"
+    "@volar/typescript" "~2.4.0-alpha.2"
+    "@vue/language-core" "2.0.24"
     path-browserify "^1.0.1"
-    vue-component-type-helpers "2.0.22"
+    vue-component-type-helpers "2.0.24"
 
-vue-component-type-helpers@2.0.22, vue-component-type-helpers@latest:
-  version "2.0.22"
-  resolved "http://localhost:6001/vue-component-type-helpers/-/vue-component-type-helpers-2.0.22.tgz#af03cd74bef38ff77a974902688f4e2074b08839"
-  integrity sha512-gPr2Ba7efUwy/Vfbuf735bHSVdN4ycoZUCHfypkI33M9DUH+ieRblLLVM2eImccFYaWNWwEzURx02EgoXDBmaQ==
+vue-component-type-helpers@2.0.24, vue-component-type-helpers@latest:
+  version "2.0.24"
+  resolved "http://localhost:6001/vue-component-type-helpers/-/vue-component-type-helpers-2.0.24.tgz#bc8b9c94209ada13a555b96f288c3416a1e38d2a"
+  integrity sha512-Jr5N8QVYEcbQuMN1LRgvg61758G8HTnzUlQsAFOxx6Y6X8kmhJ7C+jOvWsQruYxi3uHhhS6BghyRlyiwO99DBg==
 
 vue-docgen-api@^4.46.0, vue-docgen-api@^4.75.1:
   version "4.78.0"
@@ -13877,6 +13898,11 @@ yocto-queue@^1.0.0:
   version "1.1.1"
   resolved "http://localhost:6001/yocto-queue/-/yocto-queue-1.1.1.tgz#fef65ce3ac9f8a32ceac5a634f74e17e5b232110"
   integrity sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==
+
+yoctocolors-cjs@^2.1.1:
+  version "2.1.1"
+  resolved "http://localhost:6001/yoctocolors-cjs/-/yoctocolors-cjs-2.1.1.tgz#1a096cffaeda2eb725e33b19735681875465c920"
+  integrity sha512-c6T13b6qYcJZvck7QbEFXrFX/Mu2KOjvAGiKHmYMUg96jxNpfP6i+psGW72BOPxOIDUJrORG+Kyu7quMX9CQBQ==
 
 zepto@^1.2.0:
   version "1.2.0"
