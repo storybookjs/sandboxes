@@ -4119,9 +4119,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.820:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.0.tgz#0d3123a9f09189b9c7ab4b5d6848d71b3c1fd0e8"
-  integrity sha512-Vb3xHHYnLseK8vlMJQKJYXJ++t4u1/qJ3vykuVrVjvdiOEhYyT1AuP4x03G8EnPmYvYOhe9T+dADTmthjRQMkA==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.1.tgz#24640bd4dcfaccb6d82bb4c3f4c7311503241581"
+  integrity sha512-FKbOCOQ5QRB3VlIbl1LZQefWIYwszlBloaXcY2rbfpu9ioJnNh3TK03YtIDKDo3WKBi8u+YV4+Fn2CkEozgf4w==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.3:
   version "2.7.4"
@@ -4764,9 +4764,9 @@ ember-template-lint@^5.7.2:
     yargs "^17.7.2"
 
 ember-template-recast@^6.1.4:
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-6.1.4.tgz#e964c184adfd876878009f8aa0b84c95633fce20"
-  integrity sha512-fCh+rOK6z+/tsdkTbOE+e7f84P6ObnIRQrCCrnu21E4X05hPeradikIkRMhJdxn4NWrxitfZskQDd37TR/lsNQ==
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-6.1.5.tgz#0f6423ddc8d4fa6306495b1d889205f637945801"
+  integrity sha512-VnRN8FzEHQnw/5rCv6Wnq8MVYXbGQbFY+rEufvWV+FO/IsxMahGEud4MYWtTA2q8iG+qJFrDQefNvQ//7MI7Qw==
   dependencies:
     "@glimmer/reference" "^0.84.3"
     "@glimmer/syntax" "^0.84.3"
@@ -7317,25 +7317,10 @@ lodash.assign@^3.2.0:
     lodash._createassigner "^3.0.0"
     lodash.keys "^3.0.0"
 
-lodash.assignin@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.assignin/-/lodash.assignin-4.2.0.tgz#ba8df5fb841eb0a3e8044232b0e263a8dc6a28a2"
-  integrity sha512-yX/rx6d/UTVh7sSVWVSIMjfnz95evAgDFdb1ZozC35I9mSFCkmzptOzevxjgbQUsc78NR44LVHWjsoMQXy9FDg==
-
 lodash.camelcase@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==
-
-lodash.castarray@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
-  integrity sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==
-
-lodash.clonedeep@^4.4.1:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
 lodash.debounce@^3.1.1:
   version "3.1.1"
@@ -7353,11 +7338,6 @@ lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
-
-lodash.find@^4.5.1:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.find/-/lodash.find-4.6.0.tgz#cb0704d47ab71789ffa0de8b97dd926fb88b13b1"
-  integrity sha512-yaRZoAV3Xq28F1iafWN1+a0rflOej93l1DQUejs3SZ41h2O9UJBoS9aueGjPDgAl4B6tPC0NuuchLKaDQQ3Isg==
 
 lodash.flatten@^3.0.2:
   version "3.0.2"
@@ -7435,11 +7415,6 @@ lodash.uniq@^4.2.0, lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
-
-lodash.uniqby@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/lodash.uniqby/-/lodash.uniqby-4.7.0.tgz#d99c07a669e9e6d24e1362dfe266c67616af1302"
-  integrity sha512-e/zcLx6CSbmaEgFHCA7BnoQKyCtKMxnuWrJygbwPs/AIn+IMKl66L8/s+wBUn5LRw2pZx3bUHibiV1b6aTWIww==
 
 lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
@@ -8567,9 +8542,9 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.2.15, postcss@^8.4.28:
-  version "8.4.39"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.39.tgz#aa3c94998b61d3a9c259efa51db4b392e1bde0e3"
-  integrity sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==
+  version "8.4.40"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.40.tgz#eb81f2a4dd7668ed869a6db25999e02e9ad909d8"
+  integrity sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
@@ -10057,9 +10032,9 @@ terser@^5.26.0, terser@^5.7.0:
     source-map-support "~0.5.20"
 
 testem@^3.10.1:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/testem/-/testem-3.15.0.tgz#c1f66ff2f6d0e9606c77c4de6b62bca088632d1a"
-  integrity sha512-vI1oQsjJW4QdVaH6ZmfNErzH7nzs0KzHJluocnfvbz1XRYGJKkIMGKWfsbD8MGGJOg+uzXcEek0/2W7BmGR4ug==
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/testem/-/testem-3.15.1.tgz#bb39b41b6928bf347fbb9ea1bfe1e085b15ecb7e"
+  integrity sha512-532OJy6VVsnDFEGZBdWVywvceNWdjdxJruC6qCDzLH586+eh1duWk5ju6QSRqQdP6gZB7zNiUJU9dSQdHPzFuA==
   dependencies:
     "@xmldom/xmldom" "^0.8.0"
     backbone "^1.1.2"
@@ -10074,11 +10049,7 @@ testem@^3.10.1:
     glob "^7.0.4"
     http-proxy "^1.13.1"
     js-yaml "^3.2.5"
-    lodash.assignin "^4.1.0"
-    lodash.castarray "^4.4.0"
-    lodash.clonedeep "^4.4.1"
-    lodash.find "^4.5.1"
-    lodash.uniqby "^4.7.0"
+    lodash "^4.17.21"
     mkdirp "^3.0.1"
     mustache "^4.2.0"
     node-notifier "^10.0.0"
@@ -10402,9 +10373,9 @@ underscore.string@^3.2.2, underscore.string@~3.3.4:
     util-deprecate "^1.0.2"
 
 underscore@>=1.8.3:
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
-  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
+  version "1.13.7"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
+  integrity sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==
 
 undici-types@~5.26.4:
   version "5.26.5"
