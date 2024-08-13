@@ -62,6 +62,18 @@
 </details>
 
 <details>
+  <summary><b>Experimental-nextjs-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/experimental-nextjs-vite/default-ts/after-storybook?preset=node"
+      >
+        Next.js Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>React-vite</b></summary>
   <ul>
     <li>
