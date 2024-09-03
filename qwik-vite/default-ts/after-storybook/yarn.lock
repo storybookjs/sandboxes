@@ -7751,9 +7751,9 @@ micromark-extension-mdx-jsx@^1.0.0:
     vfile-message "^3.0.0"
 
 micromark-extension-mdx-jsx@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-3.0.0.tgz#4aba0797c25efb2366a3fd2d367c6b1c1159f4f5"
-  integrity sha512-uvhhss8OGuzR4/N17L1JwvmJIpPhAd8oByMawEKx6NVdBCbesjH4t+vjEp3ZXft9DwvlKSD07fCeI44/N0Vf2w==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-3.0.1.tgz#5abb83da5ddc8e473a374453e6ea56fbd66b59ad"
+  integrity sha512-vNuFb9czP8QCtAQcEJn0UJQJZA8Dk6DXKBqx+bg/w0WGuSxDxNr7hErW89tHUY31dUW4NqEOWwmEUNhjTFmHkg==
   dependencies:
     "@types/acorn" "^4.0.0"
     "@types/estree" "^1.0.0"
@@ -7762,6 +7762,7 @@ micromark-extension-mdx-jsx@^3.0.0:
     micromark-factory-mdx-expression "^2.0.0"
     micromark-factory-space "^2.0.0"
     micromark-util-character "^2.0.0"
+    micromark-util-events-to-acorn "^2.0.0"
     micromark-util-symbol "^2.0.0"
     micromark-util-types "^2.0.0"
     vfile-message "^4.0.0"
@@ -7891,12 +7892,13 @@ micromark-factory-mdx-expression@^1.0.0:
     vfile-message "^3.0.0"
 
 micromark-factory-mdx-expression@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/micromark-factory-mdx-expression/-/micromark-factory-mdx-expression-2.0.1.tgz#f2a9724ce174f1751173beb2c1f88062d3373b1b"
-  integrity sha512-F0ccWIUHRLRrYp5TC9ZYXmZo+p2AM13ggbsW4T0b5CRKP8KHVRB8t4pwtBgTxtjRmwrK0Irwm7vs2JOZabHZfg==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/micromark-factory-mdx-expression/-/micromark-factory-mdx-expression-2.0.2.tgz#2afaa8ba6d5f63e0cead3e4dee643cad184ca260"
+  integrity sha512-5E5I2pFzJyg2CtemqAbcyCktpHXuJbABnsb32wX2U8IQKhhVFBqkcZR5LRm1WVoFqa4kTueZK4abep7wdo9nrw==
   dependencies:
     "@types/estree" "^1.0.0"
     devlop "^1.0.0"
+    micromark-factory-space "^2.0.0"
     micromark-util-character "^2.0.0"
     micromark-util-events-to-acorn "^2.0.0"
     micromark-util-symbol "^2.0.0"
@@ -8899,9 +8901,9 @@ periscopic@^3.0.0:
     is-reference "^3.0.0"
 
 picocolors@^1.0.0, picocolors@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"
-  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.0.tgz#5358b76a78cde483ba5cef6a9dc9671440b27d59"
+  integrity sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   version "2.3.1"
@@ -9023,9 +9025,9 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.2.14, postcss@^8.4.33, postcss@^8.4.38, postcss@^8.4.39, postcss@^8.4.40, postcss@^8.4.41:
-  version "8.4.43"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.43.tgz#a5ddf22f4cc38e64c6ae030182b43e539d316419"
-  integrity sha512-gJAQVYbh5R3gYm33FijzCZj7CHyQ3hWMgJMprLUlIYqCwTeZhBQ19wp0e9mA25BUbEvY5+EXuuaAjqQsrBxQBQ==
+  version "8.4.44"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.44.tgz#d56834ef6508610ba224bb22b2457b2169ed0480"
+  integrity sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
