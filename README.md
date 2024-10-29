@@ -158,18 +158,6 @@
 </details>
 
 <details>
-  <summary><b>Nuxt-vite</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nuxt-vite/default-ts/after-storybook?preset=node"
-      >
-        Nuxt v3 (Vite | TypeScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Html-webpack</b></summary>
   <ul>
     <li>
