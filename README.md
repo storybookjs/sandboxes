@@ -332,6 +332,24 @@
 </details>
 
 <details>
+  <summary><b>React-native-web-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-native-web-vite/expo-ts/after-storybook?preset=node"
+      >
+        React Native Expo Latest (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-native-web-vite/rn-cli-ts/after-storybook?preset=node"
+      >
+        React Native CLI Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Internal</b></summary>
   <ul>
     <li>
