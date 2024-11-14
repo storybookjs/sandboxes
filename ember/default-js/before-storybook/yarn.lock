@@ -4109,12 +4109,12 @@ ember-cli-babel@^7.13.0, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember
     semver "^5.5.0"
 
 ember-cli-dependency-checker@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/ember-cli-dependency-checker/-/ember-cli-dependency-checker-3.3.2.tgz#94ed7e8e3d47e494082eb9ccfaa489d603ab6017"
-  integrity sha512-PwkrW5oYsdPWwt+0Tojufmv/hxVETTjkrEdK7ANQB2VSnqpA5UcYubwpQM9ONuR2J8wyNDMwEHlqIrk/FYtBsQ==
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/ember-cli-dependency-checker/-/ember-cli-dependency-checker-3.3.3.tgz#a920d3d39c4edb3c4c0a25158142a6e89b2b07ad"
+  integrity sha512-mvp+HrE0M5Zhc2oW8cqs8wdhtqq0CfQXAYzaIstOzHJJn/U01NZEGu3hz7J7zl/+jxZkyygylzcS57QqmPXMuQ==
   dependencies:
     chalk "^2.4.2"
-    find-yarn-workspace-root "^1.2.1"
+    find-yarn-workspace-root "^2.0.0"
     is-git-url "^1.0.0"
     resolve "^1.22.0"
     semver "^5.7.1"
@@ -5497,14 +5497,6 @@ find-up@^6.3.0:
     locate-path "^7.1.0"
     path-exists "^5.0.0"
 
-find-yarn-workspace-root@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/find-yarn-workspace-root/-/find-yarn-workspace-root-1.2.1.tgz#40eb8e6e7c2502ddfaa2577c176f221422f860db"
-  integrity sha512-dVtfb0WuQG+8Ag2uWkbG79hOUzEsRrhBzgfn86g2sJPkzmcpGdghbNTfUKGTxymFrY/tLIodDzLoW9nOJ4FY8Q==
-  dependencies:
-    fs-extra "^4.0.3"
-    micromatch "^3.1.4"
-
 find-yarn-workspace-root@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/find-yarn-workspace-root/-/find-yarn-workspace-root-2.0.0.tgz#f47fb8d239c900eb78179aa81b66673eac88f7bd"
@@ -5663,7 +5655,7 @@ fs-extra@^11.1.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^4.0.2, fs-extra@^4.0.3:
+fs-extra@^4.0.2:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   integrity sha512-q6rbdDd1o2mAnQreO7YADIxf/Whx4AHBiRf6d+/cVT8h44ss+lHgxf1FemcqDnQt9X3ct4McHr+JMGlYSsK7Cg==
@@ -10001,17 +9993,17 @@ tiny-lr@^2.0.0:
     object-assign "^4.1.0"
     qs "^6.4.0"
 
-tldts-core@^6.1.60:
-  version "6.1.60"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.60.tgz#b3f0a2106e575e972bfca98880758c85c7557d02"
-  integrity sha512-XHjoxak8SFQnHnmYHb3PcnW5TZ+9ErLZemZei3azuIRhQLw4IExsVbL3VZJdHcLeNaXq6NqawgpDPpjBOg4B5g==
+tldts-core@^6.1.61:
+  version "6.1.61"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.61.tgz#5cd6507535ef5f5027ac9a1f52b9b60ecb9edfbd"
+  integrity sha512-In7VffkDWUPgwa+c9picLUxvb0RltVwTkSgMNFgvlGSWveCzGBemBqTsgJCL4EDFWZ6WH0fKTsot6yNhzy3ZzQ==
 
 tldts@^6.1.32:
-  version "6.1.60"
-  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.60.tgz#5011770e6946fd2edec582ab4686247c66c97e8a"
-  integrity sha512-TYVHm7G9NCnhgqOsFalbX6MG1Po5F4efF+tLfoeiOGQq48Oqgwcgz8upY2R1BHWa4aDrj28RYx0dkYJ63qCFMg==
+  version "6.1.61"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.61.tgz#85df9810aa4c24bff281bf1fd0b838e087beef9c"
+  integrity sha512-rv8LUyez4Ygkopqn+M6OLItAOT9FF3REpPQDkdMx5ix8w4qkuE7Vo2o/vw1nxKQYmJDV8JpAMJQr1b+lTKf0FA==
   dependencies:
-    tldts-core "^6.1.60"
+    tldts-core "^6.1.61"
 
 tmp@0.0.28:
   version "0.0.28"
@@ -10278,9 +10270,9 @@ undici-types@~6.19.8:
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 undici@^6.19.5:
-  version "6.20.1"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-6.20.1.tgz#fbb87b1e2b69d963ff2d5410a40ffb4c9e81b621"
-  integrity sha512-AjQF1QsmqfJys+LXfGTNum+qw4S88CojRInG/6t31W/1fk6G59s92bnAvGz5Cmur+kQv2SURXEvvudLmbrE8QA==
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.21.0.tgz#4b3d3afaef984e07b48e7620c34ed8a285ed4cd4"
+  integrity sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.1"

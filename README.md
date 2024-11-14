@@ -42,9 +42,9 @@
       </a>
     </li>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/default-js/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/14-ts/after-storybook?preset=node"
       >
-        Next.js Latest (Webpack | JavaScript)
+        Next.js v14.2 (Webpack | TypeScript)
       </a>
     </li>
     <li>
