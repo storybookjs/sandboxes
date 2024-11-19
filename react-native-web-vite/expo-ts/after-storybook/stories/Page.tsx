@@ -1,93 +1,87 @@
-import { View, Text, StyleSheet, Linking } from 'react-native';
+import { useState } from 'react';
+
+import { Linking, StyleSheet, Text, View } from 'react-native';
+
 import { Header } from './Header';
-import * as React from 'react';
 
-export type PageProps = {
-  user?: {};
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-};
+export const Page = () => {
+  const [user, setUser] = useState();
 
-export const Page = ({
-  user,
-  onLogin,
-  onLogout,
-  onCreateAccount,
-}: PageProps) => (
-  <View>
-    <Header
-      user={user}
-      onLogin={onLogin}
-      onLogout={onLogout}
-      onCreateAccount={onCreateAccount}
-    />
+  return (
+    <View>
+      <Header
+        user={user}
+        onLogin={() => setUser({ name: 'Jane Doe' })}
+        onLogout={() => setUser(undefined)}
+        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
+      />
 
-    <View style={styles.section}>
-      <Text role='heading' style={styles.h2}>
-        Pages in Storybook
-      </Text>
-      <Text style={styles.p}>
-        We recommend building UIs with a{' '}
-        <Text
-          style={[styles.a, { fontWeight: 'bold' }]}
-          role='link'
-          onPress={() => {
-            Linking.openURL('https://componentdriven.org');
-          }}
-        >
-          <Text>component-driven</Text>
-        </Text>{' '}
-        process starting with atomic components and ending with pages.
-      </Text>
-      <Text style={styles.p}>
-        Render pages with mock data. This makes it easy to build and review page
-        states without needing to navigate to them in your app. Here are some
-        handy patterns for managing page data in Storybook:
-      </Text>
-      <View>
-        <View>
-          Use a higher-level connected component. Storybook helps you compose
-          such data from the "args" of child component stories
-        </View>
-        <View>
-          Assemble data in the page component from your services. You can mock
-          these services out using Storybook.
-        </View>
-      </View>
-      <Text style={styles.p}>
-        Get a guided tutorial on component-driven development at{' '}
-        <Text
-          style={styles.a}
-          role='link'
-          onPress={() => {
-            Linking.openURL('https://storybook.js.org/tutorials/');
-          }}
-        >
-          Storybook tutorials
+      <View style={styles.section}>
+        <Text role="heading" style={styles.h2}>
+          Pages in Storybook
         </Text>
-        . Read more in the{' '}
-        <Text
-          style={styles.a}
-          role='link'
-          onPress={() => {
-            Linking.openURL('https://storybook.js.org/docs');
-          }}
-        >
-          docs
+        <Text style={styles.p}>
+          We recommend building UIs with a{' '}
+          <Text
+            style={[styles.a, { fontWeight: 'bold' }]}
+            role="link"
+            onPress={() => {
+              Linking.openURL('https://componentdriven.org');
+            }}
+          >
+            <Text>component-driven</Text>
+          </Text>{' '}
+          process starting with atomic components and ending with pages.
         </Text>
-        .
-      </Text>
-      <View style={styles.tipWrapper}>
-        <View style={styles.tip}>
-          <Text style={styles.tipText}>Tip </Text>
+        <Text style={styles.p}>
+          Render pages with mock data. This makes it easy to build and review page states without
+          needing to navigate to them in your app. Here are some handy patterns for managing page
+          data in Storybook:
+        </Text>
+        <View>
+          <View>
+            Use a higher-level connected component. Storybook helps you compose such data from the
+            "args" of child component stories
+          </View>
+          <View>
+            Assemble data in the page component from your services. You can mock these services out
+            using Storybook.
+          </View>
         </View>
-        <Text>Adjust the width of the canvas with the </Text>
-        <Text>Viewports addon in the toolbar</Text>
+        <Text style={styles.p}>
+          Get a guided tutorial on component-driven development at{' '}
+          <Text
+            style={styles.a}
+            role="link"
+            onPress={() => {
+              Linking.openURL('https://storybook.js.org/tutorials/');
+            }}
+          >
+            Storybook tutorials
+          </Text>
+          . Read more in the{' '}
+          <Text
+            style={styles.a}
+            role="link"
+            onPress={() => {
+              Linking.openURL('https://storybook.js.org/docs');
+            }}
+          >
+            docs
+          </Text>
+          .
+        </Text>
+        <View style={styles.tipWrapper}>
+          <View style={styles.tip}>
+            <Text style={styles.tipText}>Tip </Text>
+          </View>
+          <Text>Adjust the width of the canvas with the </Text>
+          <Text>Viewports addon in the toolbar</Text>
+        </View>
       </View>
     </View>
-  </View>
-);
+  );
+};
 
 const styles = StyleSheet.create({
   section: {

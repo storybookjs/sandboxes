@@ -1,40 +1,21 @@
-import {
-  StyleSheet,
-  StyleProp,
-  ViewStyle,
-  TouchableOpacity,
-  Text,
-  View,
-} from 'react-native';
-import * as React from 'react';
+import type { StyleProp, ViewStyle } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
+  /** Is this the principal call to action on the page? */
   primary?: boolean;
-  /**
-   * What background color to use
-   */
+  /** What background color to use */
   backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
+  /** How large should the button be? */
   size?: 'small' | 'medium' | 'large';
-  /**
-   * Button contents
-   */
+  /** Button contents */
   label: string;
-  /**
-   * Optional click handler
-   */
+  /** Optional click handler */
   onPress?: () => void;
   style?: StyleProp<ViewStyle>;
 }
 
-/**
- * Primary UI component for user interaction
- */
+/** Primary UI component for user interaction */
 export const Button = ({
   primary = false,
   size = 'medium',
@@ -50,11 +31,7 @@ export const Button = ({
   const textSizeStyle = textSizeStyles[size];
 
   return (
-    <TouchableOpacity
-      accessibilityRole='button'
-      activeOpacity={0.6}
-      onPress={onPress}
-    >
+    <TouchableOpacity accessibilityRole="button" activeOpacity={0.6} onPress={onPress}>
       <View
         style={[
           styles.button,
