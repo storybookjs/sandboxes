@@ -3373,9 +3373,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@^22.0.0":
-  version "22.9.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.9.1.tgz#bdf91c36e0e7ecfb7257b2d75bf1b206b308ca71"
-  integrity sha512-p8Yy/8sw1caA8CdRIQBG5tiLHmxtQKObCijiAa9Ez+d4+PRffM4054xbju0msf+cvhJpnFEeNjxmVT/0ipktrg==
+  version "22.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.9.2.tgz#51e58f2bf29cc38f529dacbb0eafca890464138e"
+  integrity sha512-wwuxAVEbsRvDD9x7buvAl7DyQ7Oj+va/d/Veug7higYzp9MF0CINbfWTBgDFMpcVwcdUiYuNmX2KfnvY3N70mw==
   dependencies:
     undici-types "~6.19.8"
 
@@ -7181,9 +7181,9 @@ flatted@^3.2.9:
   integrity sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==
 
 flow-parser@0.*:
-  version "0.254.1"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.254.1.tgz#914a3420506c0dbd7a3be73d94c51ca41f2a7727"
-  integrity sha512-dyUrQD6ZyI4PVQppj8PP5kj6BVThK8FprAcPCnJNLIZM7zcAL6/xGS1EE1haWv2HcO/dHy7GSwOAO59uaffjYw==
+  version "0.254.2"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.254.2.tgz#20991dd73c418cbaf1e7e15ce6e62a4f8d1f1e22"
+  integrity sha512-18xCQaVdKNCY0TAEhwUdk1HmRdgsPSraWwu0Zifqo5M4Ubi9LjWTAdlfBFb07Os+fQ9TmzxlyZN6OxK0m9xrBw==
 
 follow-redirects@^1.0.0:
   version "1.15.9"
@@ -12001,7 +12001,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-reflect.getprototypeof@^1.0.4:
+reflect.getprototypeof@^1.0.4, reflect.getprototypeof@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/reflect.getprototypeof/-/reflect.getprototypeof-1.0.6.tgz#3ab04c32a8390b770712b7a8633972702d278859"
   integrity sha512-fmfw4XgoDke3kdI6h4xcUz1dG8uaiv5q9gcEwLS4Pnth2kxT+GZ7YehS1JTMGBQmtV7Y4GFGbs2re2NqhdozUg==
@@ -13169,9 +13169,9 @@ svelte-preprocess@^5.1.1:
     strip-indent "^3.0.0"
 
 svelte2tsx@^0.7.13:
-  version "0.7.26"
-  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.7.26.tgz#6a41661072bdce5982ea348c865339d801cb12e4"
-  integrity sha512-cBGGZ3Hejuh9gYICQcGKg1zyYhrzZR04iTUdP5pD+CIbjoZiyzS4cpCi4IHh0PA2Vf6cFuwVRmDs9wnOfJotJA==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.7.28.tgz#c8a9c05090e9b34e878aa57a1876c4403d1dcfee"
+  integrity sha512-TJjA+kU8AnkyoprZPgQACMfTX8N0MA5NsIL//h9IuHOxmmaCLluqhcZU+fCkWipi5c/pooHLFOMpqjhq4v7JLQ==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"
@@ -13631,9 +13631,9 @@ typed-array-byte-length@^1.0.1:
     is-typed-array "^1.1.13"
 
 typed-array-byte-offset@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/typed-array-byte-offset/-/typed-array-byte-offset-1.0.2.tgz#f9ec1acb9259f395093e4567eb3c28a580d02063"
-  integrity sha512-Ous0vodHa56FviZucS2E63zkgtgrACj7omjwd/8lTEMEPFFyjfixMZ1ZXenpgCFBBt4EC1J2XsyVS2gkG0eTFA==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/typed-array-byte-offset/-/typed-array-byte-offset-1.0.3.tgz#3fa9f22567700cc86aaf86a1e7176f74b59600f2"
+  integrity sha512-GsvTyUHTriq6o/bHcTd0vM7OQ9JEdlvluu9YISaA7+KzDzPaIzEeDFNkTfhdE3MYcNhNi0vq/LlegYgIs5yPAw==
   dependencies:
     available-typed-arrays "^1.0.7"
     call-bind "^1.0.7"
@@ -13641,18 +13641,19 @@ typed-array-byte-offset@^1.0.2:
     gopd "^1.0.1"
     has-proto "^1.0.3"
     is-typed-array "^1.1.13"
+    reflect.getprototypeof "^1.0.6"
 
 typed-array-length@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/typed-array-length/-/typed-array-length-1.0.6.tgz#57155207c76e64a3457482dfdc1c9d1d3c4c73a3"
-  integrity sha512-/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/typed-array-length/-/typed-array-length-1.0.7.tgz#ee4deff984b64be1e118b0de8c9c877d5ce73d3d"
+  integrity sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg==
   dependencies:
     call-bind "^1.0.7"
     for-each "^0.3.3"
     gopd "^1.0.1"
-    has-proto "^1.0.3"
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
+    reflect.getprototypeof "^1.0.6"
 
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
@@ -13667,9 +13668,9 @@ typescript@^4.4.2:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 "typescript@^4.9.4 || ^5.0.0", typescript@^5.0.0:
-  version "5.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.3.tgz#5f3449e31c9d94febb17de03cc081dd56d81db5b"
-  integrity sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.7.2.tgz#3169cf8c4c8a828cde53ba9ecb3d2b1d5dd67be6"
+  integrity sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==
 
 ufo@^1.5.4:
   version "1.5.4"
