@@ -3380,17 +3380,17 @@
   resolved "https://registry.yarnpkg.com/@thednp/event-listener/-/event-listener-2.0.8.tgz#1342778a6435492db9be373d07bc05261b20d019"
   integrity sha512-bZY04sWSn2YWAqcuY/fYy03ynARYHwn8xzYgdqqcHBXsBXhOc+bbWwHyLwW28XAA2NjzjMPZZAM3N5D09i+zEQ==
 
-"@thednp/position-observer@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@thednp/position-observer/-/position-observer-1.0.3.tgz#5972490b691a978f6ca749fbefc0ddc5897fc235"
-  integrity sha512-o1HWoNJHN1V58svjKw6lteMJPmFMp0F8Q5nAh50m9Dyc9PQwXp7v1Q5hAKTjqqSS0PAB+FxZFFTjdHyrBH329A==
+"@thednp/position-observer@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@thednp/position-observer/-/position-observer-1.0.4.tgz#b67ef9e8ae8fce5674b3c3f0d9ef898d47318c8a"
+  integrity sha512-MdgKXweti1dTVXeyqaQUL4YhN4J4Wv5GP4Bnt+NpO10oksKLU2hW75ngFUkJs6PnHs4SjAo9slV/EX/T4oV4mg==
   dependencies:
-    "@thednp/shorty" "^2.0.8"
+    "@thednp/shorty" "^2.0.9"
 
-"@thednp/shorty@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@thednp/shorty/-/shorty-2.0.8.tgz#50a0e42fe169cfc83107e8db40a75983c1169bfd"
-  integrity sha512-SFuypeDaLrRmbmEpwIdeWfopLAeib3EqKNU5QOc+ZJgcWJnJZmbpLHRr99Sh27JWzqoaiRlKRsyegur/g31Yxw==
+"@thednp/shorty@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@thednp/shorty/-/shorty-2.0.9.tgz#ecde7170e757a50932b9b679d57485e3cc362cfa"
+  integrity sha512-btulzTMSxSQxNipN5iLMtw6MaTrZ3P0feRUX/rl2fZ1m31RI56PC967lnN5bwUCpZLzry0pl9QoCKlT3GtU+mw==
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -3637,9 +3637,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@^22.0.0":
-  version "22.9.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.9.2.tgz#51e58f2bf29cc38f529dacbb0eafca890464138e"
-  integrity sha512-wwuxAVEbsRvDD9x7buvAl7DyQ7Oj+va/d/Veug7higYzp9MF0CINbfWTBgDFMpcVwcdUiYuNmX2KfnvY3N70mw==
+  version "22.9.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.9.3.tgz#08f3d64b3bc6d74b162d36f60213e8a6704ef2b4"
+  integrity sha512-F3u1fs/fce3FFk+DAxbxc78DF8x0cY09RRL8GnXLmkJ1jvx3TtPdWoTT5/NiYfI5ASqXBmfqJi9dZ3gxMx4lzw==
   dependencies:
     undici-types "~6.19.8"
 
@@ -4701,13 +4701,13 @@ boolbase@^1.0.0:
   integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
 
 bootstrap.native@^5.0.13:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/bootstrap.native/-/bootstrap.native-5.1.0.tgz#949e7619def1153109c98d9d13bfa250d52bdc77"
-  integrity sha512-gqJvxMllJsF6WG0tucDMyOQ4GZZYpBBucphRz/Bh76vpazr/8PVD3DeKMsn2pyfgydroiu1yPq51YGK2bM4Ljw==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/bootstrap.native/-/bootstrap.native-5.1.1.tgz#e565073d0862ce00b1bf0448b192250739499dfa"
+  integrity sha512-QlFMbaCSo1AvfoiiI3jdJk8Rh3BZIXh7UjVcR9/wo+aVTZqOrCrePA4f2chpXLZxwbHitWyMgl1CJSSSqqx8/w==
   dependencies:
     "@thednp/event-listener" "^2.0.8"
-    "@thednp/position-observer" "^1.0.2"
-    "@thednp/shorty" "^2.0.8"
+    "@thednp/position-observer" "^1.0.4"
+    "@thednp/shorty" "^2.0.9"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
