@@ -6979,13 +6979,13 @@ mkdirp@^1.0.3:
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
 mlly@^1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.7.3.tgz#d86c0fcd8ad8e16395eb764a5f4b831590cee48c"
-  integrity sha512-xUsx5n/mN0uQf4V548PKQ+YShA4/IW0KI1dZhrNrPCLG+xizETbHTkOa1f8/xut9JRPp8kQuMnz0oqwkTiLo/A==
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.7.4.tgz#3d7295ea2358ec7a271eaa5d000a0f84febe100f"
+  integrity sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==
   dependencies:
     acorn "^8.14.0"
-    pathe "^1.1.2"
-    pkg-types "^1.2.1"
+    pathe "^2.0.1"
+    pkg-types "^1.3.0"
     ufo "^1.5.4"
 
 module-alias@^2.2.3:
@@ -7520,6 +7520,11 @@ pathe@^1.1.2:
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.2.tgz#6c4cb47a945692e48a1ddd6e4094d170516437ec"
   integrity sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==
 
+pathe@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/pathe/-/pathe-2.0.1.tgz#ee1e6965c5ccfc98dc5a4b366a6ba6dd624a33d6"
+  integrity sha512-6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==
+
 pathval@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-2.0.0.tgz#7e2550b422601d4f6b8e26f1301bc8f15a741a25"
@@ -7582,7 +7587,7 @@ pkg-dir@^7.0.0:
   dependencies:
     find-up "^6.3.0"
 
-pkg-types@^1.2.0, pkg-types@^1.2.1:
+pkg-types@^1.2.0, pkg-types@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-1.3.0.tgz#53d915eb99485798c554ad8eb2dc2af7c03006eb"
   integrity sha512-kS7yWjVFCkIw9hqdJBoMxDdzEngmkr5FXeWZZfQ6GoYacjVnsW6l2CcYW/0ThD0vF4LPJgVYnrg4d0uuhwYQbg==
