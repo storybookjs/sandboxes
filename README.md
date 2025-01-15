@@ -165,6 +165,18 @@
 </details>
 
 <details>
+  <summary><b>Nuxt-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nuxt-vite/default-ts/after-storybook?preset=node"
+      >
+        Nuxt v3 (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Html-webpack</b></summary>
   <ul>
     <li>
@@ -333,6 +345,24 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/ember/default-js/after-storybook?preset=node"
       >
         Ember v4 (Webpack | JavaScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>React-native-web-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/react-native-web-vite/expo-ts/after-storybook?preset=node"
+      >
+        React Native Expo Latest (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/react-native-web-vite/rn-cli-ts/after-storybook?preset=node"
+      >
+        React Native CLI Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
