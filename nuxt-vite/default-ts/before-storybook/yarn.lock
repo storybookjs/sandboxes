@@ -1051,9 +1051,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.10.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.10.tgz#85fe89f8bf459dc57dfef1689bd5b52ad1af07e6"
-  integrity sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==
+  version "22.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.12.0.tgz#bf8af3b2af0837b5a62a368756ff2b705ae0048c"
+  integrity sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==
   dependencies:
     undici-types "~6.20.0"
 
@@ -1903,9 +1903,9 @@ csstype@^3.1.3:
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
 db0@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/db0/-/db0-0.2.1.tgz#be1454ab48e3bb3c93b8b8ae7623a95169474bba"
-  integrity sha512-BWSFmLaCkfyqbSEZBQINMVNjCVfrogi7GQ2RSy1tmtfK9OXlsup6lUMwLsqSD7FbAjD04eWFdXowSHHUp6SE/Q==
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/db0/-/db0-0.2.3.tgz#91f1c083d65f9198ba5ae440628722f9db44d886"
+  integrity sha512-PunuHESDNefmwVy1LDpY663uWwKt2ogLGoB6NOz2sflGREWqDreMwDgF8gfkXxgNXW+dqviyiJGm924H1BaGiw==
 
 debug@2.6.9:
   version "2.6.9"
@@ -2352,18 +2352,18 @@ get-stream@^8.0.1:
   integrity sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==
 
 giget@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/giget/-/giget-1.2.3.tgz#ef6845d1140e89adad595f7f3bb60aa31c672cb6"
-  integrity sha512-8EHPljDvs7qKykr6uw8b+lqLiUc/vUg+KVTI0uND4s63TdsZM2Xus3mflvF0DDG9SiM4RlCkFGL+7aAjRmV7KA==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/giget/-/giget-1.2.4.tgz#9866800ec046eea7097f36e491aa2c4752a0660d"
+  integrity sha512-Wv+daGyispVoA31TrWAVR+aAdP7roubTPEM/8JzRnqXhLbdJH0T9eQyXVFF8fjk3WKTsctII6QcyxILYgNp2DA==
   dependencies:
     citty "^0.1.6"
-    consola "^3.2.3"
+    consola "^3.4.0"
     defu "^6.1.4"
-    node-fetch-native "^1.6.3"
-    nypm "^0.3.8"
-    ohash "^1.1.3"
-    pathe "^1.1.2"
-    tar "^6.2.0"
+    node-fetch-native "^1.6.6"
+    nypm "^0.5.1"
+    ohash "^1.1.4"
+    pathe "^2.0.2"
+    tar "^6.2.1"
 
 git-config-path@^2.0.0:
   version "2.0.0"
@@ -2515,9 +2515,9 @@ https-proxy-agent@^7.0.4, https-proxy-agent@^7.0.5:
     debug "4"
 
 httpxy@^0.1.5:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/httpxy/-/httpxy-0.1.6.tgz#74a11e435bbcd6ff712763d6de9372659f7f08f8"
-  integrity sha512-GxJLI6oJZ3NbJl/vDlPmTCtP4WHwboNhGLHOcgf/3ia1QC5sdLglWbRHZwQjzjPuiCyw7MWwpwbsUfRDQlOdeg==
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/httpxy/-/httpxy-0.1.7.tgz#02d02e57eda10e8b5c0e3f9f10860e3d7a5991a4"
+  integrity sha512-pXNx8gnANKAndgga5ahefxc++tJvNL87CXoRwxn1cJE2ZkWEojF3tNfQIEhZX/vfpt+wzeAzpUI4qkediX1MLQ==
 
 human-signals@^4.3.0:
   version "4.3.1"
@@ -3180,7 +3180,7 @@ node-addon-api@^7.0.0:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-7.1.1.tgz#1aba6693b0f255258a049d621329329322aad558"
   integrity sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
 
-node-fetch-native@^1.6.3, node-fetch-native@^1.6.4:
+node-fetch-native@^1.6.4, node-fetch-native@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.6.6.tgz#ae1d0e537af35c2c0b0de81cbff37eedd410aa37"
   integrity sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==
@@ -3315,18 +3315,6 @@ nuxt@^3.15.3:
     vue-devtools-stub "^0.1.0"
     vue-router "^4.5.0"
 
-nypm@^0.3.8:
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/nypm/-/nypm-0.3.12.tgz#37541bec0af3a37d3acd81d6662c6666e650b22e"
-  integrity sha512-D3pzNDWIvgA+7IORhD/IuWzEk4uXv6GsgOxiid4UU3h9oq5IqV1KtPDi63n4sZJ/xcWlr88c0QM2RgN5VbOhFA==
-  dependencies:
-    citty "^0.1.6"
-    consola "^3.2.3"
-    execa "^8.0.1"
-    pathe "^1.1.2"
-    pkg-types "^1.2.0"
-    ufo "^1.5.4"
-
 nypm@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/nypm/-/nypm-0.4.1.tgz#b7059afbddd20373a5d64ba1c05d569607387a67"
@@ -3339,10 +3327,10 @@ nypm@^0.4.1:
     tinyexec "^0.3.1"
     ufo "^1.5.4"
 
-nypm@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/nypm/-/nypm-0.5.0.tgz#72ca17a504af9cb881ee9c06cc43d366a570a1b6"
-  integrity sha512-+2aEZ9h9Ocvsq1AR9hXsCsRW/7ZFVoPbk3GpYBCosKI1WuSyni58mi3v0WS7UczRA741gFjQ/9ivg4YRR3qv6w==
+nypm@^0.5.0, nypm@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/nypm/-/nypm-0.5.1.tgz#860c3273ca0e718eefdfd5bf65011a0e508b1191"
+  integrity sha512-irxlzb8A2mxHHRvVHkCpuVLEg7VLeONGf0JAMruajlvpL7OHULVd6ii3Yg5qS0o8cEZdPDGZOC1XPx242nNeUA==
   dependencies:
     citty "^0.1.6"
     consola "^3.4.0"
@@ -3360,7 +3348,7 @@ ofetch@^1.4.1:
     node-fetch-native "^1.6.4"
     ufo "^1.5.4"
 
-ohash@^1.1.3, ohash@^1.1.4:
+ohash@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.4.tgz#ae8d83014ab81157d2c285abf7792e2995fadd72"
   integrity sha512-FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==
@@ -4321,7 +4309,7 @@ tar-stream@^3.0.0:
     fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
-tar@^6.2.0:
+tar@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.1.tgz#717549c541bc3c2af15751bea94b1dd068d4b03a"
   integrity sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==
