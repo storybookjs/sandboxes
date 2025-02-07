@@ -1802,9 +1802,9 @@
   integrity sha512-Nyyv1Bj7GgYwj/l46O0nkH1GTKWbO3Ixe7KFcn021aZipkZd+z8Vlu1BwkhqtVgivcKaClaExtWU/lDHkjBzag==
 
 "@redocly/openapi-core@^1.28.0":
-  version "1.28.2"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.28.2.tgz#e22c074c443447c1cb0d3bff364f1fb85c0a1438"
-  integrity sha512-nC8ZTFfp1C0RrK7OjYYJL1u0SPYdOtXbLBichCMMfsjwMuEBdGfbDNBJF07mx6/hw6rGRxPsLlvPPa7csX4UpA==
+  version "1.28.3"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.28.3.tgz#215d35c38468897313cf1842d79ae71c3db6f4bf"
+  integrity sha512-PtUnjtU9rYA+72PlN3MiR/J++PQI0q6AMV7hIHJQmtsEMtB1OU8l3duT5Txkpc6JJi7deHg66UpzVznImz3OCw==
   dependencies:
     "@redocly/ajv" "^8.11.2"
     "@redocly/config" "^0.20.1"
@@ -4782,7 +4782,7 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-"crossws@>=0.2.0 <0.4.0", crossws@^0.3.1, crossws@^0.3.2:
+"crossws@>=0.2.0 <0.4.0", crossws@^0.3.1, crossws@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/crossws/-/crossws-0.3.3.tgz#627f5e7e55f459e0ca52dfe48094f5ada7865cb4"
   integrity sha512-/71DJT3xJlqSnBr83uGJesmVHSzZEvgxHt/fIKxBAAngqMHmnBWQNxCphVxxJ2XL3xleu5+hJD6IQ3TglBedcw==
@@ -5286,9 +5286,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.92"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.92.tgz#81e8ebe06f8e2a49fdba84bd10e9ad5b63efffe0"
-  integrity sha512-BeHgmNobs05N1HMmMZ7YIuHfYBGlq/UmvlsTgg+fsbFs9xVMj+xJHFg19GN04+9Q+r8Xnh9LXqaYIyEWElnNgQ==
+  version "1.5.94"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.94.tgz#808f294794af24f9edc63a6e58fc625f718b60a6"
+  integrity sha512-v+oaMuy6AgwZ6Hi2u5UgcM3wxzeFscBTsZBQL2FoDTx/T6k1XEQKz++8fe1VlQ3zjXB6hcvy5JPb5ZSkmVtdIQ==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.6.1"
@@ -6247,20 +6247,20 @@ gzip-size@^7.0.0:
     duplexer "^0.1.2"
 
 h3@^1.12.0, h3@^1.13.0, h3@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-1.14.0.tgz#292bf0602444b36fd6b333b1d6872d685ecc9899"
-  integrity sha512-ao22eiONdgelqcnknw0iD645qW0s9NnrJHr5OBz4WOMdBdycfSas1EQf1wXRsm+PcB2Yoj43pjBPwqIpJQTeWg==
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-1.15.0.tgz#1a149cbe8c0418691cae331d5744c0c65fbf42b3"
+  integrity sha512-OsjX4JW8J4XGgCgEcad20pepFQWnuKH+OwkCJjogF3C+9AZ1iYdtB4hX6vAb5DskBiu5ljEXqApINjR8CqoCMQ==
   dependencies:
     cookie-es "^1.2.2"
-    crossws "^0.3.2"
+    crossws "^0.3.3"
     defu "^6.1.4"
     destr "^2.0.3"
     iron-webcrypto "^1.2.1"
+    node-mock-http "^1.0.0"
     ohash "^1.1.4"
     radix3 "^1.1.2"
     ufo "^1.5.4"
     uncrypto "^0.1.3"
-    unenv "^1.10.0"
 
 has-flag@^4.0.0:
   version "4.0.0"
@@ -8270,6 +8270,11 @@ node-gyp-build@^4.2.2:
   version "4.8.4"
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.8.4.tgz#8a70ee85464ae52327772a90d66c6077a900cfc8"
   integrity sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==
+
+node-mock-http@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-mock-http/-/node-mock-http-1.0.0.tgz#4b32cd509c7f46d844e68ea93fb8be405a18a42a"
+  integrity sha512-0uGYQ1WQL1M5kKvGRXWQ3uZCHtLTO8hln3oBjIusM75WoesZ909uQJs/Hb946i2SS+Gsrhkaa6iAO17jRIv6DQ==
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
@@ -10645,9 +10650,9 @@ terser-webpack-plugin@^5.3.1, terser-webpack-plugin@^5.3.10:
     terser "^5.31.1"
 
 terser@^5.10.0, terser@^5.17.4, terser@^5.31.1:
-  version "5.38.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.38.0.tgz#df742bb69ee556c29650e926ff154d116f4ccf79"
-  integrity sha512-a4GD5R1TjEeuCT6ZRiYMHmIf7okbCPEuhQET8bczV6FrQMMlFXA1n+G0KKjdlFCm3TEHV77GxfZB3vZSUQGFpg==
+  version "5.38.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.38.1.tgz#a18d83c8acf3175e847ab0b66839f3c318167c58"
+  integrity sha512-GWANVlPM/ZfYzuPHjq0nxT+EbOEDDN3Jwhwdg1D8TU8oSkktp8w64Uq4auuGLxFSoNTRDncTq2hQHX1Ld9KHkA==
   dependencies:
     "@jridgewell/source-map" "^0.3.3"
     acorn "^8.8.2"
@@ -10785,9 +10790,9 @@ ts-pnp@^1.1.6:
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
 tsconfck@^3.0.3:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.1.4.tgz#de01a15334962e2feb526824339b51be26712229"
-  integrity sha512-kdqWFGVJqe+KGYvlSO9NIaWn9jT1Ny4oKVzAJsKii5eoE9snzTJzL4+MMVOMn+fikWGFmKEylcXL710V/kIPJQ==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.1.5.tgz#2f07f9be6576825e7a77470a5304ce06c7746e61"
+  integrity sha512-CLDfGgUp7XPswWnezWwsCRxNmgQjhYq3VXHM0/XIRxhVrKw0M1if9agzryh1QS3nxjCROvV+xWxoJO1YctzzWg==
 
 tsconfig-paths-webpack-plugin@^4.0.1:
   version "4.2.0"
