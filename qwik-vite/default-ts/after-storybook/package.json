@@ -6,10 +6,6 @@
   },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
-  "trustedDependencies": [
-    "sharp"
-  ],
-  "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
   "type": "module",
   "scripts": {
     "build": "qwik build",
@@ -29,8 +25,8 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.12.0",
-    "@builder.io/qwik-city": "^1.12.0",
+    "@builder.io/qwik": "^1.12.1",
+    "@builder.io/qwik-city": "^1.12.1",
     "@chromatic-com/storybook": "^3.2.4",
     "@storybook/addon-essentials": "^8.5.8",
     "@storybook/addon-interactions": "^8.5.8",
@@ -41,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "7.16.1",
     "@typescript-eslint/parser": "7.16.1",
     "eslint": "8.57.0",
-    "eslint-plugin-qwik": "^1.12.0",
+    "eslint-plugin-qwik": "^1.12.1",
     "prettier": "3.3.3",
     "storybook": "^8.5.8",
     "storybook-framework-qwik": "^0.4.1",
