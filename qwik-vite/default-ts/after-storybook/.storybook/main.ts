@@ -1,15 +1,18 @@
-import type { StorybookConfig } from "storybook-framework-qwik";
+import type { StorybookConfig } from 'storybook-framework-qwik';
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
-  addons: [
+  "stories": [
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+  ],
+  "addons": [
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
-    "@storybook/addon-interactions",
+    "@storybook/addon-interactions"
   ],
-  framework: {
-    name: "storybook-framework-qwik",
-    options: {},
-  },
+  "framework": {
+    "name": "storybook-framework-qwik",
+    "options": {}
+  }
 };
 export default config;
