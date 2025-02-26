@@ -35,12 +35,6 @@
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/13-ts/after-storybook?preset=node"
-      >
-        Next.js v13.5 (Webpack | TypeScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/14-ts/after-storybook?preset=node"
       >
         Next.js v14.2 (Webpack | TypeScript)
@@ -250,18 +244,6 @@
 <details>
   <summary><b>Svelte-kit</b></summary>
   <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/skeleton-js/after-storybook?preset=node"
-      >
-        SvelteKit Latest (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
-      >
-        SvelteKit Latest (Vite | TypeScript)
-      </a>
-    </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/prerelease-ts/after-storybook?preset=node"
       >
