@@ -36,12 +36,6 @@
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/13-ts/after-storybook?preset=node"
-      >
-        Next.js v13.5 (Webpack | TypeScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/14-ts/after-storybook?preset=node"
       >
         Next.js v14.2 (Webpack | TypeScript)
