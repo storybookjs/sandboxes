@@ -5381,9 +5381,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.107"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.107.tgz#0a12a0b50e6f925cde8bf9c16c13d514c54c694b"
-  integrity sha512-dJr1o6yCntRkXElnhsHh1bAV19bo/hKyFf7tCcWgpXbuFIF0Lakjgqv5LRfSDaNzAII8Fnxg2tqgHkgCvxdbxw==
+  version "1.5.108"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.108.tgz#5a83c99d01d391a6d6b5bb658cb645985a717f53"
+  integrity sha512-tiGxpQmvXBEzrfU5ertmbCV/nG5yqCkC1G4T1SIKP335Y5rjXzPWmijR6XcoGXZvVoo4dknfdNe4Tl7lcIROLg==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.6.1"
@@ -8597,9 +8597,9 @@ ohash@^1.1.4:
   integrity sha512-FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==
 
 ohash@^2.0.2, ohash@^2.0.4:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/ohash/-/ohash-2.0.5.tgz#656fb31771124bcb903d7b675dd35cd711ea1bac"
-  integrity sha512-3k3APZwRRPYyohdIDmPTpe5i0AY5lm7gvu/Oip7tZrTaEGfSlKX+7kXUoWLd9sHX0GDRVwVvlW18yEcD7qS1zw==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/ohash/-/ohash-2.0.6.tgz#7fc107130a3587a31f8b275e94754d5fc86d144a"
+  integrity sha512-y3n0xHnH5RhTNlu5KvoH1cPKNS3ewteDWjvUXkW5+X/iYYe914zGbixMCr//jEjwn/IgMjfOwDPIpDJ0+ld3tw==
 
 on-finished@2.4.1:
   version "2.4.1"
@@ -8737,9 +8737,11 @@ package-json-from-dist@^1.0.0:
   integrity sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==
 
 package-manager-detector@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/package-manager-detector/-/package-manager-detector-0.2.9.tgz#20990785afa69d38b4520ccc83b34e9f69cb970f"
-  integrity sha512-+vYvA/Y31l8Zk8dwxHhL3JfTuHPm6tlxM2A3GeQyl7ovYnSp1+mzAxClxaOr0qO1TtPxbQxetI7v5XqKLJZk7Q==
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/package-manager-detector/-/package-manager-detector-0.2.10.tgz#686fed1e763ebb517911b1d8e22ae2b6e678cc44"
+  integrity sha512-1wlNZK7HW+UE3eGCcMv3hDaYokhspuIeH6enXSnCL1eEZSVDsy/dYwo/4CczhUsrKLA1SSXB+qce8Glw5DEVtw==
+  dependencies:
+    quansync "^0.2.2"
 
 packrup@^0.1.2:
   version "0.1.2"
@@ -9488,7 +9490,7 @@ qs@^6.12.3:
   dependencies:
     side-channel "^1.1.0"
 
-quansync@^0.2.1:
+quansync@^0.2.1, quansync@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/quansync/-/quansync-0.2.2.tgz#0e526508310cb2f285b7500a0eb0441d7123adfd"
   integrity sha512-PrJjqc5Sn6Jv3vlIA9LQs0XdyhCTWrFddMgNP8mGyh3OiMh6ofOES4PRIApcfOZ0wLE2jJN+5/2eyOvzTv9tqw==
