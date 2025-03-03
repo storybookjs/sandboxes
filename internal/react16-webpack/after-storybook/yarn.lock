@@ -2933,10 +2933,10 @@
     de-indent "^1.0.2"
     he "^1.2.0"
 
-"@vue/language-core@2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-2.2.6.tgz#0f0256f7594d1825f84f91a868534700dea55252"
-  integrity sha512-7IQTvwVOvhYSzcizZ2hAdqJjI+SaJS2GO7EnDlSlQ77drwl5UzNa2IZm9pO9MdMxrlw24CGI/Lo3xpCjM26veg==
+"@vue/language-core@2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-2.2.8.tgz#05befa390399fbd4409bc703ee0520b8ac1b7088"
+  integrity sha512-rrzB0wPGBvcwaSNRriVWdNAbHQWSf0NlGqgKHK5mEkXpefjUlVRP62u03KvwZpvKVjRnBIQ/Lwre+Mx9N6juUQ==
   dependencies:
     "@volar/language-core" "~2.4.11"
     "@vue/compiler-dom" "^3.5.0"
@@ -7628,9 +7628,9 @@ prelude-ls@^1.2.1:
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
 prettier@^3.1.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.2.tgz#d066c6053200da0234bf8fa1ef45168abed8b914"
-  integrity sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
+  integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
 
 pretty-error@^4.0.0:
   version "4.0.0"
@@ -8012,9 +8012,9 @@ recast@^0.20.4:
     tslib "^2.0.1"
 
 recast@^0.23.1, recast@^0.23.3, recast@^0.23.5:
-  version "0.23.10"
-  resolved "https://registry.yarnpkg.com/recast/-/recast-0.23.10.tgz#8e8721af39e1bddad8d0ae1f3591d4f756a5fdfb"
-  integrity sha512-mbCmRMJUKCJ1h41V0cu2C26ULBURwuoZ34C9rChjcDaeJ/4Kv5al3O2HPwTs2m0wQ1vGhMY+tguhzU1aE8md1A==
+  version "0.23.11"
+  resolved "https://registry.yarnpkg.com/recast/-/recast-0.23.11.tgz#8885570bb28cf773ba1dc600da7f502f7883f73f"
+  integrity sha512-YTUo+Flmw4ZXiWfQKGcwwc11KnoRAYgzAE2E7mXKCjSviTKShtxBsN6YUUBB2gtaBzKzeKunxhUwNHQuRryhWA==
   dependencies:
     ast-types "^0.16.1"
     esprima "~4.0.0"
@@ -9438,19 +9438,19 @@ vscode-uri@^3.0.8:
   integrity sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==
 
 vue-component-meta@^2.0.0:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/vue-component-meta/-/vue-component-meta-2.2.6.tgz#c250cec2ecb1f866db061091d70ec6e1e2a0513b"
-  integrity sha512-Gxhj+zwdA1v5zX2ytQC8AlvSwogsPVUUnahNHDD5J+ar7fe1BBdkawQp3DcnfygqLwfgQ2HpCGb6GQPaWrsFvA==
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/vue-component-meta/-/vue-component-meta-2.2.8.tgz#fee2541aaa51e574846492c60d439da1837a377d"
+  integrity sha512-fgcP61P45AA1DacW+/532mivO5j48EEpmI7To8PK3gCVgL023QuEAPzfTA9hB6lW2hgdqiMf4gLON972pYC2+g==
   dependencies:
     "@volar/typescript" "~2.4.11"
-    "@vue/language-core" "2.2.6"
+    "@vue/language-core" "2.2.8"
     path-browserify "^1.0.1"
-    vue-component-type-helpers "2.2.6"
+    vue-component-type-helpers "2.2.8"
 
-vue-component-type-helpers@2.2.6, vue-component-type-helpers@latest:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.2.6.tgz#56560604d76522bdcd31f7d349e93c3afa37cf64"
-  integrity sha512-kFdh3gw9DN+h6d/JEQfW8GbNG4XHwiJSJO1T3Akx1QtLT0tS/4njk4JpAzQ6i9PvOwALg3ESMnS31xr2wXluXA==
+vue-component-type-helpers@2.2.8, vue-component-type-helpers@latest:
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.2.8.tgz#66d25e4405a4bcc06a22aa4c01e35141343da580"
+  integrity sha512-4bjIsC284coDO9om4HPA62M7wfsTvcmZyzdfR0aUlFXqq4tXxM1APyXpNVxPC8QazKw9OhmZNHBVDA6ODaZsrA==
 
 vue-docgen-api@^4.75.1:
   version "4.79.2"
