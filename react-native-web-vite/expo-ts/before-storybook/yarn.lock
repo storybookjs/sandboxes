@@ -837,10 +837,10 @@
   dependencies:
     uuid "^8.0.0"
 
-"@expo/cli@0.22.19":
-  version "0.22.19"
-  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.22.19.tgz#0f016bd5a23238806d6faa108e6b33f579021768"
-  integrity sha512-vgAM3gUsAUQWgDm10RIYSrWQ5q235Ir/lMUdx5Yd/gObYaDlaBIdsq5H72eJ44QB+4ndvhm2wbqntTI19kBIRw==
+"@expo/cli@0.22.20":
+  version "0.22.20"
+  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.22.20.tgz#0137e50d327f94de48fe5af6f31de2afbdce6783"
+  integrity sha512-BU2ASlw0Gaj3ou/TxVsgvzK+XK8Z14Yq3mmLyvMcMAQrdExZLNmvMZ3A3x6q2uMgSJM3aoQBUuVXS/Ny+lYgDA==
   dependencies:
     "@0no-co/graphql.web" "^1.0.8"
     "@babel/runtime" "^7.20.0"
@@ -1137,14 +1137,14 @@
   integrity sha512-Doz2bfiPndXYFPMRwPyGa1k5QaKDVpY806UJj570epIiMzWaYyCtobasyfC++qfIXVb5Ocy7r3tP9d62hAQ7IQ==
 
 "@expo/server@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@expo/server/-/server-0.5.2.tgz#f69b541ddcaf4466b4de2b707e79e3bb24dfe73c"
-  integrity sha512-Uh10gzQM9GUC+RUX8ACdWxrbOJ47uXvs+Kiq8Ho6XMBkRG7AXhWWAgM7XSI0GddqpRLOyHafsIICJqj5YsR5sw==
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@expo/server/-/server-0.5.3.tgz#7e2c268699aa962035bfb95c7e0d46515940709c"
+  integrity sha512-WXsWzeBs5v/h0PUfHyNLLz07rwwO5myQ1A5DGYewyyGLmsyl61yVCe8AgAlp1wkiMsqhj2hZqI2u3K10QnCMrQ==
   dependencies:
     abort-controller "^3.0.0"
     debug "^4.3.4"
     source-map-support "~0.5.21"
-    undici "^6.18.2 || ^7.0.0"
+    undici "^6.18.2"
 
 "@expo/spawn-async@^1.7.2":
   version "1.7.2"
@@ -3286,12 +3286,12 @@ expo-web-browser@~14.0.2:
   integrity sha512-Hncv2yojhTpHbP6SGWARBFdl7P6wBHc1O8IKaNsH0a/IEakq887o1eRhLxZ5IwztPQyRDhpqHdgJ+BjWolOnwA==
 
 expo@~52.0.38:
-  version "52.0.38"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-52.0.38.tgz#2f070f5475be28d67a32a63ae57ab674202b04e8"
-  integrity sha512-6DZJjN/oEeYOPGoNUWE41vUuwVSl/Cg9o3rTbP62Pchgspp61Elsf8G7FtdcAtdgOzkJmbnPrPqklpMXGwpgfA==
+  version "52.0.39"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-52.0.39.tgz#2f365673d1ec14e78fbdfb2b6dac683ac465743f"
+  integrity sha512-EOnrgj8MHSt0o0SIBhM7jCim2QpJJNonbSATn9LqNtVgKtotIg718G/OrP5/g0GUAOBDyxHH9PfNu/aq9c0vDw==
   dependencies:
     "@babel/runtime" "^7.20.0"
-    "@expo/cli" "0.22.19"
+    "@expo/cli" "0.22.20"
     "@expo/config" "~10.0.11"
     "@expo/config-plugins" "~9.0.17"
     "@expo/fingerprint" "0.11.11"
@@ -3452,9 +3452,9 @@ flow-enums-runtime@^0.0.6:
   integrity sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==
 
 flow-parser@0.*:
-  version "0.265.0"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.265.0.tgz#dcdb992ca3af8045bc2efc5eebf9b31f77178a6c"
-  integrity sha512-C+bg/TZsDVlLMF14+q9P9FB2pjQSgWwYs0pkIMPE1FsZWS4A0kk1M28V6YphpxAPr3AISVRZ6VgpDepvCk6dGw==
+  version "0.265.2"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.265.2.tgz#6e2b51176c30dd759bfb87bd09d8bdaefe097958"
+  integrity sha512-DX2mp5u3lNJHl5dH8R1KrcrDsiJC02zFcG95p4b0YcDCzZZW+v9za2Csv5bQ0cq4jNzGx0gFU9jFZyM7FOyNFw==
 
 fontfaceobserver@^2.1.0:
   version "2.3.0"
@@ -6796,11 +6796,6 @@ undici@^6.18.2:
   version "6.21.2"
   resolved "https://registry.yarnpkg.com/undici/-/undici-6.21.2.tgz#49c5884e8f9039c65a89ee9018ef3c8e2f1f4928"
   integrity sha512-uROZWze0R0itiAKVPsYhFov9LxrPMHLMEQFszeI2gCN6bnIIZ8twzBCJcN2LJrBBLfrP0t1FW0g+JmKVl8Vk1g==
-
-"undici@^6.18.2 || ^7.0.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.5.0.tgz#51db4d33e0556ea9ca0ea28ccae7448dd8c23ac9"
-  integrity sha512-NFQG741e8mJ0fLQk90xKxFdaSM7z4+IQpAgsFI36bCDY9Z2+aXXZjVy2uUksMouWfMI9+w5ejOq5zYYTBCQJDQ==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.1"
