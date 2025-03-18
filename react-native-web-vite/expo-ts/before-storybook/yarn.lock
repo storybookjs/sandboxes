@@ -1136,7 +1136,7 @@
   resolved "https://registry.yarnpkg.com/@expo/sdk-runtime-versions/-/sdk-runtime-versions-1.0.0.tgz#d7ebd21b19f1c6b0395e50d78da4416941c57f7c"
   integrity sha512-Doz2bfiPndXYFPMRwPyGa1k5QaKDVpY806UJj570epIiMzWaYyCtobasyfC++qfIXVb5Ocy7r3tP9d62hAQ7IQ==
 
-"@expo/server@^0.5.2":
+"@expo/server@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@expo/server/-/server-0.5.3.tgz#7e2c268699aa962035bfb95c7e0d46515940709c"
   integrity sha512-WXsWzeBs5v/h0PUfHyNLLz07rwwO5myQ1A5DGYewyyGLmsyl61yVCe8AgAlp1wkiMsqhj2hZqI2u3K10QnCMrQ==
@@ -2956,9 +2956,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.119"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.119.tgz#4e105e419209b33e1c44b4d1b5fc6fb27fac0209"
-  integrity sha512-Ku4NMzUjz3e3Vweh7PhApPrZSS4fyiCIbcIrG9eKrriYVLmbMepETR/v6SU7xPm98QTqMSYiCwfO89QNjXLkbQ==
+  version "1.5.120"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.120.tgz#ccfdd28e9795fb8c2221cefa2c9a071501c86247"
+  integrity sha512-oTUp3gfX1gZI+xfD2djr2rzQdHCwHzPQrrK0CD7WpTdF0nPdQ/INcRVjWgLdCT4a9W3jFObR9DAfsuyFQnI8CQ==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3234,13 +3234,13 @@ expo-modules-core@2.2.3:
   dependencies:
     invariant "^2.2.4"
 
-expo-router@~4.0.18:
-  version "4.0.18"
-  resolved "https://registry.yarnpkg.com/expo-router/-/expo-router-4.0.18.tgz#6ccb0bcb462d1ca2313af7711a8ea841c823a2f4"
-  integrity sha512-K3lI070u9M8G4MAwHbi/jy7Co+c9DQ+mW/h99YTMw+LTDIUbyzRy5tflboRDtkEbCv1W/8cDXu9Y2Puct4RRNA==
+expo-router@~4.0.19:
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/expo-router/-/expo-router-4.0.19.tgz#b2c33c07f18c81af0692ee06b6f1e3dee50da979"
+  integrity sha512-oZ/vAx0x126Q6rccpWkMhKa/17YHYfeXQP8KwqaIadQsTR28cLgAY2gcAtFQyc8XTjgJmsRnfQNyCnyNN04DWg==
   dependencies:
     "@expo/metro-runtime" "4.0.1"
-    "@expo/server" "^0.5.2"
+    "@expo/server" "^0.5.3"
     "@radix-ui/react-slot" "1.0.1"
     "@react-navigation/bottom-tabs" "^7.2.0"
     "@react-navigation/native" "^7.0.14"
@@ -3285,7 +3285,7 @@ expo-web-browser@~14.0.2:
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-14.0.2.tgz#52d53947c42fdfb225e8c230418ffe508bcf98a7"
   integrity sha512-Hncv2yojhTpHbP6SGWARBFdl7P6wBHc1O8IKaNsH0a/IEakq887o1eRhLxZ5IwztPQyRDhpqHdgJ+BjWolOnwA==
 
-expo@~52.0.38:
+expo@~52.0.39:
   version "52.0.39"
   resolved "https://registry.yarnpkg.com/expo/-/expo-52.0.39.tgz#2f365673d1ec14e78fbdfb2b6dac683ac465743f"
   integrity sha512-EOnrgj8MHSt0o0SIBhM7jCim2QpJJNonbSATn9LqNtVgKtotIg718G/OrP5/g0GUAOBDyxHH9PfNu/aq9c0vDw==
@@ -3452,9 +3452,9 @@ flow-enums-runtime@^0.0.6:
   integrity sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==
 
 flow-parser@0.*:
-  version "0.265.2"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.265.2.tgz#6e2b51176c30dd759bfb87bd09d8bdaefe097958"
-  integrity sha512-DX2mp5u3lNJHl5dH8R1KrcrDsiJC02zFcG95p4b0YcDCzZZW+v9za2Csv5bQ0cq4jNzGx0gFU9jFZyM7FOyNFw==
+  version "0.265.3"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.265.3.tgz#29ba9a9b82913f7ec5c3483fd00b9cae6b94e3e8"
+  integrity sha512-YH50TTYgnzDnuaZlAxLYQ0UZtXSbbizMO3OCpoY8obvLReJmvQ5UUW22efsC3SZJmze/tATfQ0PtkKul2XwWBw==
 
 fontfaceobserver@^2.1.0:
   version "2.3.0"
