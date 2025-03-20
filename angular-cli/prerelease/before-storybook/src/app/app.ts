@@ -11,6 +11,6 @@ import { RouterOutlet } from '@angular/router';
   `,
   styles: [],
 })
-export class AppComponent {
+export class App {
   title = 'angular-v16';
 }
