@@ -1292,9 +1292,9 @@
     semver "^7.3.5"
 
 "@embroider/macros@^1.10.0", "@embroider/macros@^1.16.5":
-  version "1.16.11"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.16.11.tgz#c8c8c58dac21dd911379ae31fe4f5a53a5cc5a69"
-  integrity sha512-TUm/74oBr+tWto0IPAht1g6zjpP7UK0aQdnFHHqGvDPc+tAROQb9jKI/ePEuKAdBCV3L7XvvC4Rlf0DNvT4qmw==
+  version "1.16.12"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.16.12.tgz#f9695c960df74a8e056fa84db31af7c71b6e8c7a"
+  integrity sha512-cgaEbzCvUOZF7Xs9FNMGknSCTgE01A1cXkkEhSTuaPbf6F/2z9pZAdQpVrBbTvo1Sg8CwMsm+piahjy43KoGuA==
   dependencies:
     "@embroider/shared-internals" "2.9.0"
     assert-never "^1.2.1"
@@ -1552,12 +1552,13 @@
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/interfaces@0.84.3":
-  version "0.84.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.84.3.tgz#629777a4abe373b0785656f6c8d08989f5784805"
-  integrity sha512-dk32ykoNojt0mvEaIW6Vli5MGTbQo58uy3Epj7ahCgTHmWOKuw/0G83f2UmFprRwFx689YTXG38I/vbpltEjzg==
+"@glimmer/interfaces@0.94.6":
+  version "0.94.6"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.94.6.tgz#a4a2877730f37587326cab361de81cc0da71a823"
+  integrity sha512-sp/1WePvB/8O+jrcUHwjboNPTKrdGicuHKA9T/lh0vkYK2qM5Xz4i25lQMQ38tEMiw7KixrjHiTUiaXRld+IwA==
   dependencies:
     "@simple-dom/interface" "^1.4.0"
+    type-fest "^4.35.0"
 
 "@glimmer/reference@^0.65.0":
   version "0.65.4"
@@ -1570,6 +1571,17 @@
     "@glimmer/util" "0.65.4"
     "@glimmer/validator" "0.65.4"
 
+"@glimmer/syntax@>= 0.94.9":
+  version "0.94.9"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.94.9.tgz#32c242a08724f00dc413625440bd3b8e13975f24"
+  integrity sha512-OBw8DqMzKO4LX4kJBhwfTUqtpbd7O9amQXNTfb1aS7pufio5Vu5Qi6mRTfdFj6RyJ//aSI/l0kxWt6beYW0Apg==
+  dependencies:
+    "@glimmer/interfaces" "0.94.6"
+    "@glimmer/util" "0.94.8"
+    "@glimmer/wire-format" "0.94.8"
+    "@handlebars/parser" "~2.0.0"
+    simple-html-tokenizer "^0.5.11"
+
 "@glimmer/syntax@^0.65.0":
   version "0.65.4"
   resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.65.4.tgz#49164de5dc9e8b67084ec009bdd865e379d8a971"
@@ -1579,16 +1591,6 @@
     "@glimmer/util" "0.65.4"
     "@handlebars/parser" "^1.1.0"
     simple-html-tokenizer "^0.5.10"
-
-"@glimmer/syntax@^0.84.3":
-  version "0.84.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.84.3.tgz#4045a1708cef7fd810cff42fe6deeba40c7286d0"
-  integrity sha512-ioVbTic6ZisLxqTgRBL2PCjYZTFIwobifCustrozRU2xGDiYvVIL0vt25h2c1ioDsX59UgVlDkIK4YTAQQSd2A==
-  dependencies:
-    "@glimmer/interfaces" "0.84.3"
-    "@glimmer/util" "0.84.3"
-    "@handlebars/parser" "~2.0.0"
-    simple-html-tokenizer "^0.5.11"
 
 "@glimmer/tracking@^1.0.4":
   version "1.1.2"
@@ -1607,14 +1609,12 @@
     "@glimmer/interfaces" "0.65.4"
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/util@0.84.3":
-  version "0.84.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.84.3.tgz#9ae0166982c0b48aa94b02d6ba8c2c81976ade4b"
-  integrity sha512-qFkh6s16ZSRuu2rfz3T4Wp0fylFj3HBsONGXQcrAdZjdUaIS6v3pNj6mecJ71qRgcym9Hbaq/7/fefIwECUiKw==
+"@glimmer/util@0.94.8":
+  version "0.94.8"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.94.8.tgz#13eb1003c2f5df84aedd73907745ec02baf4f8f8"
+  integrity sha512-HfCKeZ74clF9BsPDBOqK/yRNa/ke6niXFPM6zRn9OVYw+ZAidLs7V8He/xljUHlLRL322kaZZY8XxRW7ALEwyg==
   dependencies:
-    "@glimmer/env" "0.1.7"
-    "@glimmer/interfaces" "0.84.3"
-    "@simple-dom/interface" "^1.4.0"
+    "@glimmer/interfaces" "0.94.6"
 
 "@glimmer/util@^0.44.0":
   version "0.44.0"
@@ -1640,6 +1640,13 @@
   integrity sha512-9ej6xlm5MzHBJ5am2l0dbbn8Z0wJoYoMpM8FcrGMlUP6SPMLWxvxpMsApgQo8u6dvZRCjR3/bw3fdf7GOy0AFw==
   dependencies:
     babel-plugin-debug-macros "^0.3.4"
+
+"@glimmer/wire-format@0.94.8":
+  version "0.94.8"
+  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.94.8.tgz#439877561779b7aa19040879ecf915b3cd8b5fbe"
+  integrity sha512-A+Cp5m6vZMAEu0Kg/YwU2dJZXyYxVJs2zI57d3CP6NctmX7FsT8WjViiRUmt5abVmMmRH5b8BUovqY6GSMAdrw==
+  dependencies:
+    "@glimmer/interfaces" "0.94.6"
 
 "@handlebars/parser@^1.1.0":
   version "1.1.0"
@@ -3707,9 +3714,9 @@ ajv@^8.0.0, ajv@^8.0.1, ajv@^8.9.0:
     require-from-string "^2.0.2"
 
 alien-signals@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/alien-signals/-/alien-signals-1.0.4.tgz#c696a5dc9963fc648ae97093411d7e74b0a81ac0"
-  integrity sha512-DJqqQD3XcsaQcQ1s+iE2jDUZmmQpXwHiR6fCAim/w87luaW+vmLY8fMlrdkmRwzaFXhkxf3rqPCR59tKVv1MDw==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/alien-signals/-/alien-signals-1.0.6.tgz#38972f1c7fd10a660f7e64c4044a6748ff9566a6"
+  integrity sha512-aITl4ODHNX9mqBqwZWr5oTYP74hemqVGV4KRLSQacjoZIdwNxbedHF656+c4zuGLtRtcowitoXdIfyrXgzniVg==
 
 amd-name-resolver@1.2.0:
   version "1.2.0"
@@ -4374,11 +4381,11 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
     ember-rfc176-data "^0.3.17"
 
 babel-plugin-ember-template-compilation@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.3.0.tgz#900aefaeb7c06244293c926c33e2951605d4d4c6"
-  integrity sha512-4ZrKVSqdw5PxEKRbqfOpPhrrNBDG3mFPhyT6N1Oyyem81ZIkCvNo7TPKvlTHeFxqb6HtUvCACP/pzFpZ74J4pg==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.4.0.tgz#7389cf54889fc813c68b4f3f16e4f76b1633f6df"
+  integrity sha512-o0EgnMV/JvThH1571lBWgNYEYHKH4ACEICsXbvuyzV+n3ahaDUuqIvmMjM4iYEPH2Ip0olKHh0b5RTd7eiUelQ==
   dependencies:
-    "@glimmer/syntax" "^0.84.3"
+    "@glimmer/syntax" ">= 0.94.9"
     babel-import-util "^3.0.0"
 
 babel-plugin-filter-imports@^4.0.0:
@@ -7037,9 +7044,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.3.47, electron-to-chromium@^1.5.73:
-  version "1.5.120"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.120.tgz#ccfdd28e9795fb8c2221cefa2c9a071501c86247"
-  integrity sha512-oTUp3gfX1gZI+xfD2djr2rzQdHCwHzPQrrK0CD7WpTdF0nPdQ/INcRVjWgLdCT4a9W3jFObR9DAfsuyFQnI8CQ==
+  version "1.5.123"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.123.tgz#fae5bdba0ba27045895176327aa79831aba0790c"
+  integrity sha512-refir3NlutEZqlKaBLK0tzlVLe5P2wDKS7UQt/3SpibizgsRAPOsqQC3ffw1nlv3ze5gjRQZYHoPymgVZkplFA==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.6.1"
@@ -15416,6 +15423,11 @@ type-fest@^2.14.0, type-fest@^2.19.0, type-fest@~2.19:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
+
+type-fest@^4.35.0:
+  version "4.37.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.37.0.tgz#7cf008bf77b63a33f7ca014fa2a3f09fd69e8937"
+  integrity sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==
 
 type-is@~1.6.18:
   version "1.6.18"
