@@ -8,7 +8,8 @@ const config = {
   ],
   "addons": [
     "@storybook/addon-essentials",
-    "@chromatic-com/storybook"
+    "@chromatic-com/storybook",
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook/web-components-vite",

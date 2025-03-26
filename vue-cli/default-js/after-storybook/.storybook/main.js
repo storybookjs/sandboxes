@@ -11,6 +11,7 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
+    "@storybook/addon-docs",
     "@storybook/addon-interactions"
   ],
   "framework": {

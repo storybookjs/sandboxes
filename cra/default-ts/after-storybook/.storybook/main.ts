@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
+    "@storybook/addon-docs",
     "@storybook/addon-interactions"
   ],
   "framework": {
