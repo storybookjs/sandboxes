@@ -10,8 +10,7 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
-    "@storybook/addon-docs",
-    "@storybook/addon-interactions"
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook/react-webpack5",

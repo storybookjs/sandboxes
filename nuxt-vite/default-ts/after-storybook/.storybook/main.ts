@@ -8,8 +8,7 @@ const config: StorybookConfig = {
   "addons": [
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
-    "@storybook/addon-docs",
-    "@storybook/addon-interactions"
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook-vue/nuxt",
