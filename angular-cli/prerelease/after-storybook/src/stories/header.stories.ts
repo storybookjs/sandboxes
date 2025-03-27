@@ -17,6 +17,16 @@ const meta: Meta<HeaderComponent> = {
     onLogout: fn(),
     onCreateAccount: fn(),
   },
+  argTypes: {
+    user: {
+      type: {
+        name: 'object',
+        value: {
+          name: { name: 'string' },
+        },
+      },
+    },
+  },
 };
 
 export default meta;

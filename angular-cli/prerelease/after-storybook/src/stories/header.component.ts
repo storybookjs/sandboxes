@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ButtonComponent } from './button.component';
@@ -27,28 +27,28 @@ import type { User } from './user';
       <h1>Acme</h1>
     </div>
     <div>
-      <div *ngIf="user">
+      <div *ngIf="user()">
         <span class="welcome">
-          Welcome, <b>{{ user.name }}</b
+          Welcome, <b>{{ user().name }}</b
           >!
         </span>
         <storybook-button
-          *ngIf="user"
+          *ngIf="user()"
           size="small"
           (onClick)="onLogout.emit($event)"
           label="Log out"
         ></storybook-button>
       </div>
-      <div *ngIf="!user">
+      <div *ngIf="!user()">
         <storybook-button
-          *ngIf="!user"
+          *ngIf="!user()"
           size="small"
           class="margin-left"
           (onClick)="onLogin.emit($event)"
           label="Log in"
         ></storybook-button>
         <storybook-button
-          *ngIf="!user"
+          *ngIf="!user()"
           size="small"
           [primary]="true"
           class="margin-left"
@@ -62,15 +62,11 @@ import type { User } from './user';
   styleUrls: ['./header.css'],
 })
 export class HeaderComponent {
-  @Input()
-  user: User | null = null;
+  user = input<User | null>(null);
 
-  @Output()
-  onLogin = new EventEmitter<Event>();
+  onLogin = output<Event>();
 
-  @Output()
-  onLogout = new EventEmitter<Event>();
+  onLogout = output<Event>();
 
-  @Output()
-  onCreateAccount = new EventEmitter<Event>();
+  onCreateAccount = output<Event>();
 }
