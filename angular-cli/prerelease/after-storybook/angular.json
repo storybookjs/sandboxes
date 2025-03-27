@@ -44,7 +44,6 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/angular-v16",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -61,7 +60,6 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
