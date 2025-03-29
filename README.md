@@ -232,12 +232,6 @@
         Angular CLI Latest (Webpack | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/15-ts/after-storybook?preset=node"
-      >
-        Angular CLI v15 (Webpack | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 
