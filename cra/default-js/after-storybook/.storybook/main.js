@@ -10,7 +10,6 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
-    "@chromatic-com/storybook",
     "@storybook/addon-docs"
   ],
   "framework": {

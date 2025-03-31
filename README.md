@@ -266,18 +266,6 @@
 </details>
 
 <details>
-  <summary><b>Vue-cli</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue-cli/default-js/after-storybook?preset=node"
-      >
-        Vue CLI v3 (Webpack | JavaScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Preact-vite</b></summary>
   <ul>
     <li>

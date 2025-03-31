@@ -8,7 +8,6 @@ const config = {
   ],
   "addons": [
     "@storybook/addon-essentials",
-    "@chromatic-com/storybook",
     "@storybook/addon-docs"
   ],
   "framework": {

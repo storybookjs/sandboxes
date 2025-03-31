@@ -8,7 +8,6 @@ const config: StorybookConfig = {
   "addons": [
     "@storybook/addon-essentials",
     "@storybook/addon-svelte-csf",
-    "@chromatic-com/storybook",
     "@storybook/addon-docs"
   ],
   "framework": {
