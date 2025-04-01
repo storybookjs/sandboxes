@@ -170,18 +170,6 @@
 </details>
 
 <details>
-  <summary><b>Html-webpack</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-webpack/default/after-storybook?preset=node"
-      >
-        HTML Latest (Webpack | JavaScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Html-vite</b></summary>
   <ul>
     <li>
