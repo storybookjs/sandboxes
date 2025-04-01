@@ -170,6 +170,18 @@
 </details>
 
 <details>
+  <summary><b>Html-webpack</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-webpack/default/after-storybook?preset=node"
+      >
+        HTML Latest (Webpack | JavaScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Html-vite</b></summary>
   <ul>
     <li>
@@ -220,6 +232,12 @@
         Angular CLI Latest (Webpack | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/15-ts/after-storybook?preset=node"
+      >
+        Angular CLI v15 (Webpack | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -227,9 +245,9 @@
   <summary><b>Svelte-kit</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/prerelease-ts/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-kit/skeleton-ts/after-storybook?preset=node"
       >
-        SvelteKit Prerelease (Vite | TypeScript)
+        SvelteKit Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
