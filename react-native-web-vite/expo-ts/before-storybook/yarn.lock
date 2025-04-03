@@ -1651,19 +1651,19 @@
     nullthrows "^1.1.1"
 
 "@react-navigation/bottom-tabs@^7.2.0":
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-7.3.4.tgz#672164c6bb68036c2463f833e0f9f038d46f09ab"
-  integrity sha512-AnKTPPw9k9CIDTRp5wwwHWL9Q/gumLgfccIqTlK/e8G6QyvqSUqhFu3wJKxDE3J6LJKkYyAgR5BWJQMGa7gX6w==
+  version "7.3.7"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-7.3.7.tgz#2e836b13413d3de5f346ce2093e221cd4d424ffd"
+  integrity sha512-NziUT/ism9MnfY2IZ4G8xheIlqO1nzw5uRLvYRsJkNsjK/cg7bZh3B+A0Pbfr4CT7Sm+6pzqOX898Kbvn3Uhsw==
   dependencies:
-    "@react-navigation/elements" "^2.3.2"
+    "@react-navigation/elements" "^2.3.5"
     color "^4.2.3"
 
-"@react-navigation/core@^7.8.0":
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-7.8.0.tgz#480e1da590c68084a728bbf6e55d0bd3dfe3b8c3"
-  integrity sha512-eKHe3ZEVsAHalMdugaCIhc2bUTYI7am9oT8CIhOQg2xiZ9OlT6eKYQacby6gVCHLJWNBOawrtENhuFJervkLRw==
+"@react-navigation/core@^7.8.2":
+  version "7.8.2"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-7.8.2.tgz#eee423adcd14c770cbabfbb2c5a96c1baa143761"
+  integrity sha512-zKYdfCf+uC+69kcJ09DheYIRwWEmTCkg9Hz9tyd/E4QCQ04KH8hMhXg94oUZRkL08r/nNwk6/1/RYbYxC4x8jQ==
   dependencies:
-    "@react-navigation/routers" "^7.3.2"
+    "@react-navigation/routers" "^7.3.3"
     escape-string-regexp "^4.0.0"
     nanoid "3.3.8"
     query-string "^7.1.3"
@@ -1671,36 +1671,36 @@
     use-latest-callback "^0.2.1"
     use-sync-external-store "^1.2.2"
 
-"@react-navigation/elements@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-2.3.2.tgz#7192ef79be10858f11f1726433cfeb3720061db1"
-  integrity sha512-8MWcL/TVCg3MTOaAXMSPM8OrvZFQ16EPj/a+wVRDKiyl/GFnchu3ho3tsP+4odAMbWXNRsHMdHNxgFVCmPhNNA==
+"@react-navigation/elements@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-2.3.5.tgz#a7942d3972df5c8ce7d038b4c7bf2c7e8822f745"
+  integrity sha512-vuvlX2ISeyXiIE7hlt8KE1WbN3QV84DElVod1sHtIUUrsR3AwPp86N2RmQ8izpPp/xnErr8t6k3N6e1n8JgxkA==
   dependencies:
     color "^4.2.3"
 
 "@react-navigation/native-stack@^7.2.0":
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-7.3.4.tgz#1220e7862937cd646c1dbef52b947e63aeabb4f7"
-  integrity sha512-quu6nfQf8zHqOQMvIyAJf+Wxx1ItoynakI4ZwHpbC77kiIUkzpHCAScnJ+ZE8bjkUpuWm5ugXo8AUNo4DWHJBQ==
+  version "7.3.7"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-7.3.7.tgz#eddf06f2090a815655ba83c403ea99199294f1ab"
+  integrity sha512-BfkYt+wqUZYHkdAYp4dlBXqM2CO314FU0DXnfzlj9UWRlw3Z9OvdWf/7Dbmuyd42MdCm0Q9+F65t4MhNimiA/w==
   dependencies:
-    "@react-navigation/elements" "^2.3.2"
+    "@react-navigation/elements" "^2.3.5"
     warn-once "^0.1.1"
 
 "@react-navigation/native@^7.0.14":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-7.1.0.tgz#4c2844d47a812123446906ba58ca31443da52f75"
-  integrity sha512-7ScBWNca2jEcfkekMHp6/NJbLADgRKRYEXZ2gILR/riM0Yq8by4RyHmdgXT70oYRUT+MQ/tm70YBFv/4ubAzVg==
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-7.1.3.tgz#7900814e56d16e36b53f614102cb7661bd989ad2"
+  integrity sha512-wv2eQac78SQkZIpIl5L3dd4DgCCxjN0QZUow9Cgcqdi8wa7pb8QwOl9+zFXWvByGoE2ywKq8tHdlYD4NYiR9yQ==
   dependencies:
-    "@react-navigation/core" "^7.8.0"
+    "@react-navigation/core" "^7.8.2"
     escape-string-regexp "^4.0.0"
     fast-deep-equal "^3.1.3"
     nanoid "3.3.8"
     use-latest-callback "^0.2.1"
 
-"@react-navigation/routers@^7.3.2":
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/routers/-/routers-7.3.2.tgz#38e0ced4495520f4ff8772e48abe8d44922bf1db"
-  integrity sha512-FZsMPbFP8FubdlA0oa+2bLhgwDNSk+ezIUETxIvMazoz715LTpXzPNBiQ29AMfZztADAWniTjotWSOREwKETkA==
+"@react-navigation/routers@^7.3.3":
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/routers/-/routers-7.3.3.tgz#11ac58be7d9821170ea093c8779d593401298df5"
+  integrity sha512-CkaFhV46AToy52xKy9V8niqBXJvOq+WayJ7NtP8BX+rMx7mW/dNKB7Wn7dMtgxOZgzIae7AeiLO+nH74NBBTFg==
   dependencies:
     nanoid "3.3.8"
 
@@ -1830,11 +1830,11 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.13.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.17.tgz#9ca6a81a0180cdcfd3719b9cf6c09186756e1754"
-  integrity sha512-nAJuQXoyPj04uLgu+obZcSmsfOenUg6DxPKogeUy6yNCFwWaj5sBF8/G/pNo8EtBJjAfSVgfIlugR/BCOleO+g==
+  version "22.14.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.14.0.tgz#d3bfa3936fef0dbacd79ea3eb17d521c628bb47e"
+  integrity sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==
   dependencies:
-    undici-types "~6.20.0"
+    undici-types "~6.21.0"
 
 "@types/prop-types@*":
   version "15.7.14"
@@ -2956,9 +2956,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.129"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.129.tgz#fafa835aea5d15fcd5cbe9bd6bf1cb5d4b3aa06e"
-  integrity sha512-JlXUemX4s0+9f8mLqib/bHH8gOHf5elKS6KeWG3sk3xozb/JTq/RLXIv8OKUWiK4Ah00Wm88EFj5PYkFr4RUPA==
+  version "1.5.130"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.130.tgz#19f5dd2cf166a8dd1350b08230a33faba0d8f4ec"
+  integrity sha512-Ou2u7L9j2XLZbhqzyX0jWDj6gA8D3jIfVzt4rikLf3cGBa0VdReuFimBKS9tQJA4+XpeCxj1NoWlfBXzbMa9IA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3235,9 +3235,9 @@ expo-modules-core@2.2.3:
     invariant "^2.2.4"
 
 expo-router@~4.0.19:
-  version "4.0.19"
-  resolved "https://registry.yarnpkg.com/expo-router/-/expo-router-4.0.19.tgz#b2c33c07f18c81af0692ee06b6f1e3dee50da979"
-  integrity sha512-oZ/vAx0x126Q6rccpWkMhKa/17YHYfeXQP8KwqaIadQsTR28cLgAY2gcAtFQyc8XTjgJmsRnfQNyCnyNN04DWg==
+  version "4.0.20"
+  resolved "https://registry.yarnpkg.com/expo-router/-/expo-router-4.0.20.tgz#1b4d7c9b9fd3c16a5bd145acab6281ae581efdc5"
+  integrity sha512-1+CtvohptOsG/Piejk8uQ9cmM+8ojadFkdeThCn4klZjc0dtFSSHenb8D/0RKuBdp4taBkNaqgEKwYvhVBJyEg==
   dependencies:
     "@expo/metro-runtime" "4.0.1"
     "@expo/server" "^0.5.3"
@@ -3811,9 +3811,9 @@ ignore@^5.2.0:
   integrity sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==
 
 image-size@^1.0.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-1.2.0.tgz#312af27a2ff4ff58595ad00b9344dd684c910df6"
-  integrity sha512-4S8fwbO6w3GeCVN6OPtA9I5IGKkcDMPcKndtUlpJuCwu7JLjtj7JZpwqLuyY2nrmQT3AWsCJLSKPsc2mPBSl3w==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-1.2.1.tgz#ee118aedfe666db1a6ee12bed5821cde3740276d"
+  integrity sha512-rH+46sQJ2dlwfjfhCyNx5thzrv+dtmBIhPHk0zgRUukHzZ/kRueTJXoYYsclBaKcSMBWuGbOFXtioLpzTb5euw==
   dependencies:
     queue "6.0.2"
 
@@ -6787,10 +6787,10 @@ ua-parser-js@^1.0.35:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.40.tgz#ac6aff4fd8ea3e794a6aa743ec9c2fc29e75b675"
   integrity sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==
 
-undici-types@~6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.20.0.tgz#8171bf22c1f588d1554d55bf204bc624af388433"
-  integrity sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==
+undici-types@~6.21.0:
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
+  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 undici@^6.18.2:
   version "6.21.2"

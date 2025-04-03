@@ -6,8 +6,7 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    "@storybook/addon-essentials",
-    "@chromatic-com/storybook"
+    "@storybook/addon-essentials"
   ],
   "framework": {
     "name": "@storybook/web-components-vite",
