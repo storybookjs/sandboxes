@@ -1847,7 +1847,7 @@
   dependencies:
     type-fest "^2.19.0"
 
-"@storybook/docs-tools@8.6.12":
+"@storybook/docs-tools@8.6.12", "@storybook/docs-tools@next":
   version "8.6.12"
   resolved "http://localhost:6002/@storybook/docs-tools/-/docs-tools-8.6.12.tgz#05444141d5dc68eb3665bc1ce4dae59b0776d24b"
   integrity sha512-bOmTNJE4FM6+3/1hPQVgha8cLxX2Nyi/4Z+tYq0pCDEyQqGRTD2KXre9XsSCnziRaGxiW80OrKkmqWY8Otuu4A==
@@ -2105,7 +2105,7 @@
     vue-loader "^16.0.0"
     webpack "5"
 
-"@storybook/preview-api@8.6.12":
+"@storybook/preview-api@8.6.12", "@storybook/preview-api@next":
   version "8.6.12"
   resolved "http://localhost:6002/@storybook/preview-api/-/preview-api-8.6.12.tgz#07ac0c697801d4c2ffe26afb2673d8a417bd63ef"
   integrity sha512-84FE3Hrs0AYKHqpDZOwx1S/ffOfxBdL65lhCoeI8GoWwCkzwa9zEP3kvXBo/BnEDO7nAfxvMhjASTZXbKRJh5Q==
@@ -2293,7 +2293,7 @@
   resolved "http://localhost:6002/@storybook/theming/-/theming-8.6.12.tgz#2d521f422daf85e0b27179520ce1cfb520284447"
   integrity sha512-6VjZg8HJ2Op7+KV7ihJpYrDnFtd9D1jrQnUS8LckcpuBXrIEbaut5+34ObY8ssQnSqkk2GwIZBBBQYQBCVvkOw==
 
-"@storybook/types@8.6.12":
+"@storybook/types@8.6.12", "@storybook/types@next":
   version "8.6.12"
   resolved "http://localhost:6002/@storybook/types/-/types-8.6.12.tgz#774b80f40693a321980e200241de9b6c2725a682"
   integrity sha512-G/nR+js7KV1qKH3nAcOfwceERBic5e03dpkeA6PDmqBiQ8XeM9B6N4NTMhXi/2gM5ZAGJ+NxJMaW6zLnc32DjA==
@@ -2419,6 +2419,10 @@
   integrity sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg==
   dependencies:
     "@babel/types" "^7.0.0"
+
+"@types/babel__standalone@link:.yarn/cache/null":
+  version "0.0.0"
+  uid ""
 
 "@types/babel__template@*":
   version "7.4.4"
@@ -3049,6 +3053,13 @@ ast-types@^0.16.1:
   dependencies:
     tslib "^2.0.1"
 
+async-mutex@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/async-mutex/-/async-mutex-0.5.0.tgz#353c69a0b9e75250971a64ac203b0ebfddd75482"
+  integrity sha512-1A94B18jkJ3DYq284ohPxoXbfTA5HsQ7/Mf4DEhcyLx3Bz27Rh59iScbB6EPiP+B+joue6YCxcMXSbFC1tZKwA==
+  dependencies:
+    tslib "^2.4.0"
+
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
@@ -3401,9 +3412,9 @@ camel-case@^4.1.2:
     tslib "^2.0.3"
 
 caniuse-lite@^1.0.30001688:
-  version "1.0.30001709"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001709.tgz#61b34187b52851ef34c44d90f39a94dc5b0acb43"
-  integrity sha512-NgL3vUTnDrPCZ3zTahp4fsugQ4dc7EKTSzwQDPEel6DMoMnfH2jhry9n2Zm8onbSR+f/QtKHFOA+iAQu4kbtWA==
+  version "1.0.30001710"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001710.tgz#2cda0c6071ddd43c01151c7f704a0e510a86612f"
+  integrity sha512-B5C0I0UmaGqHgo5FuqJ7hBd4L57A4dDD+Xi+XX1nXOoxGeDdY4Ko38qJYOyqznBVJEqON5p8P1x5zRR3+rsnxA==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -4051,9 +4062,9 @@ dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.73:
-  version "1.5.131"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.131.tgz#c28993f0624d283ef2e7debb567264730f3f4416"
-  integrity sha512-fJFRYXVEJgDCiqFOgRGJm8XR97hZ13tw7FXI9k2yC5hgY+nyzC2tMO8baq1cQR7Ur58iCkASx2zrkZPZUnfzPg==
+  version "1.5.132"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.132.tgz#081b8086d7cecc58732f7cc1f1c19306c5510c5f"
+  integrity sha512-QgX9EBvWGmvSRa74zqfnG7+Eno0Ak0vftBll0Pt2/z5b3bEGYL6OUXLgKPtvx73dn3dvwrlyVkjPKRRlhLYTEg==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.6.1"
@@ -7801,21 +7812,28 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-storybook-solidjs-vite@^1.0.0-beta.6:
-  version "1.0.0-beta.6"
-  resolved "http://localhost:6002/storybook-solidjs-vite/-/storybook-solidjs-vite-1.0.0-beta.6.tgz#d31b1d4a56578f6634da4cc540958927bd22fa1b"
-  integrity sha512-+gggXbzmM+p1dA5EdvlfzMPzIB6Nar1WAzDND63wJeDfqHfpL+yYZqewEJm5woLhMLCqhBIMjfei/TXgjVDJXg==
+storybook-solidjs-vite@^1.0.0-beta.7:
+  version "1.0.0-beta.7"
+  resolved "http://localhost:6002/storybook-solidjs-vite/-/storybook-solidjs-vite-1.0.0-beta.7.tgz#f8d3eac3e06ed52056d5454b8a518e8feaa5f203"
+  integrity sha512-YOTsycsXi1KXOa/nNHbKNvKMELiygDfLQEL1D7yBIW6IhScRgXEIQGttJ8eeYqe43Mofi53U544AOIIF9btEzw==
   dependencies:
     "@storybook/builder-vite" next
+    "@storybook/types" next
     magic-string "^0.30.11"
-    vite-plugin-solid "^2.10.2"
+    storybook-solidjs "1.0.0-beta.7"
 
-storybook-solidjs@^1.0.0-beta.6:
-  version "1.0.0-beta.6"
-  resolved "http://localhost:6002/storybook-solidjs/-/storybook-solidjs-1.0.0-beta.6.tgz#ebe62e267d1eddcf8d41b1ca1dbb6e50a8589825"
-  integrity sha512-QlnDo0zljwr/GToBe+JmRrw9dsmY8mR1RzRa7ugG0PPzzLVMU9hL1rqtT6qnVVIjqZTMCce3FNCxPZLrxQZaWA==
+storybook-solidjs@1.0.0-beta.7, storybook-solidjs@^1.0.0-beta.7:
+  version "1.0.0-beta.7"
+  resolved "http://localhost:6002/storybook-solidjs/-/storybook-solidjs-1.0.0-beta.7.tgz#8656d7f35028b0bf579c7a86d306682b4b43b50d"
+  integrity sha512-PgquZC4FiNPCDOIXuXYOco01vMHCXBBAr3Y/a9ylF4+0vOTcL2RAqieUmTbZhBxVWZIm+nPIyOlz8UqhwcgLtQ==
   dependencies:
     "@babel/standalone" "^7.26.2"
+    "@storybook/docs-tools" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" next
+    "@storybook/types" next
+    "@types/babel__standalone" "link:../../home/runner/.cache/yarn/v6/npm-storybook-solidjs-1.0.0-beta.7-8656d7f35028b0bf579c7a86d306682b4b43b50d-integrity/node_modules/storybook-solidjs/.yarn/cache/null"
+    async-mutex "^0.5.0"
 
 storybook@8.6.12, storybook@^8.6.12:
   version "8.6.12"
@@ -8159,9 +8177,9 @@ type-fest@^2.14.0, type-fest@^2.19.0, type-fest@~2.19:
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 "typescript@^4.9.4 || ^5.0.0", typescript@^5.7.2, typescript@^5.7.3:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.2.tgz#8170b3702f74b79db2e5a96207c15e65807999e4"
-  integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
+  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
 
 ufo@^1.5.4:
   version "1.5.4"
@@ -8390,7 +8408,7 @@ vite-plugin-dynamic-import@^1.6.0:
     fast-glob "^3.3.2"
     magic-string "^0.30.11"
 
-vite-plugin-solid@^2.10.2, vite-plugin-solid@^2.11.6:
+vite-plugin-solid@^2.11.6:
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.11.6.tgz#253d498affd9b07995bb113299a9da0e2cf38c55"
   integrity sha512-Sl5CTqJTGyEeOsmdH6BOgalIZlwH3t4/y0RQuFLMGnvWMBvxb4+lq7x3BSiAw6etf0QexfNJW7HSOO/Qf7pigg==
