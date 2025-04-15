@@ -1,4 +1,4 @@
-/** @type { import('@storybook/preact').Preview } */
+/** @type { import('@storybook/preact-vite').Preview } */
 const preview = {
   parameters: {
     controls: {

@@ -1,3 +1,4 @@
+/** @type { import('storybook-solidjs-vite').Preview } */
 const preview = {
   parameters: {
     controls: {
