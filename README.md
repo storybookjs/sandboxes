@@ -56,16 +56,16 @@
 </details>
 
 <details>
-  <summary><b>Experimental-nextjs-vite</b></summary>
+  <summary><b>Nextjs-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/experimental-nextjs-vite/14-ts/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs-vite/14-ts/after-storybook?preset=node"
       >
         Next.js Latest (Vite | TypeScript)
       </a>
     </li>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/experimental-nextjs-vite/default-ts/after-storybook?preset=node"
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs-vite/default-ts/after-storybook?preset=node"
       >
         Next.js Latest (Vite | TypeScript)
       </a>
