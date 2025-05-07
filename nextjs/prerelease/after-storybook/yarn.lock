@@ -29,10 +29,10 @@
     js-tokens "^4.0.0"
     picocolors "^1.1.1"
 
-"@babel/compat-data@^7.22.6", "@babel/compat-data@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.27.1.tgz#db7cf122745e0a332c44e847ddc4f5e5221a43f6"
-  integrity sha512-Q+E+rd/yBzNQhXkG+zQnF58e4zoZfBedaxwzPmicKsiK3nt8iJYrSrDbjwFFDGC4f+rPafqRaPH6TsDoSvMf7A==
+"@babel/compat-data@^7.22.6", "@babel/compat-data@^7.27.2":
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.27.2.tgz#4183f9e642fd84e74e3eea7ffa93a412e3b102c9"
+  integrity sha512-TUtMJYRPyUb/9aU8f3K0mjmjf6M9N5Woshn2CS6nqJSeJtTtQcpLUXjGt9vbF8ZGff0El99sWkLgzwW3VXnxZQ==
 
 "@babel/core@^7.13.16", "@babel/core@^7.18.9", "@babel/core@^7.23.0", "@babel/core@^7.24.4", "@babel/core@^7.26.10":
   version "7.27.1"
@@ -73,12 +73,12 @@
   dependencies:
     "@babel/types" "^7.27.1"
 
-"@babel/helper-compilation-targets@^7.22.6", "@babel/helper-compilation-targets@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.27.1.tgz#eac1096c7374f161e4f33fc8ae38f4ddf122087a"
-  integrity sha512-2YaDd/Rd9E598B5+WIc8wJPmWETiiJXFYVE60oX8FDohv7rAUU3CQj+A1MgeEmcsk2+dQuEjIe/GDvig0SqL4g==
+"@babel/helper-compilation-targets@^7.22.6", "@babel/helper-compilation-targets@^7.27.1", "@babel/helper-compilation-targets@^7.27.2":
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.27.2.tgz#46a0f6efab808d51d29ce96858dd10ce8732733d"
+  integrity sha512-2+1thGUUWWjLTYTHZWK1n8Yga0ijBz1XAhUXcKy81rd5g6yh7hGqMp45v7cadSbEHc9G3OTv45SyneRN3ps4DQ==
   dependencies:
-    "@babel/compat-data" "^7.27.1"
+    "@babel/compat-data" "^7.27.2"
     "@babel/helper-validator-option" "^7.27.1"
     browserslist "^4.24.0"
     lru-cache "^5.1.1"
@@ -212,10 +212,10 @@
     "@babel/template" "^7.27.1"
     "@babel/types" "^7.27.1"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.13.16", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.24.7", "@babel/parser@^7.25.3", "@babel/parser@^7.27.1", "@babel/parser@^7.6.0", "@babel/parser@^7.9.6":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.27.1.tgz#c55d5bed74449d1223701f1869b9ee345cc94cc9"
-  integrity sha512-I0dZ3ZpCrJ1c04OqlNsQcKiZlsrXf/kkE4FXzID9rIOYICsAbA8mMDzhW/luRNAHdCNt7os/u8wenklZDlUVUQ==
+"@babel/parser@^7.1.0", "@babel/parser@^7.13.16", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.24.7", "@babel/parser@^7.25.3", "@babel/parser@^7.27.1", "@babel/parser@^7.27.2", "@babel/parser@^7.6.0", "@babel/parser@^7.9.6":
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.27.2.tgz#577518bedb17a2ce4212afd052e01f7df0941127"
+  integrity sha512-QYLs8299NA7WM/bZAdp+CviYYkVoYXlDW2rzliy3chxd1PQjej7JORuMJDJXJUb9g0TT+B99EwaVLKmX+sPXWw==
   dependencies:
     "@babel/types" "^7.27.1"
 
@@ -601,13 +601,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
-"@babel/plugin-transform-object-rest-spread@^7.24.1", "@babel/plugin-transform-object-rest-spread@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-object-rest-spread/-/plugin-transform-object-rest-spread-7.27.1.tgz#845bdcd74c87b8f565c25cc6812f7f4f43c9ed79"
-  integrity sha512-/sSliVc9gHE20/7D5qsdGlq7RG5NCDTWsAhyqzGuq174EtWJoGzIu1BQ7G56eDsTcy1jseBZwv50olSdXOlGuA==
+"@babel/plugin-transform-object-rest-spread@^7.24.1", "@babel/plugin-transform-object-rest-spread@^7.27.2":
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-object-rest-spread/-/plugin-transform-object-rest-spread-7.27.2.tgz#67f9ab822347aa2bcee91e8996763da79bdea973"
+  integrity sha512-AIUHD7xJ1mCrj3uPozvtngY3s0xpv7Nu7DoUSnzNY6Xam1Cy4rUznR//pvMHOhQ4AvbCexhbqXCtpxGHOGOO6g==
   dependencies:
-    "@babel/helper-compilation-targets" "^7.27.1"
+    "@babel/helper-compilation-targets" "^7.27.2"
     "@babel/helper-plugin-utils" "^7.27.1"
+    "@babel/plugin-transform-destructuring" "^7.27.1"
     "@babel/plugin-transform-parameters" "^7.27.1"
 
 "@babel/plugin-transform-object-super@^7.27.1":
@@ -824,12 +825,12 @@
     "@babel/helper-plugin-utils" "^7.27.1"
 
 "@babel/preset-env@^7.24.4":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.27.1.tgz#23463ab94f36540630924f5de3b4c7a8dde3b6a2"
-  integrity sha512-TZ5USxFpLgKDpdEt8YWBR7p6g+bZo6sHaXLqP2BY/U0acaoI8FTVflcYCr/v94twM1C5IWFdZ/hscq9WjUeLXA==
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.27.2.tgz#106e6bfad92b591b1f6f76fd4cf13b7725a7bf9a"
+  integrity sha512-Ma4zSuYSlGNRlCLO+EAzLnCmJK2vdstgv+n7aUP+/IKZrOfWHOJVdSJtuub8RzHTj3ahD37k5OKJWvzf16TQyQ==
   dependencies:
-    "@babel/compat-data" "^7.27.1"
-    "@babel/helper-compilation-targets" "^7.27.1"
+    "@babel/compat-data" "^7.27.2"
+    "@babel/helper-compilation-targets" "^7.27.2"
     "@babel/helper-plugin-utils" "^7.27.1"
     "@babel/helper-validator-option" "^7.27.1"
     "@babel/plugin-bugfix-firefox-class-in-computed-class-key" "^7.27.1"
@@ -871,7 +872,7 @@
     "@babel/plugin-transform-new-target" "^7.27.1"
     "@babel/plugin-transform-nullish-coalescing-operator" "^7.27.1"
     "@babel/plugin-transform-numeric-separator" "^7.27.1"
-    "@babel/plugin-transform-object-rest-spread" "^7.27.1"
+    "@babel/plugin-transform-object-rest-spread" "^7.27.2"
     "@babel/plugin-transform-object-super" "^7.27.1"
     "@babel/plugin-transform-optional-catch-binding" "^7.27.1"
     "@babel/plugin-transform-optional-chaining" "^7.27.1"
@@ -956,12 +957,12 @@
   integrity sha512-1x3D2xEk2fRo3PAhwQwu5UubzgiVWSXTBfWpVd2Mx2AzRqJuDJCsgaDVZ7HB5iGzDW1Hl1sWN2mFyKjmR9uAog==
 
 "@babel/template@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.27.1.tgz#b9e4f55c17a92312774dfbdde1b3c01c547bbae2"
-  integrity sha512-Fyo3ghWMqkHHpHQCoBs2VnYjR4iWFFjguTDEqA5WgZDOrFesVjMhMM2FSqTKSoUSDO1VQtavj8NFpdRBEvJTtg==
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.27.2.tgz#fa78ceed3c4e7b63ebf6cb39e5852fca45f6809d"
+  integrity sha512-LPDZ85aEJyYSd18/DkjNh4/y1ntkE5KwUHWTiqgRxruuZL2F1yuHligVHLvcHY2vMHXttKFpJn6LwfI7cw7ODw==
   dependencies:
     "@babel/code-frame" "^7.27.1"
-    "@babel/parser" "^7.27.1"
+    "@babel/parser" "^7.27.2"
     "@babel/types" "^7.27.1"
 
 "@babel/traverse@^7.18.9", "@babel/traverse@^7.27.1":
@@ -1575,62 +1576,62 @@
     "@emnapi/runtime" "^1.4.0"
     "@tybys/wasm-util" "^0.9.0"
 
-"@next/env@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-15.4.0-canary.23.tgz#5ca03ab29a61754bf47e481898bf070a1d00dd29"
-  integrity sha512-bv6Fbe265CnGo0P8Uay9LzL4sziJh6uc7dfNt7CJIhsl8rzJOJahyucTtUvgcUXBX2hklsTJVuHzAVpb8wOZ8w==
+"@next/env@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-15.4.0-canary.24.tgz#38c4fbf89db7fcae6fc4b7de177bf39c429d1995"
+  integrity sha512-a9XW8stKoDILs5ySIhv/WvnXqfdBJ3CSMFZk6DGWogaHj0JcZmjJqZYWc5PVO6rdswXuYzpnEHXKZ54l05PUrg==
 
 "@next/env@^15.0.3":
-  version "15.3.1"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-15.3.1.tgz#fca98dcb90d92d555972cdbf03adf9aa982e2115"
-  integrity sha512-cwK27QdzrMblHSn9DZRV+DQscHXRuJv6MydlJRpFSqJWZrTYMLzKDeyueJNN9MGd8NNiUKzDQADAf+dMLXX7YQ==
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-15.3.2.tgz#7143eafa9b11cfdf3d3c7318b0facb9dfdb2948f"
+  integrity sha512-xURk++7P7qR9JG1jJtLzPzf0qEvqCN0A/T3DXf8IPMKo9/6FfjxtEffRJIIew/bIL4T3C2jLLqBor8B/zVlx6g==
 
-"@next/eslint-plugin-next@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.0-canary.23.tgz#bb1cf0baaa274c068494ce4168fcbadd877410a6"
-  integrity sha512-zII8MZ/di2GKBwBerIuYlCYCC4jUoawpD+e4SfbGJQGCY3R9kPeXT9aa2GmhzgrW+wn/125H7RQNS3KPNtL1fA==
+"@next/eslint-plugin-next@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.0-canary.24.tgz#b4cf04184da8ef806911715596659bcdc8e8b7d3"
+  integrity sha512-J9pWYfhj6p8XhYpxmLrwSF0lImCnkq6tHQ5/Yz98iPDabblLLtRt4lE0za6wX8XsbnbwLBJKt+o1ba50QcbzBA==
   dependencies:
     fast-glob "3.3.1"
 
-"@next/swc-darwin-arm64@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.0-canary.23.tgz#9dcb8f92e58c405b0c2f02a5cbc7599bf0dbecc7"
-  integrity sha512-ZaGUTvGQEQUhxBj0Qu2uoxStA8yf/TMA0lrs2mVrQ3nqSZh7ytInYuY8JtojpKZqA2eTGhUciUXbu0QdjOuHgA==
+"@next/swc-darwin-arm64@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.0-canary.24.tgz#f1b2dfe8e3cbc0fc2b64c00a210a22907ccfc810"
+  integrity sha512-KZTWf+lKcn/xU3QmTSGzxeWpsKe2HVhkH9A8Q0ZSbu2GKulekqlgA3Er0IdOAIs76ici7GOtOQAt4k8xjpX85g==
 
-"@next/swc-darwin-x64@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.0-canary.23.tgz#12e434df8b6bea5dcc8a76190fa7f37173201207"
-  integrity sha512-visdkQByAry6a/C7K9l9lb51XEejlm2zmih8SqkkIIGLnQ2j5/c1pwWTmbWp/LumsV2YLTATTpC31xA+SemDSg==
+"@next/swc-darwin-x64@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.0-canary.24.tgz#7ae22cc5831248d66f22c554461162e1e8aca721"
+  integrity sha512-QrSRUkggMA0kfYOxM5Xn5h3SBgI3Qbq+G1SmH71/VXz2NmG7HjrcyQPG4wYp6w7v3jhubSqPREzDjPNqtOxP1Q==
 
-"@next/swc-linux-arm64-gnu@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.0-canary.23.tgz#f9b872a5619725e4458f8990edefffb12af23c77"
-  integrity sha512-txwv3qVj/VqnoKpe0jyrFoy0Hl2zl2MPslkMjLth9qHPIAOCms/iI8IJvY4ARgbeLTIHPNKzKptdYiTJKBiUjA==
+"@next/swc-linux-arm64-gnu@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.0-canary.24.tgz#202c6e15cf09645036a1ea51319a08eb69f1fd84"
+  integrity sha512-Nsn3SmZzAjYS/n+ZDGvCxsrE7ngMTZu0h4vp+L7nBb6kPNzipnDpwqPTy2heCqlIVA7xPnMCYJ5UKaFHyYjecg==
 
-"@next/swc-linux-arm64-musl@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.0-canary.23.tgz#0f54c0e84c8477b70837e94d1d381c1e9934fcdf"
-  integrity sha512-a0IWkOuiOdZU++yN6vgqZOFeh9t8/pW+7fQSQktWWob6xLCYVh0Ib0OCGPwolh7CxY29JHSoORrpRTg/rhD0iA==
+"@next/swc-linux-arm64-musl@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.0-canary.24.tgz#39b03f9dba9302232d5e68310bbe149c15315c43"
+  integrity sha512-SvQ7/Jx5ZqvVFMf3xpSKJg9azj0YOJpPdhR383NdOI9Eem5QLjnbWLEWqfc6p8hNkNzEpAuhEdf5bOWnMLFBxg==
 
-"@next/swc-linux-x64-gnu@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.0-canary.23.tgz#81eeec66c5ff4b7bc9a7317ae6e6d121c46c4eab"
-  integrity sha512-wDibCQ4qOg74/ZHDEIk3yRD1vIm9ns3tn+92BS6OXnMNAUGaRXP7hQwUjmnVj/TiqCoMyNfRVvjYjwkAOROa/w==
+"@next/swc-linux-x64-gnu@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.0-canary.24.tgz#868cdebe186ce00e032f964af114abaa892fb886"
+  integrity sha512-nfngpiPavN+phfCnjeS0tqAo8DBtjHGHFnQB30mLZwvVQ6buiAn4BlSgh7hjApaDGNOlPDondC8t6yNDMuakUQ==
 
-"@next/swc-linux-x64-musl@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.0-canary.23.tgz#5903f2aebe5ebcfc70cd52e18f91293fb07bb14d"
-  integrity sha512-AGE1pu3WinXYqPdZ3a1t9IvsJ4Sy/AFeDDf3fvLKAFJkxixhA6BuOtzFDyphuGQ30RyhrOAZti9vetwsmiwPrQ==
+"@next/swc-linux-x64-musl@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.0-canary.24.tgz#353bea660b45b9a0f1040d648baadb729039dc8b"
+  integrity sha512-7HLdl3cZq3uaBPK0es6GhSNIX9rI0b8YJ+AoETPM4LzTG5P/Wfbx+KY3dLlTfU3Ycf4DpwFxlmQeogsT/NYKzg==
 
-"@next/swc-win32-arm64-msvc@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.0-canary.23.tgz#512b62d45d0d4dd4577b937673c98f51c644c5fc"
-  integrity sha512-GbzYRcjcN8z2v2ddANtqOdBk++fwQ/DZ408y184mtEupq0L7LQMtDQCrxAA2EsLOEHUJEzgjcTrtV6ViwA5BMQ==
+"@next/swc-win32-arm64-msvc@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.0-canary.24.tgz#16d35be1f61d372104978ff3fa35fba45ee80078"
+  integrity sha512-dqHsTLd0kkh3BjpA+GBgqmkqCHq4HPtUXZPc25ti0fistb2pOy9oFG3r1sO8DoYY//gUI4hgacFt1snv2MsyYA==
 
-"@next/swc-win32-x64-msvc@15.4.0-canary.23":
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.4.0-canary.23.tgz#e7869b37dd5aa22599bcfd0eac00d110f803cc62"
-  integrity sha512-a0rFUokWcYMVQjdql5hw1C6aDGobCLqtLls/U1JSHmCET7a/WNpp/sTrqp+cnlSR4wZyb/Eo/tCDmwkiYYcTVw==
+"@next/swc-win32-x64-msvc@15.4.0-canary.24":
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.4.0-canary.24.tgz#d2f270fc11e4247912e603ac816d6c209065ab10"
+  integrity sha512-HxldCCDWW1ytENYu+gNnXg6bRCsMYZs/cMW5uFgc3jXRl4DJ8vpPIjVmjATtatlMJvw4JwGaFdnEjwD8R2H6dA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2837,16 +2838,16 @@
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
 "@types/node@*":
-  version "22.15.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.11.tgz#6714a9b3c67c6f87d63606f15f014146ec17f97e"
-  integrity sha512-rlyK0vuU7VLEYQfXuC7QTFxDvkb6tKhDI7wR4r6ZzM0k8BJd44W0jxo6xmUjqSs4AlYmiYfLJU2f0pAG/FtCRw==
+  version "22.15.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.14.tgz#889fd356a04d003a6d5650ccc003ef4d712430d7"
+  integrity sha512-BL1eyu/XWsFGTtDWOYULQEs4KR0qdtYfCxYAUYRoB7JP7h9ETYLgQTww6kH8Sj2C0pFGgrpM0XKv6/kbIzYJ1g==
   dependencies:
     undici-types "~6.21.0"
 
 "@types/node@^20":
-  version "20.17.40"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.40.tgz#f071fbe6aa82458ba29f7c164a27f80895cc8e5f"
-  integrity sha512-XNlderXNxSooRdgQFCX2aYoRtHhbUK86Iogm4T7c+pWHbYfVz5frT8ywZ94kXoMjC0f7EReLRiM0tGNtcxXOIA==
+  version "20.17.43"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.43.tgz#66e6923e8e5a56317866c7813dc2b555c158332a"
+  integrity sha512-DnDEcDUnVAUYSa7U03QvrXbj1MZj00xoyi/a3lRGkR/c7BFUnqv+OY9EUphMqXUKdZJEOmuzu2mm+LmCisnPow==
   dependencies:
     undici-types "~6.19.2"
 
@@ -5062,12 +5063,12 @@ escape-string-regexp@^5.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
   integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
-eslint-config-next@15.4.0-canary.23:
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.4.0-canary.23.tgz#da3b22a319923406699f6340de41980ecb95c926"
-  integrity sha512-KrvolI+smKN05kLh/hX8oLGyQ68nciD1m/WEzMtqVPXZTdQRFp6Dr2w3zoUTW8/2ZEcoTTl6KkaFPrz1s+zOFQ==
+eslint-config-next@15.4.0-canary.24:
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.4.0-canary.24.tgz#c832f743ee2fa076522f9af8539e554269407815"
+  integrity sha512-DRDjxuCSc8p6ZO2iGNcsR7X41Tsxo+BRjrlTXBqiUOBeIi5ZLoMpjdozNQ678UIeVFbao+KOXVM/7KH4nnHjMg==
   dependencies:
-    "@next/eslint-plugin-next" "15.4.0-canary.23"
+    "@next/eslint-plugin-next" "15.4.0-canary.24"
     "@rushstack/eslint-patch" "^1.10.3"
     "@typescript-eslint/eslint-plugin" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
@@ -7792,25 +7793,25 @@ neo-async@^2.5.0, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next@15.4.0-canary.23:
-  version "15.4.0-canary.23"
-  resolved "https://registry.yarnpkg.com/next/-/next-15.4.0-canary.23.tgz#61f651b5d43bd349f4942448d48b5d9ee024142a"
-  integrity sha512-iL+q0cJpB/rHDbkbuuVOb58FV3bgneioJK7Q3YF2p4wOXXb0xjX29puqO91fYCLeQpqqfaxB/T7ftLSxQz02KA==
+next@15.4.0-canary.24:
+  version "15.4.0-canary.24"
+  resolved "https://registry.yarnpkg.com/next/-/next-15.4.0-canary.24.tgz#d6b91449f09837206f9cf3892094b92c95ae131f"
+  integrity sha512-YzjyAhuNu/DSejEyjk8palmoHRyB6w0El5pUmNemeDLs/qaK8GgWjd6CcFcxEYvBiEjhID6B6t+pDfbTms7Xsw==
   dependencies:
-    "@next/env" "15.4.0-canary.23"
+    "@next/env" "15.4.0-canary.24"
     "@swc/helpers" "0.5.15"
     caniuse-lite "^1.0.30001579"
     postcss "8.4.31"
     styled-jsx "5.1.6"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "15.4.0-canary.23"
-    "@next/swc-darwin-x64" "15.4.0-canary.23"
-    "@next/swc-linux-arm64-gnu" "15.4.0-canary.23"
-    "@next/swc-linux-arm64-musl" "15.4.0-canary.23"
-    "@next/swc-linux-x64-gnu" "15.4.0-canary.23"
-    "@next/swc-linux-x64-musl" "15.4.0-canary.23"
-    "@next/swc-win32-arm64-msvc" "15.4.0-canary.23"
-    "@next/swc-win32-x64-msvc" "15.4.0-canary.23"
+    "@next/swc-darwin-arm64" "15.4.0-canary.24"
+    "@next/swc-darwin-x64" "15.4.0-canary.24"
+    "@next/swc-linux-arm64-gnu" "15.4.0-canary.24"
+    "@next/swc-linux-arm64-musl" "15.4.0-canary.24"
+    "@next/swc-linux-x64-gnu" "15.4.0-canary.24"
+    "@next/swc-linux-x64-musl" "15.4.0-canary.24"
+    "@next/swc-win32-arm64-msvc" "15.4.0-canary.24"
+    "@next/swc-win32-x64-msvc" "15.4.0-canary.24"
     sharp "^0.34.1"
 
 no-case@^3.0.4:
@@ -10444,9 +10445,9 @@ webpack-virtual-modules@^0.6.0, webpack-virtual-modules@^0.6.2:
   integrity sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==
 
 webpack@5:
-  version "5.99.7"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.99.7.tgz#60201c1ca66da046b07d006c2f6e0cc5e8a7bdba"
-  integrity sha512-CNqKBRMQjwcmKR0idID5va1qlhrqVUKpovi+Ec79ksW8ux7iS1+A6VqzfZXgVYCFRKl7XL5ap3ZoMpwBJxcg0w==
+  version "5.99.8"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.99.8.tgz#dd31a020b7c092d30c4c6d9a4edb95809e7f5946"
+  integrity sha512-lQ3CPiSTpfOnrEGeXDwoq5hIGzSjmwD72GdfVzF7CQAI7t47rJG9eDWvcEkEn3CUQymAElVvDg3YNTlCYj+qUQ==
   dependencies:
     "@types/eslint-scope" "^3.7.7"
     "@types/estree" "^1.0.6"
