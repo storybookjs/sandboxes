@@ -2504,15 +2504,16 @@
     import-meta-resolve "^4.1.0"
 
 "@sveltejs/kit@^2.0.0":
-  version "2.20.8"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.20.8.tgz#c4cb1487ec765bfd7c3d1d06f45164d5edbc4d90"
-  integrity sha512-ep9qTxL7WALhfm0kFecL3VHeuNew8IccbYGqv5TqL/KSqWRKzEgDG8blNlIu1CkLTTua/kHjI+f5T8eCmWIxKw==
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.21.0.tgz#66af5c9a3e2693cd81f33751cd18226bb7c211c3"
+  integrity sha512-kvu4h9qXduiPk1Q1oqFKDLFGu/7mslEYbVaqpbBcBxjlRJnvNCFwEvEwKt0Mx9TtSi8J77xRelvJobrGlst4nQ==
   dependencies:
+    "@sveltejs/acorn-typescript" "^1.0.5"
     "@types/cookie" "^0.6.0"
+    acorn "^8.14.1"
     cookie "^0.6.0"
     devalue "^5.1.0"
     esm-env "^1.2.2"
-    import-meta-resolve "^4.1.0"
     kleur "^4.1.5"
     magic-string "^0.30.5"
     mrmime "^2.0.0"
@@ -3040,7 +3041,7 @@ acorn@^7.1.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-acorn@^8.12.1, acorn@^8.14.0, acorn@^8.6.0, acorn@^8.8.2, acorn@^8.9.0:
+acorn@^8.12.1, acorn@^8.14.0, acorn@^8.14.1, acorn@^8.6.0, acorn@^8.8.2, acorn@^8.9.0:
   version "8.14.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.14.1.tgz#721d5dc10f7d5b5609a891773d47731796935dfb"
   integrity sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==
@@ -4243,9 +4244,9 @@ dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.149:
-  version "1.5.151"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.151.tgz#5edd6c17e1b2f14b4662c41b9379f96cc8c2bb7c"
-  integrity sha512-Rl6uugut2l9sLojjS4H4SAr3A4IgACMLgpuEMPYCVcKydzfyPrn5absNRju38IhQOf/NwjJY8OGWjlteqYeBCA==
+  version "1.5.152"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.152.tgz#bcdd39567e291b930ec26b930031137a05593695"
+  integrity sha512-xBOfg/EBaIlVsHipHl2VdTPJRSvErNUaqW8ejTq5OlOlIYx1wOllCHsAvAIrr55jD1IYEfdR86miUEt8H5IeJg==
 
 elliptic@^6.5.3, elliptic@^6.5.5:
   version "6.6.1"
@@ -4840,14 +4841,14 @@ flatted@^3.2.9:
   integrity sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==
 
 flow-parser@0.*:
-  version "0.269.1"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.269.1.tgz#92067f8100d89a84433c656eb59c5b92e4036eb9"
-  integrity sha512-2Yr0kqvT7RwaGL192nT78O5AWJeECQjl0NEzBkMsx8OJt63BvNl5yvSIbE4qZ1VDSjEkhbUgaWYdwX354bVNjw==
+  version "0.270.0"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.270.0.tgz#fe9aa283f86585feaa133a34c409927d88ef549f"
+  integrity sha512-WjU6NZjaENlHjiO6eGyfAbuk0OC5XkKoN+XCY2g1nDDW230smGGxI9Ltp0qJdj0+ae2MrO1fwwn3vOupv9R+Xw==
 
 flow-remove-types@^2.158.0:
-  version "2.269.1"
-  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.269.1.tgz#ec35638c71bd4f77a9cca5f9d2ec8941b651cab4"
-  integrity sha512-P46c3VI+2Bq/oFuQojatHISg0c+t0JQDnFhwwuSSraw+QtDVEvNYg3eEP+Cc/i4nKntt6qa22hbUb8dJ//LkBw==
+  version "2.270.0"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.270.0.tgz#866033bc1afd41b88e2fd38e05ca04b50446690b"
+  integrity sha512-FU0QcCMTSj1DEHTMDy0wRL1N/xbrk6igN7b8m3/jEko0i8Hyd1tsiLVKOcNNMYBjLUhHMumcB9XPbsaN0wmB3Q==
   dependencies:
     hermes-parser "0.28.0"
     pirates "^3.0.2"
@@ -7767,9 +7768,9 @@ semver@^6.0.0, semver@^6.3.1:
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 semver@^7.2.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.5.4, semver@^7.6.2, semver@^7.6.3:
-  version "7.7.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
-  integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
+  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
 
 serialize-javascript@^6.0.2:
   version "6.0.2"
@@ -8202,9 +8203,9 @@ svelte2tsx@^0.7.35:
     pascal-case "^3.1.1"
 
 svelte@^5.0.0-next.1:
-  version "5.28.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.28.2.tgz#b0c4a6ad14e1562cc2255baac479fa16d75b9c0d"
-  integrity sha512-FbWBxgWOpQfhKvoGJv/TFwzqb4EhJbwCD17dB0tEpQiw1XyUEKZJtgm4nA4xq3LLsMo7hu5UY/BOFmroAxKTMg==
+  version "5.28.6"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.28.6.tgz#c6b1501a84a5a463d214ffe06a210c05de0947db"
+  integrity sha512-9qqr7mw8YR9PAnxGFfzCK6PUlNGtns7wVavrhnxyf3fpB1mP/Ol55Z2UnIapsSzNNl3k9qw7cZ22PdE8+xT/jQ==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@jridgewell/sourcemap-codec" "^1.5.0"
