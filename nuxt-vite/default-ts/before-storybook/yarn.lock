@@ -469,9 +469,9 @@
     vue-demi ">=0.13.0"
 
 "@iconify/collections@^1.0.536":
-  version "1.0.547"
-  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.547.tgz#51c344dc285052b7f4f3143b58d0fae9a81ce01f"
-  integrity sha512-BkCp6bW6uJIfBTNTR4721swGYY7hKsUYo1De89QEPcRpRvtz0CtJoKxKjz/PDG/Gn4NqwKExvlGh5NvbBgzDng==
+  version "1.0.548"
+  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.548.tgz#f86bd284414ba50e76fe7dda976d7bccc6f3ad14"
+  integrity sha512-wrty7ECTo7uL7F8go2oPcpZsP/XDK4nc2zbKH4jdb1lT3PVWxWsrmgtHSbXFqDqBw3dUYO13xowGteuc9s/v9Q==
   dependencies:
     "@iconify/types" "*"
 
@@ -849,12 +849,12 @@
     ws "^8.18.2"
 
 "@nuxt/fonts@^0.11.2":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/fonts/-/fonts-0.11.3.tgz#91e1c2a7d18c69785f3d18993f68d949c41b0a3f"
-  integrity sha512-IRlzEoxeza1RgUiXKynLlo98MsAYIclM0iDaG51sWoGAisDwMw+DAhbklJkIWIFWHZ4VVSHFQSzLfjRJTkk7cQ==
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/fonts/-/fonts-0.11.4.tgz#21c0ef65cc841a33610cd2abe16e6f551c013d37"
+  integrity sha512-GbLavsC+9FejVwY+KU4/wonJsKhcwOZx/eo4EuV57C4osnF/AtEmev8xqI0DNlebMEhEGZbu1MGwDDDYbeR7Bw==
   dependencies:
     "@nuxt/devtools-kit" "^2.4.0"
-    "@nuxt/kit" "^3.17.1"
+    "@nuxt/kit" "^3.17.3"
     consola "^3.4.2"
     css-tree "^3.1.0"
     defu "^6.1.4"
@@ -870,8 +870,8 @@
     sirv "^3.0.1"
     tinyglobby "^0.2.13"
     ufo "^1.6.1"
-    unifont "^0.5.0"
-    unplugin "^2.3.2"
+    unifont "^0.4.1"
+    unplugin "^2.3.3"
     unstorage "^1.16.0"
 
 "@nuxt/icon@^1.12.0":
@@ -1610,9 +1610,9 @@
   integrity sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==
 
 "@types/node@*":
-  version "22.15.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.17.tgz#355ccec95f705b664e4332bb64a7f07db30b7055"
-  integrity sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==
+  version "22.15.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.18.tgz#2f8240f7e932f571c2d45f555ba0b6c3f7a75963"
+  integrity sha512-v1DKRfUdyW+jJhZNEI1PYy29S2YRxMV5AOO/x/SjKmW0acCIOqmbj6Haf9eHAhsPmrhlHSxEhv/1WszcLWV4cg==
   dependencies:
     undici-types "~6.21.0"
 
@@ -1899,14 +1899,14 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.5.13.tgz#87b309a6379c22b926e696893237826f64339b6f"
   integrity sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==
 
-"@vueuse/core@13.1.0", "@vueuse/core@^13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-13.1.0.tgz#d5964c391e4d4fea3407909819c45de4bcb58211"
-  integrity sha512-PAauvdRXZvTWXtGLg8cPUFjiZEddTqmogdwYpnn60t08AA5a8Q4hZokBnpTOnVNqySlFlTcRYIC8OqreV4hv3Q==
+"@vueuse/core@13.2.0", "@vueuse/core@^13.1.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-13.2.0.tgz#f19afa06449110ff3a649ea06b661c3c37c43c34"
+  integrity sha512-n5TZoIAxbWAQ3PqdVPDzLgIRQOujFfMlatdI+f7ditSmoEeNpPBvp7h2zamzikCmrhFIePAwdEQB6ENccHr7Rg==
   dependencies:
     "@types/web-bluetooth" "^0.0.21"
-    "@vueuse/metadata" "13.1.0"
-    "@vueuse/shared" "13.1.0"
+    "@vueuse/metadata" "13.2.0"
+    "@vueuse/shared" "13.2.0"
 
 "@vueuse/core@^10.8.0":
   version "10.11.1"
@@ -1929,12 +1929,12 @@
     vue "^3.5.13"
 
 "@vueuse/integrations@^13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-13.1.0.tgz#946570c7b0cd0164c3d29308bbcfc1ed41e90582"
-  integrity sha512-wJ6aANdUs4SOpVabChQK+uLIwxRTUAEmn1DJnflGG7Wq6yaipiRmp6as/Md201FjJnquQt8MecIPbFv8HSBeDA==
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-13.2.0.tgz#d09ca17fd5a7c5b31e2389dec363154afe514e43"
+  integrity sha512-tnwdzUYadAiewvMtBcjH/ZPgRCoQBvuVzbFA/VSysPDaIuG41Jp/Z1Sn/rYoFMOLJfcOEcVh+tN3mkrVIyumig==
   dependencies:
-    "@vueuse/core" "13.1.0"
-    "@vueuse/shared" "13.1.0"
+    "@vueuse/core" "13.2.0"
+    "@vueuse/shared" "13.2.0"
 
 "@vueuse/metadata@10.11.1":
   version "10.11.1"
@@ -1946,10 +1946,10 @@
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-12.8.2.tgz#6cb3a4e97cdcf528329eebc1bda73cd7f64318d3"
   integrity sha512-rAyLGEuoBJ/Il5AmFHiziCPdQzRt88VxR+Y/A/QhJ1EWtWqPBBAxTAFaSkviwEuOEZNtW8pvkPgoCZQ+HxqW1A==
 
-"@vueuse/metadata@13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-13.1.0.tgz#959f8f2da5b18fb9b80529714dddb6ab69131d82"
-  integrity sha512-+TDd7/a78jale5YbHX9KHW3cEDav1lz1JptwDvep2zSG8XjCsVE+9mHIzjTOaPbHUAk5XiE4jXLz51/tS+aKQw==
+"@vueuse/metadata@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-13.2.0.tgz#a839028d43c3206b674dd1d59a77b9c80f4d9d5f"
+  integrity sha512-kPpzuQCU0+D8DZCzK0iPpIcXI+6ufWSgwnjJ6//GNpEn+SHViaCtR+XurzORChSgvpHO9YC8gGM97Y1kB+UabA==
 
 "@vueuse/shared@10.11.1":
   version "10.11.1"
@@ -1965,10 +1965,10 @@
   dependencies:
     vue "^3.5.13"
 
-"@vueuse/shared@13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-13.1.0.tgz#b01ad108f0de3f1b02e0591c6fc54a9ee0029298"
-  integrity sha512-IVS/qRRjhPTZ6C2/AM3jieqXACGwFZwWTdw5sNTSKk2m/ZpkuuN+ri+WCVUP8TqaKwJYt/KuMwmXspMAw8E6ew==
+"@vueuse/shared@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-13.2.0.tgz#26d89103201bafc7daa4dfc5bc92b512526b788b"
+  integrity sha512-vx9ZPDF5HcU9up3Jgt3G62dMUfZEdk6tLyBAHYAG4F4n73vpaA7J5hdncDI/lS9Vm7GA/FPlbOmh9TrDZROTpg==
 
 "@whatwg-node/disposablestack@^0.0.6":
   version "0.0.6"
@@ -3078,9 +3078,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.149:
-  version "1.5.152"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.152.tgz#bcdd39567e291b930ec26b930031137a05593695"
-  integrity sha512-xBOfg/EBaIlVsHipHl2VdTPJRSvErNUaqW8ejTq5OlOlIYx1wOllCHsAvAIrr55jD1IYEfdR86miUEt8H5IeJg==
+  version "1.5.154"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.154.tgz#82430d66848efef703a3b643fb2a682bd08ae26b"
+  integrity sha512-G4VCFAyKbp1QJ+sWdXYIRYsPGvlV5sDACfCmoMFog3rjm1syLhI41WXm/swZypwCIWIm4IFLWzHY14joWMQ5Fw==
 
 embla-carousel-auto-height@^8.6.0:
   version "8.6.0"
@@ -6449,10 +6449,10 @@ unicorn-magic@^0.3.0:
   resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.3.0.tgz#4efd45c85a69e0dd576d25532fbfa22aa5c8a104"
   integrity sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==
 
-unifont@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/unifont/-/unifont-0.5.0.tgz#1c995b64cf6748468a5fa8431183f6bf10f23204"
-  integrity sha512-4DueXMP5Hy4n607sh+vJ+rajoLu778aU3GzqeTCqsD/EaUcvqZT9wPC8kgK6Vjh22ZskrxyRCR71FwNOaYn6jA==
+unifont@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/unifont/-/unifont-0.4.1.tgz#b434984e11c8490929daa6a70c84c95d5459a004"
+  integrity sha512-zKSY9qO8svWYns+FGKjyVdLvpGPwqmsCjeJLN1xndMiqxHWBAhoWDMYMG960MxeV48clBmG+fDP59dHY1VoZvg==
   dependencies:
     css-tree "^3.0.0"
     ohash "^2.0.0"
