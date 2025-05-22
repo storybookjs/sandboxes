@@ -12,5 +12,5 @@ import { RouterOutlet } from '@angular/router';
   styles: [],
 })
 export class App {
-  title = 'angular-v16';
+  protected title = 'angular-v16';
 }
