@@ -1,4 +1,4 @@
-<h1>Next.js Latest (Vite | TypeScript)</h1>
+<h1>Next.js v14 (Vite | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

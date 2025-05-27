@@ -61,7 +61,7 @@
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs-vite/14-ts/after-storybook?preset=node"
       >
-        Next.js Latest (Vite | TypeScript)
+        Next.js v14 (Vite | TypeScript)
       </a>
     </li>
     <li>
