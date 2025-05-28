@@ -1,3 +1,5 @@
+import type { Preview } from 'storybook-framework-qwik'
+
 const preview: Preview = {
   parameters: {
     controls: {

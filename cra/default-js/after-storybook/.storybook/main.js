@@ -7,10 +7,9 @@ const config = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
-    "@storybook/addon-interactions"
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook/react-webpack5",

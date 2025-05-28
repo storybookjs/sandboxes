@@ -1,4 +1,4 @@
-/** @type { import('@storybook/svelte').Preview } */
+/** @type { import('@storybook/svelte-vite').Preview } */
 const preview = {
   parameters: {
     controls: {

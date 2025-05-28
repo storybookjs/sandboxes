@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/svelte'
+import type { Preview } from '@storybook/sveltekit'
 
 const preview: Preview = {
   parameters: {

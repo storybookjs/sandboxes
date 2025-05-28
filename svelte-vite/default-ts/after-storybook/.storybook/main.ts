@@ -6,9 +6,8 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|ts|svelte)"
   ],
   "addons": [
-    "@storybook/addon-essentials",
     "@storybook/addon-svelte-csf",
-    "@storybook/addon-interactions"
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook/svelte-vite",

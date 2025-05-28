@@ -1,5 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/html';
-import { fn } from '@storybook/test';
+import type { Meta, StoryObj } from '@storybook/html-vite';
+
+import { fn } from 'storybook/test';
 
 import type { HeaderProps } from './Header';
 import { createHeader } from './Header';

@@ -1,4 +1,4 @@
-/** @type { import('@storybook/server').Preview } */
+/** @type { import('@storybook/server-webpack5').Preview } */
 const preview = {
   parameters: {
     controls: {

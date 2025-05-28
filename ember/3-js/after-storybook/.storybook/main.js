@@ -7,7 +7,7 @@ const config = {
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    "@storybook/addon-essentials"
+    "@storybook/addon-docs"
   ],
   "framework": {
     "name": "@storybook/ember",
