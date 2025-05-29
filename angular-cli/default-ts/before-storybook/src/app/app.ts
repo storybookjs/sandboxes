@@ -11,6 +11,6 @@ import { RouterOutlet } from '@angular/router';
   `,
   styles: [],
 })
-export class AppComponent {
-  title = 'angular-latest';
+export class App {
+  protected title = 'angular-latest';
 }
