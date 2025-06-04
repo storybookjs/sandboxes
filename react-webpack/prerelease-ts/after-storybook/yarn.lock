@@ -25,9 +25,9 @@
     picocolors "^1.1.1"
 
 "@babel/compat-data@^7.22.6", "@babel/compat-data@^7.27.2":
-  version "7.27.3"
-  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.27.3.tgz#cc49c2ac222d69b889bf34c795f537c0c6311111"
-  integrity sha512-V42wFfx1ymFte+ecf6iXghnnP8kWTO+ZLXIyZq+1LAXHHvTZdVxicn4yiVYdYMGaCO3tmqub11AorKkv+iodqw==
+  version "7.27.5"
+  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.27.5.tgz#7d0658ec1a8420fc866d1df1b03bea0e79934c82"
+  integrity sha512-KiRAp/VoJaWkkte84TvUd9qjdbZAdiqyvMxrGl1N6vzFogKmaLgoM3L1kgtLicp2HP5fBJS8JrZKLVIZGVJAVg==
 
 "@babel/core@^7.16.0", "@babel/core@^7.18.9", "@babel/core@^7.23.0", "@babel/core@^7.24.4", "@babel/core@^7.26.10", "@babel/core@latest":
   version "7.27.4"
@@ -51,11 +51,11 @@
     semver "^6.3.1"
 
 "@babel/generator@^7.27.3":
-  version "7.27.3"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.27.3.tgz#ef1c0f7cfe3b5fc8cbb9f6cc69f93441a68edefc"
-  integrity sha512-xnlJYj5zepml8NXtjkG0WquFUv8RskFqyFcVgTBp5k+NaA/8uw/K+OSVf8AMGw5e9HKP2ETd5xpK5MLZQD6b4Q==
+  version "7.27.5"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.27.5.tgz#3eb01866b345ba261b04911020cbe22dd4be8c8c"
+  integrity sha512-ZGhA37l0e/g2s1Cnzdix0O3aLYm66eF8aufiVteOgnwxgnRP8GoyMj7VWsgWnQbVKXyge7hqrFh2K2TQM6t1Hw==
   dependencies:
-    "@babel/parser" "^7.27.3"
+    "@babel/parser" "^7.27.5"
     "@babel/types" "^7.27.3"
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.25"
@@ -207,10 +207,10 @@
     "@babel/template" "^7.27.2"
     "@babel/types" "^7.27.3"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.24.7", "@babel/parser@^7.27.2", "@babel/parser@^7.27.3", "@babel/parser@^7.27.4", "@babel/parser@^7.6.0", "@babel/parser@^7.9.6":
-  version "7.27.4"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.27.4.tgz#f92e89e4f51847be05427285836fc88341c956df"
-  integrity sha512-BRmLHGwpUqLFR2jzx9orBuX/ABDkj2jLKOXrHDTN2aOKL+jFDDKaRNo9nyYsIl9h/UE/7lMKdDjKQQyxKKDZ7g==
+"@babel/parser@^7.1.0", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.24.7", "@babel/parser@^7.27.2", "@babel/parser@^7.27.4", "@babel/parser@^7.27.5", "@babel/parser@^7.6.0", "@babel/parser@^7.9.6":
+  version "7.27.5"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.27.5.tgz#ed22f871f110aa285a6fd934a0efed621d118826"
+  integrity sha512-OsQd175SxWkGlzbny8J3K8TnnDD0N3lrIUtB92xwyRpzaenGZhxDvxN/JgU00U3CDZNj9tPuDJ5H0WS4Nt3vKg==
   dependencies:
     "@babel/types" "^7.27.3"
 
@@ -443,9 +443,9 @@
     "@babel/helper-plugin-utils" "^7.27.1"
 
 "@babel/plugin-transform-block-scoping@^7.27.1":
-  version "7.27.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.27.3.tgz#a21f37e222dc0a7b91c3784fa3bd4edf8d7a6dc1"
-  integrity sha512-+F8CnfhuLhwUACIJMLWnjz6zvzYM2r0yeIHKlbgfw7ml8rOMJsXNXV/hyRcb3nb493gRs4WvYpQAndWj/qQmkQ==
+  version "7.27.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.27.5.tgz#98c37485d815533623d992fd149af3e7b3140157"
+  integrity sha512-JF6uE2s67f0y2RZcm2kpAUEbD50vH62TyWVebxwHAlbSdM49VqPz8t4a1uIjp4NIOIZ4xzLfjY5emt/RCyC7TQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
@@ -764,9 +764,9 @@
     "@babel/helper-plugin-utils" "^7.27.1"
 
 "@babel/plugin-transform-regenerator@^7.27.1":
-  version "7.27.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.27.4.tgz#05d006c09f482b34ba5dc16d630c204a7d06d31f"
-  integrity sha512-Glp/0n8xuj+E1588otw5rjJkTXfzW7FjH3IIUrfqiZOPQCd2vbg8e+DQE8jK9g4V5/zrxFW+D9WM9gboRPELpQ==
+  version "7.27.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.27.5.tgz#0c01f4e0e4cced15f68ee14b9c76dac9813850c7"
+  integrity sha512-uhB8yHerfe3MWnuLAhEbeQ4afVoqv8BQsPqrTv7e/jZ9y00kJL6l9a/f4OWaKxotmjzewfEyXE1vgDJenkQ2/Q==
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
@@ -2254,9 +2254,9 @@
     eslint-visitor-keys "^4.2.0"
 
 "@vitejs/plugin-react@^4.3.2":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-4.5.0.tgz#ef2bad6be3031af2b2105b7ab2754f710e890a32"
-  integrity sha512-JuLWaEqypaJmOJPLWwO335Ig6jSgC1FTONCWAxnqcQthLTK/Yc9aH6hr9z/87xciejbQcnP3GnA1FWUSWeXaeg==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-4.5.1.tgz#19432712467ad3b81f24c85d695a6febf8d4cc11"
+  integrity sha512-uPZBqSI0YD4lpkIru6M35sIfylLGTyhGHvDZbNLuMA73lMlwJKz5xweH7FajfcCAc2HnINciejA9qTz0dr0M7A==
   dependencies:
     "@babel/core" "^7.26.10"
     "@babel/plugin-transform-react-jsx-self" "^7.25.9"
@@ -4539,7 +4539,7 @@ http-parser-js@>=0.5.1:
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.10.tgz#b3277bd6d7ed5588e20ea73bf724fcbe44609075"
   integrity sha512-Pysuw9XpUq5dVc/2SMHpuTY01RFl8fttgcyunjL7eEMhGM3cI4eOmiCycJDVCo/7O7ClfQD3SaI6ftDzqOXYMA==
 
-http-proxy-middleware@^2.0.7:
+http-proxy-middleware@^2.0.9:
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz#e9e63d68afaa4eee3d147f39149ab84c0c2815ef"
   integrity sha512-c1IyJYLYppU574+YI7R4QyX2ystMtVXZwIdzazUIPIJsHuWNd+mho2j+bKoHftndicGj9yh+xjd+l0yj7VeT1Q==
@@ -7346,9 +7346,9 @@ webpack-dev-middleware@^7.4.2:
     schema-utils "^4.0.0"
 
 webpack-dev-server@latest:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-5.2.1.tgz#049072d6e19cbda8cf600b9e364e6662d61218ba"
-  integrity sha512-ml/0HIj9NLpVKOMq+SuBPLHcmbG+TGIjXRHsYfZwocUBIqEvws8NnS/V9AFQ5FKP+tgn5adwVwRrTEpGL33QFQ==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-5.2.2.tgz#96a143d50c58fef0c79107e61df911728d7ceb39"
+  integrity sha512-QcQ72gh8a+7JO63TAx/6XZf/CWhgMzu5m0QirvPfGvptOusAxG12w2+aua1Jkjr7hzaWDnJ2n6JFeexMHI+Zjg==
   dependencies:
     "@types/bonjour" "^3.5.13"
     "@types/connect-history-api-fallback" "^1.5.4"
@@ -7366,7 +7366,7 @@ webpack-dev-server@latest:
     connect-history-api-fallback "^2.0.0"
     express "^4.21.2"
     graceful-fs "^4.2.6"
-    http-proxy-middleware "^2.0.7"
+    http-proxy-middleware "^2.0.9"
     ipaddr.js "^2.1.0"
     launch-editor "^2.6.1"
     open "^10.0.3"
