@@ -1339,10 +1339,10 @@
     flow-remove-types "^2.158.0"
     rollup-pluginutils "^2.8.2"
 
-"@compodoc/compodoc@^1.1.28":
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/@compodoc/compodoc/-/compodoc-1.1.28.tgz#a9d5fc8952f7d9025a3795789140800c1121a3b7"
-  integrity sha512-bQ8u3nXncQbDoplKbKI73WVij7V3qu4kAg/5dMdbnAK48kE8Eguvw3+dnlV4uHrcjqJWZcmRY9Bu7siRMum27w==
+"@compodoc/compodoc@^1.1.29":
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/@compodoc/compodoc/-/compodoc-1.1.29.tgz#6c57825ab9c3aaf69879b459f7134572876d1731"
+  integrity sha512-JNQ1BI5b5aGMuxjokHpKvWIB9N49IM+ogbpdN1/nB5Oo7rCSqsNMLFL25xJzOqqjJ7ozFG2IW48LszshSijsXQ==
   dependencies:
     "@angular-devkit/schematics" "20.2.2"
     "@babel/core" "7.28.3"
@@ -1366,7 +1366,7 @@
     glob "^11.0.3"
     handlebars "^4.7.8"
     html-entities "^2.6.0"
-    i18next "^25.5.0"
+    i18next "^25.5.1"
     json5 "^2.2.3"
     lodash "^4.17.21"
     loglevel "^1.9.2"
@@ -6426,10 +6426,10 @@ hyperdyperid@^1.2.0:
   resolved "https://registry.yarnpkg.com/hyperdyperid/-/hyperdyperid-1.2.0.tgz#59668d323ada92228d2a869d3e474d5a33b69e6b"
   integrity sha512-Y93lCzHYgGWdrJ66yIktxiaGULYc6oGiABxhcO5AufBeOyoIdZF7bIfLaOrbM0iGIOXQQgxxRrFEnb+Y6w1n4A==
 
-i18next@^25.5.0:
-  version "25.5.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.5.1.tgz#c5dd510c829f968d005fd3085a0434a1dfe19f6f"
-  integrity sha512-dDnnt362852mKtHGeAU9v3yF8NVQBdXGB++zmW8VMfNe4XEyR7JlSh815TWQHq9DvLfdkLJzFu90OmmRFd24Jw==
+i18next@^25.5.1:
+  version "25.5.2"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.5.2.tgz#16efa309e154d46dac7583e6a315ccb47e3e3a10"
+  integrity sha512-lW8Zeh37i/o0zVr+NoCHfNnfvVw+M6FQbRp36ZZ/NyHDJ3NJVpp2HhAUyU9WafL5AssymNoOjMRB48mmx2P6Hw==
   dependencies:
     "@babel/runtime" "^7.27.6"
 
@@ -10413,7 +10413,7 @@ weak-lru-cache@^1.2.2:
   resolved "https://registry.yarnpkg.com/weak-lru-cache/-/weak-lru-cache-1.2.2.tgz#fdbb6741f36bae9540d12f480ce8254060dccd19"
   integrity sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==
 
-webpack-dev-middleware@7.4.2, webpack-dev-middleware@^7.4.2:
+webpack-dev-middleware@7.4.2:
   version "7.4.2"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.4.2.tgz#40e265a3d3d26795585cff8207630d3a8ff05877"
   integrity sha512-xOO8n6eggxnwYpy1NlzUKpvrjfJTvae5/D6WOK0S2LSo7vjmo5gCM1DbLUmFqrMTJP+W/0YZNctm7jasWvLuBA==
@@ -10433,6 +10433,18 @@ webpack-dev-middleware@^6.1.2:
     colorette "^2.0.10"
     memfs "^3.4.12"
     mime-types "^2.1.31"
+    range-parser "^1.2.1"
+    schema-utils "^4.0.0"
+
+webpack-dev-middleware@^7.4.2:
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.4.3.tgz#4e23b479a574549334641faa4e00670720f01839"
+  integrity sha512-5kA/PzpZzDz5mNOkcNLmU1UdjGeSSxd7rt1akWpI70jMNHLASiBPRaQZn0hgyhvhawfIwSnnLfDABIxL3ueyFg==
+  dependencies:
+    colorette "^2.0.10"
+    memfs "^4.6.0"
+    mime-types "^3.0.1"
+    on-finished "^2.4.1"
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
 
