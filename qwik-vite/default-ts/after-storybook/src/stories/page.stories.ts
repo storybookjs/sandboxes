@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
-import { within, userEvent } from "@storybook/test";
+import { within, userEvent } from "storybook/test";
 
 import { Page } from "./page";
 
