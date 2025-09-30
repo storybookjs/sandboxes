@@ -1694,11 +1694,11 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "24.5.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.5.2.tgz#52ceb83f50fe0fcfdfbd2a9fab6db2e9e7ef6446"
-  integrity sha512-FYxk1I7wPv3K2XBaoyH2cTnocQEu8AOZ60hPbsyukMPLv5/5qr7V1i8PLHdl6Zf87I+xZXFvPCXYjiTFq+YSDQ==
+  version "24.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.6.0.tgz#5dd8d4eca0bba7dd81d853e7fadc96b322ff84f6"
+  integrity sha512-F1CBxgqwOMc4GKJ7eY22hWhBVQuMYTtqI8L0FcszYcpYX0fzfDGpez22Xau8Mgm7O9fI+zA/TYIdq3tGWfweBA==
   dependencies:
-    undici-types "~7.12.0"
+    undici-types "~7.13.0"
 
 "@types/node@^9.6.0":
   version "9.6.61"
@@ -2245,6 +2245,11 @@ async-function@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/async-function/-/async-function-1.0.0.tgz#509c9fca60eaf85034c6829838188e4e4c8ffb2b"
   integrity sha512-hsU18Ae8CDTR6Kgu9DYf0EbCr/a5iGL0rytQDobUcdpYOKokk8LEjVphnXkDkgpi0wYVsqrXuP0bZxJaTqdgoA==
+
+async-generator-function@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/async-generator-function/-/async-generator-function-1.0.0.tgz#9bcc76d7fd147171e7ead5d2a2cfc3579c99f28e"
+  integrity sha512-+NAXNqgCrB95ya4Sr66i1CL2hqLVckAk7xwRYWdcm39/ELQ6YNn1aw5r0bdQtqNZgQpEWzc5yc/igXc7aL5SLA==
 
 async-promise-queue@^1.0.3, async-promise-queue@^1.0.5:
   version "1.0.5"
@@ -3124,7 +3129,7 @@ broccoli@^3.5.2:
     underscore.string "^3.2.2"
     watch-detector "^1.0.0"
 
-browserslist@^4.0.0, browserslist@^4.24.0, browserslist@^4.25.3:
+browserslist@^4.0.0, browserslist@^4.24.0, browserslist@^4.24.5, browserslist@^4.25.3:
   version "4.26.2"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.26.2.tgz#7db3b3577ec97f1140a52db4936654911078cef3"
   integrity sha512-ECFzp6uFOSB+dcZ5BK/IBaGWssbSYBHvuMeMt3MMFyhI0Z8SqGgEkBLARgpRH3hutIgPVsALcMwbDrJqPxQ65A==
@@ -5965,6 +5970,11 @@ gauge@^4.0.3:
     strip-ansi "^6.0.1"
     wide-align "^1.1.5"
 
+generator-function@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/generator-function/-/generator-function-2.0.0.tgz#f7d330dccf367a666195948580655946d1a3860a"
+  integrity sha512-xPypGGincdfyl/AiSGa7GjXLkvld9V7GjZlowup9SHIJnQnHLFiLODCd/DqKOp0PBagbHJ68r1KJI9Mut7m4sA==
+
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
@@ -5976,15 +5986,18 @@ get-caller-file@^2.0.5:
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
 get-intrinsic@^1.2.4, get-intrinsic@^1.2.5, get-intrinsic@^1.2.6, get-intrinsic@^1.2.7, get-intrinsic@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz#743f0e3b6964a93a5491ed1bffaae054d7f98d01"
-  integrity sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.3.1.tgz#7f03d6cc8df96ae803c35cf23590510f28357173"
+  integrity sha512-fk1ZVEeOX9hVZ6QzoBNEC55+Ucqg4sTVwrVuigZhuRPESVFpMyXnd3sbXvPOwp7Y9riVyANiqhEuRF0G1aVSeQ==
   dependencies:
+    async-function "^1.0.0"
+    async-generator-function "^1.0.0"
     call-bind-apply-helpers "^1.0.2"
     es-define-property "^1.0.1"
     es-errors "^1.3.0"
     es-object-atoms "^1.1.1"
     function-bind "^1.1.2"
+    generator-function "^2.0.0"
     get-proto "^1.0.1"
     gopd "^1.2.0"
     has-symbols "^1.1.0"
@@ -10295,7 +10308,7 @@ tap-parser@^7.0.0:
     js-yaml "^3.2.7"
     minipass "^2.2.0"
 
-tapable@^2.1.1, tapable@^2.2.0, tapable@^2.2.1:
+tapable@^2.2.0, tapable@^2.2.1, tapable@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.3.tgz#4b67b635b2d97578a06a2713d2f04800c237e99b"
   integrity sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==
@@ -10686,10 +10699,10 @@ underscore@>=1.8.3:
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
   integrity sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==
 
-undici-types@~7.12.0:
-  version "7.12.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.12.0.tgz#15c5c7475c2a3ba30659529f5cdb4674b622fafb"
-  integrity sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==
+undici-types@~7.13.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.13.0.tgz#a20ba7c0a2be0c97bd55c308069d29d167466bff"
+  integrity sha512-Ov2Rr9Sx+fRgagJ5AX0qvItZG/JKKoBRAVITs1zk7IqZGTJUwgUr7qoYBpWwakpWilTZFM98rG/AFRocu10iIQ==
 
 undici@^7.12.0:
   version "7.16.0"
@@ -10921,7 +10934,7 @@ watch-detector@^1.0.0, watch-detector@^1.0.2:
     silent-error "^1.1.1"
     tmp "^0.1.0"
 
-watchpack@^2.4.1:
+watchpack@^2.4.4:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.4.4.tgz#473bda72f0850453da6425081ea46fc0d7602947"
   integrity sha512-c5EGNOiyxxV5qmTtAB7rbiXxi1ooX1pQKMLX/MIabJjRA0SJBQOjKF+KSVfHkr9U1cADPon0mRiVe/riyaiDUA==
@@ -10947,9 +10960,9 @@ webpack-sources@^3.3.3:
   integrity sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==
 
 webpack@^5.78.0:
-  version "5.101.3"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.101.3.tgz#3633b2375bb29ea4b06ffb1902734d977bc44346"
-  integrity sha512-7b0dTKR3Ed//AD/6kkx/o7duS8H3f1a4w3BYpIriX4BzIhjkn4teo05cptsxvLesHFKK5KObnadmCHBwGc+51A==
+  version "5.102.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.102.0.tgz#7a2416e6da356c35f1fb35333d2f5cee0133e953"
+  integrity sha512-hUtqAR3ZLVEYDEABdBioQCIqSoguHbFn1K7WlPPWSuXmx0031BD73PSE35jKyftdSh4YLDoQNgK4pqBt5Q82MA==
   dependencies:
     "@types/eslint-scope" "^3.7.7"
     "@types/estree" "^1.0.8"
@@ -10959,7 +10972,7 @@ webpack@^5.78.0:
     "@webassemblyjs/wasm-parser" "^1.14.1"
     acorn "^8.15.0"
     acorn-import-phases "^1.0.3"
-    browserslist "^4.24.0"
+    browserslist "^4.24.5"
     chrome-trace-event "^1.0.2"
     enhanced-resolve "^5.17.3"
     es-module-lexer "^1.2.1"
@@ -10972,9 +10985,9 @@ webpack@^5.78.0:
     mime-types "^2.1.27"
     neo-async "^2.6.2"
     schema-utils "^4.3.2"
-    tapable "^2.1.1"
+    tapable "^2.2.3"
     terser-webpack-plugin "^5.3.11"
-    watchpack "^2.4.1"
+    watchpack "^2.4.4"
     webpack-sources "^3.3.3"
 
 websocket-driver@>=0.5.1:
