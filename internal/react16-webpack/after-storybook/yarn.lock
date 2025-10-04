@@ -2157,6 +2157,13 @@
   integrity sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==
 
 "@types/send@*":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/send/-/send-1.2.0.tgz#ae9dfa0e3ab0306d3c566182324a54c4be2fb45a"
+  integrity sha512-zBF6vZJn1IaMpg3xUF25VK3gd3l8zwE0ZLRX7dsQyQi+jp4E8mMDJNGDYnYse+bQhYwWERTxVwHpi3dMOq7RKQ==
+  dependencies:
+    "@types/node" "*"
+
+"@types/send@<1":
   version "0.17.5"
   resolved "https://registry.yarnpkg.com/@types/send/-/send-0.17.5.tgz#d991d4f2b16f2b1ef497131f00a9114290791e74"
   integrity sha512-z6F2D3cOStZvuk2SaP6YrwkNO65iTZcwA2ZkSABegdkAh/lf+Aa/YQndZVfmEXT5vgAp6zv06VQ3ejSVjAny4w==
@@ -2172,13 +2179,13 @@
     "@types/express" "*"
 
 "@types/serve-static@*", "@types/serve-static@^1.15.5":
-  version "1.15.8"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.15.8.tgz#8180c3fbe4a70e8f00b9f70b9ba7f08f35987877"
-  integrity sha512-roei0UY3LhpOJvjbIP6ZZFngyLKl5dskOtDhxY5THRSpO+ZI+nzJ+m5yUMzGrp89YRa7lvknKkMYjqQFGwA7Sg==
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.15.9.tgz#f9b08ab7dd8bbb076f06f5f983b683654fe0a025"
+  integrity sha512-dOTIuqpWLyl3BBXU3maNQsS4A3zuuoYRNIvYSxxhebPfXg2mzWQEPne/nlJ37yOse6uGgR386uTpdsx4D0QZWA==
   dependencies:
     "@types/http-errors" "*"
     "@types/node" "*"
-    "@types/send" "*"
+    "@types/send" "<1"
 
 "@types/sockjs@^0.3.36":
   version "0.3.36"
@@ -2832,9 +2839,9 @@ base64-js@^1.3.1:
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
 baseline-browser-mapping@^2.8.9:
-  version "2.8.10"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.8.10.tgz#32eb5e253d633fa3fa3ffb1685fabf41680d9e8a"
-  integrity sha512-uLfgBi+7IBNay8ECBO2mVMGZAc1VgZWEChxm4lv+TobGdG82LnXMjuNGo/BSSZZL4UmkWhxEHP2f5ziLNwGWMA==
+  version "2.8.11"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.8.11.tgz#70f8d63a5dbcfd82f055be51e2ebe2d477908704"
+  integrity sha512-i+sRXGhz4+QW8aACZ3+r1GAKMt0wlFpeA8M5rOQd0HEYw9zhDrlx9Wc8uQ0IdXakjJRthzglEwfB/yqIjO6iDg==
 
 batch@0.6.1:
   version "0.6.1"
@@ -3074,9 +3081,9 @@ camel-case@^4.1.2:
     tslib "^2.0.3"
 
 caniuse-lite@^1.0.30001746:
-  version "1.0.30001746"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001746.tgz#199d20f04f5369825e00ff7067d45d5dfa03aee7"
-  integrity sha512-eA7Ys/DGw+pnkWWSE/id29f2IcPHVoE8wxtvE5JdvD2V28VTDPy1yEeo11Guz0sJ4ZeGRcm3uaTcAqK1LXaphA==
+  version "1.0.30001747"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001747.tgz#2cfbbb7f1f046439ebaf34bba337ee3d3474c7e5"
+  integrity sha512-mzFa2DGIhuc5490Nd/G31xN1pnBnYMadtkyTjefPI7wzypqgCEpeWu9bJr0OnDsyKrW75zA9ZAt7pbQFmwLsQg==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -3677,9 +3684,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.227:
-  version "1.5.229"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.229.tgz#ce32e345990b031ae5fec4d99e98188b90ba3731"
-  integrity sha512-cwhDcZKGcT/rEthLRJ9eBlMDkh1sorgsuk+6dpsehV0g9CABsIqBxU4rLRjG+d/U6pYU1s37A4lSKrVc5lSQYg==
+  version "1.5.230"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.230.tgz#06ddb4a6302a78b2a3e8dcf1dd2563bcfdd546c9"
+  integrity sha512-A6A6Fd3+gMdaed9wX83CvHYJb4UuapPD5X5SLq72VZJzxHSY0/LUweGXRWmQlh2ln7KV7iw7jnwXK7dlPoOnHQ==
 
 elliptic@^6.5.3, elliptic@^6.6.1:
   version "6.6.1"
@@ -4303,9 +4310,9 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
     is-glob "^4.0.1"
 
 glob-to-regex.js@^1.0.1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/glob-to-regex.js/-/glob-to-regex.js-1.1.0.tgz#191f07c7e7a87be33399494a3f18f43076ab1562"
-  integrity sha512-y44MUHqM0KXB5NIS/zxmuvaer/9PxsLnNaMDdDyN4m9W7wx115I5Tj/XHtNpuL6x+r4LwRefymkiiiWUfHVNRw==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/glob-to-regex.js/-/glob-to-regex.js-1.2.0.tgz#2b323728271d133830850e32311f40766c5f6413"
+  integrity sha512-QMwlOQKU/IzqMUOAZWubUOT8Qft+Y0KQWnX9nK3ch0CJg0tTp4TvGZsTfudYKv2NzoQSyPcnA6TYeIQ3jGichQ==
 
 glob-to-regexp@^0.4.1:
   version "0.4.1"
@@ -5379,9 +5386,9 @@ node-polyfill-webpack-plugin@^2.0.1:
     vm-browserify "^1.1.2"
 
 node-releases@^2.0.21:
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.21.tgz#f59b018bc0048044be2d4c4c04e4c8b18160894c"
-  integrity sha512-5b0pgg78U3hwXkCM8Z9b2FJdPZlr9Psr9V2gQPESdGHqbntyFJKFW4r5TeWGFzafGY3hzs1JC62VEQMbl1JFkw==
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.23.tgz#2ecf3d7ba571ece05c67c77e5b7b1b6fb9e18cea"
+  integrity sha512-cCmFDMSm26S6tQSDpBCg/NR8NENrVPhAJSf+XbxBG4rPFaaonlEoE9wHQmun+cls499TQGSb7ZyPBRlzgKfpeg==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
