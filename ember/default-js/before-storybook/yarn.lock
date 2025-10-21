@@ -1553,11 +1553,12 @@
     "@types/chai" "*"
 
 "@types/chai@*":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-5.2.2.tgz#6f14cea18180ffc4416bc0fd12be05fdd73bdd6b"
-  integrity sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-5.2.3.tgz#8e9cd9e1c3581fa6b341a5aed5588eb285be0b4a"
+  integrity sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==
   dependencies:
     "@types/deep-eql" "*"
+    assertion-error "^2.0.1"
 
 "@types/chai@^4.2.9":
   version "4.3.20"
@@ -1694,11 +1695,11 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "24.8.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.8.1.tgz#74c8ae00b045a0a351f2837ec00f25dfed0053be"
-  integrity sha512-alv65KGRadQVfVcG69MuB4IzdYVpRwMG/mq8KWOaoOdyY617P5ivaDiMCGOFDWD2sAn5Q0mR3mRtUOgm99hL9Q==
+  version "24.9.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.9.1.tgz#b7360b3c789089e57e192695a855aa4f6981a53c"
+  integrity sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==
   dependencies:
-    undici-types "~7.14.0"
+    undici-types "~7.16.0"
 
 "@types/node@^9.6.0":
   version "9.6.61"
@@ -2206,6 +2207,11 @@ assert-plus@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-0.1.5.tgz#ee74009413002d84cec7219c6ac811812e723160"
   integrity sha512-brU24g7ryhRwGCI2y+1dGQmQXiZF7TtIj583S96y0jjdajIe6wn8BuXyELYhvD22dtIxDQVFk04YTJwwdwOYJw==
+
+assertion-error@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/assertion-error/-/assertion-error-2.0.1.tgz#f641a196b335690b1070bf00b6e7593fec190bf7"
+  integrity sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA==
 
 assign-symbols@^1.0.0:
   version "1.0.0"
@@ -6763,7 +6769,7 @@ is-callable@^1.2.7:
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.7.tgz#3bc2a85ea742d9e36205dcacdd72ca1fdc51b055"
   integrity sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==
 
-is-core-module@^2.11.0, is-core-module@^2.16.0, is-core-module@^2.5.0:
+is-core-module@^2.11.0, is-core-module@^2.16.1, is-core-module@^2.5.0:
   version "2.16.1"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.16.1.tgz#2a98801a849f43e2add644fbb6bc6229b19a4ef4"
   integrity sha512-UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==
@@ -9237,11 +9243,11 @@ resolve.exports@^2.0.2:
   integrity sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==
 
 resolve@^1.10.0, resolve@^1.11.1, resolve@^1.13.1, resolve@^1.17.0, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.1, resolve@^1.22.10, resolve@^1.22.3, resolve@^1.4.0, resolve@^1.5.0:
-  version "1.22.10"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.10.tgz#b663e83ffb09bbf2386944736baae803029b8b39"
-  integrity sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==
+  version "1.22.11"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.11.tgz#aad857ce1ffb8bfa9b0b1ac29f1156383f68c262"
+  integrity sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==
   dependencies:
-    is-core-module "^2.16.0"
+    is-core-module "^2.16.1"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
@@ -10699,10 +10705,10 @@ underscore@>=1.8.3:
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
   integrity sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==
 
-undici-types@~7.14.0:
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.14.0.tgz#4c037b32ca4d7d62fae042174604341588bc0840"
-  integrity sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==
+undici-types@~7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
+  integrity sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==
 
 undici@^7.12.0:
   version "7.16.0"
