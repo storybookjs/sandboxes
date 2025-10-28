@@ -42,6 +42,12 @@
       </a>
     </li>
     <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/15-ts/after-storybook?preset=node"
+      >
+        Next.js v15 (Webpack | TypeScript)
+      </a>
+    </li>
+    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs/default-ts/after-storybook?preset=node"
       >
         Next.js Latest (Webpack | TypeScript)
@@ -63,6 +69,12 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs-vite/14-ts/after-storybook?preset=node"
       >
         Next.js v14 (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/nextjs-vite/15-ts/after-storybook?preset=node"
+      >
+        Next.js v15 (Vite | TypeScript)
       </a>
     </li>
     <li>
