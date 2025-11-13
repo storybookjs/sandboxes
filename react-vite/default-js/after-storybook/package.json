@@ -17,9 +17,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@storybook/addon-docs": "^10.1.0-alpha.10",
-    "@storybook/addon-onboarding": "^10.1.0-alpha.10",
-    "@storybook/react-vite": "^10.1.0-alpha.10",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
@@ -27,9 +24,19 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "prop-types": "^15.8.1",
+    "vite": "^7.2.2",
     "storybook": "^10.1.0-alpha.10",
-    "vite": "^7.2.2"
+    "@storybook/react-vite": "^10.1.0-alpha.10",
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-vitest": "^10.1.0-alpha.10",
+    "@storybook/addon-a11y": "^10.1.0-alpha.10",
+    "@storybook/addon-docs": "^10.1.0-alpha.10",
+    "@storybook/addon-onboarding": "^10.1.0-alpha.10",
+    "prop-types": "^15.8.1",
+    "vitest": "^4.0.8",
+    "playwright": "^1.56.1",
+    "@vitest/browser-playwright": "^4.0.8",
+    "@vitest/coverage-v8": "^4.0.8"
   },
   "resolutions": {
     "@storybook/addon-a11y": "10.1.0-alpha.10",

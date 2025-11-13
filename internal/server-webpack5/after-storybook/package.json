@@ -47,14 +47,15 @@
     "@storybook/vue3": "10.1.0-alpha.10",
     "@storybook/web-components": "10.1.0-alpha.10"
   },
-  "devDependencies": {
-    "@storybook/addon-docs": "^10.1.0-alpha.10",
-    "@storybook/addon-webpack5-compiler-swc": "^4.0.2",
-    "@storybook/server-webpack5": "^10.1.0-alpha.10",
-    "storybook": "^10.1.0-alpha.10"
-  },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "storybook": "^10.1.0-alpha.10",
+    "@storybook/server-webpack5": "^10.1.0-alpha.10",
+    "@storybook/addon-webpack5-compiler-swc": "^4.0.2",
+    "@storybook/addon-a11y": "^10.1.0-alpha.10",
+    "@storybook/addon-docs": "^10.1.0-alpha.10"
   }
 }

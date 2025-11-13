@@ -134,6 +134,18 @@
 </details>
 
 <details>
+  <summary><b>React-rsbuild</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-rsbuild/default-ts/after-storybook?preset=node"
+      >
+        React Latest (RSBuild | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Solid-vite</b></summary>
   <ul>
     <li>
@@ -170,6 +182,18 @@
 </details>
 
 <details>
+  <summary><b>Vue3-rsbuild</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-rsbuild/default-ts/after-storybook?preset=node"
+      >
+        Vue Latest (RSBuild | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Html-vite</b></summary>
   <ul>
     <li>
@@ -182,6 +206,18 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-vite/default-ts/after-storybook?preset=node"
       >
         HTML Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Html-rsbuild</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-rsbuild/default-ts/after-storybook?preset=node"
+      >
+        HTML Latest (RSBuild | TypeScript)
       </a>
     </li>
   </ul>
@@ -248,6 +284,18 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-vite/default-ts/after-storybook?preset=node"
       >
         Lit Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Lit-rsbuild</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-rsbuild/default-ts/after-storybook?preset=node"
+      >
+        Web Components Latest (RSBuild | TypeScript)
       </a>
     </li>
   </ul>

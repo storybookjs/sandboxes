@@ -11,21 +11,21 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@babel/preset-react": "latest",
-    "@babel/preset-typescript": "latest",
+    "react": "16",
     "@types/react": "16",
+    "react-dom": "16",
     "@types/react-dom": "16",
+    "html-webpack-plugin": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
     "babel-loader": "latest",
     "babel-preset-react-app": "latest",
-    "html-webpack-plugin": "latest",
-    "react": "16",
-    "react-dom": "16",
-    "typescript": "^4.8",
+    "@babel/core": "latest",
+    "@babel/preset-typescript": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-env": "latest",
     "webpack": "^5",
-    "webpack-cli": "latest",
-    "webpack-dev-server": "latest"
+    "typescript": "^4.8"
   },
   "resolutions": {
     "@storybook/addon-a11y": "10.1.0-alpha.10",
@@ -72,10 +72,11 @@
     "@storybook/web-components": "10.1.0-alpha.10"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^10.1.0-alpha.10",
-    "@storybook/addon-onboarding": "^10.1.0-alpha.10",
-    "@storybook/addon-webpack5-compiler-swc": "^4.0.2",
+    "storybook": "^10.1.0-alpha.10",
     "@storybook/react-webpack5": "^10.1.0-alpha.10",
-    "storybook": "^10.1.0-alpha.10"
+    "@storybook/addon-webpack5-compiler-swc": "^4.0.2",
+    "@storybook/addon-a11y": "^10.1.0-alpha.10",
+    "@storybook/addon-docs": "^10.1.0-alpha.10",
+    "@storybook/addon-onboarding": "^10.1.0-alpha.10"
   }
 }

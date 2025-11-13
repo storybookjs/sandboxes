@@ -1,18 +1,21 @@
-<script>
+<script lang="ts">
   import './button.css';
 
-  /**
-   * @typedef {Object} Props
-   * @property {boolean} [primary] Is this the principal call to action on the page?
-   * @property {string} [backgroundColor] What background color to use
-   * @property {'small' | 'medium' | 'large'} [size] How large should the button be?
-   * @property {string} label Button contents
-   * @property {() => void} [onclick] The onclick event handler
-   */
+  interface Props {
+    /** Is this the principal call to action on the page? */
+    primary?: boolean;
+    /** What background color to use */
+    backgroundColor?: string;
+    /** How large should the button be? */
+    size?: 'small' | 'medium' | 'large';
+    /** Button contents */
+    label: string;
+    /** The onclick event handler */
+    onclick?: () => void;
+  }
 
-  /** @type {Props} */
-  const { primary = false, backgroundColor, size = 'medium', label, ...props } = $props();
-
+  const { primary = false, backgroundColor, size = 'medium', label, ...props }: Props = $props();
+  
   let mode = $derived(primary ? 'storybook-button--primary' : 'storybook-button--secondary');
   let style = $derived(backgroundColor ? `background-color: ${backgroundColor}` : '');
 </script>

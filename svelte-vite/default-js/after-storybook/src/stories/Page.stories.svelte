@@ -25,6 +25,6 @@
     const logoutButton = canvas.getByRole('button', { name: /Log out/i });
     await expect(logoutButton).toBeInTheDocument();
   }}
-  />
+/>
 
 <Story name="Logged Out" />
