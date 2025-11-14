@@ -1,6 +1,6 @@
 <template>
   <article>
-    <my-header :user="user" @login="onLogin" @logout="onLogout" @create-account="onCreateAccount" />
+    <my-header :user="user" @login="onLogin" @logout="onLogout" @createAccount="onCreateAccount" />
 
     <section class="storybook-page">
       <h2>Pages in Storybook</h2>
@@ -53,21 +53,31 @@
   </article>
 </template>
 
-<script lang="ts" setup>
-import { ref } from 'vue';
-
+<script>
 import MyHeader from './Header.vue';
 import './page.css';
 
-const user = ref<{ name: string } | null>(null);
+export default {
+  name: 'my-page',
 
-const onLogin = () => {
-  user.value = { name: 'Jane Doe' };
-};
-const onLogout = () => {
-  user.value = null;
-};
-const onCreateAccount = () => {
-  user.value = { name: 'Jane Doe' };
+  components: { MyHeader },
+
+  data() {
+    return {
+      user: null,
+    };
+  },
+
+  methods: {
+    onLogin() {
+      this.user = { name: 'Jane Doe' };
+    },
+    onLogout() {
+      this.user = null;
+    },
+    onCreateAccount() {
+      this.user = { name: 'Jane Doe' };
+    },
+  },
 };
 </script>

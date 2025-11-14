@@ -1,15 +1,17 @@
-<script lang="ts">
+<script>
   import './header.css';
   import Button from './Button.svelte';
 
-  interface Props {
-    user?: { name: string };
-    onLogin?: () => void;
-    onLogout?: () => void;
-    onCreateAccount?: () => void;
-  }
+  /**
+   * @typedef {Object} Props
+   * @property {{name: string}} [user] The user object
+   * @property {() => void} [onLogin] The login event handler
+   * @property {() => void} [onLogout] The logout event handler
+   * @property {() => void} [onCreateAccount] The account creation event handler
+   */
 
-  const { user, onLogin, onLogout, onCreateAccount }: Props = $props();
+  /** @type {Props} */
+  const { user, onLogin, onLogout, onCreateAccount } = $props();
 </script>
 
 <header>

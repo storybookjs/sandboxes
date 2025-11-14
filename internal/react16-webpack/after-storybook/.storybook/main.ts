@@ -7,10 +7,12 @@ const config: StorybookConfig = {
   ],
   "addons": [
     "@storybook/addon-webpack5-compiler-swc",
-    "@storybook/addon-a11y",
     "@storybook/addon-docs",
     "@storybook/addon-onboarding"
   ],
-  "framework": "@storybook/react-webpack5"
+  "framework": {
+    "name": "@storybook/react-webpack5",
+    "options": {}
+  }
 };
 export default config;
