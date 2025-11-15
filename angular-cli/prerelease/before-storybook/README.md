@@ -1,6 +1,6 @@
 # AngularV16
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0-rc.3.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0-rc.4.
 
 ## Development server
 
