@@ -45,9 +45,6 @@
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -100,9 +97,6 @@
             }
           },
           "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
         },
         "storybook": {
           "builder": "@storybook/angular:start-storybook",

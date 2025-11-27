@@ -7,11 +7,11 @@ const config = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
+    "@chromatic-com/storybook",
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y",
     "@storybook/addon-docs"
   ],
-  "framework": {
-    "name": "@storybook/web-components-vite",
-    "options": {}
-  }
+  "framework": "@storybook/web-components-vite"
 };
 export default config;

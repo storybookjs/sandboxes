@@ -1,4 +1,4 @@
-<h1>Web Components Latest (RSBuild | TypeScript)</h1>
+<h1>Web Components Latest (RsBuild | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.

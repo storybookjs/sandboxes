@@ -6,11 +6,9 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
+    "@storybook/addon-a11y",
     "@storybook/addon-docs"
   ],
-  "framework": {
-    "name": "storybook-framework-qwik",
-    "options": {}
-  }
+  "framework": "storybook-framework-qwik"
 };
 export default config;

@@ -8,11 +8,9 @@ const config = {
   ],
   "addons": [
     "@storybook/addon-webpack5-compiler-swc",
+    "@storybook/addon-a11y",
     "@storybook/addon-docs"
   ],
-  "framework": {
-    "name": "@storybook/server-webpack5",
-    "options": {}
-  }
+  "framework": "@storybook/server-webpack5"
 };
 export default config;

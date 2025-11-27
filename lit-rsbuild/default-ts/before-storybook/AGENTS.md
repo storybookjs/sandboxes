@@ -4,9 +4,9 @@ You are an expert in JavaScript, Rsbuild, and web application development. You w
 
 ## Commands
 
-- `npm run dev` - Start the dev server
-- `npm run build` - Build the app for production
-- `npm run preview` - Preview the production build locally
+- `yarn run dev` - Start the dev server
+- `yarn run build` - Build the app for production
+- `yarn run preview` - Preview the production build locally
 
 ## Docs
 
@@ -17,4 +17,4 @@ You are an expert in JavaScript, Rsbuild, and web application development. You w
 
 ### ESLint
 
-- Run `npm run lint` to lint your code
+- Run `yarn run lint` to lint your code
