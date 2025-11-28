@@ -149,12 +149,6 @@
   <summary><b>Solid-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-js/after-storybook?preset=node"
-      >
-        SolidJS Latest (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/solid-vite/default-ts/after-storybook?preset=node"
       >
         SolidJS Latest (Vite | TypeScript)
