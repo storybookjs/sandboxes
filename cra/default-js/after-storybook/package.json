@@ -1,0 +1,95 @@
+{
+  "name": "before-storybook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.9%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "@storybook/addon-a11y": "10.2.0-alpha.1",
+    "@storybook/addon-docs": "10.2.0-alpha.1",
+    "@storybook/addon-links": "10.2.0-alpha.1",
+    "@storybook/addon-onboarding": "10.2.0-alpha.1",
+    "storybook-addon-pseudo-states": "10.2.0-alpha.1",
+    "@storybook/addon-themes": "10.2.0-alpha.1",
+    "@storybook/addon-vitest": "10.2.0-alpha.1",
+    "@storybook/builder-vite": "10.2.0-alpha.1",
+    "@storybook/builder-webpack5": "10.2.0-alpha.1",
+    "storybook": "10.2.0-alpha.1",
+    "@storybook/angular": "10.2.0-alpha.1",
+    "@storybook/ember": "10.2.0-alpha.1",
+    "@storybook/html-vite": "10.2.0-alpha.1",
+    "@storybook/nextjs": "10.2.0-alpha.1",
+    "@storybook/nextjs-vite": "10.2.0-alpha.1",
+    "@storybook/preact-vite": "10.2.0-alpha.1",
+    "@storybook/react-native-web-vite": "10.2.0-alpha.1",
+    "@storybook/react-vite": "10.2.0-alpha.1",
+    "@storybook/react-webpack5": "10.2.0-alpha.1",
+    "@storybook/server-webpack5": "10.2.0-alpha.1",
+    "@storybook/svelte-vite": "10.2.0-alpha.1",
+    "@storybook/sveltekit": "10.2.0-alpha.1",
+    "@storybook/vue3-vite": "10.2.0-alpha.1",
+    "@storybook/web-components-vite": "10.2.0-alpha.1",
+    "sb": "10.2.0-alpha.1",
+    "@storybook/cli": "10.2.0-alpha.1",
+    "@storybook/codemod": "10.2.0-alpha.1",
+    "@storybook/core-webpack": "10.2.0-alpha.1",
+    "create-storybook": "10.2.0-alpha.1",
+    "@storybook/csf-plugin": "10.2.0-alpha.1",
+    "eslint-plugin-storybook": "10.2.0-alpha.1",
+    "@storybook/react-dom-shim": "10.2.0-alpha.1",
+    "@storybook/preset-create-react-app": "10.2.0-alpha.1",
+    "@storybook/preset-react-webpack": "10.2.0-alpha.1",
+    "@storybook/preset-server-webpack": "10.2.0-alpha.1",
+    "@storybook/html": "10.2.0-alpha.1",
+    "@storybook/preact": "10.2.0-alpha.1",
+    "@storybook/react": "10.2.0-alpha.1",
+    "@storybook/server": "10.2.0-alpha.1",
+    "@storybook/svelte": "10.2.0-alpha.1",
+    "@storybook/vue3": "10.2.0-alpha.1",
+    "@storybook/web-components": "10.2.0-alpha.1"
+  },
+  "devDependencies": {
+    "storybook": "^10.2.0-alpha.1",
+    "@storybook/react-webpack5": "^10.2.0-alpha.1",
+    "@storybook/preset-create-react-app": "^10.2.0-alpha.1",
+    "@storybook/addon-a11y": "^10.2.0-alpha.1",
+    "@storybook/addon-docs": "^10.2.0-alpha.1",
+    "@storybook/addon-onboarding": "^10.2.0-alpha.1",
+    "webpack": "^5.103.0",
+    "prop-types": "^15.8.1"
+  }
+}
