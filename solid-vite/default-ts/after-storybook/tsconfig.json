@@ -11,10 +11,9 @@
     "isolatedModules": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "noEmit": true,
 
     // Type Checking & Safety
     "strict": true,
-    "types": ["vite/client"]
+    "types": ["vite/client", "@testing-library/jest-dom"]
   }
 }
