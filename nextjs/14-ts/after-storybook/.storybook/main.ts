@@ -6,12 +6,10 @@ const config: StorybookConfig = {
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
+    "@storybook/addon-a11y",
     "@storybook/addon-docs",
     "@storybook/addon-onboarding"
   ],
-  "framework": {
-    "name": "@storybook/nextjs",
-    "options": {}
-  }
+  "framework": "@storybook/nextjs"
 };
 export default config;

@@ -7,13 +7,11 @@ const config: StorybookConfig = {
   ],
   "addons": [
     "@storybook/preset-create-react-app",
+    "@storybook/addon-a11y",
     "@storybook/addon-docs",
     "@storybook/addon-onboarding"
   ],
-  "framework": {
-    "name": "@storybook/react-webpack5",
-    "options": {}
-  },
+  "framework": "@storybook/react-webpack5",
   "staticDirs": [
     "../public"
   ]

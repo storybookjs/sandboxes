@@ -7,12 +7,10 @@ const config = {
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
+    "@storybook/addon-a11y",
     "@storybook/addon-docs"
   ],
-  "framework": {
-    "name": "@storybook/ember",
-    "options": {}
-  },
+  "framework": "@storybook/ember",
   "staticDirs": [
     "../dist"
   ]

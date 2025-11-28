@@ -7,11 +7,11 @@ const config: StorybookConfig = {
   ],
   "addons": [
     "@storybook/addon-svelte-csf",
+    "@chromatic-com/storybook",
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y",
     "@storybook/addon-docs"
   ],
-  "framework": {
-    "name": "@storybook/svelte-vite",
-    "options": {}
-  }
+  "framework": "@storybook/svelte-vite"
 };
 export default config;
