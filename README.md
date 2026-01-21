@@ -315,18 +315,6 @@
 </details>
 
 <details>
-  <summary><b>Qwik-vite</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/qwik-vite/default-ts/after-storybook?preset=node"
-      >
-        Qwik CLI Latest (Vite | TypeScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Ember</b></summary>
   <ul>
     <li>
