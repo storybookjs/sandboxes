@@ -10,40 +10,29 @@
     "storybook": "ng run angular-v16:storybook",
     "build-storybook": "ng run angular-v16:build-storybook"
   },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
-      }
-    ]
-  },
   "private": true,
   "packageManager": "yarn@1.22.22",
   "dependencies": {
-    "@angular/common": "^21.1.0-next.0",
-    "@angular/compiler": "^21.1.0-next.0",
-    "@angular/core": "^21.1.0-next.0",
-    "@angular/forms": "^21.1.0-next.0",
-    "@angular/platform-browser": "^21.1.0-next.0",
-    "@angular/platform-server": "^21.1.0-next.0",
-    "@angular/router": "^21.1.0-next.0",
-    "@angular/ssr": "^21.1.0-rc.0",
+    "@angular/common": "^21.2.0-next.0",
+    "@angular/compiler": "^21.2.0-next.0",
+    "@angular/core": "^21.2.0-next.0",
+    "@angular/forms": "^21.2.0-next.0",
+    "@angular/platform-browser": "^21.2.0-next.0",
+    "@angular/platform-server": "^21.2.0-next.0",
+    "@angular/router": "^21.2.0-next.0",
+    "@angular/ssr": "^21.2.0-next.0",
     "express": "^5.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^21.1.0-rc.0",
-    "@angular/cli": "^21.1.0-rc.0",
-    "@angular/compiler-cli": "^21.1.0-next.0",
+    "@angular/build": "^21.2.0-next.0",
+    "@angular/cli": "^21.2.0-next.0",
+    "@angular/compiler-cli": "^21.2.0-next.0",
     "@types/express": "^5.0.1",
     "@types/node": "^20.17.19",
     "jsdom": "^27.1.0",
+    "prettier": "^3.8.1",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8",
     "storybook": "^10.2.1",
@@ -51,10 +40,10 @@
     "@storybook/addon-a11y": "^10.2.1",
     "@storybook/addon-docs": "^10.2.1",
     "@storybook/addon-onboarding": "^10.2.1",
-    "@angular-devkit/build-angular": "^21.1.0-next.0",
-    "@angular-devkit/architect": "^0.2101.0-next.0",
-    "@angular-devkit/core": "^21.1.0-next.0",
-    "@angular/platform-browser-dynamic": "^21.1.0-next.0",
+    "@angular-devkit/build-angular": "^21.2.0-next.0",
+    "@angular-devkit/architect": "^0.2102.0-next.0",
+    "@angular-devkit/core": "^21.2.0-next.0",
+    "@angular/platform-browser-dynamic": "^21.2.0-next.0",
     "@compodoc/compodoc": "^1.2.1"
   },
   "resolutions": {
