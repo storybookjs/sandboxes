@@ -2794,11 +2794,10 @@ broccoli-config-loader@^1.0.1:
     broccoli-caching-writer "^3.0.3"
 
 broccoli-config-replace@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/broccoli-config-replace/-/broccoli-config-replace-1.1.2.tgz#6ea879d92a5bad634d11329b51fc5f4aafda9c00"
-  integrity sha512-qLlEY3V7p3ZWJNRPdPgwIM77iau1qR03S9BupMMFngjzBr7S6RSzcg96HbCYXmW9gfTbjRm9FC4CQT81SBusZg==
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/broccoli-config-replace/-/broccoli-config-replace-1.1.3.tgz#c9fabf1b0b7b348003d51db1c6a3456d5e4e7e5d"
+  integrity sha512-gWGS2h/2VyJnD9tI1/HzRsXLOptnt7tu+KLpfPuxd+DBcdswn/i0kyVrTxQpFy+C5eo2hBn672QAEZzf/7LlAA==
   dependencies:
-    broccoli-kitchen-sink-helpers "^0.3.1"
     broccoli-plugin "^1.2.0"
     debug "^2.2.0"
     fs-extra "^0.24.0"
@@ -3313,9 +3312,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001759:
-  version "1.0.30001772"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001772.tgz#aa8a176eba0006e78c965a8215c7a1ceb030122d"
-  integrity sha512-mIwLZICj+ntVTw4BT2zfp+yu/AqV6GMKfJVJMx3MwPxs+uk/uj2GLl2dH8LQbjiLDX66amCga5nKFyDgRR43kg==
+  version "1.0.30001774"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001774.tgz#0e576b6f374063abcd499d202b9ba1301be29b70"
+  integrity sha512-DDdwPGz99nmIEv216hKSgLD+D4ikHQHjBC/seF98N9CPqRX4M5mSxT9eTV6oyisnJcuzxtZy4n17yKKQYmYQOA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6465,14 +6464,12 @@ has-values@^1.0.0:
     kind-of "^4.0.0"
 
 hash-for-dep@^1.0.2, hash-for-dep@^1.4.7, hash-for-dep@^1.5.0, hash-for-dep@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/hash-for-dep/-/hash-for-dep-1.5.1.tgz#497754b39bee2f1c4ade4521bfd2af0a7c1196e3"
-  integrity sha512-/dQ/A2cl7FBPI2pO0CANkvuuVi/IFS5oTyJ0PsOb6jW6WbVW1js5qJXMJTNbWHXBIPdFTWFbabjB+mE0d+gelw==
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/hash-for-dep/-/hash-for-dep-1.5.2.tgz#ca15e54175c7f46f1d1aa02eee5f5532c1c4bca3"
+  integrity sha512-+kJRJpgO+V8x6c3UQuzO+gzHu5euS8HDOIaIUsOPdQrVu7ajNKkMykbSC8O0VX3LuRnUNf4hHE0o/rJ+nB8czw==
   dependencies:
-    broccoli-kitchen-sink-helpers "^0.3.1"
     heimdalljs "^0.2.3"
     heimdalljs-logger "^0.1.7"
-    path-root "^0.1.1"
     resolve "^1.10.0"
     resolve-package-path "^1.0.11"
 
