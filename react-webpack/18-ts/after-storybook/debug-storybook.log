@@ -1,0 +1,117 @@
+[15:02:32.526] [INFO] [36mInitializing Storybook[39m
+[15:02:32.535] [DEBUG] Getting package.json info for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:02:32.535] [DEBUG] Getting CLI versions from NPM for storybook...
+[15:02:32.535] [DEBUG] Executing command: yarn info storybook version --json
+[15:02:32.974] [WARN] This is a pre-release version: 10.3.0-alpha.7
+[15:02:32.977] [DEBUG] Project type detected: react
+[15:02:32.977] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:02:32.977] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:02:32.977] [INFO] Framework detected: react-webpack5
+[15:02:32.978] [DEBUG] Getting installed version for vitest...
+[15:02:32.978] [DEBUG] Executing command: yarn list --pattern "vitest" --json --recursive vitest
+[15:02:48.772] [DEBUG] Installed version for vitest: null
+[15:02:48.772] [DEBUG] Getting installed version for msw...
+[15:02:48.772] [DEBUG] Executing command: yarn list --pattern "msw" --json --recursive msw
+[15:03:06.899] [DEBUG] Installed version for msw: null
+[15:03:06.904] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:06.904] [DEBUG] Using cached version for storybook...
+[15:03:06.904] [DEBUG] Getting CLI versions from NPM for @storybook/react-webpack5...
+[15:03:06.904] [DEBUG] Executing command: yarn info @storybook/react-webpack5 version --json
+[15:03:06.908] [DEBUG] Getting CLI versions from NPM for @storybook/addon-webpack5-compiler-swc...
+[15:03:06.908] [DEBUG] Executing command: yarn info @storybook/addon-webpack5-compiler-swc version --json
+[15:03:06.913] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[15:03:06.913] [DEBUG] Executing command: yarn info @storybook/addon-a11y version --json
+[15:03:06.916] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[15:03:06.916] [DEBUG] Executing command: yarn info @storybook/addon-docs version --json
+[15:03:06.923] [DEBUG] Getting CLI versions from NPM for @storybook/addon-onboarding...
+[15:03:06.923] [DEBUG] Executing command: yarn info @storybook/addon-onboarding version --json
+[15:03:10.397] [INFO] - Configuring main.ts
+[15:03:10.399] [INFO] - Configuring preview.ts
+[15:03:10.400] [INFO] - Adding Storybook command to package.json
+[15:03:10.401] [DEBUG] Getting package.json info for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:10.401] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:10.401] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:10.401] [INFO] - Copying framework templates
+[15:03:10.418] [INFO] Storybook configuration generated
+[15:03:10.419] [INFO] Adding devDependencies:
+- storybook@^10.3.0-alpha.7
+- @storybook/react-webpack5@^10.3.0-alpha.7
+- @storybook/addon-webpack5-compiler-swc@^4.0.2
+- @storybook/addon-a11y@^10.3.0-alpha.7
+- @storybook/addon-docs@^10.3.0-alpha.7
+- @storybook/addon-onboarding@^10.3.0-alpha.7
+[15:03:10.420] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:10.420] [DEBUG] Using cached version for storybook...
+[15:03:10.420] [DEBUG] Using cached version for @storybook/react-webpack5...
+[15:03:10.420] [DEBUG] Using cached version for @storybook/addon-webpack5-compiler-swc...
+[15:03:10.420] [DEBUG] Using cached version for @storybook/addon-a11y...
+[15:03:10.420] [DEBUG] Using cached version for @storybook/addon-docs...
+[15:03:10.420] [DEBUG] Using cached version for @storybook/addon-onboarding...
+[15:03:10.420] [DEBUG] Using cached package.json for /tmp/8da68d1e46ffe4179d43dbab8abca99f/package.json...
+[15:03:10.421] [INFO] Dependencies added to package.json
+[15:03:10.421] [INFO] Installing dependencies...
+[15:03:10.421] [INFO] Installing dependencies...
+[15:03:10.421] [DEBUG] Executing command: yarn install
+[15:03:10.778] [INFO] Installing dependencies...: yarn install v1.22.22
+
+[15:03:10.778] [INFO] Installing dependencies...: yarn install v1.22.22
+[15:03:10.809] [INFO] Installing dependencies...: [1/4] Resolving packages...
+
+[15:03:10.809] [INFO] Installing dependencies...: [1/4] Resolving packages.
+[15:03:26.527] [INFO] Installing dependencies...: [2/4] Fetching packages...
+
+[15:03:26.527] [INFO] Installing dependencies...: [2/4] Fetching packages..
+[15:03:29.916] [INFO] Installing dependencies...: [3/4] Linking dependencies...
+
+[15:03:29.916] [INFO] Installing dependencies...: [3/4] Linking dependencie
+[15:03:32.900] [INFO] Installing dependencies...: [4/4] Building fresh packages...
+
+[15:03:32.900] [INFO] Installing dependencies...: [4/4] Building fresh pack
+[15:03:33.047] [INFO] Installing dependencies...: success Saved lockfile.
+
+[15:03:33.047] [INFO] Installing dependencies...: success Saved lockfile.
+[15:03:33.050] [INFO] Installing dependencies...: Done in 22.27s.
+
+[15:03:33.050] [INFO] Installing dependencies...: Done in 22.27s.
+[15:03:33.117] [INFO] Dependencies installed
+[15:03:33.117] [INFO] Dependencies installed
+[15:03:33.119] [INFO] Configuring @storybook/addon-a11y...
+[15:03:33.120] [DEBUG] Executing command: yarn exec storybook@10.3.0-alpha.7 -- automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager yarn1 --config-dir .storybook
+[15:03:33.532] [DEBUG] {
+  "shortMessage": "Command failed with exit code 1: yarn exec 'storybook@10.3.0-alpha.7' -- automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager yarn1 --config-dir .storybook",
+  "command": "yarn exec storybook@10.3.0-alpha.7 -- automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager yarn1 --config-dir .storybook",
+  "escapedCommand": "yarn exec 'storybook@10.3.0-alpha.7' -- automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager yarn1 --config-dir .storybook",
+  "cwd": "/tmp/8da68d1e46ffe4179d43dbab8abca99f",
+  "durationMs": 412.189402,
+  "failed": true,
+  "timedOut": false,
+  "isCanceled": false,
+  "isGracefullyCanceled": false,
+  "isTerminated": false,
+  "isMaxBuffer": false,
+  "isForcefullyTerminated": false,
+  "exitCode": 1,
+  "stdout": "yarn exec v1.22.22\ninfo Visit https://yarnpkg.com/en/docs/cli/exec for documentation about this command.",
+  "stderr": "error Couldn't find the binary storybook@10.3.0-alpha.7",
+  "stdio": [
+    null,
+    "yarn exec v1.22.22\ninfo Visit https://yarnpkg.com/en/docs/cli/exec for documentation about this command.",
+    "error Couldn't find the binary storybook@10.3.0-alpha.7"
+  ],
+  "ipcOutput": [],
+  "pipedFrom": []
+}
+[15:03:33.532] [INFO] Configuring @storybook/addon-docs...
+[15:03:33.533] [INFO] @storybook/addon-docs configured
+
+[15:03:33.533] [INFO] Configuring @storybook/addon-onboarding...
+[15:03:33.534] [INFO] @storybook/addon-onboarding configured
+
+[15:03:33.534] [INFO] Failed to configure addons
+[15:03:33.534] [INFO] [2m❌ @storybook/addon-a11y[22m
+[15:03:33.535] [INFO] [2m✅ @storybook/addon-docs[22m
+[15:03:33.536] [INFO] [2m✅ @storybook/addon-onboarding[22m
+[15:03:33.537] [WARN] Storybook setup completed, but some non-blocking errors occurred. Please check the log file below for details.
+[15:03:33.539] [INFO] To run Storybook manually, run [36myarn storybook[39m. CTRL+C to stop.
+[15:03:33.541] [INFO] Wanna know more about Storybook? Check out [36mhttps://storybook.js.org/[39m
+Having trouble or want to chat? Join us at [36mhttps://discord.gg/storybook/[39m
