@@ -26,8 +26,7 @@ export default {
           instances: [{
             browser: 'chromium'
           }]
-        },
-        setupFiles: ['.storybook/vitest.setup.ts']
+        }
       }
     }]
   }
