@@ -17,14 +17,24 @@ export default defineConfig({
   server: {
     port: 3000
   },
+  build: {
+    target: 'esnext'
+  },
+  resolve: {
+    conditions: ['development', 'browser']
+  },
   test: {
-    environment: 'jsdom',
-    globals: false,
-    setupFiles: ['node_modules/@testing-library/jest-dom/vitest'],
-    // if you have few tests, try commenting this
-    // out to improve performance:
-    isolate: false,
     projects: [{
+      extends: true,
+      test: {
+        environment: 'jsdom',
+        globals: false,
+        setupFiles: ['node_modules/@testing-library/jest-dom/vitest'],
+        // if you have few tests, try commenting this
+        // out to improve performance:
+        isolate: false
+      }
+    }, {
       extends: true,
       plugins: [
       // The plugin will run tests for the stories defined in your Storybook config
@@ -44,11 +54,5 @@ export default defineConfig({
         }
       }
     }]
-  },
-  build: {
-    target: 'esnext'
-  },
-  resolve: {
-    conditions: ['development', 'browser']
   }
 });
