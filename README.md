@@ -110,6 +110,18 @@
 </details>
 
 <details>
+  <summary><b>React-vite-plus</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite-plus/default-ts/after-storybook?preset=node"
+      >
+        React Vite-Plus Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>React-webpack</b></summary>
   <ul>
     <li>
