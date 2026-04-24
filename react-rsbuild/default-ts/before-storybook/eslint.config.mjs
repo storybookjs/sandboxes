@@ -16,7 +16,6 @@ export default defineConfig([
       reactRefresh.configs.recommended,
     ],
     languageOptions: {
-      ecmaVersion: 2020,
       globals: globals.browser,
     },
   },
