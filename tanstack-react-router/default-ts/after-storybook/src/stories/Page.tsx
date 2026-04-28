@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Link, useLoaderData, useRouterState, createFileRoute } from '@tanstack/react-router';
-
+import './page.css'
 import { Header } from './Header';
 
 type User = {
