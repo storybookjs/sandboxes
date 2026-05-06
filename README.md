@@ -158,6 +158,30 @@
 </details>
 
 <details>
+  <summary><b>Tanstack-react-router</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/tanstack-react-router/default-ts/after-storybook?preset=node"
+      >
+        TanStack React Router Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Tanstack-react-start</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/tanstack-react-start/default-ts/after-storybook?preset=node"
+      >
+        TanStack React Start Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Vue3-vite</b></summary>
   <ul>
     <li>
