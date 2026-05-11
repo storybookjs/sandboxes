@@ -286,6 +286,12 @@
         Angular CLI Latest (Webpack | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/vite-default-ts/after-storybook?preset=node"
+      >
+        Angular CLI Latest (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
