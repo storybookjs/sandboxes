@@ -747,13 +747,13 @@
     "@tanstack/router-devtools-core" "1.168.0"
 
 "@tanstack/react-router@latest":
-  version "1.170.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.3.tgz#393c3e2257cfee3c77d50ccb8ed42b9c67d6f1ae"
-  integrity sha512-WG3CZIMUmwL85aCswazWVgGoGkzSNUxAT66BraJY02Jrjs3mLSBHHNqoZuuAHUeH5MnakTKPva8k974+x6YseQ==
+  version "1.170.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.4.tgz#b2e66c9b414101fd09549403fc6df513a5befdd7"
+  integrity sha512-cusL4YCTuGGJhjfsXEBm6/SmOAs/G8wRVNadeyN3ofu4OZwX69KAybBEf217buxYzI+FohdJVoigEpJV+tGzIw==
   dependencies:
     "@tanstack/history" "1.162.0"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.171.1"
+    "@tanstack/router-core" "1.171.2"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -764,10 +764,10 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.171.1":
-  version "1.171.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.1.tgz#94f72e8b15a6599ba26e6b203de4382a519c17ea"
-  integrity sha512-ItrosN74HMhp6ia12rhw7V0vH85/SWHBupvTas/YN/fKh8bDQbiLntc0L/CcBaUilCyJANVkFkvEnFMKcibocg==
+"@tanstack/router-core@1.171.2":
+  version "1.171.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.2.tgz#436f79dc324349461e3d19caff699e72d9168696"
+  integrity sha512-sUd+BhGYkBF64LVhmOHnYsc1AutPNch/huohEXiXL4IUgmk17Gy+RkUazvjQhptVdYW5QT+qtATrUr2cQZNHFA==
   dependencies:
     "@tanstack/history" "1.162.0"
     cookie-es "^3.0.0"
@@ -782,13 +782,13 @@
     clsx "^2.1.1"
     goober "^2.1.16"
 
-"@tanstack/router-generator@1.167.4":
-  version "1.167.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.167.4.tgz#1a9db8a800f3e44307ac0f3556e6fc8f9b4929bf"
-  integrity sha512-l/u/AdJq4OPn7ejsOQS+DqER+ZQ4anZVFWJpVoqg1RHVtky844aLSnl4rcRM2BRYXZYBCtVyZBoJwsOEkSoinQ==
+"@tanstack/router-generator@1.167.5":
+  version "1.167.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.167.5.tgz#f1475cf2c8dbe73fcf340f1a29171767f4eaf0f5"
+  integrity sha512-S7h9qs7WjwF1IlMiOxSv+xB/bSOQ6QS84NlApM9iWLVdkbOVUn7RzTaCqw2qdDa5cPrfSiZJ2wK2a6RFDmFubA==
   dependencies:
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.171.1"
+    "@tanstack/router-core" "1.171.2"
     "@tanstack/router-utils" "1.162.0"
     "@tanstack/virtual-file-routes" "1.162.0"
     jiti "^2.7.0"
@@ -797,9 +797,9 @@
     zod "^3.24.2"
 
 "@tanstack/router-plugin@^1.132.0":
-  version "1.168.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.168.5.tgz#a1afb21f71c4214071ca460a666938ef3eb18925"
-  integrity sha512-QcDdBszaojGLaOdlIeFvfAjiLlQ9Njo8uR/tivkQuPUa1jmurZCuUqAX9twuMRxLrsWoo3gCppCXTIxtgRkBJQ==
+  version "1.168.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.168.6.tgz#eef934e09aaf1308676e63bb7ce74f4d7020d028"
+  integrity sha512-u5CNtTWGyFvV8gGWKBt9LdwVGg+ISSBXG/aeeU1/d1YpEKPqlJHS6oN3tvNKOScubeV64HjpeV0tD6fqRfCpvw==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -807,8 +807,8 @@
     "@babel/template" "^7.27.2"
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.171.1"
-    "@tanstack/router-generator" "1.167.4"
+    "@tanstack/router-core" "1.171.2"
+    "@tanstack/router-generator" "1.167.5"
     "@tanstack/router-utils" "1.162.0"
     "@tanstack/virtual-file-routes" "1.162.0"
     chokidar "^3.6.0"
@@ -1063,9 +1063,9 @@ browserslist@^4.24.0:
     update-browserslist-db "^1.2.3"
 
 caniuse-lite@^1.0.30001782:
-  version "1.0.30001792"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001792.tgz#ca8bb9be244835a335e2018272ce7223691873c5"
-  integrity sha512-hVLMUZFgR4JJ6ACt1uEESvQN1/dBVqPAKY0hgrV70eN3391K6juAfTjKZLKvOMsx8PxA7gsY1/tLMMTcfFLLpw==
+  version "1.0.30001793"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001793.tgz#238887ddf5fcfc8c36d872394d0a78a517312a72"
+  integrity sha512-iwSsYWaCOoh26cV8NwNRViHlrfUvYsHDfRVcbtmw0Kg6PJIZZXwMkj1442FYLBGkeUf1juAsU3DTfxW579mrPA==
 
 chai@^6.2.2:
   version "6.2.2"
