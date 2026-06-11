@@ -1,0 +1,135 @@
+[03:42:06.729] [INFO] [36mInitializing Storybook[39m
+[03:42:06.738] [DEBUG] Getting package.json info for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:06.738] [INFO] Package manager: Yarn Classic (v1)
+[03:42:06.739] [DEBUG] Getting CLI versions from NPM for storybook...
+[03:42:06.740] [DEBUG] Executing command: yarn info storybook version --json
+[03:42:07.175] [WARN] This is a pre-release version: 10.5.0-alpha.6
+[03:42:07.176] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:07.177] [DEBUG] Project type detected: react
+[03:42:07.177] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:07.178] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:07.178] [INFO] Framework detected: react-webpack5
+[03:42:07.178] [DEBUG] Getting installed version for vitest...
+[03:42:07.179] [DEBUG] Executing command: yarn list --pattern "vitest" --json --recursive vitest
+[03:42:12.204] [DEBUG] Error finding installations for vitest: ExecaError: Command failed with exit code 1: yarn list --pattern '"vitest"' --json --recursive vitest
+
+{"type":"warning","data":"@storybook/builder-webpack5 > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4"}
+{"type":"warning","data":"@storybook/builder-webpack5 > webpack-dev-middleware > memfs@3.6.0: this will be v4"}
+{"type":"error","data":"Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\""}
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+
+{"type":"info","data":"Visit \u001b[1mhttps://yarnpkg.com/en/docs/cli/list\u001b[22m for documentation about this command."}
+[03:42:12.204] [DEBUG] No installations found for vitest
+[03:42:12.204] [DEBUG] Getting installed version for msw...
+[03:42:12.204] [DEBUG] Executing command: yarn list --pattern "msw" --json --recursive msw
+[03:42:17.491] [DEBUG] Error finding installations for msw: ExecaError: Command failed with exit code 1: yarn list --pattern '"msw"' --json --recursive msw
+
+{"type":"warning","data":"@storybook/builder-webpack5 > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4"}
+{"type":"warning","data":"@storybook/builder-webpack5 > webpack-dev-middleware > memfs@3.6.0: this will be v4"}
+{"type":"error","data":"Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\""}
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Couldn't find any versions for "@vue/shared" that matches "3.5.36"
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13
+    at Generator.next (<anonymous>)
+    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)
+    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+
+{"type":"info","data":"Visit \u001b[1mhttps://yarnpkg.com/en/docs/cli/list\u001b[22m for documentation about this command."}
+[03:42:17.491] [DEBUG] No installations found for msw
+[03:42:17.497] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:17.497] [DEBUG] Using cached version for storybook...
+[03:42:17.497] [DEBUG] Getting CLI versions from NPM for @storybook/react-webpack5...
+[03:42:17.497] [DEBUG] Executing command: yarn info @storybook/react-webpack5 version --json
+[03:42:17.500] [DEBUG] Getting CLI versions from NPM for @storybook/addon-webpack5-compiler-swc...
+[03:42:17.500] [DEBUG] Executing command: yarn info @storybook/addon-webpack5-compiler-swc version --json
+[03:42:17.503] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[03:42:17.503] [DEBUG] Executing command: yarn info @storybook/addon-a11y version --json
+[03:42:17.508] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[03:42:17.508] [DEBUG] Executing command: yarn info @storybook/addon-docs version --json
+[03:42:17.511] [DEBUG] Getting CLI versions from NPM for @storybook/addon-onboarding...
+[03:42:17.511] [DEBUG] Executing command: yarn info @storybook/addon-onboarding version --json
+[03:42:18.343] [INFO] - Configuring main.ts
+[03:42:18.344] [INFO] - Configuring preview.ts
+[03:42:18.345] [INFO] - Adding Storybook command to package.json
+[03:42:18.346] [DEBUG] Getting package.json info for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:18.346] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:18.346] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:18.346] [INFO] - Copying framework templates
+[03:42:18.360] [INFO] Storybook configuration generated
+[03:42:18.361] [INFO] Adding devDependencies:
+- storybook@^10.5.0-alpha.6
+- @storybook/react-webpack5@^10.5.0-alpha.6
+- @storybook/addon-webpack5-compiler-swc@^4.0.3
+- @storybook/addon-a11y@^10.5.0-alpha.6
+- @storybook/addon-docs@^10.5.0-alpha.6
+- @storybook/addon-onboarding@^10.5.0-alpha.6
+[03:42:18.362] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:18.362] [DEBUG] Using cached version for storybook...
+[03:42:18.362] [DEBUG] Using cached version for @storybook/react-webpack5...
+[03:42:18.363] [DEBUG] Using cached version for @storybook/addon-webpack5-compiler-swc...
+[03:42:18.363] [DEBUG] Using cached version for @storybook/addon-a11y...
+[03:42:18.363] [DEBUG] Using cached version for @storybook/addon-docs...
+[03:42:18.363] [DEBUG] Using cached version for @storybook/addon-onboarding...
+[03:42:18.363] [DEBUG] Using cached package.json for /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/package.json...
+[03:42:18.363] [INFO] Dependencies added to package.json
+[03:42:18.363] [INFO] Installing dependencies...
+[03:42:18.364] [INFO] Installing dependencies...
+[03:42:18.364] [DEBUG] Executing command: yarn install
+[03:42:18.722] [INFO] Installing dependencies...: yarn install v1.22.22
+
+[03:42:18.722] [INFO] Installing dependencies...: yarn install v1.22.22
+[03:42:18.752] [INFO] Installing dependencies...: [1/4] Resolving packages...
+
+[03:42:18.752] [INFO] Installing dependencies...: [1/4] Resolving packages.
+[03:42:23.647] [INFO] Installing dependencies...: info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+
+[03:42:23.647] [INFO] Installing dependencies...: info Visit https://yarnpk
+[03:42:23.687] [ERROR] Installation of dependencies failed! {"error":"ExecaError: Command failed with exit code 1: yarn install\n\nwarning @storybook/builder-webpack5 > webpack-dev-middleware > memfs@3.6.0: this will be v4\nwarning @storybook/builder-webpack5 > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4\nerror Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\"\nError: Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\"\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13\n    at Generator.next (<anonymous>)\n    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\nError: Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\"\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13\n    at Generator.next (<anonymous>)\n    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\nError: Couldn't find any versions for \"@vue/shared\" that matches \"3.5.36\"\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:50759:13\n    at Generator.next (<anonymous>)\n    at step (/tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:310:30)\n    at /tmp/4a752ffcb55ca142df22da9ee7f4ae7b/.yarn/releases/yarn-classic.cjs:321:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n\nyarn install v1.22.22\n[1/4] Resolving packages...\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\n    at getFinalError (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-AAQZQCWV.js:10595:10)\n    at makeError (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-AAQZQCWV.js:12131:15)\n    at getAsyncResult (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-AAQZQCWV.js:14777:158)\n    at handlePromise (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-AAQZQCWV.js:14763:162)\n    at async Object.executeTaskWithSpinner (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-WKAELMIZ.js:3683:11)\n    at async Yarn1Proxy.installDependencies (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-AAQZQCWV.js:8718:5)\n    at async DependencyInstallationCommand.execute (file:///home/runner/work/storybook/storybook/code/lib/create-storybook/dist/_node-chunks/chunk-JYIH3G34.js:2301:9)\n    at async doInitiate (file:///home/runner/work/storybook/storybook/code/lib/create-storybook/dist/_node-chunks/chunk-JYIH3G34.js:3535:38)\n    at async file:///home/runner/work/storybook/storybook/code/lib/create-storybook/dist/_node-chunks/chunk-JYIH3G34.js:3590:20\n    at async withTelemetry (file:///home/runner/work/storybook/storybook/code/core/dist/_node-chunks/chunk-QJEE66BC.js:1794:12)"}
+[03:42:23.688] [ERROR] [31mInstallation of dependencies failed![39m
+[03:42:23.690] [INFO] Configuring @storybook/addon-a11y...
+[03:42:23.690] [DEBUG] Executing command: npx storybook@10.5.0-alpha.6 automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager yarn1 --config-dir .storybook
+[03:42:25.744] [INFO] @storybook/addon-a11y configured
+
+[03:42:25.744] [INFO] Configuring @storybook/addon-docs...
+[03:42:25.745] [INFO] @storybook/addon-docs configured
+
+[03:42:25.745] [INFO] Configuring @storybook/addon-onboarding...
+[03:42:25.745] [INFO] @storybook/addon-onboarding configured
+
+[03:42:25.746] [INFO] Addons configured successfully
+[03:42:25.746] [INFO] [2m✅ @storybook/addon-a11y[22m
+[03:42:25.747] [INFO] [2m✅ @storybook/addon-docs[22m
+[03:42:25.747] [INFO] [2m✅ @storybook/addon-onboarding[22m
+[03:42:25.747] [WARN] Storybook setup completed, but some non-blocking errors occurred. Please check the log file below for details.
+[03:42:25.749] [INFO] To run Storybook, run [36myarn storybook[39m. CTRL+C to stop.
+[03:42:25.750] [INFO] Want to learn more about Storybook? [36mhttps://storybook.js.org/[39m
+Having trouble or want to chat? [36mhttps://discord.gg/storybook/[39m
