@@ -334,6 +334,12 @@
         Preact Latest (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/prerelease-ts/after-storybook?preset=node"
+      >
+        Preact Prerelease (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
