@@ -6,10 +6,23 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
+    "@chromatic-com/storybook",
+    "@storybook/addon-vitest",
     "@storybook/addon-a11y",
     "@storybook/addon-docs",
     "@storybook/addon-onboarding"
   ],
-  "framework": "@storybook/angular-vite"
+  "framework": {
+    "name": "@storybook/angular-vite",
+    "options": {
+      "compodoc": true,
+      "compodocArgs": [
+        "-e",
+        "json",
+        "-d",
+        "."
+      ]
+    }
+  }
 };
 export default config;
