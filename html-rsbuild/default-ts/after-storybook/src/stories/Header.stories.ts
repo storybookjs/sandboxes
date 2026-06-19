@@ -14,7 +14,7 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
-  // More on argTypes: https://storybook.js.org/docs/api/arg-types
+  // More on argTypes: https://storybook.js.org/docs/api/argtypes
   args: {
     onLogin: fn(),
     onLogout: fn(),

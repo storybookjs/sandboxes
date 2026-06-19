@@ -347,9 +347,9 @@
   integrity sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==
 
 "@babel/helper-validator-identifier@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-8.0.0.tgz#9b208cab253adfc9ecd40c95763f99ece690e85a"
-  integrity sha512-kXxQVZHNOctSJJsqzmcbPSCEkM6oHNnDIkua7g9RCO9xRHj2eCiKvRx2KPdfWR9QxcGWnK/oArrtunmie3rL9g==
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-8.0.2.tgz#5527f2e24e5a9f4de7426dca448031749691bb6f"
+  integrity sha512-9Fr9QeyCAyi1BR1jKZ6uYQ24EIhQUx5ReHfQU7drOE+TPOb+w11/dsqLkMOT2U29OdCT71XajrOT8xDc1C7orA==
 
 "@babel/helper-validator-option@^7.29.7":
   version "7.29.7"
@@ -1350,10 +1350,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.29.7"
 
-"@babel/plugin-transform-regenerator@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-8.0.1.tgz#efaf833674c20964abf8bf247ca68f88ba73f042"
-  integrity sha512-1WjCi/45Mn5e0uvz26FdvRe6bTAvN6WAtkHgIjl0w/LkBvrv4Y5bDR+8YY72r7cefXBfwYUXIHSoxQkrIfnjXQ==
+"@babel/plugin-transform-regenerator@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-8.0.2.tgz#fbef65bd45ddc94aedff6c20d5678cc43a234400"
+  integrity sha512-aFfsjCRYducRV4dPnpsBbdRkLjboca9FVDg6HZCgy0Ahvk2ZQ/2exmCRC5qS9P6rsWwrmIheNaIM6A1j2F8KMA==
   dependencies:
     "@babel/helper-plugin-utils" "^8.0.1"
 
@@ -1633,9 +1633,9 @@
     semver "^6.3.1"
 
 "@babel/preset-env@latest":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-8.0.1.tgz#0e70274f0f980eee4350cd4ed57885a776084252"
-  integrity sha512-tiwl69ZQGIbPif28GK8vI/Nm1nYdP+UHXWRnqXl0fjfBS7DWmAs2XvlpVkZyZjVVDxcprcbzCnN93SbuSgz8WQ==
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-8.0.2.tgz#dfee131c5dec359bab222ad33abb5b8480d639b3"
+  integrity sha512-CUGLn9hNBCF/eXnwdFAWERbniCcXCRvnKwLV9fegeUEIqv7YlU2MepsWMMM54GcILx5XYMnRh+JAL+K5G+mK6g==
   dependencies:
     "@babel/compat-data" "^8.0.0"
     "@babel/helper-compilation-targets" "^8.0.0"
@@ -1686,7 +1686,7 @@
     "@babel/plugin-transform-private-methods" "^8.0.1"
     "@babel/plugin-transform-private-property-in-object" "^8.0.1"
     "@babel/plugin-transform-property-literals" "^8.0.1"
-    "@babel/plugin-transform-regenerator" "^8.0.1"
+    "@babel/plugin-transform-regenerator" "^8.0.2"
     "@babel/plugin-transform-regexp-modifiers" "^8.0.1"
     "@babel/plugin-transform-reserved-words" "^8.0.1"
     "@babel/plugin-transform-shorthand-properties" "^8.0.1"
@@ -1698,8 +1698,8 @@
     "@babel/plugin-transform-unicode-property-regex" "^8.0.1"
     "@babel/plugin-transform-unicode-regex" "^8.0.1"
     "@babel/plugin-transform-unicode-sets-regex" "^8.0.1"
-    "@babel/preset-modules" "0.1.6-no-external-plugins"
-    babel-plugin-polyfill-corejs3 "^1.0.0-rc.2"
+    "@babel/preset-modules" "^0.2.0"
+    babel-plugin-polyfill-corejs3 "^1.0.0"
     core-js-compat "^3.48.0"
     semver "^7.7.3"
 
@@ -1710,6 +1710,17 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/types" "^7.4.4"
+    esutils "^2.0.2"
+
+"@babel/preset-modules@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/preset-modules/-/preset-modules-0.2.0.tgz#dd34a1696e9e4f4d2ded987f6205de7368e0f654"
+  integrity sha512-yz0RBN2fx4fjCeFcTWsWgL7PxSRltvTa0Qg14HkWCU3qS8MO7ZSJlBVbGceynd5C9NsJwwUHNQD3dc6tYO+jqQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^8.0.1"
+    "@babel/plugin-transform-dotall-regex" "^8.0.1"
+    "@babel/plugin-transform-unicode-property-regex" "^8.0.1"
+    "@babel/types" "^8.0.0"
     esutils "^2.0.2"
 
 "@babel/preset-react@^7.16.0":
@@ -2620,7 +2631,7 @@ babel-plugin-polyfill-corejs3@^0.14.0:
     "@babel/helper-define-polyfill-provider" "^0.6.8"
     core-js-compat "^3.48.0"
 
-babel-plugin-polyfill-corejs3@^1.0.0-rc.2:
+babel-plugin-polyfill-corejs3@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-1.0.0.tgz#3abc188f97898ce67fe714a0dd971120c696501d"
   integrity sha512-yIkslVjbmml2Xjb6XhFW7lISXHsqk6cesxTdDsXoMom4Lnb99DbD3OQbSOoM5Z+ASh8YXYaLAsRQrU2Jeh3Qig==
@@ -3063,9 +3074,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.328:
-  version "1.5.375"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.375.tgz#54a9a616dc2b3765e7263d98d14c2135408954d9"
-  integrity sha512-ZWP5eB4BVPW/ZYo9252hQZHZ5XavtsTgpbhcmMmRwymavC5AsLWQWBPaKMeNd2LW0KGby5HPXvj7+sr4ta5j/Q==
+  version "1.5.376"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.376.tgz#16a9d4b72cb16c416aa73a879d92b047b96797ac"
+  integrity sha512-cUVA7/RvbFTEuw/i3obUwDTRIXojaxkResf+ibByPFxjc6XK3VNtcQXV0NSbAlJ0FMjcJGgftVVB4Qo184EXvA==
 
 empathic@^2.0.1:
   version "2.0.1"
