@@ -1,16 +1,28 @@
-import type { StorybookConfig } from "@storybook/angular";
+import type { StorybookConfig } from '@storybook/angular-vite';
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
-  addons: [
-    "@storybook/addon-onboarding",
-    "@storybook/addon-essentials",
-    "@chromatic-com/storybook",
-    "@storybook/addon-interactions",
+  "stories": [
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
-  framework: {
-    name: "@storybook/angular",
-    options: {},
-  },
+  "addons": [
+    "@chromatic-com/storybook",
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y",
+    "@storybook/addon-docs",
+    "@storybook/addon-onboarding"
+  ],
+  "framework": {
+    "name": "@storybook/angular-vite",
+    "options": {
+      "compodoc": true,
+      "compodocArgs": [
+        "-e",
+        "json",
+        "-d",
+        "."
+      ]
+    }
+  }
 };
 export default config;
