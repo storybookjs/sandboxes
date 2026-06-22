@@ -1,10 +1,10 @@
-<h1>Angular CLI Latest (Webpack | TypeScript)</h1>
+<h1>Angular CLI Latest (Vite | TypeScript)</h1>
 
 <p>
   This is project generated to serve as a reproduction starter for Storybook.
 </p>
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-cli/default-ts/after-storybook?preset=node=">
+<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-vite/default-ts/after-storybook?preset=node=">
   View it in Stackblitz
 </a>
 
