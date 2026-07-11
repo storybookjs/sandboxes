@@ -276,15 +276,27 @@
   <summary><b>Angular-cli</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-cli/prerelease/after-storybook?preset=node"
-      >
-        Angular CLI Prerelease (Webpack | TypeScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-cli/default-ts/after-storybook?preset=node"
       >
         Angular CLI Latest (Webpack | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Angular-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-vite/21-ts/after-storybook?preset=node"
+      >
+        Angular CLI v21 (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-vite/default-ts/after-storybook?preset=node"
+      >
+        Angular CLI Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
