@@ -12,3 +12,7 @@ pnpm-lock.yaml
 !/**/.yarn/plugins
 !/**/.yarn/sdks
 !/**/.yarn/versions
+
+# Managed by publish-sandboxes: publish only the before-storybook lockfile
+yarn.lock
+!**/before-storybook/yarn.lock

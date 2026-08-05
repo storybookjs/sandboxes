@@ -1,8 +1,6 @@
 {
   "name": "before-storybook",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "packageManager": "yarn@4.10.3",
   "resolutions": {
     "@storybook/addon-a11y": "10.6.0-alpha.4",
     "@storybook/addon-docs": "10.6.0-alpha.4",
@@ -56,10 +54,10 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "storybook": "^10.6.0-alpha.4",
-    "@storybook/server-webpack5": "^10.6.0-alpha.4",
+    "@storybook/addon-a11y": "10.6.0-alpha.4",
+    "@storybook/addon-docs": "10.6.0-alpha.4",
     "@storybook/addon-webpack5-compiler-swc": "^4.0.3",
-    "@storybook/addon-a11y": "^10.6.0-alpha.4",
-    "@storybook/addon-docs": "^10.6.0-alpha.4"
+    "@storybook/server-webpack5": "10.6.0-alpha.4",
+    "storybook": "10.6.0-alpha.4"
   }
 }
