@@ -23,27 +23,27 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^5.2.1",
+    "@storybook/addon-a11y": "10.6.0-alpha.4",
+    "@storybook/addon-docs": "10.6.0-alpha.4",
+    "@storybook/addon-mcp": "10.6.0-alpha.4",
+    "@storybook/addon-vitest": "10.6.0-alpha.4",
+    "@storybook/tanstack-react": "10.6.0-alpha.4",
     "@tanstack/devtools-vite": "latest",
+    "@tanstack/react-query": "^5.101.4",
     "@tanstack/router-cli": "^1.132.0",
     "@tanstack/router-plugin": "latest",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
+    "playwright": "latest",
+    "storybook": "10.6.0-alpha.4",
     "typescript": "^6.0.2",
     "vite": "^8.0.0",
-    "storybook": "10.6.0-alpha.4",
-    "@storybook/tanstack-react": "10.6.0-alpha.4",
-    "@chromatic-com/storybook": "^5.2.1",
-    "@storybook/addon-vitest": "10.6.0-alpha.4",
-    "@storybook/addon-a11y": "10.6.0-alpha.4",
-    "@storybook/addon-docs": "10.6.0-alpha.4",
-    "@storybook/addon-mcp": "10.6.0-alpha.4",
-    "@tanstack/react-query": "^5.101.4",
-    "vitest": "^4.1.10",
-    "playwright": "^1.62.1",
-    "@vitest/browser-playwright": "^4.1.10",
-    "@vitest/coverage-v8": "^4.1.10"
+    "vitest": "latest"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -51,7 +51,7 @@
       "lightningcss"
     ]
   },
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.18.0",
   "resolutions": {
     "@storybook/addon-a11y": "10.6.0-alpha.4",
     "@storybook/addon-docs": "10.6.0-alpha.4",
