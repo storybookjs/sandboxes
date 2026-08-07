@@ -9,19 +9,20 @@
     "build": "webpack build"
   },
   "dependencies": {
-    "react": "16",
-    "@types/react": "16",
-    "react-dom": "16",
-    "@types/react-dom": "16",
-    "html-webpack-plugin": "latest",
-    "webpack-cli": "latest",
-    "webpack-dev-server": "latest",
-    "babel-loader": "latest",
     "@babel/core": "latest",
-    "@babel/preset-typescript": "latest",
-    "@babel/preset-react": "latest",
     "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@types/react": "16",
+    "@types/react-dom": "16",
+    "babel-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "react": "16",
+    "react-dom": "16",
+    "typescript": "^4.8",
     "webpack": "^5",
-    "typescript": "^4.8"
-  }
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "packageManager": "yarn@4.18.0"
 }
