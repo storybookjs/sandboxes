@@ -53,16 +53,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.29.7":
-  version: 7.29.7
-  resolution: "@babel/generator@npm:7.29.7"
+"@babel/generator@npm:^7.29.7, @babel/generator@npm:^7.29.8":
+  version: 7.29.8
+  resolution: "@babel/generator@npm:7.29.8"
   dependencies:
-    "@babel/parser": "npm:^7.29.7"
-    "@babel/types": "npm:^7.29.7"
+    "@babel/parser": "npm:^7.29.8"
+    "@babel/types": "npm:^7.29.8"
     "@jridgewell/gen-mapping": "npm:^0.3.12"
     "@jridgewell/trace-mapping": "npm:^0.3.28"
     jsesc: "npm:^3.0.2"
-  checksum: 10c0/9bf72b01b5bd0ea5b1288a0e37dbd360bff2f2b1ce73342c0d40fb3db2ec3dc004ada5ffa925c5e12939a416eed59e600d562b8ecd938ce0d27dfd0eb6c6c2b7
+  checksum: 10c0/7b896696314a659652393b76d78276e236acd0f7fae40a9a1af7f01c76aeafc630dd0966aad6f9386d35d7c674a8e6e2d8e217c44d25fb11460e68afa9ba8441
   languageName: node
   linkType: hard
 
@@ -140,14 +140,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.24.4, @babel/parser@npm:^7.29.7":
-  version: 7.29.7
-  resolution: "@babel/parser@npm:7.29.7"
+"@babel/parser@npm:^7.24.4, @babel/parser@npm:^7.29.7, @babel/parser@npm:^7.29.8":
+  version: 7.29.8
+  resolution: "@babel/parser@npm:7.29.8"
   dependencies:
-    "@babel/types": "npm:^7.29.7"
+    "@babel/types": "npm:^7.29.8"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/65133038f80b54a714d6027cb77cee3f9a6b5c4c6842ce674301e13947cbcbfa8055e63acaf1b84c085d34226a14425b2c2b97b829e0e226d2e8f1299942a51d
+  checksum: 10c0/acc890c5e6a6dd40863a47b50bac111d7185ee6fbbe163ebe11d5214854ca2adb901462ad4d718a65090ef84bd2230e9e8ab45a2e0caccc685f1f57ab0bb1e28
   languageName: node
   linkType: hard
 
@@ -163,27 +163,27 @@ __metadata:
   linkType: hard
 
 "@babel/traverse@npm:^7.29.7":
-  version: 7.29.7
-  resolution: "@babel/traverse@npm:7.29.7"
+  version: 7.29.8
+  resolution: "@babel/traverse@npm:7.29.8"
   dependencies:
     "@babel/code-frame": "npm:^7.29.7"
-    "@babel/generator": "npm:^7.29.7"
+    "@babel/generator": "npm:^7.29.8"
     "@babel/helper-globals": "npm:^7.29.7"
-    "@babel/parser": "npm:^7.29.7"
+    "@babel/parser": "npm:^7.29.8"
     "@babel/template": "npm:^7.29.7"
-    "@babel/types": "npm:^7.29.7"
+    "@babel/types": "npm:^7.29.8"
     debug: "npm:^4.3.1"
-  checksum: 10c0/e256a1fbdb956555b76f3c285b1e453f6bedec8b3afb61751d99d933efd11c7d79caf5ddf2493570058a9f7deaa1b48324380d7c1aa1443fd9508becbf56331a
+  checksum: 10c0/87a28989c434add26d787776ac6d30f749b89cb030f2a605c89f671a516a6fa165ac0476f07e2b69feed70128b2734cae1cbbf41dfe95ccf22081bd8f8b91923
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.29.7":
-  version: 7.29.7
-  resolution: "@babel/types@npm:7.29.7"
+"@babel/types@npm:^7.29.7, @babel/types@npm:^7.29.8":
+  version: 7.29.8
+  resolution: "@babel/types@npm:7.29.8"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.29.7"
     "@babel/helper-validator-identifier": "npm:^7.29.7"
-  checksum: 10c0/b6623994c69717fa27294f5fa46d59140338e2d86c6c1c13085c84ef7d53086ee357fbf4fe9abe3dd3da75734dc77c4c0df2f90fb29e667558bb3b3fb705e88f
+  checksum: 10c0/be7c279f0abf2a086c633e21b49c7ca80275d05283cc5a268b67a708c9914bd0c944f1422b3eb3cb37682a2af5d560abf520ccf9b01b53ecbfe6b71fbc3fdde6
   languageName: node
   linkType: hard
 
@@ -673,86 +673,86 @@ __metadata:
   linkType: hard
 
 "@napi-rs/wasm-runtime@npm:^1.1.4":
-  version: 1.2.1
-  resolution: "@napi-rs/wasm-runtime@npm:1.2.1"
+  version: 1.2.2
+  resolution: "@napi-rs/wasm-runtime@npm:1.2.2"
   dependencies:
     "@tybys/wasm-util": "npm:^0.10.3"
   peerDependencies:
     "@emnapi/core": ^1.7.1 || ^2.0.0-alpha.3
     "@emnapi/runtime": ^1.7.1 || ^2.0.0-alpha.3
-  checksum: 10c0/33532973e573e566536b9c342caea85a504e1e6332d1dc6aeb55de4b476dea215db271ce0c1e044d0ddc121ef9ef9caec8654c8937c9f5330db4f0051e9ff8d1
+  checksum: 10c0/670ff8359761660f58d95a29fe22ac959d2c295675144fe9bc35118b0e723d1e0ac192df9896ba428eb13930cf0893b632606b70ccaea259fd6eca1836c2eb09
   languageName: node
   linkType: hard
 
-"@next/env@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/env@npm:16.3.1-canary.5"
-  checksum: 10c0/dc107f9fa107316ec81957ea1359e5936c18da00549df5bce4279569cd9c3c348706fb5a3db4278542b0b0a0afeb2b65bb37851d80d59db1411c4c6fdce8b06e
+"@next/env@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/env@npm:16.3.1-canary.8"
+  checksum: 10c0/d61d97b54742f0012cf94db4e63d6e442e272ca2f0c10e28389b93193b94be54692a50d461f918e87d6383f8e0cc434f40f730752a4ff7894948c9f6556a1199
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/eslint-plugin-next@npm:16.3.1-canary.5"
+"@next/eslint-plugin-next@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/eslint-plugin-next@npm:16.3.1-canary.8"
   dependencies:
     "@eslint-community/eslint-utils": "npm:4.9.1"
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/03ae958bdeb16ddad4e7f2b82cd8209d615b903f18b3bb86a39e2ad977d9f6b25b7b55ecf0eddc6195aa78fd2c83c7031d7625575eeda58c50345021c13ef3c1
+  checksum: 10c0/a1ea563ba20d8dc07983aa89d4c6899dd246f0fedd313bfc94aa4ff397deac847ac51859ec353aa21c6538f73f1ed16de562fe29a70f06d0f325d92acb40db85
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-darwin-arm64@npm:16.3.1-canary.5"
+"@next/swc-darwin-arm64@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-darwin-arm64@npm:16.3.1-canary.8"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-darwin-x64@npm:16.3.1-canary.5"
+"@next/swc-darwin-x64@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-darwin-x64@npm:16.3.1-canary.8"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-linux-arm64-gnu@npm:16.3.1-canary.5"
+"@next/swc-linux-arm64-gnu@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-linux-arm64-gnu@npm:16.3.1-canary.8"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-linux-arm64-musl@npm:16.3.1-canary.5"
+"@next/swc-linux-arm64-musl@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-linux-arm64-musl@npm:16.3.1-canary.8"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-linux-x64-gnu@npm:16.3.1-canary.5"
+"@next/swc-linux-x64-gnu@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-linux-x64-gnu@npm:16.3.1-canary.8"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-linux-x64-musl@npm:16.3.1-canary.5"
+"@next/swc-linux-x64-musl@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-linux-x64-musl@npm:16.3.1-canary.8"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-win32-arm64-msvc@npm:16.3.1-canary.5"
+"@next/swc-win32-arm64-msvc@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-win32-arm64-msvc@npm:16.3.1-canary.8"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "@next/swc-win32-x64-msvc@npm:16.3.1-canary.5"
+"@next/swc-win32-x64-msvc@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "@next/swc-win32-x64-msvc@npm:16.3.1-canary.8"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1539,11 +1539,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.10.44, baseline-browser-mapping@npm:^2.9.19":
-  version: 2.11.8
-  resolution: "baseline-browser-mapping@npm:2.11.8"
+  version: 2.11.9
+  resolution: "baseline-browser-mapping@npm:2.11.9"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/4fd0ba04e96d9139827eb0aed4b086c789ca9062877a17946b7b51a5be5959412c4919d6c017ad8d233445cbef48716e409e0256326b789a435c699e4c5c7a49
+  checksum: 10c0/4c9e4cfdc76594d22eeec6b545b04749db808863d5cd6ea6053553a6dd5c0c6af4eae9ff4a3e575c972cb1a6fdd95b179829f86a49a85ac23ead70adb06ed000
   languageName: node
   linkType: hard
 
@@ -1556,8 +1556,8 @@ __metadata:
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
     eslint: "npm:^9"
-    eslint-config-next: "npm:16.3.1-canary.5"
-    next: "npm:16.3.1-canary.5"
+    eslint-config-next: "npm:16.3.1-canary.8"
+    next: "npm:16.3.1-canary.8"
     react: "npm:19.2.8"
     react-dom: "npm:19.2.8"
     tailwindcss: "npm:^4"
@@ -2030,11 +2030,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "eslint-config-next@npm:16.3.1-canary.5"
+"eslint-config-next@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "eslint-config-next@npm:16.3.1-canary.8"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.3.1-canary.5"
+    "@next/eslint-plugin-next": "npm:16.3.1-canary.8"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -2049,7 +2049,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/1dc28b2495466bde2ba4fe965befe370216ceec261cf361be42055ca4af5084723927c0f123350824fa31f36e9ffefb3a1e859f011148f74f6ffeff36b9db5d7
+  checksum: 10c0/9c4afb3ca8b90760daa466d814ff04e8536844f846010897d46fe04cfb47d7d41fdf9c4bbfbc5f3444fd8378ef6b4160279ccdece3357caa727fc9e9512e7393
   languageName: node
   linkType: hard
 
@@ -2992,13 +2992,13 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "js-yaml@npm:4.3.0"
+  version: 4.3.1
+  resolution: "js-yaml@npm:4.3.1"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/058b30473d6915ca5b4feb11e2f7d4d97242f98d00a798ed48dd90b46b7c640398afe9128c5db22c5300f8c6528fe2a174b9a93f351a70ebc28c6203938d8bff
+  checksum: 10c0/13c500ca322e0c3f8c81686e6ecda96d2ea37b45247a420c17c7db36932d6965cc27391abc2d1a104501600e7f0d947a5f8b7be6db619c4fefa87901b3512807
   languageName: node
   linkType: hard
 
@@ -3345,19 +3345,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:16.3.1-canary.5":
-  version: 16.3.1-canary.5
-  resolution: "next@npm:16.3.1-canary.5"
+"next@npm:16.3.1-canary.8":
+  version: 16.3.1-canary.8
+  resolution: "next@npm:16.3.1-canary.8"
   dependencies:
-    "@next/env": "npm:16.3.1-canary.5"
-    "@next/swc-darwin-arm64": "npm:16.3.1-canary.5"
-    "@next/swc-darwin-x64": "npm:16.3.1-canary.5"
-    "@next/swc-linux-arm64-gnu": "npm:16.3.1-canary.5"
-    "@next/swc-linux-arm64-musl": "npm:16.3.1-canary.5"
-    "@next/swc-linux-x64-gnu": "npm:16.3.1-canary.5"
-    "@next/swc-linux-x64-musl": "npm:16.3.1-canary.5"
-    "@next/swc-win32-arm64-msvc": "npm:16.3.1-canary.5"
-    "@next/swc-win32-x64-msvc": "npm:16.3.1-canary.5"
+    "@next/env": "npm:16.3.1-canary.8"
+    "@next/swc-darwin-arm64": "npm:16.3.1-canary.8"
+    "@next/swc-darwin-x64": "npm:16.3.1-canary.8"
+    "@next/swc-linux-arm64-gnu": "npm:16.3.1-canary.8"
+    "@next/swc-linux-arm64-musl": "npm:16.3.1-canary.8"
+    "@next/swc-linux-x64-gnu": "npm:16.3.1-canary.8"
+    "@next/swc-linux-x64-musl": "npm:16.3.1-canary.8"
+    "@next/swc-win32-arm64-msvc": "npm:16.3.1-canary.8"
+    "@next/swc-win32-x64-msvc": "npm:16.3.1-canary.8"
     "@swc/helpers": "npm:0.5.23"
     baseline-browser-mapping: "npm:^2.9.19"
     caniuse-lite: "npm:^1.0.30001579"
@@ -3401,7 +3401,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/b20eeaf97ecb91fce80a21100b3ba8067f372e1c2e3803fbe6bc91507b26f68853026ccb3fb3ee3cd875896cac40ef4eec259d24c2b5bd62a86924e4a77d6f24
+  checksum: 10c0/c243fb37690281aa3446c7b96ff7d82cf9891af6d618fc00264f16000c14cef228c4e9365c5e8370cf21f3bdb83795a19cba40c45b6cb8ff65b1c33ff4c10e82
   languageName: node
   linkType: hard
 
