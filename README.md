@@ -298,6 +298,12 @@
         Angular CLI Latest (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-vite/docgen-server-ts/after-storybook?preset=node"
+      >
+        Angular CLI Server Docgen Latest (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
