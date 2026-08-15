@@ -1788,17 +1788,17 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-router@npm:latest":
-  version: 1.170.21
-  resolution: "@tanstack/react-router@npm:1.170.21"
+  version: 1.170.23
+  resolution: "@tanstack/react-router@npm:1.170.23"
   dependencies:
     "@tanstack/history": "npm:1.162.1"
     "@tanstack/react-store": "npm:^0.9.3"
-    "@tanstack/router-core": "npm:1.171.18"
+    "@tanstack/router-core": "npm:1.171.19"
     isbot: "npm:^5.1.22"
   peerDependencies:
     react: ">=18.0.0 || >=19.0.0"
     react-dom: ">=18.0.0 || >=19.0.0"
-  checksum: 10c0/1af6b57d8d68c65305e23d3293969832b98228758da803c4d8d7a46789f0e01627adc53f50eee39dc41796779a6ff19ae9dc11b314868e1b88cd3da929555fe3
+  checksum: 10c0/5764825f111138178cffd87e4fe6aac63bcfe1705cbfb642307e3c1f89918b5261cfc5911e7811770251399e973ccc077a0892dac2cbd9e723c9db15f7d78153
   languageName: node
   linkType: hard
 
@@ -1816,27 +1816,27 @@ __metadata:
   linkType: hard
 
 "@tanstack/router-cli@npm:^1.132.0":
-  version: 1.167.24
-  resolution: "@tanstack/router-cli@npm:1.167.24"
+  version: 1.167.25
+  resolution: "@tanstack/router-cli@npm:1.167.25"
   dependencies:
-    "@tanstack/router-generator": "npm:1.167.24"
+    "@tanstack/router-generator": "npm:1.167.25"
     chokidar: "npm:^5.0.0"
     yargs: "npm:^17.7.2"
   bin:
     tsr: bin/tsr.cjs
-  checksum: 10c0/2e813a6bee0d383519b0779a85672b2352edb7dc39c8d8a9ec0e87c3e4d5b49ae728825b69168ea82691d59d93eb1b71b697630f87ff0380b527fac500e8d63c
+  checksum: 10c0/8db4ed7bf760c04974beced9e1767fce48a275064cc11ddf375ed4774c81e15a5a6f6acea06961616fe0c447af0357b2b400564a810e818fd840fd427f5bf50a
   languageName: node
   linkType: hard
 
-"@tanstack/router-core@npm:1.171.18":
-  version: 1.171.18
-  resolution: "@tanstack/router-core@npm:1.171.18"
+"@tanstack/router-core@npm:1.171.19":
+  version: 1.171.19
+  resolution: "@tanstack/router-core@npm:1.171.19"
   dependencies:
     "@tanstack/history": "npm:1.162.1"
     cookie-es: "npm:^3.0.0"
     seroval: "npm:^1.6.2"
     seroval-plugins: "npm:^1.6.2"
-  checksum: 10c0/e94c581bb871c90d87bea280f14d3e76ed908806c4d5fe81026597657a8d186faaa9a88d69694afce75aa7c006ed00f52cfea4f4e3a722834a9a17adde992228
+  checksum: 10c0/98199dc3982110cd29ae7354d7e6caf149e060911df627044f28e1b0d5d09bd1c011468a22e7e576b5efd354f54bf1525ee9cd440c84234c1c254c2e0613a251
   languageName: node
   linkType: hard
 
@@ -1856,38 +1856,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/router-generator@npm:1.167.24":
-  version: 1.167.24
-  resolution: "@tanstack/router-generator@npm:1.167.24"
+"@tanstack/router-generator@npm:1.167.25":
+  version: 1.167.25
+  resolution: "@tanstack/router-generator@npm:1.167.25"
   dependencies:
     "@babel/types": "npm:^7.28.5"
-    "@tanstack/router-core": "npm:1.171.18"
+    "@tanstack/router-core": "npm:1.171.19"
     "@tanstack/router-utils": "npm:1.162.2"
     "@tanstack/virtual-file-routes": "npm:1.162.0"
     jiti: "npm:^2.7.0"
     magic-string: "npm:^0.30.21"
     prettier: "npm:^3.5.0"
     zod: "npm:^4.4.3"
-  checksum: 10c0/9a4a9e4772978587c1f7ec15dca400daefcd585f12b56ea65a5fa22de20d388c09c70946e268d044e3277d921272a1833f79e237f5aa30c97d852d9faa5a4a54
+  checksum: 10c0/433ddd5828e900a0be8ea79d5052260a17a53150f053ac476a2b891b1408a6b0342d97b54bc4d531ecac82aa353583a9010d2ac1d4bee258acddc09a487a4684
   languageName: node
   linkType: hard
 
 "@tanstack/router-plugin@npm:latest":
-  version: 1.168.26
-  resolution: "@tanstack/router-plugin@npm:1.168.26"
+  version: 1.168.27
+  resolution: "@tanstack/router-plugin@npm:1.168.27"
   dependencies:
     "@babel/core": "npm:^7.28.5"
     "@babel/template": "npm:^7.27.2"
     "@babel/types": "npm:^7.28.5"
-    "@tanstack/router-core": "npm:1.171.18"
-    "@tanstack/router-generator": "npm:1.167.24"
+    "@tanstack/router-core": "npm:1.171.19"
+    "@tanstack/router-generator": "npm:1.167.25"
     "@tanstack/router-utils": "npm:1.162.2"
     chokidar: "npm:^5.0.0"
     unplugin: "npm:^3.0.0"
     zod: "npm:^4.4.3"
   peerDependencies:
     "@rsbuild/core": ">=1.0.2 || ^2.0.0"
-    "@tanstack/react-router": ^1.170.21
+    "@tanstack/react-router": ^1.170.22
     vite: ">=5.0.0 || >=6.0.0 || >=7.0.0 || >=8.0.0"
     vite-plugin-solid: ^2.11.10 || ^3.0.0-0
     webpack: ">=5.92.0"
@@ -1902,7 +1902,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/0090f4e19657d3e45bf6b53576b54c543aa2abf48b38ad9a75988e53470827a622621ce2dc817ca119e426cea3efed15c0a1cb097520704d292dc3712efe195c
+  checksum: 10c0/1068d77aa81b970aa3e9dc2947351f7181ca4ff56dc993f67392801c1e1814d405580637523884d21277ff207604f121dbd7c7ccacbfc4db2c6c3a720e2c7d82
   languageName: node
   linkType: hard
 
@@ -2560,9 +2560,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001806":
-  version: 1.0.30001807
-  resolution: "caniuse-lite@npm:1.0.30001807"
-  checksum: 10c0/1b338af06427772624dd323d2da51007f2e8574c043fa9790e0e6bff153f188dd74e1ee1b6ddaf5f3be19ec7cb6115bee434c02e36424dee406ae60aeeb97993
+  version: 1.0.30001809
+  resolution: "caniuse-lite@npm:1.0.30001809"
+  checksum: 10c0/cac2ed4e66cc6c4cbf126b94d2c02012566eb92f93c89949290f99edcd2bdc4ed1290b5c537ccb9b42c773936a479ed468e5d4e9b8938b126a0947090e42e008
   languageName: node
   linkType: hard
 
@@ -3646,11 +3646,11 @@ __metadata:
   linkType: hard
 
 "nanoid@npm:^3.3.17":
-  version: 3.3.17
-  resolution: "nanoid@npm:3.3.17"
+  version: 3.3.18
+  resolution: "nanoid@npm:3.3.18"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 10c0/06f7949c7cce5c92c6aea66022f29a1eae7f56e05acbfddf1e049e819b4bf234c44a765cc44da7163482b111677948514012e27acdfa56f95309295768bdae32
+  checksum: 10c0/b994b4e396730f8be2520923284e2040d61eaee55cc6d4935ef6d38d34bafdc46133eda4d3faea5073bda545aa6079d82b886caeac5c731cf9ac18bcc1301425
   languageName: node
   linkType: hard
 
@@ -4889,8 +4889,8 @@ __metadata:
   linkType: hard
 
 "ws@npm:^8.18.3, ws@npm:^8.19.0, ws@npm:^8.21.1":
-  version: 8.21.2
-  resolution: "ws@npm:8.21.2"
+  version: 8.21.3
+  resolution: "ws@npm:8.21.3"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -4899,7 +4899,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 10c0/82d687bbfbccce04e91266ff9911b27c67ca622fd8fbacc6a64d467a43fbd7ecaa3ef6d820b315c060682f901463f57cac01a02b00c4379f49c747ec7da83169
+  checksum: 10c0/7b28dc2863ea0e2cece68d142a3eee90361021b73f750431e6d8076bb7dede5fdfdb75b3d29534b62f411261147b76b1bc80fb5cc63ab0aabd467280e85b22e0
   languageName: node
   linkType: hard
 
