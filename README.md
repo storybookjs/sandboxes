@@ -196,12 +196,6 @@
         Vue v3 (Vite | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/docgen-server-ts/after-storybook?preset=node"
-      >
-        Vue Server Docgen v3 (Vite | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 

@@ -12,17 +12,6 @@ const config: StorybookConfig = {
     "@storybook/addon-docs",
     "@storybook/addon-onboarding"
   ],
-  "framework": {
-    "name": "@storybook/angular-vite",
-    "options": {
-      "compodoc": true,
-      "compodocArgs": [
-        "-e",
-        "json",
-        "-d",
-        "."
-      ]
-    }
-  }
+  "framework": "@storybook/angular-vite"
 };
 export default config;

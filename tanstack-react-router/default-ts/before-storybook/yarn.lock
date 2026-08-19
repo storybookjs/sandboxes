@@ -273,6 +273,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@neodrag/solid@npm:3.0.0-next.11":
+  version: 3.0.0-next.11
+  resolution: "@neodrag/solid@npm:3.0.0-next.11"
+  peerDependencies:
+    "@neodrag/core": 3.0.0-next.11
+    solid-js: ^1.0.0
+  checksum: 10c0/0c709451f3d44986c080dbf14c1ea108106b20d4a751e599a566c98ea50be987ebf2686986cf230e64e73f716884d62f2db9d5c7560769d8d165d5a562392cf7
+  languageName: node
+  linkType: hard
+
 "@oxc-parser/binding-android-arm-eabi@npm:0.120.0":
   version: 0.120.0
   resolution: "@oxc-parser/binding-android-arm-eabi@npm:0.120.0"
@@ -809,9 +819,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools-ui@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@tanstack/devtools-ui@npm:0.6.0"
+"@tanstack/devtools-ui@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@tanstack/devtools-ui@npm:0.7.0"
   dependencies:
     clsx: "npm:^2.1.1"
     dayjs: "npm:^1.11.19"
@@ -819,7 +829,7 @@ __metadata:
     solid-js: "npm:^1.9.9"
   peerDependencies:
     solid-js: ">=1.9.7"
-  checksum: 10c0/2ba9df57edd693b1d09ff7f72b8f4c8dc02a4f90cf6b7d5ec38ee112a1891f6870dd76b8e7d34db1c95daa5f320fe527618b4538150cf311212cf7e7260be752
+  checksum: 10c0/0b88386f586b241a52b461927e305ab99ce59a68e1ad81ba966a65a586fcacabc1472e534f80e523e5b7724d2c5e14704316c5c2fa08ae21f155c4bee5f48317
   languageName: node
   linkType: hard
 
@@ -839,16 +849,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@tanstack/devtools@npm:0.13.0"
+"@tanstack/devtools@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@tanstack/devtools@npm:0.14.0"
   dependencies:
+    "@neodrag/solid": "npm:3.0.0-next.11"
     "@solid-primitives/event-listener": "npm:^2.4.3"
     "@solid-primitives/keyboard": "npm:^1.3.3"
     "@solid-primitives/resize-observer": "npm:^2.1.3"
     "@tanstack/devtools-client": "npm:0.0.8"
     "@tanstack/devtools-event-bus": "npm:0.4.2"
-    "@tanstack/devtools-ui": "npm:0.6.0"
+    "@tanstack/devtools-ui": "npm:0.7.0"
     clsx: "npm:^2.1.1"
     goober: "npm:^2.1.16"
     solid-js: "npm:^1.9.9"
@@ -856,7 +867,7 @@ __metadata:
     solid-js: ">=1.9.7"
   bin:
     intent: ./bin/intent.js
-  checksum: 10c0/11dbfa7ef9c1f6f19deec336b61688f3e9edea6ead554bea8dd66be4c6ea26a43415ca41a5d75abfd992e5f2d83f11e6e669264016213caea43e91bf479bb9e5
+  checksum: 10c0/c8396c482bc60045748c32de731191a3e4c4ac4595b3f08cf722788b688a658c8ccba1048322949531e6904c47d8ab89dff8362f4804ce67db9d0b73667fad9b
   languageName: node
   linkType: hard
 
@@ -868,16 +879,16 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-devtools@npm:latest":
-  version: 0.10.9
-  resolution: "@tanstack/react-devtools@npm:0.10.9"
+  version: 0.10.10
+  resolution: "@tanstack/react-devtools@npm:0.10.10"
   dependencies:
-    "@tanstack/devtools": "npm:0.13.0"
+    "@tanstack/devtools": "npm:0.14.0"
   peerDependencies:
     "@types/react": ">=16.8"
     "@types/react-dom": ">=16.8"
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10c0/22401f2ed89b60ea4416799fd46d0f49c71d639577db2403ef36ca901d1a4dd04d4a40b315fe5ed884761eeaab49d46502205ca477d0bcd22c40a7ebe3ec93dc
+  checksum: 10c0/ac3c0c9fbb4dcb4d42bc027709ccdba45acb7b8ef0b408d8a8f284fdc07bb39a5a3d5e18ecf1b40ec11187b9962d272018082854003a54d837a45e764c04100f
   languageName: node
   linkType: hard
 
@@ -1309,9 +1320,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.402":
-  version: 1.5.403
-  resolution: "electron-to-chromium@npm:1.5.403"
-  checksum: 10c0/42a49260a162bb08f29b6c4dcf3e5970327efeeece14248450d66175b5197dc92145a20e2e239840bcbc848cbbeddae04248d9525abb3466e6fdfd889a48d06d
+  version: 1.5.405
+  resolution: "electron-to-chromium@npm:1.5.405"
+  checksum: 10c0/6e85abde0e3c77945c3cdd6f28741cba268474a62bfbe8c59c5728438a03e689d1df74fd4526a73064f452350ef7fd0b8edb721fa979a791813b81ec2b1a0d8c
   languageName: node
   linkType: hard
 
@@ -2233,8 +2244,8 @@ __metadata:
   linkType: hard
 
 "update-browserslist-db@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "update-browserslist-db@npm:1.3.0"
+  version: 1.3.1
+  resolution: "update-browserslist-db@npm:1.3.1"
   dependencies:
     escalade: "npm:^3.2.0"
     picocolors: "npm:^1.1.1"
@@ -2242,7 +2253,7 @@ __metadata:
     browserslist: ">= 4.21.0"
   bin:
     update-browserslist-db: cli.js
-  checksum: 10c0/9d9725f24961fa89f28c89112990562f009f699f05f165a9aeca0f9c35fe0e649ec5f7cd54d64b9d6e58b52309bfa689e331f09d3d7cd9754b37d9b140a24f85
+  checksum: 10c0/2a924f5aa283af2d918e5cd941c7e8d77b05adf2ffbe5ca461506b1ff05fee6e8bca74c0f1ba37eb28f00ec93b15e80de24c7222825835aec2dd7bf0a0f6a417
   languageName: node
   linkType: hard
 
