@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild --open",
+    "dev": "rsbuild",
     "lint": "eslint .",
     "preview": "rsbuild preview"
   },
@@ -14,12 +14,12 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@rsbuild/core": "^2.1.10",
+    "@rsbuild/core": "^2.1.11",
     "@types/node": "^24.13.3",
-    "eslint": "^10.4.0",
-    "globals": "^17.6.0",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.64.0"
   },
   "packageManager": "yarn@4.18.0"
 }
