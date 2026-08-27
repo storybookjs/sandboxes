@@ -323,20 +323,20 @@ __metadata:
   linkType: hard
 
 "@angular/common@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/common@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/common@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 21.2.20
+    "@angular/core": 21.2.21
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/402065fef44b9dcd6eae5a6042b3b7f9cf4db6cb9a5fb6e9e9bf3e3dd4560ffee75d42d789b7fcd1c6ba2711f24c4f1d53e59b644e9289cc47135da221938e04
+  checksum: 10c0/56cda9dd9151999c39e978d17a832536d17490f056e2f0e8dd4c4313a00cd40970efa74f32e6c43caff56561718593da626274ffc6d7ab05472b2292229357b7
   languageName: node
   linkType: hard
 
 "@angular/compiler-cli@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/compiler-cli@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/compiler-cli@npm:21.2.21"
   dependencies:
     "@babel/core": "npm:7.29.7"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -347,7 +347,7 @@ __metadata:
     tslib: "npm:^2.3.0"
     yargs: "npm:^18.0.0"
   peerDependencies:
-    "@angular/compiler": 21.2.20
+    "@angular/compiler": 21.2.21
     typescript: ">=5.9 <6.1"
   peerDependenciesMeta:
     typescript:
@@ -355,26 +355,26 @@ __metadata:
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
-  checksum: 10c0/38e14af62f19142eafda5c81da1587fdb3d39cab61b5997d59beefd3e762f89a08cf441e42635c095feb1137952310b583c09c7b1effc5d6aaef4138092025d7
+  checksum: 10c0/35064dcd7e710a1bcf99314b6693dffa0f4421aeecce040afcd11b712f6930251a867874fa63d389c2479d4df6c4ad08559773de699edbde162f61331fef17a6
   languageName: node
   linkType: hard
 
 "@angular/compiler@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/compiler@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/compiler@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
-  checksum: 10c0/5c1ea9f3a43420897d7373b9701b78889f85c98f8397476ece105295b50ea01a41342ea9df2aae1190919c33cb428853acfbe217c856cb098f051b45aa877a0f
+  checksum: 10c0/b53000df6cfeab00d45d33cdfe59c116e8e2f7836dd8bb56b24eba1e8f1f2d229b3a7aed78b26ed7fd1f977101221750ffb97654cd2d9667ac6c91dcf7400cbf
   languageName: node
   linkType: hard
 
 "@angular/core@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/core@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/core@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/compiler": 21.2.20
+    "@angular/compiler": 21.2.21
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0 || ~0.16.0
   peerDependenciesMeta:
@@ -382,68 +382,68 @@ __metadata:
       optional: true
     zone.js:
       optional: true
-  checksum: 10c0/8827cc0b8a8cc1beebed43244fce103259776dfe68dd0755d04bcd7fc2b76e1eecdfdad33798dfeb4a5825f93746525f2901e9aa1a401d27e7a4189db5fd4a54
+  checksum: 10c0/2bf41fecc576e8818139b4108b108a2a73a7cd533327510b906ae01bfeb34aad827cc9eca2980b1e6e220edb06ba3df1b24874ed7b661cac59a0ac98433df001
   languageName: node
   linkType: hard
 
 "@angular/forms@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/forms@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/forms@npm:21.2.21"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 21.2.20
-    "@angular/core": 21.2.20
-    "@angular/platform-browser": 21.2.20
+    "@angular/common": 21.2.21
+    "@angular/core": 21.2.21
+    "@angular/platform-browser": 21.2.21
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/13a9ad6713a1c15e01a751670776bce8f9f22e468d9b4ce84e97acb8c6b6262a0575d00e02ab32eb8703ee678a9d70e3600f24724733bf8693fd1d8dc3cbd74f
+  checksum: 10c0/028aaa12c52c77a0c8633858941dfe315f8e404dabd8240e15709c427a043ac56cd39e4b0c2aae3d906879f1c9f0c7ee7d240fd16d295b37b36318ab9841479d
   languageName: node
   linkType: hard
 
 "@angular/platform-browser@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/platform-browser@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/platform-browser@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/animations": 21.2.20
-    "@angular/common": 21.2.20
-    "@angular/core": 21.2.20
+    "@angular/animations": 21.2.21
+    "@angular/common": 21.2.21
+    "@angular/core": 21.2.21
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: 10c0/ea5bacea62e715ae1d7e75d6738a98b0984a205cd44fe3e9ca3aacd75998ce0e4379f826ddc9ae8f42b98827857ee6522ac47aebc9fa62cc46aa54046ce204f7
+  checksum: 10c0/7b3faae3e62dc0ae157e95ce73c62485dec30c91055fe83356813ea9036f0836983b32de2a7710fae306235da6fd97fc72dafc25a97b7b99daf7b81ccf5d5f5d
   languageName: node
   linkType: hard
 
 "@angular/platform-server@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/platform-server@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/platform-server@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
     xhr2: "npm:^0.2.0"
   peerDependencies:
-    "@angular/common": 21.2.20
-    "@angular/compiler": 21.2.20
-    "@angular/core": 21.2.20
-    "@angular/platform-browser": 21.2.20
+    "@angular/common": 21.2.21
+    "@angular/compiler": 21.2.21
+    "@angular/core": 21.2.21
+    "@angular/platform-browser": 21.2.21
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/02b2e3bcd0adfe6f7cea52453e4505920bff6d0b39db5630b490efa3b3a2cf60f4901375efb4ce5318f6c6169563082cefa6ee9a1d8316cb194f89785ff8a870
+  checksum: 10c0/a2a2b3076ae9349b828c6304fcc0f1c5d93f4cacd497eea040950b20713acfa0f5ecfb46a6ffa4da84f23ee9c508dfe7a488e85cd3978de046b27450f2ca9664
   languageName: node
   linkType: hard
 
 "@angular/router@npm:^21.2.0":
-  version: 21.2.20
-  resolution: "@angular/router@npm:21.2.20"
+  version: 21.2.21
+  resolution: "@angular/router@npm:21.2.21"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 21.2.20
-    "@angular/core": 21.2.20
-    "@angular/platform-browser": 21.2.20
+    "@angular/common": 21.2.21
+    "@angular/core": 21.2.21
+    "@angular/platform-browser": 21.2.21
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/4300859d05f9824e4ebcb2db2a60a52bf170b167cf46b1abe4511bc7c7b4d39ec6591d3fb07e0afc5040e64c5d9d13e843fbe49a87ff90963b982554aec2c8b1
+  checksum: 10c0/379d28f1d303777928c34e4f285e6d3b2e6104316bd040ceb1305d4730fd69af874b7a857647cc32ef7f9725a13e73a5bf09f7976037a28089804386ac37eb7e
   languageName: node
   linkType: hard
 
