@@ -588,6 +588,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@neodrag/core@npm:3.0.0-next.11":
+  version: 3.0.0-next.11
+  resolution: "@neodrag/core@npm:3.0.0-next.11"
+  checksum: 10c0/464b0e9adf272bbfeb027da3b74349a8aef8b2138e865174b5e8a0e7d87b12f43630acd3e8ae56d7b2bed58dcb9c0a96a32e6f86c96f4df9310cbaa7d472d992
+  languageName: node
+  linkType: hard
+
 "@neodrag/solid@npm:3.0.0-next.11":
   version: 3.0.0-next.11
   resolution: "@neodrag/solid@npm:3.0.0-next.11"
@@ -1655,18 +1662,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools-bundler-core@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@tanstack/devtools-bundler-core@npm:0.1.2"
+"@tanstack/devtools-bundler-core@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@tanstack/devtools-bundler-core@npm:0.1.3"
   dependencies:
     "@tanstack/devtools-client": "npm:0.0.8"
     "@tanstack/devtools-event-bus": "npm:0.4.3"
     chalk: "npm:^5.6.2"
-    launch-editor: "npm:^2.11.1"
+    launch-editor: "npm:^2.14.1"
     magic-string: "npm:^0.30.0"
     oxc-parser: "npm:^0.120.0"
-    picomatch: "npm:^4.0.3"
-  checksum: 10c0/64a3db3bbb5d32958d257244d1d5cb68ec17bda62f777fe591eff30a691268b22902bd4868926b3826a261bbb2a44924efb06770818394810f0eb4943adf7074
+    picomatch: "npm:^4.0.5"
+  checksum: 10c0/b9253efff30ec5dcef31e9f78e36950c6e865d5f36004f8b1897fdbb24281a9c514b1951ab55bf224d590a08695acee76b3cf76c96a3743c953df3e87b2d002d
   languageName: node
   linkType: hard
 
@@ -1712,10 +1719,10 @@ __metadata:
   linkType: hard
 
 "@tanstack/devtools-vite@npm:latest":
-  version: 0.8.4
-  resolution: "@tanstack/devtools-vite@npm:0.8.4"
+  version: 0.8.5
+  resolution: "@tanstack/devtools-vite@npm:0.8.5"
   dependencies:
-    "@tanstack/devtools-bundler-core": "npm:0.1.2"
+    "@tanstack/devtools-bundler-core": "npm:0.1.3"
     "@tanstack/devtools-client": "npm:0.0.8"
     "@tanstack/devtools-event-bus": "npm:0.4.3"
     chalk: "npm:^5.6.2"
@@ -1723,14 +1730,15 @@ __metadata:
     vite: ^6.0.0 || ^7.0.0 || ^8.0.0
   bin:
     intent: ./bin/intent.js
-  checksum: 10c0/e9066c965e521bdca88ca30d725dcc0fb77abccf2f2d50db2cf1a14238fd9ec81a84d66d39e79268250452e837b53c0e401d70291ea3443635e0c5306759256c
+  checksum: 10c0/54e3f9b620e69209ea695b3590b2da0024e3bbc241bd8793f2038a5199ea3d64abc8467bb048fd648ed2c3b2838eb1a59d75e562965e828c78327abf62c02874
   languageName: node
   linkType: hard
 
-"@tanstack/devtools@npm:0.14.1":
-  version: 0.14.1
-  resolution: "@tanstack/devtools@npm:0.14.1"
+"@tanstack/devtools@npm:0.14.2":
+  version: 0.14.2
+  resolution: "@tanstack/devtools@npm:0.14.2"
   dependencies:
+    "@neodrag/core": "npm:3.0.0-next.11"
     "@neodrag/solid": "npm:3.0.0-next.11"
     "@solid-primitives/event-listener": "npm:^2.4.3"
     "@solid-primitives/keyboard": "npm:^1.3.3"
@@ -1745,7 +1753,7 @@ __metadata:
     solid-js: ">=1.9.7"
   bin:
     intent: ./bin/intent.js
-  checksum: 10c0/57ed807fef6067bfb416e71f874e21fdc42c429be2bbd9e0e957d9de9db62f64b74fe8ebb5b72ad7eaf1c600ea862a1d9571945fba66258db9ba719bc7c13f39
+  checksum: 10c0/337308a2bfe58557cd1796aaed7de7b197b84ee50585d9d43b5799a1e2f1a84e07253a1d18f490a41c3a4b8f7d05c6d883f821f3c13f25256877f9e391206112
   languageName: node
   linkType: hard
 
@@ -1764,16 +1772,16 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-devtools@npm:latest":
-  version: 0.10.11
-  resolution: "@tanstack/react-devtools@npm:0.10.11"
+  version: 0.10.12
+  resolution: "@tanstack/react-devtools@npm:0.10.12"
   dependencies:
-    "@tanstack/devtools": "npm:0.14.1"
+    "@tanstack/devtools": "npm:0.14.2"
   peerDependencies:
     "@types/react": ">=16.8"
     "@types/react-dom": ">=16.8"
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10c0/a094a0d9afb2665f0149f3df279799fe999d9f38771e2f892c3c2a384d8080134f4e8b0ca83c1896ce418aee6fa2220e24060e8c7d8189bd93ec2441e625ac74
+  checksum: 10c0/84f12af9f3effa8c88e229b2bb97dcf0b3fdf78ea527364a1b5dd0074bbc6c9fcaf8b439dd05d13b54a9226e3db21d5d94901ce822db2304c675b9fb7b11241a
   languageName: node
   linkType: hard
 
@@ -2504,11 +2512,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.11.12":
-  version: 2.11.15
-  resolution: "baseline-browser-mapping@npm:2.11.15"
+  version: 2.11.16
+  resolution: "baseline-browser-mapping@npm:2.11.16"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/d89578cc74cd2d788c3cf2dad73bf2a21c4d1bac27fa5498da17caa1c135fe1f99c968b6f8e41c2eaafde21ac8092ec00ad28746aa01e80156908c2bdcc91f76
+  checksum: 10c0/55e667cc418f9f964cf1038ba7ccd5817dfba83ee8b5fe72f462caaa0dabc470508d0f0e06c5454382da13e45b13c5880fc131bb0c17cdc0cd251a85467bec94
   languageName: node
   linkType: hard
 
@@ -2823,9 +2831,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.402":
-  version: 1.5.411
-  resolution: "electron-to-chromium@npm:1.5.411"
-  checksum: 10c0/3106a5ccfc036d125a096ab86e314c6fee4af60ef931f19d94304b4a859ffc1036709ffee923823aa35bff4c1e37694e9f6afa9e54ea7da54feb00f8ff8d69e7
+  version: 1.5.412
+  resolution: "electron-to-chromium@npm:1.5.412"
+  checksum: 10c0/09834068e660fe6d888863e0a7f1ae4f2f42d9c77822d7a864eb79dc1643fb48c0b806cb17b162ed1f8794533d9299d5abdb14c3a10939c9276674f0ff9a8f9a
   languageName: node
   linkType: hard
 
@@ -3307,7 +3315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"launch-editor@npm:^2.11.1":
+"launch-editor@npm:^2.14.1":
   version: 2.14.1
   resolution: "launch-editor@npm:2.14.1"
   dependencies:
@@ -4026,7 +4034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.25":
+"postcss@npm:^8.5.26":
   version: 8.5.26
   resolution: "postcss@npm:8.5.26"
   dependencies:
@@ -4181,7 +4189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rolldown@npm:~1.2.1":
+"rolldown@npm:~1.2.4":
   version: 1.2.5
   resolution: "rolldown@npm:1.2.5"
   dependencies:
@@ -4752,18 +4760,18 @@ __metadata:
   linkType: hard
 
 "vite@npm:^6.0.0 || ^7.0.0 || ^8.0.0, vite@npm:^8.0.0":
-  version: 8.2.1
-  resolution: "vite@npm:8.2.1"
+  version: 8.2.2
+  resolution: "vite@npm:8.2.2"
   dependencies:
     fsevents: "npm:~2.3.3"
     lightningcss: "npm:^1.33.0"
     picomatch: "npm:^4.0.5"
-    postcss: "npm:^8.5.25"
-    rolldown: "npm:~1.2.1"
+    postcss: "npm:^8.5.26"
+    rolldown: "npm:~1.2.4"
     tinyglobby: "npm:^0.2.17"
   peerDependencies:
     "@types/node": ^20.19.0 || >=22.12.0
-    "@vitejs/devtools": ^0.4.0
+    "@vitejs/devtools": ^0.4.0 || ^0.5.0
     esbuild: ^0.27.0 || ^0.28.0
     jiti: ">=1.21.0"
     less: ^4.0.0
@@ -4804,7 +4812,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/e958dd07502deeb552f04dba59418ff1eb63183add416fd7a3e3badabf5d36edc6834b94c916f9f9233f976bb1671e3e9989d90e869059af07b0d43f7fc078c2
+  checksum: 10c0/94cbbbdc38ad500dcb86b6202ddd14aa41d05c80739766cada9bbe250b410d1a27be433c9c491ed39744019471ac1e27a59908616a88c42f9787bdb6bdca49d2
   languageName: node
   linkType: hard
 
