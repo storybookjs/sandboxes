@@ -1,6 +1,6 @@
 /// <reference types="vitest/config" />
-import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 import path from 'node:path';
