@@ -2025,7 +2025,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.28":
+"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.28, @jridgewell/trace-mapping@npm:^0.3.31":
   version: 0.3.31
   resolution: "@jridgewell/trace-mapping@npm:0.3.31"
   dependencies:
@@ -2337,11 +2337,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=10.0.0":
-  version: 26.3.0
-  resolution: "@types/node@npm:26.3.0"
+  version: 26.4.0
+  resolution: "@types/node@npm:26.4.0"
   dependencies:
     undici-types: "npm:~8.3.0"
-  checksum: 10c0/b1b71d722cea67807abde4993d71aa6e4e24ae3072635ff5fbca3e5fbe7f0d4adc20507ab3f1e14b13720d742fb5cae4b12c7326fbe706fcda24e2aab8306374
+  checksum: 10c0/e6fc94ea3b58fb8040b38c465dec1c53c1fd9d2c092c81f699d28799726baf59f12e1600318e79e8e6f985bb919dab6ae820180b942b8e38c51acaad63e8aada
   languageName: node
   linkType: hard
 
@@ -2430,9 +2430,9 @@ __metadata:
   linkType: hard
 
 "@ungap/structured-clone@npm:^1.2.0":
-  version: 1.3.3
-  resolution: "@ungap/structured-clone@npm:1.3.3"
-  checksum: 10c0/b199e280ee06e9c447e0ccd38df60a65c2b2c13d3c77af50b1e6d77230aee1ea7da309d7b80c5a4850c8e22e4eee9e4b2813c6a33f8c360560d7f2e99a9f6e8f
+  version: 1.3.4
+  resolution: "@ungap/structured-clone@npm:1.3.4"
+  checksum: 10c0/399bec22309955171ce6885d3e1b8e2de85a20d399b30c89d034dc12ea3784a2fe88f169b33e91f439de02202fb398a48ac071aeb78d2815ff964d0ce9cf6b68
   languageName: node
   linkType: hard
 
@@ -9817,13 +9817,13 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^4.1.0, js-yaml@npm:^4.1.1":
-  version: 4.3.1
-  resolution: "js-yaml@npm:4.3.1"
+  version: 4.3.2
+  resolution: "js-yaml@npm:4.3.2"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/13c500ca322e0c3f8c81686e6ecda96d2ea37b45247a420c17c7db36932d6965cc27391abc2d1a104501600e7f0d947a5f8b7be6db619c4fefa87901b3512807
+  checksum: 10c0/dedd34c2e8fef1d504687f1bc94ed0ee1311a1f78770fa2800352c6d59c635ccf555009d74e9afe529ae62199da2b1ccef30e53dc84dcd8d2d8187c22574bc97
   languageName: node
   linkType: hard
 
@@ -10903,13 +10903,13 @@ __metadata:
   linkType: hard
 
 "minimizer-webpack-plugin@npm:^5.6.1":
-  version: 5.6.1
-  resolution: "minimizer-webpack-plugin@npm:5.6.1"
+  version: 5.7.0
+  resolution: "minimizer-webpack-plugin@npm:5.7.0"
   dependencies:
-    "@jridgewell/trace-mapping": "npm:^0.3.25"
+    "@jridgewell/trace-mapping": "npm:^0.3.31"
     jest-worker: "npm:^27.4.5"
-    schema-utils: "npm:^4.3.0"
-    terser: "npm:^5.31.1"
+    schema-utils: "npm:^4.3.3"
+    terser: "npm:^5.51.0"
   peerDependencies:
     webpack: ^5.1.0
   peerDependenciesMeta:
@@ -10937,7 +10937,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 10c0/4bf4e8bc2827e3724a53e04465493ee4b52f2a4a18e89e23c72905462557107bc9f5396035841fb5e4f86630c8a783eb4f13c26a3b1544f621b75ea8bedca3f2
+  checksum: 10c0/dc2f9222f89207c2b3ad42895d7b5b41c06d7b920e4e524027a08f508091897585087a3f8aacec9583b264247550c4b344d311ea68e3c48ba460d8069a4f2519
   languageName: node
   linkType: hard
 
@@ -11164,8 +11164,8 @@ __metadata:
   linkType: hard
 
 "node-gyp@npm:latest":
-  version: 13.0.1
-  resolution: "node-gyp@npm:13.0.1"
+  version: 13.0.2
+  resolution: "node-gyp@npm:13.0.2"
   dependencies:
     env-paths: "npm:^2.2.0"
     exponential-backoff: "npm:^3.1.1"
@@ -11179,7 +11179,7 @@ __metadata:
     which: "npm:^7.0.0"
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 10c0/424077bc9e9bbe953a8e86db473ba818cbc6a121714008c977fd589e21e5f0c811fbf22faac730dc7182450b5e52df301811d01ae3373898658d999b7710f4e6
+  checksum: 10c0/29d33ccf47ffeeb5e7af925550b416f698a26a72eb10975c7eb5775c1d0cecacd76d164a4aa45503d3ddcece209db65c712be00423c69381a4cd14e2e6540559
   languageName: node
   linkType: hard
 
@@ -13136,7 +13136,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^4.0.0, schema-utils@npm:^4.3.0, schema-utils@npm:^4.3.3":
+"schema-utils@npm:^4.0.0, schema-utils@npm:^4.3.3":
   version: 4.3.3
   resolution: "schema-utils@npm:4.3.3"
   dependencies:
@@ -14248,9 +14248,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.31.1, terser@npm:^5.7.0":
-  version: 5.50.0
-  resolution: "terser@npm:5.50.0"
+"terser@npm:^5.51.0, terser@npm:^5.7.0":
+  version: 5.51.0
+  resolution: "terser@npm:5.51.0"
   dependencies:
     "@jridgewell/source-map": "npm:^0.3.3"
     acorn: "npm:^8.15.0"
@@ -14258,13 +14258,13 @@ __metadata:
     source-map-support: "npm:~0.5.20"
   bin:
     terser: bin/terser
-  checksum: 10c0/d932282186239fcdc53ffb67568c7e9f2a2c58e21618d71500fc855f7f6bb2efdf061d383313880ae8bb45c7ba7c089e50978a689e1a6e2bbd5307fb639f1113
+  checksum: 10c0/6609d8e3b31a798fc52a48f175d4313dddf218414d7f5750117cb08c8b10941d4e7307d7ce1408592a94ba31b2e527df30447779356895a7b2895921c357b0d1
   languageName: node
   linkType: hard
 
 "testem@npm:^3.10.1":
-  version: 3.20.1
-  resolution: "testem@npm:3.20.1"
+  version: 3.20.2
+  resolution: "testem@npm:3.20.2"
   dependencies:
     "@xmldom/xmldom": "npm:^0.9.9"
     backbone: "npm:^1.6.1"
@@ -14292,7 +14292,7 @@ __metadata:
     toasted-notifier: "npm:^10.1.0"
   bin:
     testem: testem.js
-  checksum: 10c0/1edf6ff077bdba7a7de7ed260a36ae5c4f8f1e39bb12c04347a045f45f0f8f88edef6bd3d109afe24fa14de649ed38e11172f8bd4ce852d35ee64987bc1c7a9a
+  checksum: 10c0/5e253eaeffe9dc0fd58dd17a28734a596ae04fb4909fce92f1840078161f4015d5a1ba57fa8cccc332224db8257dec3da08a928f0d9e9b7dea8209193a2d91a8
   languageName: node
   linkType: hard
 

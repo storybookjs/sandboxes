@@ -197,6 +197,12 @@
         Vue v3 (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/vue3-vite/docgen-server-ts/after-storybook?preset=node"
+      >
+        Vue Server Docgen v3 (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -297,6 +303,12 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-vite/default-ts/after-storybook?preset=node"
       >
         Angular CLI Latest (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/main/angular-vite/docgen-server-ts/after-storybook?preset=node"
+      >
+        Angular CLI Server Docgen Latest (Vite | TypeScript)
       </a>
     </li>
   </ul>
