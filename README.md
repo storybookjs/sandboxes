@@ -35,12 +35,6 @@
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/14-ts/after-storybook?preset=node"
-      >
-        Next.js v14.2 (Webpack | TypeScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/15-ts/after-storybook?preset=node"
       >
         Next.js v15 (Webpack | TypeScript)
@@ -64,12 +58,6 @@
 <details>
   <summary><b>Nextjs-vite</b></summary>
   <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs-vite/14-ts/after-storybook?preset=node"
-      >
-        Next.js v14 (Vite | TypeScript)
-      </a>
-    </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs-vite/15-ts/after-storybook?preset=node"
       >
@@ -404,12 +392,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/react18-webpack-babel/after-storybook?preset=node"
       >
         React with Babel Latest (Webpack | TypeScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/internal/react16-webpack/after-storybook?preset=node"
-      >
-        React 16 (Webpack | TypeScript)
       </a>
     </li>
     <li>
