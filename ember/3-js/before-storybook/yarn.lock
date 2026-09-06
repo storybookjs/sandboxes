@@ -8297,11 +8297,11 @@ __metadata:
   linkType: hard
 
 "fastq@npm:^1.6.0":
-  version: 1.20.2
-  resolution: "fastq@npm:1.20.2"
+  version: 1.20.3
+  resolution: "fastq@npm:1.20.3"
   dependencies:
     reusify: "npm:^1.0.4"
-  checksum: 10c0/9a1b09806f6dcb5627ac9d581879dec802d6ac0194bce105748f002bfcef4211e5e8c08d33e1247230e906a4be4ff58269c4172fc21ac44065a6aeb242be32a9
+  checksum: 10c0/ad055a1b50f7ec9142d2e13699ad6c4d1fa9fea1d947fff89de1b5ea3825223e9a626c359b3a0f21aefbe093cc2a9e92a91e068f982a2b176af16b9ea430ffc5
   languageName: node
   linkType: hard
 
@@ -12843,7 +12843,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.12.3, qs@npm:^6.14.0, qs@npm:^6.15.2, qs@npm:^6.4.0, qs@npm:~6.15.1":
+"qs@npm:^6.12.3, qs@npm:^6.14.0, qs@npm:^6.15.2, qs@npm:^6.4.0":
+  version: 6.16.0
+  resolution: "qs@npm:6.16.0"
+  dependencies:
+    es-define-property: "npm:^1.0.1"
+    side-channel: "npm:^1.1.1"
+  checksum: 10c0/eb3e31992fbd70e31a1791e571ed817d70975de7d3bfcbbbec93d77d1dd305877e9e8fdbcc62303c228ee5c3606685622cd6231c042dbc4790bb4e7c65fcbe18
+  languageName: node
+  linkType: hard
+
+"qs@npm:~6.15.1":
   version: 6.15.3
   resolution: "qs@npm:6.15.3"
   dependencies:
