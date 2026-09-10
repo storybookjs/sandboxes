@@ -14,24 +14,6 @@
 </p>
 
 <details>
-  <summary><b>CRA</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/cra/default-js/after-storybook?preset=node"
-      >
-        Create React App Latest (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/cra/default-ts/after-storybook?preset=node"
-      >
-        Create React App Latest (Webpack | TypeScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
   <summary><b>Nextjs</b></summary>
   <ul>
     <li>
