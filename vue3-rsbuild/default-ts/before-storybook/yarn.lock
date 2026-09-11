@@ -123,12 +123,12 @@ __metadata:
   linkType: hard
 
 "@eslint/plugin-kit@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "@eslint/plugin-kit@npm:0.7.2"
+  version: 0.7.3
+  resolution: "@eslint/plugin-kit@npm:0.7.3"
   dependencies:
     "@eslint/core": "npm:^1.2.1"
     levn: "npm:^0.4.1"
-  checksum: 10c0/aafba08077bcd6d7dde6c2e21db18086046a88f914f29971a84cac9ad2d48952ded1b293e665e523805297eff756522dafa16f0062195e2c7143dcd1d47d11ed
+  checksum: 10c0/2daebaedcfbd261478e8b87dfb46d3118f48277c19eb298483ebc6f3b438e9688b86ddca13b3aeb08dfb06be00fb6073506852386aa124645c1170e7e33d140c
   languageName: node
   linkType: hard
 
@@ -219,9 +219,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "@rsbuild/core@npm:2.2.2"
+"@rsbuild/core@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "@rsbuild/core@npm:2.2.3"
   dependencies:
     "@rspack/core": "npm:~2.2.2"
     "@swc/helpers": "npm:^0.5.23"
@@ -232,7 +232,7 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/0be45fb6bf8e6d2cb7e6efaa5dd900130ff26f800b9fe8af5850deb13434cc7bf84aab6af313bb6c32e3b449d84e11cf078ea606801349e92609d4e9557c7a68
+  checksum: 10c0/4a971bdba712ee83457667df1f2d9d482bbbc486d11e33ce9abe5ed01c3fadcb2953ccb4ad0bd7662fdd2c94837f57b66e5e2e42ad184c029133f90d7193c7d5
   languageName: node
   linkType: hard
 
@@ -829,7 +829,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "before-storybook@workspace:."
   dependencies:
-    "@rsbuild/core": "npm:^2.2.2"
+    "@rsbuild/core": "npm:^2.2.3"
     "@rsbuild/plugin-vue": "npm:^2.0.1"
     "@types/node": "npm:^24.13.3"
     "@vue/eslint-config-typescript": "npm:^14.9.0"
@@ -1380,7 +1380,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.17":
+"nanoid@npm:^3.3.18":
   version: 3.3.18
   resolution: "nanoid@npm:3.3.18"
   bin:
@@ -1480,23 +1480,23 @@ __metadata:
   linkType: hard
 
 "postcss-selector-parser@npm:^7.1.4":
-  version: 7.1.5
-  resolution: "postcss-selector-parser@npm:7.1.5"
+  version: 7.1.6
+  resolution: "postcss-selector-parser@npm:7.1.6"
   dependencies:
     cssesc: "npm:^3.0.0"
     util-deprecate: "npm:^1.0.2"
-  checksum: 10c0/e277a136ef87ae2abbc77d38e0773bf6245975889ada3d7d785f515df4d2ab543322f9189e851d6a6bcd2d8e512a1164d1dfd5af2f5bbb2d177c687faf945038
+  checksum: 10c0/fc8279859896b96ef25b24d0289b2bfff7bce6647b247aa983939ff872e226663788d1ea57bddf9d1695119c071e5cdcb8b2a364ed4313502efe4b0319879154
   languageName: node
   linkType: hard
 
 "postcss@npm:^8.5.19":
-  version: 8.5.26
-  resolution: "postcss@npm:8.5.26"
+  version: 8.5.28
+  resolution: "postcss@npm:8.5.28"
   dependencies:
-    nanoid: "npm:^3.3.17"
+    nanoid: "npm:^3.3.18"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/2bdafc00d96bd57b6649a52e458864a4bf58ee56cfdbe4aea1472b5cccc127e6c1ad653bd0bec50d211e650eb0b9270c80e1e72aff2e2fa40d9e7363234d6e43
+  checksum: 10c0/9fe44215a6628d89c8a75184b92f5b2f77e16f9e5b13b39b9009bb7e8e6eccddf82c8854bae922db1f17ace6ef3445073fe38abff513caeb03e5285b1b55620a
   languageName: node
   linkType: hard
 

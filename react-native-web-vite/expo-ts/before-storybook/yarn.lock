@@ -997,7 +997,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/env@npm:^2.4.3, @expo/env@npm:~2.4.3":
+"@expo/env@npm:^2.4.3":
+  version: 2.5.0
+  resolution: "@expo/env@npm:2.5.0"
+  dependencies:
+    chalk: "npm:^4.0.0"
+    debug: "npm:^4.3.4"
+    getenv: "npm:^2.0.0"
+  checksum: 10c0/1952c94534d2383ed63778158c6a48fd44b921330094a1eaf47119b72781a0b22c0de35bc52ec27182ff2663ff2bd4a84fc4231263835e929bf44dae3a6d3d53
+  languageName: node
+  linkType: hard
+
+"@expo/env@npm:~2.4.3":
   version: 2.4.3
   resolution: "@expo/env@npm:2.4.3"
   dependencies:
@@ -1060,7 +1071,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/json-file@npm:^11.0.1, @expo/json-file@npm:~11.0.1":
+"@expo/json-file@npm:^11.0.1, @expo/json-file@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "@expo/json-file@npm:11.1.0"
+  dependencies:
+    "@babel/code-frame": "npm:^7.20.0"
+    json5: "npm:^2.2.3"
+  checksum: 10c0/1c8f2c401f71ad4942dda869d9e2399148c0883bc7084ad08b6744774971906bb7fdce57914e64e7e886be6d1b2559ab4fdd4f3482a0b7c8c4e2854f902a26d0
+  languageName: node
+  linkType: hard
+
+"@expo/json-file@npm:~11.0.1":
   version: 11.0.1
   resolution: "@expo/json-file@npm:11.0.1"
   dependencies:
@@ -1191,25 +1212,25 @@ __metadata:
   linkType: hard
 
 "@expo/osascript@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "@expo/osascript@npm:2.7.1"
+  version: 2.8.0
+  resolution: "@expo/osascript@npm:2.8.0"
   dependencies:
     "@expo/spawn-async": "npm:^1.8.0"
-  checksum: 10c0/45223563531d300e4e7d7035278ea1a1ffc7410dbfa5a1f6297847732061ee971f92a89d8f733cdfe306eaddc43f288fe3231a3a9bb9e66a226bc4ebd990bf2c
+  checksum: 10c0/1f551138c21ce561dca03947aac05ded736f962326aebdfbcf68756ad322fb14bed727bd23df43987ed1082b74b504d350bd3de92193a270ee4c9eb64ff75178
   languageName: node
   linkType: hard
 
 "@expo/package-manager@npm:^1.13.1":
-  version: 1.13.1
-  resolution: "@expo/package-manager@npm:1.13.1"
+  version: 1.14.0
+  resolution: "@expo/package-manager@npm:1.14.0"
   dependencies:
-    "@expo/json-file": "npm:^11.0.1"
+    "@expo/json-file": "npm:^11.1.0"
     "@expo/spawn-async": "npm:^1.8.0"
     chalk: "npm:^4.0.0"
     npm-package-arg: "npm:^11.0.0"
     ora: "npm:^3.4.0"
     resolve-workspace-root: "npm:^2.0.0"
-  checksum: 10c0/a9e24519c85046ca159d944d1051647159f96165fb423bf1f9d02c32abe95a46a81b7c8a2ce7f012bb84c5baf1a71500f07f6c57422b95d079dfb4f58d7e9e75
+  checksum: 10c0/30d840a0d52bab5d40e9b56420552b4cb743d9e9d3c6581cc7f5626ed4358195cbde93dc867e61ee768488b87a5cd3f303fbf5408371b8220e7e2b9b59c780ed
   languageName: node
   linkType: hard
 
@@ -2366,11 +2387,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.11.12":
-  version: 2.11.20
-  resolution: "baseline-browser-mapping@npm:2.11.20"
+  version: 2.11.21
+  resolution: "baseline-browser-mapping@npm:2.11.21"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/67588b7edafa4e6c52996ec4b96b6e007312961cefc5a179cb49232f6681a38ba68d4d43990081e9d0e1dcadcbd28f13105ee7dc3e43b267385d0beb14824ecc
+  checksum: 10c0/1110ca70b60de9fa673e6d71154cbb2752225c28e069266c2f455f5a26367efc0e5b47a52afba22c9ef1e06d56a6c81aa964dda1fbc66c487e65c18a7c1e11c4
   languageName: node
   linkType: hard
 
@@ -2877,9 +2898,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.402":
-  version: 1.5.420
-  resolution: "electron-to-chromium@npm:1.5.420"
-  checksum: 10c0/0c4a4932991cefc9aa655cbb00b3b693680709df9e4eb2fc1a51cab851b735a2be9510c345b5ed6cad571e58e6d27867731607741df82de9535a7eb041fceda2
+  version: 1.5.421
+  resolution: "electron-to-chromium@npm:1.5.421"
+  checksum: 10c0/74e2e914e4928a4cdbe34f96af89ca5fb0691ae84293a304495a107b37cd5612ccadb8aee359f8dfd48583efc48d24eb43b6b98577b968de76e6c05c131add5a
   languageName: node
   linkType: hard
 
@@ -4590,7 +4611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.17, nanoid@npm:^3.3.8":
+"nanoid@npm:^3.3.18, nanoid@npm:^3.3.8":
   version: 3.3.18
   resolution: "nanoid@npm:3.3.18"
   bin:
@@ -4846,13 +4867,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.5.14":
-  version: 8.5.26
-  resolution: "postcss@npm:8.5.26"
+  version: 8.5.28
+  resolution: "postcss@npm:8.5.28"
   dependencies:
-    nanoid: "npm:^3.3.17"
+    nanoid: "npm:^3.3.18"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/2bdafc00d96bd57b6649a52e458864a4bf58ee56cfdbe4aea1472b5cccc127e6c1ad653bd0bec50d211e650eb0b9270c80e1e72aff2e2fa40d9e7363234d6e43
+  checksum: 10c0/9fe44215a6628d89c8a75184b92f5b2f77e16f9e5b13b39b9009bb7e8e6eccddf82c8854bae922db1f17ace6ef3445073fe38abff513caeb03e5285b1b55620a
   languageName: node
   linkType: hard
 
