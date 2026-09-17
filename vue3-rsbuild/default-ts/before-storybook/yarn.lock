@@ -260,9 +260,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.4":
-  version: 2.2.4
-  resolution: "@rsbuild/core@npm:2.2.4"
+"@rsbuild/core@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "@rsbuild/core@npm:2.2.5"
   dependencies:
     "@rspack/core": "npm:~2.2.3"
     "@swc/helpers": "npm:^0.5.23"
@@ -273,7 +273,7 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/08d7c08261c25f52d2efe1c485d34b1ec0481cacf5e7b06643a532868fcd0b0a868a43bd1459bbb56bf5cd3fd304ae0a3c7e2fa5fe8b9aa789bd4629f011fc22
+  checksum: 10c0/36ffd4a7fa426e8838094b97e50d5b91895e27dc1b9f89e940287925d538d474e1862393246b0c3d3874aed0f298631de7fb9e7e692d584d5590ed3cc8513f60
   languageName: node
   linkType: hard
 
@@ -508,11 +508,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^24.13.3":
-  version: 24.13.3
-  resolution: "@types/node@npm:24.13.3"
+  version: 24.13.4
+  resolution: "@types/node@npm:24.13.4"
   dependencies:
     undici-types: "npm:~7.18.0"
-  checksum: 10c0/a5bc08f49b9581dcdca90e02cd77197a3c799840807664942e5cd5161a553d4d2ae8064f7e3294410d748d7d098b5c1848be7fa50c06f29c4193ab16be4e59eb
+  checksum: 10c0/a12196e984cb09ead549651217b4b395961ea011f3a3791a9f78311d70b5f3be343c6fc935376553c06a34c14d963d4f637ad7829837b0c88cf441919f422893
   languageName: node
   linkType: hard
 
@@ -870,7 +870,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "before-storybook@workspace:."
   dependencies:
-    "@rsbuild/core": "npm:^2.2.4"
+    "@rsbuild/core": "npm:^2.2.5"
     "@rsbuild/plugin-vue": "npm:^2.0.1"
     "@types/node": "npm:^24.13.3"
     "@vue/eslint-config-typescript": "npm:^14.9.0"
