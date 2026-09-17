@@ -2796,11 +2796,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 26.5.0
-  resolution: "@types/node@npm:26.5.0"
+  version: 26.5.1
+  resolution: "@types/node@npm:26.5.1"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/1ab105dfe717f6442092ad8732d25d115fcf44596bb64009b3a6eb2dd988aef9ea76ad8a372e88cdf28800161681e1597c779451bade4428801f1a34129e5e37
+  checksum: 10c0/40aa7aa4c099c8a08bf39b5bcb15eaf2cc073666c2191b1d9ac8243ce6b68b23ace904a044c521f6d310b70e94514b531be5f4fc184f141a7ce7f0679ebc7bb3
   languageName: node
   linkType: hard
 
@@ -3366,9 +3366,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv-formats@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "ajv-formats@npm:2.1.1"
+"ajv-formats@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "ajv-formats@npm:3.0.1"
   dependencies:
     ajv: "npm:^8.0.0"
   peerDependencies:
@@ -3376,7 +3376,7 @@ __metadata:
   peerDependenciesMeta:
     ajv:
       optional: true
-  checksum: 10c0/e43ba22e91b6a48d96224b83d260d3a3a561b42d391f8d3c6d2c1559f9aa5b253bfb306bc94bbeca1d967c014e15a6efe9a207309e95b3eaae07fcbcdc2af662
+  checksum: 10c0/168d6bca1ea9f163b41c8147bae537e67bd963357a5488a1eaf3abe8baa8eec806d4e45f15b10767e6020679315c7e1e5e6803088dfb84efa2b4e9353b83dd0a
   languageName: node
   linkType: hard
 
@@ -3412,7 +3412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.0, ajv@npm:^8.6.0, ajv@npm:^8.9.0":
+"ajv@npm:^8.0.0, ajv@npm:^8.20.0, ajv@npm:^8.6.0":
   version: 8.20.0
   resolution: "ajv@npm:8.20.0"
   dependencies:
@@ -3564,18 +3564,18 @@ __metadata:
   linkType: hard
 
 "array-includes@npm:^3.1.6, array-includes@npm:^3.1.8, array-includes@npm:^3.1.9":
-  version: 3.1.9
-  resolution: "array-includes@npm:3.1.9"
+  version: 3.2.0
+  resolution: "array-includes@npm:3.2.0"
   dependencies:
-    call-bind: "npm:^1.0.8"
+    call-bind: "npm:^1.0.9"
     call-bound: "npm:^1.0.4"
     define-properties: "npm:^1.2.1"
-    es-abstract: "npm:^1.24.0"
-    es-object-atoms: "npm:^1.1.1"
-    get-intrinsic: "npm:^1.3.0"
+    es-abstract: "npm:^1.24.2"
+    es-object-atoms: "npm:^1.1.2"
+    es-shim-unscopables: "npm:^1.1.0"
     is-string: "npm:^1.1.1"
     math-intrinsics: "npm:^1.1.0"
-  checksum: 10c0/0235fa69078abeac05ac4250699c44996bc6f774a9cbe45db48674ce6bd142f09b327d31482ff75cf03344db4ea03eae23edb862d59378b484b47ed842574856
+  checksum: 10c0/0a19b5152dfd53abfa45dd95f7f4911102c509add728581c1b3d5f5864fdcdc671aa9079b26581cb13c033081f989350777856965051eb0dca7f11e1951df74f
   languageName: node
   linkType: hard
 
@@ -3998,8 +3998,8 @@ __metadata:
     "@testing-library/jest-dom": "npm:^6.6.3"
     "@testing-library/react": "npm:^16.1.0"
     "@testing-library/user-event": "npm:^13.2.1"
-    react: "npm:^19.2.8"
-    react-dom: "npm:^19.2.8"
+    react: "npm:^19.3.0"
+    react-dom: "npm:^19.3.0"
     react-scripts: "npm:5.0.1"
     web-vitals: "npm:^2.1.0"
   languageName: unknown
@@ -8748,8 +8748,8 @@ __metadata:
   linkType: hard
 
 "minimizer-webpack-plugin@npm:^5.7.0":
-  version: 5.10.0
-  resolution: "minimizer-webpack-plugin@npm:5.10.0"
+  version: 5.10.1
+  resolution: "minimizer-webpack-plugin@npm:5.10.1"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.31"
     jest-worker: "npm:^27.4.5"
@@ -8790,7 +8790,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 10c0/e0f3d24f5ead0ec8bf7a535f40e1b6abbeb2e25e5156352f23e909dfe63d2e1a33237c076ed59a17367f5510e759831ffaa9f56ebe1c69c4bc9c3745f9a6cd1e
+  checksum: 10c0/25705115d4b887f632a1b17e555cd60c05ac1d5d5aab6fa7f07361d489a91bea6850ea75aaadbce0c50c778288e2793ed18efa055a1d6aaa2db6c8eaa0e16961
   languageName: node
   linkType: hard
 
@@ -8959,9 +8959,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.54":
-  version: 2.0.54
-  resolution: "node-releases@npm:2.0.54"
-  checksum: 10c0/196b54ab06fd03b742816b6ca8185c69af42735b283083036e2579682c430b8f9ff89046891fe8c625557e5885793a2032d28070100bb2e57e6d6586b2f483c1
+  version: 2.0.55
+  resolution: "node-releases@npm:2.0.55"
+  checksum: 10c0/35a779a188b3c1801820b77ea3c429d0aacac346368016a92c357dfd781f2908540fc3782b25d41647c3334dec83c976890f40d254bfd788eb5e72c3730146d1
   languageName: node
   linkType: hard
 
@@ -10543,14 +10543,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^19.2.8":
-  version: 19.2.8
-  resolution: "react-dom@npm:19.2.8"
+"react-dom@npm:^19.3.0":
+  version: 19.3.0
+  resolution: "react-dom@npm:19.3.0"
   dependencies:
-    scheduler: "npm:^0.27.0"
+    scheduler: "npm:^0.28.0"
   peerDependencies:
-    react: ^19.2.8
-  checksum: 10c0/41ba2247b76f687fcfe5bbc99f514d6b851d8c8041c2f5ded36ed05bd7fdc5208cacbac9de51e3e6633e77f96f44cec9f0d4a5a55184dba4e00738f224439134
+    react: ^19.3.0
+  checksum: 10c0/c513044b724dd6bfe9500a9682d60973e7f8a48cffba00b6b16d3e910e27dcc459bf71bf0a5c33d7d62a3843ca30de1bd1e2098058aa4ed71f618a24b6061da5
   languageName: node
   linkType: hard
 
@@ -10656,10 +10656,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^19.2.8":
-  version: 19.2.8
-  resolution: "react@npm:19.2.8"
-  checksum: 10c0/5f86bdb56426652fd6d989d30a6f2e603c057272c47c9ca3a3fbe190a3a39ee9ccce937d63cfc039717abed1b8891d6a499134bc35311acc07eafdacd86537cd
+"react@npm:^19.3.0":
+  version: 19.3.0
+  resolution: "react@npm:19.3.0"
+  checksum: 10c0/dd3099c3c43a7122bc01223bb26b0f8d5ba13cca569af6fb94a005fb54fa73223c9cb203bb226d40cfd49a82cbeef2e36ce84062a3a6d5b9fe8f4437694c7b52
   languageName: node
   linkType: hard
 
@@ -11140,10 +11140,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "scheduler@npm:0.27.0"
-  checksum: 10c0/4f03048cb05a3c8fddc45813052251eca00688f413a3cee236d984a161da28db28ba71bd11e7a3dd02f7af84ab28d39fb311431d3b3772fed557945beb00c452
+"scheduler@npm:^0.28.0":
+  version: 0.28.0
+  resolution: "scheduler@npm:0.28.0"
+  checksum: 10c0/783c8e5ce89d41273a02ed6dc0e3d24bd60e05c9e8f7e3adfc6c82e7c69935500d90e343f1ee26d592fc7504e8a2532573c6368def3e93bfe812391fa53efaf4
   languageName: node
   linkType: hard
 
@@ -11181,14 +11181,14 @@ __metadata:
   linkType: hard
 
 "schema-utils@npm:^4.0.0, schema-utils@npm:^4.2.0, schema-utils@npm:^4.3.0, schema-utils@npm:^4.3.3":
-  version: 4.3.3
-  resolution: "schema-utils@npm:4.3.3"
+  version: 4.4.0
+  resolution: "schema-utils@npm:4.4.0"
   dependencies:
-    "@types/json-schema": "npm:^7.0.9"
-    ajv: "npm:^8.9.0"
-    ajv-formats: "npm:^2.1.1"
+    "@types/json-schema": "npm:^7.0.15"
+    ajv: "npm:^8.20.0"
+    ajv-formats: "npm:^3.0.1"
     ajv-keywords: "npm:^5.1.0"
-  checksum: 10c0/1c8d2c480a026d7c02ab2ecbe5919133a096d6a721a3f201fa50663e4f30f6d6ba020dfddd93cb828b66b922e76b342e103edd19a62c95c8f60e9079cc403202
+  checksum: 10c0/8eb2550fe71baa4d2d003102c70d681b4532d5ba0f5b7c5cd77953847d3ce26cf59901df0ce1d46613b440855bd99b592d90fc30dcd554e31ddad24c13f00202
   languageName: node
   linkType: hard
 
