@@ -260,11 +260,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.6":
-  version: 2.2.6
-  resolution: "@rsbuild/core@npm:2.2.6"
+"@rsbuild/core@npm:^2.2.7":
+  version: 2.2.7
+  resolution: "@rsbuild/core@npm:2.2.7"
   dependencies:
-    "@rspack/core": "npm:~2.2.4"
+    "@rspack/core": "npm:~2.2.5"
     "@swc/helpers": "npm:^0.5.23"
   peerDependencies:
     core-js: ">= 3.0.0"
@@ -273,7 +273,7 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/ad653c99ba3f89198aeb66fb8405cbfe179ac3b464f99b629e09192ba55fabbd5126b250a692d448d4527eb6d7feb21c393be60bfbe13aab2d5b8dc8ad48d8d0
+  checksum: 10c0/a794cbbd3b63a40753b572669839f8a9e38d2f252bdedd36abe56b7acbc061767281c9a7fd81455081578a13b9b347ab494de16a75a0b2dcedc02d40addcd326
   languageName: node
   linkType: hard
 
@@ -444,7 +444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rspack/core@npm:~2.2.4":
+"@rspack/core@npm:~2.2.5":
   version: 2.2.5
   resolution: "@rspack/core@npm:2.2.5"
   dependencies:
@@ -870,7 +870,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "before-storybook@workspace:."
   dependencies:
-    "@rsbuild/core": "npm:^2.2.6"
+    "@rsbuild/core": "npm:^2.2.7"
     "@rsbuild/plugin-vue": "npm:^2.0.1"
     "@types/node": "npm:^24.13.4"
     "@vue/eslint-config-typescript": "npm:^14.9.0"
