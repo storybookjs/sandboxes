@@ -38,13 +38,13 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.29.7":
-  version: 7.29.8
-  resolution: "@babel/parser@npm:7.29.8"
+  version: 7.29.9
+  resolution: "@babel/parser@npm:7.29.9"
   dependencies:
     "@babel/types": "npm:^7.29.8"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/acc890c5e6a6dd40863a47b50bac111d7185ee6fbbe163ebe11d5214854ca2adb901462ad4d718a65090ef84bd2230e9e8ab45a2e0caccc685f1f57ab0bb1e28
+  checksum: 10c0/171b16eb4527cdbbb72cb98710f91acb22356e2c40196ba3b7a1b84efa8c55d0b0992f399c8c675c3e17f67fd133676c5c4118e5f20db243f427c8b29b0c3f40
   languageName: node
   linkType: hard
 
@@ -350,7 +350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/remapping@npm:^2.3.4, @jridgewell/remapping@npm:^2.3.5":
+"@jridgewell/remapping@npm:^2.3.5":
   version: 2.3.5
   resolution: "@jridgewell/remapping@npm:2.3.5"
   dependencies:
@@ -1016,7 +1016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/acorn-typescript@npm:^1.0.10, @sveltejs/acorn-typescript@npm:^1.0.9":
+"@sveltejs/acorn-typescript@npm:^1.0.13, @sveltejs/acorn-typescript@npm:^1.0.9":
   version: 1.0.13
   resolution: "@sveltejs/acorn-typescript@npm:1.0.13"
   peerDependencies:
@@ -1168,7 +1168,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:^1.0.0, @types/estree@npm:^1.0.1, @types/estree@npm:^1.0.5, @types/estree@npm:^1.0.6":
+"@types/estree@npm:^1.0.0, @types/estree@npm:^1.0.1, @types/estree@npm:^1.0.6, @types/estree@npm:^1.0.9":
   version: 1.0.9
   resolution: "@types/estree@npm:1.0.9"
   checksum: 10c0/3ad3286ca2988cd550dafb8f2ad599c8474868e954fa601a36655bdfefd8039f7c714b8c1c7f2ae219ffbd58bd4660e66fa7479a0120fc02d4777057d4865387
@@ -1375,7 +1375,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.12.1, acorn@npm:^8.15.0, acorn@npm:^8.16.0":
+"acorn@npm:^8.15.0, acorn@npm:^8.16.0, acorn@npm:^8.18.0":
   version: 8.18.0
   resolution: "acorn@npm:8.18.0"
   bin:
@@ -1674,10 +1674,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devalue@npm:^5.8.1":
-  version: 5.9.2
-  resolution: "devalue@npm:5.9.2"
-  checksum: 10c0/06ee48d3a69a2f77dee7867be4885b965d10592cd7082a19e885a81bc552548780564ea244ecc77e70a91c41bea7086a473b85120d73bfa1737c801a3797e6b5
+"devalue@npm:^5.8.1, devalue@npm:^5.9.2":
+  version: 5.9.4
+  resolution: "devalue@npm:5.9.4"
+  checksum: 10c0/d621083acce13d7812418ed07d99f027f83ee00ba591a2d2eab4c9436e1491ebce7bc1a92aa4c1fb7903c31c0e3c0a3cdf8662bf31644742202e003c04c17e33
   languageName: node
   linkType: hard
 
@@ -1848,7 +1848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^2.2.12":
+"esrap@npm:^2.3.6":
   version: 2.3.7
   resolution: "esrap@npm:2.3.7"
   dependencies:
@@ -2824,25 +2824,25 @@ __metadata:
   linkType: hard
 
 "svelte@npm:^5.56.1":
-  version: 5.57.0
-  resolution: "svelte@npm:5.57.0"
+  version: 5.57.1
+  resolution: "svelte@npm:5.57.1"
   dependencies:
-    "@jridgewell/remapping": "npm:^2.3.4"
-    "@jridgewell/sourcemap-codec": "npm:^1.5.0"
-    "@sveltejs/acorn-typescript": "npm:^1.0.10"
-    "@types/estree": "npm:^1.0.5"
-    acorn: "npm:^8.12.1"
+    "@jridgewell/remapping": "npm:^2.3.5"
+    "@jridgewell/sourcemap-codec": "npm:^1.6.0"
+    "@sveltejs/acorn-typescript": "npm:^1.0.13"
+    "@types/estree": "npm:^1.0.9"
+    acorn: "npm:^8.18.0"
     aria-query: "npm:5.3.1"
     axobject-query: "npm:^4.1.0"
     clsx: "npm:^2.1.1"
-    devalue: "npm:^5.8.1"
+    devalue: "npm:^5.9.2"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^2.2.12"
+    esrap: "npm:^2.3.6"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/7be135110932db5bd55e670a1bc66b4122b599326129b25d925396b86796d4720a0ec6100b2f77a7a3f57c79ec729d753bdd0e440b38bf33e6e9ff9e93644dce
+  checksum: 10c0/a605b33f371a6c49f07b26dfc4017ae358a06e3b1dc3c8bb051daabb635d0f9ca08a183ea750ac2af298ba4a535995c0395443d555f1c73c9c666e8253dd8624
   languageName: node
   linkType: hard
 
