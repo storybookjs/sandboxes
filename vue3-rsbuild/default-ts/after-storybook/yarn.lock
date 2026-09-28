@@ -870,7 +870,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.5.0, @jridgewell/sourcemap-codec@npm:^1.5.5":
+"@jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.5.0, @jridgewell/sourcemap-codec@npm:^1.5.5, @jridgewell/sourcemap-codec@npm:^1.6.0":
   version: 1.6.0
   resolution: "@jridgewell/sourcemap-codec@npm:1.6.0"
   checksum: 10c0/b5be700e45a775f218589c3466c4ffea630582b4988657652da464e5ab8a7d18bf928ee4fd2363fb346ede4bea9c6ff0bae05a538358c4565ece6199531b5f72
@@ -1727,9 +1727,9 @@ __metadata:
   linkType: hard
 
 "@rspack/lite-tapable@npm:^1.1.0, @rspack/lite-tapable@npm:^1.1.2":
-  version: 1.1.5
-  resolution: "@rspack/lite-tapable@npm:1.1.5"
-  checksum: 10c0/b3ddc59c824dff06981d3fd3ced577f7031fd88aa2749e8fba0d6b6566d40e38ccabe0f5c48cc8df1836cb1a1ba1afe936b7659528c03ab153f8351dbeea746b
+  version: 1.2.0
+  resolution: "@rspack/lite-tapable@npm:1.2.0"
+  checksum: 10c0/a8c8e8f27045bad5be224ee9f411f205e620f3448fc690f9a8aa6850f67f3bde9a930734e3d4137e896f44cdc1cbf5aa8ceabb551e9465d2518a397c97bc36d9
   languageName: node
   linkType: hard
 
@@ -1919,7 +1919,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:^1.0.0, @types/estree@npm:^1.0.6, @types/estree@npm:^1.0.8":
+"@types/estree@npm:^1.0.6, @types/estree@npm:^1.0.8":
   version: 1.0.9
   resolution: "@types/estree@npm:1.0.9"
   checksum: 10c0/3ad3286ca2988cd550dafb8f2ad599c8474868e954fa601a36655bdfefd8039f7c714b8c1c7f2ae219ffbd58bd4660e66fa7479a0120fc02d4777057d4865387
@@ -2104,25 +2104,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/mocker@npm:3.2.7":
-  version: 3.2.7
-  resolution: "@vitest/mocker@npm:3.2.7"
-  dependencies:
-    "@vitest/spy": "npm:3.2.7"
-    estree-walker: "npm:^3.0.3"
-    magic-string: "npm:^0.30.17"
-  peerDependencies:
-    msw: ^2.4.9
-    vite: ^5.0.0 || ^6.0.0 || ^7.0.0-0
-  peerDependenciesMeta:
-    msw:
-      optional: true
-    vite:
-      optional: true
-  checksum: 10c0/e8d9a155723e77b3e14c5a1eba35d8966b94420ebc733ffd7119b7bede22006580c468eec2aec6612fb77852cbcdfa94c6f49218f3ca1427aa9363d545c624fd
-  languageName: node
-  linkType: hard
-
 "@vitest/pretty-format@npm:3.2.4":
   version: 3.2.4
   resolution: "@vitest/pretty-format@npm:3.2.4"
@@ -2138,15 +2119,6 @@ __metadata:
   dependencies:
     tinyspy: "npm:^4.0.3"
   checksum: 10c0/6ebf0b4697dc238476d6b6a60c76ba9eb1dd8167a307e30f08f64149612fd50227682b876420e4c2e09a76334e73f72e3ebf0e350714dc22474258292e202024
-  languageName: node
-  linkType: hard
-
-"@vitest/spy@npm:3.2.7":
-  version: 3.2.7
-  resolution: "@vitest/spy@npm:3.2.7"
-  dependencies:
-    tinyspy: "npm:^4.0.3"
-  checksum: 10c0/cf2728b4ddc6137e0ca749215c7714845e8221a5f799e933bc623216a9958fd8b032cdd7f033ed8375df9e6ed84a18b64687ca2530f50e8a76bc3b1d16d88c42
   languageName: node
   linkType: hard
 
@@ -2751,7 +2723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cjs-module-lexer@npm:^2.2.0":
+"cjs-module-lexer@npm:^2.2.1":
   version: 2.2.1
   resolution: "cjs-module-lexer@npm:2.2.1"
   checksum: 10c0/889777eb1e32c4662bf3744fdf09aca444a3f9373d70a8c3d2a575e845e415988912a70a7b5e3c2bf943c7547d930dff641c4e0ff2ee2110ba1daca05b2310cd
@@ -3317,15 +3289,6 @@ __metadata:
   version: 2.0.2
   resolution: "estree-walker@npm:2.0.2"
   checksum: 10c0/53a6c54e2019b8c914dc395890153ffdc2322781acf4bd7d1a32d7aedc1710807bdcd866ac133903d5629ec601fbb50abe8c2e5553c7f5a0afdd9b6af6c945af
-  languageName: node
-  linkType: hard
-
-"estree-walker@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "estree-walker@npm:3.0.3"
-  dependencies:
-    "@types/estree": "npm:^1.0.0"
-  checksum: 10c0/c12e3c2b2642d2bcae7d5aa495c60fa2f299160946535763969a1c83fc74518ffa9c2cd3a8b69ac56aea547df6a8aac25f729a342992ef0bbac5f1c73e78995d
   languageName: node
   linkType: hard
 
@@ -4134,12 +4097,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.17, magic-string@npm:^0.30.21":
+"magic-string@npm:^0.30.21":
   version: 0.30.21
   resolution: "magic-string@npm:0.30.21"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.5.5"
   checksum: 10c0/299378e38f9a270069fc62358522ddfb44e94244baa0d6a8980ab2a9b2490a1d03b236b447eee309e17eb3bddfa482c61259d47960eb018a904f0ded52780c4a
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "magic-string@npm:1.4.1"
+  dependencies:
+    "@jridgewell/sourcemap-codec": "npm:^1.6.0"
+  checksum: 10c0/d5162ed2cef7ffa4ee5bcf44fbaba3a814f65b9919f0f3eba43076fda4223161b1064779da32901c3d1f157e7bbc0b6dd973e06c7856e550424f5e73e9217f0a
   languageName: node
   linkType: hard
 
@@ -5244,19 +5216,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-builder-rsbuild@npm:3.4.2":
-  version: 3.4.2
-  resolution: "storybook-builder-rsbuild@npm:3.4.2"
+"storybook-builder-rsbuild@npm:3.6.0":
+  version: 3.6.0
+  resolution: "storybook-builder-rsbuild@npm:3.6.0"
   dependencies:
     "@rsbuild/plugin-type-check": "npm:^1.6.0"
-    "@vitest/mocker": "npm:3.2.7"
     browser-assert: "npm:^1.2.1"
     case-sensitive-paths-webpack-plugin: "npm:^2.4.0"
-    cjs-module-lexer: "npm:^2.2.0"
+    cjs-module-lexer: "npm:^2.2.1"
     constants-browserify: "npm:^1.0.0"
     es-module-lexer: "npm:^1.7.0"
     fs-extra: "npm:^11.4.0"
-    magic-string: "npm:^0.30.21"
+    magic-string: "npm:^1.4.1"
     path-browserify: "npm:^1.0.1"
     pathe: "npm:^2.0.3"
     picocolors: "npm:^1.1.1"
@@ -5271,7 +5242,7 @@ __metadata:
     "@rsbuild/core": ^1.5.0 || ^2.0.0-0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.5.5
+    storybook: ^10.6.0
   peerDependenciesMeta:
     react:
       optional: true
@@ -5279,23 +5250,27 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/e41f9ffad228eaaf3e1200fe58176ebe30d443b80fb97f1d7b2609949dc1946add662b7d714baba49e470192c6340215a9595c9571e3a1654162e682b3309df9
+  checksum: 10c0/697c1e55d04ad772a007d128afd4063c7b50546697a38fc0c5e0d00854259e05a5d720f4507b888fabfb5b215115fc296d8326aefc6de6b44616e32e4fadf856
   languageName: node
   linkType: hard
 
 "storybook-vue3-rsbuild@npm:latest":
-  version: 3.4.2
-  resolution: "storybook-vue3-rsbuild@npm:3.4.2"
+  version: 3.6.0
+  resolution: "storybook-vue3-rsbuild@npm:3.6.0"
   dependencies:
-    "@storybook/vue3": "npm:^10.5.5"
-    storybook-builder-rsbuild: "npm:3.4.2"
+    "@storybook/vue3": "npm:^10.6.0"
+    storybook-builder-rsbuild: "npm:3.6.0"
     vue-docgen-api: "npm:^4.79.2"
     vue-docgen-loader: "npm:^2.0.1"
   peerDependencies:
     "@rsbuild/core": ^1.5.0 || ^2.0.0-0
-    storybook: ^10.5.5
+    storybook: ^10.6.0
+    typescript: ">= 4.2.x"
     vue: ^3.0.0
-  checksum: 10c0/91bb38beb0bd9a4698f506fbad673af6c8f55c1f195c1da10a7dbb1ea7d1384ab157b43cdfa0a37e4ce2a1603194d2f9b4a986b693f46e5e065b0795794ca7ef
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/d092e66c5da0c40f4657887daebe9a76be6656c02bf0434321107417fd05f926a01f140c08f2539a7da779bd9d29759a728df265adf638074922c1c063824813
   languageName: node
   linkType: hard
 
