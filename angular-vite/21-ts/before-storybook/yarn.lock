@@ -323,20 +323,20 @@ __metadata:
   linkType: hard
 
 "@angular/common@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/common@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/common@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 21.2.23
+    "@angular/core": 21.2.24
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/ae2104f21f2f64a3392cb8d339a09e39aa77a10818ce48230410c4ff97828427e9306f34d7f69a9d410151074c152160a3e112bbfb8c075165aff5e727c64616
+  checksum: 10c0/1a0986e5e0badd483dea5c3e3f83bc13a6e0443f6acad2c574325f260547c2281ab0827e01c1d4022a354b1c7ac3cf88a16ab8294e15b63e473955bd1fdbfc41
   languageName: node
   linkType: hard
 
 "@angular/compiler-cli@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/compiler-cli@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/compiler-cli@npm:21.2.24"
   dependencies:
     "@babel/core": "npm:7.29.7"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -347,7 +347,7 @@ __metadata:
     tslib: "npm:^2.3.0"
     yargs: "npm:^18.0.0"
   peerDependencies:
-    "@angular/compiler": 21.2.23
+    "@angular/compiler": 21.2.24
     typescript: ">=5.9 <6.1"
   peerDependenciesMeta:
     typescript:
@@ -355,26 +355,26 @@ __metadata:
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
-  checksum: 10c0/234e53f0f1cb218281c9f15db7b148da517f10ed97ef11531c4e67765af7681580872ec6752d2379fa5f55a592174270dc7d238d05a08d9e9a9a07000130afc2
+  checksum: 10c0/e8bbe7ed9505cfd5fa5bb3f318f06970ffcb0643ec5d27043f4f7365436b62df52bd0f2baf1da78999d92ffdbac77d8fd059a4da9e4f14b362e99d457b536bc9
   languageName: node
   linkType: hard
 
 "@angular/compiler@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/compiler@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/compiler@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
-  checksum: 10c0/46f8e33b781dac78b0933ac16da8fa072d3b179a336a2c03b6a8922a9a2ebac89b146c8435856713d8642213ca71d8a66c1804a78bf975848fd6ae13cca9d8d8
+  checksum: 10c0/b598476c26d3bbd210fd380f3385b62399bbfeebad128c03529f3e16f56631cec48a931627c6c1dbbb689cbba8c0f8a22694aa724843e95f228d81de80c01ff1
   languageName: node
   linkType: hard
 
 "@angular/core@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/core@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/core@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/compiler": 21.2.23
+    "@angular/compiler": 21.2.24
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0 || ~0.16.0
   peerDependenciesMeta:
@@ -382,68 +382,68 @@ __metadata:
       optional: true
     zone.js:
       optional: true
-  checksum: 10c0/701b979502abc98d1f9f81eae8e589d613e44632429cda34f9e2b8e2ce89abe5988d8c6c6f87562dcc320e33077af2a646e80ae7827592ad4a55e0db636af8d1
+  checksum: 10c0/733e9f5ee2b34f5e8546b7d2eae4902178be32f536b81b8a5e4c8b6760bc24d70119b1a800e848b4b1e9b7a935012c656409add0a0df4384c75de607fcaf9633
   languageName: node
   linkType: hard
 
 "@angular/forms@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/forms@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/forms@npm:21.2.24"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 21.2.23
-    "@angular/core": 21.2.23
-    "@angular/platform-browser": 21.2.23
+    "@angular/common": 21.2.24
+    "@angular/core": 21.2.24
+    "@angular/platform-browser": 21.2.24
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/ff9fc5431cb96613937e381ea3846f3c259d2d8e95c971befd69a07e4d4bb9985949291961bef398f7fae2a934f5283c7e5402108e8a79e8ea897b0ba768be46
+  checksum: 10c0/a15ba835e7253e00212782a003334ea64b7a1d410f24188d370d78057bff6757d8e00dd14ed079e742a6bf075e0db6fd2fc5429674849416cf588692e6de06f0
   languageName: node
   linkType: hard
 
 "@angular/platform-browser@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/platform-browser@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/platform-browser@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/animations": 21.2.23
-    "@angular/common": 21.2.23
-    "@angular/core": 21.2.23
+    "@angular/animations": 21.2.24
+    "@angular/common": 21.2.24
+    "@angular/core": 21.2.24
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: 10c0/14a0e00aa7f61056b9515616d36c8071c8e96d120bc50d39f609f884021c3edeaed1d66129784e95a97ad286ac623e8bda66bfc3d516180f0a02aad9e813b4f0
+  checksum: 10c0/13368bc542fc7c8b4b0e0dcad4da378aee3e1a425f48759906797d1a990516123f95fe9d353d5d9940c9137a60fb8524f7ae746ab42976a629f99ca2aba12168
   languageName: node
   linkType: hard
 
 "@angular/platform-server@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/platform-server@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/platform-server@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
     xhr2: "npm:^0.2.0"
   peerDependencies:
-    "@angular/common": 21.2.23
-    "@angular/compiler": 21.2.23
-    "@angular/core": 21.2.23
-    "@angular/platform-browser": 21.2.23
+    "@angular/common": 21.2.24
+    "@angular/compiler": 21.2.24
+    "@angular/core": 21.2.24
+    "@angular/platform-browser": 21.2.24
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/0552a8c39cd2c2c894bd3a1dc764ed198f7ee525c617ef0e113889e2dd3499b101f27eaf8498fbdc7d4a33c8dad2513e4ffb2124f4a1940ba50e01ffeb40bfd2
+  checksum: 10c0/c16a5d006996510b6d8b637d060db59ad39f054a8512cdbf57f7ae79e44e93275f6df17bb817d772d911b995af0822998ce1d111d65433302bf858557b60e793
   languageName: node
   linkType: hard
 
 "@angular/router@npm:^21.2.0":
-  version: 21.2.23
-  resolution: "@angular/router@npm:21.2.23"
+  version: 21.2.24
+  resolution: "@angular/router@npm:21.2.24"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 21.2.23
-    "@angular/core": 21.2.23
-    "@angular/platform-browser": 21.2.23
+    "@angular/common": 21.2.24
+    "@angular/core": 21.2.24
+    "@angular/platform-browser": 21.2.24
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/1ef7a23f2156b4d6c38c60d32a91396dfba535e7e3a425a162fff837ee624cdabd8375133312d5e2c4e362a8fb1da948395e4f9a92e47d432a5a322900fb6fe3
+  checksum: 10c0/d5806a4c16e8f16693ce49021e88175c1680eb693e28d24b9c87d652061a7b3cbd494add449c8beed56fb3015b7917021f2eb201899198af86254d23a02a9062
   languageName: node
   linkType: hard
 
@@ -3015,9 +3015,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.427":
-  version: 1.5.436
-  resolution: "electron-to-chromium@npm:1.5.436"
-  checksum: 10c0/50c0c38a849ab72f6a2e96051bc90347e7efd3a74d5b37a19977aa0147e95f9e1466b613fed2c521c2d1b91d9ce8ce5720c20e7ef40bc7fe2daf55ff5a1c95bc
+  version: 1.5.438
+  resolution: "electron-to-chromium@npm:1.5.438"
+  checksum: 10c0/bc2572cd8f124f6f6f96e6f0679374ec3024763a597338aca72bf7c9e213715ffc3ef319f8746d6cd723329e07e59acda635069f46b4a02b9db7d5a2b0a49efd
   languageName: node
   linkType: hard
 
@@ -3581,9 +3581,9 @@ __metadata:
   linkType: hard
 
 "hono@npm:^4.11.4":
-  version: 4.13.8
-  resolution: "hono@npm:4.13.8"
-  checksum: 10c0/9c420a6599e38242f78686c5ade10f2539c4e98451b0bd0778ab17e4311691d8d1263ed45cd7047a6274ddd3196db39188c6526a4c2c46dd1baf39f37266819c
+  version: 4.13.9
+  resolution: "hono@npm:4.13.9"
+  checksum: 10c0/aa3b03f536082a7eba57b254a4d597ae0f7a033dcb8b7a2be30f73db37fcf72320079a8ae1452845b5ff4bb82b794dae3c983bd660506ae9852da1bcb619ca7a
   languageName: node
   linkType: hard
 
@@ -4259,9 +4259,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.55":
-  version: 2.0.56
-  resolution: "node-releases@npm:2.0.56"
-  checksum: 10c0/d62240b1440f660a6742e0a45ed7eef14bc79228447042ddb58363f73f4a5971b40fc5647f2e40f26854b24ac575ad4a21453d627c3554b4d4b31b4d596d6e8e
+  version: 2.0.57
+  resolution: "node-releases@npm:2.0.57"
+  checksum: 10c0/fe5b68fba1fef524243b54828a118f13a4a40db08bb42c0b92680c3ca5c246f4ae6f139515071d46b9a3a9195945f5ac78064f5b7674c4dcc3dd6bfe933ff9e8
   languageName: node
   linkType: hard
 
@@ -4597,11 +4597,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^3.8.1":
-  version: 3.9.8
-  resolution: "prettier@npm:3.9.8"
+  version: 3.9.9
+  resolution: "prettier@npm:3.9.9"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/257e5ef11ba5006d0b0712271705701c065c8003e07763f996ce185d39633902f3fe1f814839eed76f75c97b6d5376d6157bd9f44db18cacb1dbdcb263cc66ae
+  checksum: 10c0/d50ea2537b2ff7dbd5088a214f4d936484e55c665cea2185b477a55b0770be55f3b156a71f63a9a639def6b334667bb327139dc85f2a1041c0a34752cdc74647
   languageName: node
   linkType: hard
 
