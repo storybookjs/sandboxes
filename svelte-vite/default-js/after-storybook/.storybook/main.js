@@ -7,7 +7,6 @@ const config = {
     "../src/**/*.stories.@(js|ts|svelte)"
   ],
   "addons": [
-    "@storybook/addon-svelte-csf",
     "@chromatic-com/storybook",
     "@storybook/addon-vitest",
     "@storybook/addon-a11y",
