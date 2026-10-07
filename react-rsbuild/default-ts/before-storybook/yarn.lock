@@ -422,11 +422,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.10":
-  version: 2.2.10
-  resolution: "@rsbuild/core@npm:2.2.10"
+"@rsbuild/core@npm:^2.2.11":
+  version: 2.2.11
+  resolution: "@rsbuild/core@npm:2.2.11"
   dependencies:
-    "@rspack/core": "npm:~2.2.7"
+    "@rspack/core": "npm:~2.2.8"
     "@swc/helpers": "npm:^0.5.23"
   peerDependencies:
     core-js: ">= 3.0.0"
@@ -435,11 +435,11 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/5f78f189ef64d813d1a6cc38b58fb628479cf47bfbca4949f4ca32eaafe192425533238845979339e3fa36467f97f3e75705584e08436c07de83cbf734c52b35
+  checksum: 10c0/50fda9c3247c42d9b29cffe9611ec25d6eaf8b5247f4d06d1ad8a5e50db8521e0d76a2e90e8c13648cad37fb40e234142e80d1ac38b086b2b37fdbb5bd5c07e0
   languageName: node
   linkType: hard
 
-"@rsbuild/plugin-react@npm:^2.1.0":
+"@rsbuild/plugin-react@npm:^2.1.1":
   version: 2.1.1
   resolution: "@rsbuild/plugin-react@npm:2.1.1"
   dependencies:
@@ -607,7 +607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rspack/core@npm:~2.2.7":
+"@rspack/core@npm:~2.2.8":
   version: 2.2.8
   resolution: "@rspack/core@npm:2.2.8"
   dependencies:
@@ -889,8 +889,8 @@ __metadata:
   resolution: "before-storybook@workspace:."
   dependencies:
     "@eslint/js": "npm:^10.0.1"
-    "@rsbuild/core": "npm:^2.2.10"
-    "@rsbuild/plugin-react": "npm:^2.1.0"
+    "@rsbuild/core": "npm:^2.2.11"
+    "@rsbuild/plugin-react": "npm:^2.1.1"
     "@types/node": "npm:^24.13.6"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"
@@ -915,17 +915,17 @@ __metadata:
   linkType: hard
 
 "browserslist@npm:^4.24.0":
-  version: 4.29.2
-  resolution: "browserslist@npm:4.29.2"
+  version: 4.29.3
+  resolution: "browserslist@npm:4.29.3"
   dependencies:
     baseline-browser-mapping: "npm:^2.11.26"
-    caniuse-lite: "npm:^1.0.30001812"
+    caniuse-lite: "npm:^1.0.30001813"
     electron-to-chromium: "npm:^1.5.439"
     node-releases: "npm:^2.0.57"
     update-browserslist-db: "npm:^1.3.3"
   bin:
     browserslist: cli.js
-  checksum: 10c0/eee6d82d9b2c8c16bf8083957c51e639b3d1a769393bfdc66d5f67828cecfef9c4fb31946d239d78b09fcdf7f071da8652d3d6d42f42bba54e1a3b42ec9b570b
+  checksum: 10c0/6e1a1fcae77369260e936fe63e7994105f04c6b7aea4f2139fdf3ecccfcb1eb24d4522c2828c6ed48ef71206a33f4346e11cf714c5aac0f7496cead06bb66bac
   languageName: node
   linkType: hard
 
@@ -942,7 +942,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001812":
+"caniuse-lite@npm:^1.0.30001813":
   version: 1.0.30001813
   resolution: "caniuse-lite@npm:1.0.30001813"
   checksum: 10c0/18b160024af4a7daecf43ce0b4203aad956ec71c2438844810af54194a733c8a203a8a9e6b502a904bce30ca312b173099b3c900327ff1cd7178406ada6b684f
@@ -994,9 +994,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.439":
-  version: 1.5.440
-  resolution: "electron-to-chromium@npm:1.5.440"
-  checksum: 10c0/9ef0a67fa45d97b1c857ca7c0787a88554790a76aa03b655faf34762fa63fc645317f1f88a00139324f007986e2475995aba349bcd62abd070552d1235cb4945
+  version: 1.5.441
+  resolution: "electron-to-chromium@npm:1.5.441"
+  checksum: 10c0/60374e15670bc67a1887ec79df06059b586091ce14408e05fca038eff8ba084d5339b2468cbb0528956b7996d621bfe7dd0ea0bc7575abb522e724c1c9369668
   languageName: node
   linkType: hard
 
