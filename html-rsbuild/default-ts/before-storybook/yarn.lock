@@ -203,11 +203,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.10":
-  version: 2.2.10
-  resolution: "@rsbuild/core@npm:2.2.10"
+"@rsbuild/core@npm:^2.2.11":
+  version: 2.2.11
+  resolution: "@rsbuild/core@npm:2.2.11"
   dependencies:
-    "@rspack/core": "npm:~2.2.7"
+    "@rspack/core": "npm:~2.2.8"
     "@swc/helpers": "npm:^0.5.23"
   peerDependencies:
     core-js: ">= 3.0.0"
@@ -216,7 +216,7 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/5f78f189ef64d813d1a6cc38b58fb628479cf47bfbca4949f4ca32eaafe192425533238845979339e3fa36467f97f3e75705584e08436c07de83cbf734c52b35
+  checksum: 10c0/50fda9c3247c42d9b29cffe9611ec25d6eaf8b5247f4d06d1ad8a5e50db8521e0d76a2e90e8c13648cad37fb40e234142e80d1ac38b086b2b37fdbb5bd5c07e0
   languageName: node
   linkType: hard
 
@@ -373,7 +373,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rspack/core@npm:~2.2.7":
+"@rspack/core@npm:~2.2.8":
   version: 2.2.8
   resolution: "@rspack/core@npm:2.2.8"
   dependencies:
@@ -615,7 +615,7 @@ __metadata:
   resolution: "before-storybook@workspace:."
   dependencies:
     "@eslint/js": "npm:^10.0.1"
-    "@rsbuild/core": "npm:^2.2.10"
+    "@rsbuild/core": "npm:^2.2.11"
     "@types/node": "npm:^24.13.6"
     eslint: "npm:^10.9.1"
     globals: "npm:^17.11.0"
