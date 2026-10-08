@@ -160,12 +160,6 @@
         Vue v3 (Vite | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/docgen-server-ts/after-storybook?preset=node"
-      >
-        Vue Server Docgen v3 (Vite | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 
@@ -268,12 +262,6 @@
         Angular CLI Latest (Vite | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-vite/docgen-server-ts/after-storybook?preset=node"
-      >
-        Angular CLI Server Docgen Latest (Vite | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 
@@ -320,12 +308,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/default-ts/after-storybook?preset=node"
       >
         Preact Latest (Vite | TypeScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/prerelease-ts/after-storybook?preset=node"
-      >
-        Preact Prerelease (Vite | TypeScript)
       </a>
     </li>
   </ul>
