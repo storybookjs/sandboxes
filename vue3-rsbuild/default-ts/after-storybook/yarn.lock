@@ -2231,9 +2231,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/language-core@npm:3.3.11, @vue/language-core@npm:^3.2.7":
-  version: 3.3.11
-  resolution: "@vue/language-core@npm:3.3.11"
+"@vue/language-core@npm:3.3.12, @vue/language-core@npm:^3.2.7":
+  version: 3.3.12
+  resolution: "@vue/language-core@npm:3.3.12"
   dependencies:
     "@volar/language-core": "npm:2.4.28"
     "@vue/compiler-dom": "npm:^3.5.0"
@@ -2242,7 +2242,7 @@ __metadata:
     muggle-string: "npm:^0.4.1"
     path-browserify: "npm:^1.0.1"
     picomatch: "npm:^4.0.4"
-  checksum: 10c0/d05c0a9983cb92f03e283729450d21da81848eecf4328020c2047b7cf1318b74597455b21740a32f56552d267d8b14fb834ae7939c4f5ff24bd4dc7a3a2fbbc7
+  checksum: 10c0/8a6dad0c08911cc708e39be0196eaa3f8025a9015c0551d54ffe5846c2f5a39005d6939ad56dff572c3a7c969ff5ea93457b67a4b10b94fce9e9d20b28381caa
   languageName: node
   linkType: hard
 
@@ -3188,8 +3188,8 @@ __metadata:
   linkType: hard
 
 "eslint@npm:^10.9.1":
-  version: 10.11.0
-  resolution: "eslint@npm:10.11.0"
+  version: 10.12.0
+  resolution: "eslint@npm:10.12.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
@@ -3228,7 +3228,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/c767f45f21d1921b41d70e30b1c8fa7ec4e65c0f43a8d80cc4990ca3d923127fa7b9b3416b8f5be6e877d9286f97d3c51a04ed341bc6aa73c0dba0f463e1f861
+  checksum: 10c0/1302ce8a7df2f67fe8f4014b2f9449bd38eb86903ba7b841d9a8ca5a5daf8ee15442861ab870e96c0074d5f333b405d7b2f16388981f807db410cc3a02178af9
   languageName: node
   linkType: hard
 
@@ -3427,19 +3427,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-estree@npm:0.333.0":
-  version: 0.333.0
-  resolution: "flow-estree@npm:0.333.0"
-  checksum: 10c0/6f662c1cf6589e65a6bf0cb47dbbbb32003d8546e31b587e5b80848688faaf1116ae94b1b4a0e2d6b8fcb8957479514484af82482a52b9ddcb30c926ca3edf7e
+"flow-estree@npm:0.334.0":
+  version: 0.334.0
+  resolution: "flow-estree@npm:0.334.0"
+  checksum: 10c0/69f90dca67f26dfb404d4e4ca4cb178be0ddc6e9e81246440bc0190b53bba94b906642bd2520d0176b201304ec42ecb875c6168b2927d5e879f25967f600b467
   languageName: node
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.333.0
-  resolution: "flow-parser@npm:0.333.0"
+  version: 0.334.0
+  resolution: "flow-parser@npm:0.334.0"
   dependencies:
-    flow-estree: "npm:0.333.0"
-  checksum: 10c0/9ad86818fd777dca9503923a3595f6e295b4a539c2a47a395bbc48e0b88598e0ecfd90236b9dbe8dfb6539128d00858d43285d72c548d5ed458137cf04eeff3f
+    flow-estree: "npm:0.334.0"
+  checksum: 10c0/861969037a1fc80b48aa8018f90b439554b33b140dce8c4c92c6653f85695c6b3f275e925f6e93a62ac92f6c02d53551e566c6fa9626354daeecf6ed4103ff8c
   languageName: node
   linkType: hard
 
@@ -3685,9 +3685,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^7.0.5":
-  version: 7.0.11
-  resolution: "ignore@npm:7.0.11"
-  checksum: 10c0/4be6206eb3b2a9fc7b93cceb0d0f249060127604c752bfa4f96b06d4561b5bfa77c4ff244ecdd5ccc3cbb4a1e1ad9c9c9c215b81ace8ea03c3d0d1f5dc55d2eb
+  version: 7.0.12
+  resolution: "ignore@npm:7.0.12"
+  checksum: 10c0/d3a1aab740f3e9e1b634d50e1ad9d7d5db36728ea56a9bf4ef2f3761f4c29a42543ce94761fd637ba8c25a5592ef778d03828bbdf2a599c05c4e32da6095b45c
   languageName: node
   linkType: hard
 
@@ -4265,8 +4265,8 @@ __metadata:
   linkType: hard
 
 "node-gyp@npm:latest":
-  version: 13.0.2
-  resolution: "node-gyp@npm:13.0.2"
+  version: 13.1.0
+  resolution: "node-gyp@npm:13.1.0"
   dependencies:
     env-paths: "npm:^2.2.0"
     exponential-backoff: "npm:^3.1.1"
@@ -4274,13 +4274,13 @@ __metadata:
     nopt: "npm:^10.0.0"
     proc-log: "npm:^7.0.0"
     semver: "npm:^7.3.5"
-    tar: "npm:^7.5.4"
+    tar: "npm:^7.5.7"
     tinyglobby: "npm:^0.2.12"
     undici: "npm:^8.4.1"
     which: "npm:^7.0.0"
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 10c0/29d33ccf47ffeeb5e7af925550b416f698a26a72eb10975c7eb5775c1d0cecacd76d164a4aa45503d3ddcece209db65c712be00423c69381a4cd14e2e6540559
+  checksum: 10c0/c6693e52e0e111b21f5cd8ff303b41b51f40338adcc79ac5c6a02399eba7039d50dc816dcafcc485870291a641f7cb75db8887a9bdd0de537fe635a3a81cba5b
   languageName: node
   linkType: hard
 
@@ -5344,7 +5344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^7.5.4":
+"tar@npm:^7.5.7":
   version: 7.5.22
   resolution: "tar@npm:7.5.22"
   dependencies:
@@ -5664,25 +5664,25 @@ __metadata:
   linkType: hard
 
 "vue-component-meta@npm:^3.3.9":
-  version: 3.3.11
-  resolution: "vue-component-meta@npm:3.3.11"
+  version: 3.3.12
+  resolution: "vue-component-meta@npm:3.3.12"
   dependencies:
     "@volar/typescript": "npm:2.4.28"
-    "@vue/language-core": "npm:3.3.11"
+    "@vue/language-core": "npm:3.3.12"
     path-browserify: "npm:^1.0.1"
   peerDependencies:
     typescript: "*"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/c9397ee1bc94d9a751f359bb0cb30004bf4389bcf63407320b9e57ccbc5c60348a8c97845029279abae0a21afb5b759497f7858bb2154c4a78bfbdc7b953814f
+  checksum: 10c0/085c6368105e8a98a6b54c0e70f1bc194e21916436819beb24bfa03cb3062825458c06555fee1096acabbbdfd2e766b95c1b1accb5bbfb26d8422fb8a368b3ad
   languageName: node
   linkType: hard
 
 "vue-component-type-helpers@npm:^3.2.9":
-  version: 3.3.11
-  resolution: "vue-component-type-helpers@npm:3.3.11"
-  checksum: 10c0/2976679dd6489d469a00a1ccf62318c1d9e4f7da89399d82bca82a71d95ffb4a042b806f18662876f5053f4de2652103b59888f70a852c84c10658759b9e1863
+  version: 3.3.12
+  resolution: "vue-component-type-helpers@npm:3.3.12"
+  checksum: 10c0/02a6fc32704dab2d31a66a488529f631758c32c1a359d8896ad47c3f61b704f8dfd74825ed1d354e048a9bafe013bc912293c52bcd59cdadf06e811230d25e73
   languageName: node
   linkType: hard
 
@@ -5748,16 +5748,16 @@ __metadata:
   linkType: hard
 
 "vue-tsc@npm:^3.3.11":
-  version: 3.3.11
-  resolution: "vue-tsc@npm:3.3.11"
+  version: 3.3.12
+  resolution: "vue-tsc@npm:3.3.12"
   dependencies:
     "@volar/typescript": "npm:2.4.28"
-    "@vue/language-core": "npm:3.3.11"
+    "@vue/language-core": "npm:3.3.12"
   peerDependencies:
     typescript: ">=5.0.0"
   bin:
     vue-tsc: bin/vue-tsc.js
-  checksum: 10c0/b1995cf9519754e9974d051668d1b6d4e3bb3bd1adc507350689bf2e128cc57c0c21c58952c247a97f12cf008c1b5235f4bcf5882f6784d6a8286019f439d3cf
+  checksum: 10c0/6436c760b5ad025f166532a9fb722dc98d178dbba5cf6b635526bd0b987fb0e43bb0e34771749652c930e6b9b3306338578d8caa7ec8b22ce186d340f003d530
   languageName: node
   linkType: hard
 
