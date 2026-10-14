@@ -1505,9 +1505,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/core@npm:^2.2.11":
-  version: 2.2.11
-  resolution: "@rsbuild/core@npm:2.2.11"
+"@rsbuild/core@npm:^2.2.12":
+  version: 2.2.12
+  resolution: "@rsbuild/core@npm:2.2.12"
   dependencies:
     "@rspack/core": "npm:~2.2.8"
     "@swc/helpers": "npm:^0.5.23"
@@ -1518,7 +1518,7 @@ __metadata:
       optional: true
   bin:
     rsbuild: ./bin/rsbuild.js
-  checksum: 10c0/50fda9c3247c42d9b29cffe9611ec25d6eaf8b5247f4d06d1ad8a5e50db8521e0d76a2e90e8c13648cad37fb40e234142e80d1ac38b086b2b37fdbb5bd5c07e0
+  checksum: 10c0/c216cdf096e1eff0cd3bbc77309a504c896dd929e88a952b3e74b4cbf9db5d524243ae5de91f3ad529f1310f75e841c2a4dc9cb605d6f4c89914772690d55299
   languageName: node
   linkType: hard
 
@@ -1947,7 +1947,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.6":
+"@types/node@npm:^24.19.1":
   version: 24.19.1
   resolution: "@types/node@npm:24.19.1"
   dependencies:
@@ -2493,12 +2493,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "before-storybook@workspace:."
   dependencies:
-    "@rsbuild/core": "npm:^2.2.11"
+    "@rsbuild/core": "npm:^2.2.12"
     "@rsbuild/plugin-vue": "npm:^2.0.1"
     "@storybook/addon-a11y": "npm:^10.6.2"
     "@storybook/addon-docs": "npm:^10.6.2"
     "@storybook/addon-onboarding": "npm:^10.6.2"
-    "@types/node": "npm:^24.13.6"
+    "@types/node": "npm:^24.19.1"
     "@vue/eslint-config-typescript": "npm:^14.9.0"
     eslint: "npm:^10.9.1"
     eslint-plugin-vue: "npm:^10.10.0"
@@ -2508,7 +2508,7 @@ __metadata:
     typescript: "npm:^6.0.3"
     typescript-eslint: "npm:^8.68.0"
     vue: "npm:^3.5.43"
-    vue-tsc: "npm:^3.3.11"
+    vue-tsc: "npm:^3.3.12"
   languageName: unknown
   linkType: soft
 
@@ -2970,9 +2970,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.439":
-  version: 1.5.445
-  resolution: "electron-to-chromium@npm:1.5.445"
-  checksum: 10c0/cba5dc14ca1df60596cb228d4906ddd2c55a820517a1e33d36a13b6526f20b9990645baa89c5a1345fe31adb5f5c4082b3f54ab98d4fe3d54376fb105e6abde3
+  version: 1.5.448
+  resolution: "electron-to-chromium@npm:1.5.448"
+  checksum: 10c0/c7782e7ee445115fb549b2a5e9b4a453ae0c81db26a6aaf8674eed21bcfaddc34e6e624cbe40f8f1b498197301903bd3a81b9881be793755ff39eb46022aa471
   languageName: node
   linkType: hard
 
@@ -3738,7 +3738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.16.1":
+"is-core-module@npm:^2.17.0":
   version: 2.17.0
   resolution: "is-core-module@npm:2.17.0"
   dependencies:
@@ -4958,30 +4958,30 @@ __metadata:
   linkType: hard
 
 "resolve@npm:^1.15.1":
-  version: 1.22.12
-  resolution: "resolve@npm:1.22.12"
+  version: 1.22.13
+  resolution: "resolve@npm:1.22.13"
   dependencies:
     es-errors: "npm:^1.3.0"
-    is-core-module: "npm:^2.16.1"
+    is-core-module: "npm:^2.17.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/b16dc9b537c02e8c3388f7d3dcff9741d3071625f9a97ac1c885f2b0ca51e78df22328fb6d6ef214dd9101fb7cfc19aa2836fe3410402a94f3f7b8639c7149bf
+  checksum: 10c0/8dac5b33a1f9f241500fcaf42f9033cdcaf3738c908a60a50a976ff2f6129063cbc5368b4092e42d2d264ad22aa94aaff207f3efa8d0185c68454439b11a1973
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.15.1#optional!builtin<compat/resolve>":
-  version: 1.22.12
-  resolution: "resolve@patch:resolve@npm%3A1.22.12#optional!builtin<compat/resolve>::version=1.22.12&hash=9bd1a5"
+  version: 1.22.13
+  resolution: "resolve@patch:resolve@npm%3A1.22.13#optional!builtin<compat/resolve>::version=1.22.13&hash=9bd1a5"
   dependencies:
     es-errors: "npm:^1.3.0"
-    is-core-module: "npm:^2.16.1"
+    is-core-module: "npm:^2.17.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/e12af106e16e652bd83060e8afacece4ee3dcbd0f4cf028e3d9ad178e6ced9ecb1c87ee60158b239582313902a717f8adc57a9b76ea54b1994141ba15f420c65
+  checksum: 10c0/bc58ee02e647a4250453eeb067796bdc087f6a89d4d5780bfe479f402ec11b9461babc155a6452020b56f3845cf49b1afd9c95fe3fc8347cba6567aa9b10c106
   languageName: node
   linkType: hard
 
@@ -5747,7 +5747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^3.3.11":
+"vue-tsc@npm:^3.3.12":
   version: 3.3.12
   resolution: "vue-tsc@npm:3.3.12"
   dependencies:

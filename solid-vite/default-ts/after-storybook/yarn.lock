@@ -1104,9 +1104,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.40.10":
-  version: 0.40.10
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.10"
+"babel-plugin-jsx-dom-expressions@npm:^0.40.11":
+  version: 0.40.11
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.11"
   dependencies:
     "@babel/helper-module-imports": "npm:7.18.6"
     "@babel/plugin-syntax-jsx": "npm:^7.18.6"
@@ -1115,22 +1115,22 @@ __metadata:
     parse5: "npm:^7.1.2"
   peerDependencies:
     "@babel/core": ^7.20.12
-  checksum: 10c0/e208e56e355f5cd45436e2b3f747e62e715fdf676a6cdbf0ea995e283b86d487f14c7d2e6291c5363f6cb54e11baece709d15754b9a556a09a4649de8179a98d
+  checksum: 10c0/148d999f3d4b7f954f17afe4a4e147278d775adbe6ccb742c048c3b3893d06a6ee74fb90e8d4bbe1cdbdc10ee8f9bc21e736485a642aeb626ef95eb564cc873c
   languageName: node
   linkType: hard
 
 "babel-preset-solid@npm:^1.8.4":
-  version: 1.9.15
-  resolution: "babel-preset-solid@npm:1.9.15"
+  version: 1.9.16
+  resolution: "babel-preset-solid@npm:1.9.16"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.40.10"
+    babel-plugin-jsx-dom-expressions: "npm:^0.40.11"
   peerDependencies:
     "@babel/core": ^7.0.0
-    solid-js: ^1.9.15
+    solid-js: ^1.9.16
   peerDependenciesMeta:
     solid-js:
       optional: true
-  checksum: 10c0/f03e974c61ea2cc0712443461d1ef5b54a0e414e5f760548dcc150505c7e164b46ffca314409ab00efb634b2ee338294c138c91e9c54d6d1e2790a06d64b0de5
+  checksum: 10c0/6c49d69c971d0fa81b80d0c39337e865e7298374f4ae10d58fae9f6bdce2e2089f2249ebed526e2716c5a988a7196fcd7ac47d8b6e69b0de063a46d4ed81c7a9
   languageName: node
   linkType: hard
 
@@ -1298,9 +1298,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.439":
-  version: 1.5.445
-  resolution: "electron-to-chromium@npm:1.5.445"
-  checksum: 10c0/cba5dc14ca1df60596cb228d4906ddd2c55a820517a1e33d36a13b6526f20b9990645baa89c5a1345fe31adb5f5c4082b3f54ab98d4fe3d54376fb105e6abde3
+  version: 1.5.448
+  resolution: "electron-to-chromium@npm:1.5.448"
+  checksum: 10c0/c7782e7ee445115fb549b2a5e9b4a453ae0c81db26a6aaf8674eed21bcfaddc34e6e624cbe40f8f1b498197301903bd3a81b9881be793755ff39eb46022aa471
   languageName: node
   linkType: hard
 
@@ -2120,19 +2120,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval-plugins@npm:~1.5.4":
-  version: 1.5.6
-  resolution: "seroval-plugins@npm:1.5.6"
+"seroval-plugins@npm:~1.6.8":
+  version: 1.6.8
+  resolution: "seroval-plugins@npm:1.6.8"
   peerDependencies:
     seroval: ^1.0
-  checksum: 10c0/35a09f943976b146196eeed11b574b85f76f9fbbff709de682510b5790a65a45262dce3f669e1ef08082cde70cc756bd3c3e2c24d18fad2fc9e2a6641f6f2ede
+  checksum: 10c0/1510c7b977bc4e3b1a1dd2841e600ba555ac02e74a0ea0378a782dc821fb11b3578b288a4aed7a5ead9998d0a6a3f8f5ee94338a949902cbb86e11fcf0ec8949
   languageName: node
   linkType: hard
 
-"seroval@npm:~1.5.4":
-  version: 1.5.6
-  resolution: "seroval@npm:1.5.6"
-  checksum: 10c0/47e4fb25305bf05fdf300cac6b0d4aaaaf1e12f15c819195afcdf512d88901a3f1f7754ac5a2de740cc0bb04e912c653fbf0129fb3e4c81ce12809e6aa5815e3
+"seroval@npm:~1.6.8":
+  version: 1.6.8
+  resolution: "seroval@npm:1.6.8"
+  checksum: 10c0/c65f4ca1bd712d89c70c86df41bedc8270ee33cc8365c867761a9fe6310ab3b8c0fc43a48f6c1cea3cf9b5cc362714e7325e5f9275407303e4c51dfcebeb98b2
   languageName: node
   linkType: hard
 
@@ -2156,13 +2156,13 @@ __metadata:
   linkType: hard
 
 "solid-js@npm:^1.9.5":
-  version: 1.9.15
-  resolution: "solid-js@npm:1.9.15"
+  version: 1.9.16
+  resolution: "solid-js@npm:1.9.16"
   dependencies:
     csstype: "npm:^3.1.0"
-    seroval: "npm:~1.5.4"
-    seroval-plugins: "npm:~1.5.4"
-  checksum: 10c0/82dfdea2f8de997b096989e57e051882282c8d96c39343637d31f27a941e778b63a107669b64dd139e58ae65f58b41aa073b3d620a3a4ea5f6f361d4b686ba5c
+    seroval: "npm:~1.6.8"
+    seroval-plugins: "npm:~1.6.8"
+  checksum: 10c0/e917061aa3f853e8eab1243aae3cc1971d283cb3a136d38584e1411ab2e23062b57669db8d74d9dcbeb22e8956b6f332123e32ac94c28bd38ea94815a7b25d04
   languageName: node
   linkType: hard
 
@@ -2223,9 +2223,9 @@ __metadata:
   linkType: hard
 
 "tinybench@npm:^6.1.4":
-  version: 6.2.0
-  resolution: "tinybench@npm:6.2.0"
-  checksum: 10c0/ae821428f0412324611d449290f8497c886c94f04bad8e19aa9b3a5060b4802e738c49f9eb493e4fd17e4d5e792290565e5079be647df1995aea731c82363815
+  version: 6.2.1
+  resolution: "tinybench@npm:6.2.1"
+  checksum: 10c0/e8942da9d15cabec52361c87b753351f2fec6d510e997d1b7b8dea0c4b5c5b7af75e8bdc3cca95b34a6dbc5ea470ffa28f4a41d7e63b7c92ac9838149c3554b0
   languageName: node
   linkType: hard
 
@@ -2361,8 +2361,8 @@ __metadata:
   linkType: soft
 
 "vite@npm:^7.1.4":
-  version: 7.3.6
-  resolution: "vite@npm:7.3.6"
+  version: 7.3.7
+  resolution: "vite@npm:7.3.7"
   dependencies:
     esbuild: "npm:^0.27.0 || ^0.28.0"
     fdir: "npm:^6.5.0"
@@ -2411,7 +2411,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/c6d359f84ad362f5c97ff7988b77c90add04162c60cdf6059375a7d9e3217848c53a8cb6b6c48517bef84b6bba4c9bc85319a889b5236acb7d5a2bc8cb7b9a8d
+  checksum: 10c0/6a3f868a33b849383e29c4e39550155563cf0522b5b6504ab60ff5e44dd07ad472ff87a4d5d2c08f1f70cc6602357f95c38d27371b7612d84801cb790f325a7e
   languageName: node
   linkType: hard
 
