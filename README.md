@@ -160,12 +160,6 @@
         Vue v3 (Vite | TypeScript)
       </a>
     </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/prerelease-ts/after-storybook?preset=node"
-      >
-        Vue v3 Prerelease (Vite | TypeScript)
-      </a>
-    </li>
   </ul>
 </details>
 
