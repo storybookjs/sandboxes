@@ -1114,13 +1114,13 @@ __metadata:
   linkType: hard
 
 "@rsbuild/plugin-type-check@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "@rsbuild/plugin-type-check@npm:1.6.0"
+  version: 1.6.1
+  resolution: "@rsbuild/plugin-type-check@npm:1.6.1"
   dependencies:
     deepmerge: "npm:^4.3.1"
     json5: "npm:^2.2.3"
     reduce-configs: "npm:^1.1.2"
-    ts-checker-rspack-plugin: "npm:^1.6.0"
+    ts-checker-rspack-plugin: "npm:^1.6.2"
   peerDependencies:
     "@rsbuild/core": ^1.0.0 || ^2.0.0-0
     "@typescript/native-preview": ^7.0.0-0
@@ -1129,7 +1129,7 @@ __metadata:
       optional: true
     "@typescript/native-preview":
       optional: true
-  checksum: 10c0/45013637c46dca67b2608b43edc0ed7651010a9f4d6617828df2ed42d67be1eeedc22d43c71b7a43c9ad2814bda0d037e323a0775e2f27fc4e06ec10eb02f407
+  checksum: 10c0/f8f3bac077ad326f4b68f4fc56d81c4ab774c976bb6e8c065cecea3ed9c54b04af62a2ca6bff80e6bb8ac59fc355cb13fd1396f77a6184589a755e0c37e7ebc7
   languageName: node
   linkType: hard
 
@@ -1506,11 +1506,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^24.19.1":
-  version: 24.19.1
-  resolution: "@types/node@npm:24.19.1"
+  version: 24.19.2
+  resolution: "@types/node@npm:24.19.2"
   dependencies:
     undici-types: "npm:>=7.24.0 <7.24.7"
-  checksum: 10c0/789822cc68a0e0b632fd0a9fa53411e33541f03c18dc19942ed38161c369bf0b013917b4c6c760688bd2d09d940c827a601add118dfa04fe35a285535b2a8596
+  checksum: 10c0/b51a7f8854007ad579dffdd0633d8addbfeb2c97cceb380f2eba0ed163638ec52e17565385a6cc04d54ac4ff99c70c64aee68a4ca45b6128c035e828794e29c5
   languageName: node
   linkType: hard
 
@@ -3897,7 +3897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-checker-rspack-plugin@npm:^1.6.0":
+"ts-checker-rspack-plugin@npm:^1.6.2":
   version: 1.6.2
   resolution: "ts-checker-rspack-plugin@npm:1.6.2"
   dependencies:
