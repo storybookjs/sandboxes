@@ -1718,10 +1718,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/history@npm:1.162.4":
-  version: 1.162.4
-  resolution: "@tanstack/history@npm:1.162.4"
-  checksum: 10c0/3a8bbe096e597f7945ac85f9da6b1bbd9f62c9df34c29526a3667189d715bb434fd077186333025a78ef6900adb943816cc58cc90b015527d4a916baedb09e44
+"@tanstack/history@npm:1.162.5":
+  version: 1.162.5
+  resolution: "@tanstack/history@npm:1.162.5"
+  checksum: 10c0/dbd749b0ffc1f02bd0937f3ae039b0e8c8f935d5eaa77b82e86f8d769fdcc1bf01e6253fe73e8597c89e330447a78f5d9599cfeaacf141e2b3ee394f19fa88bf
   languageName: node
   linkType: hard
 
@@ -1775,17 +1775,17 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-router@npm:^1.0.0":
-  version: 1.170.41
-  resolution: "@tanstack/react-router@npm:1.170.41"
+  version: 1.170.42
+  resolution: "@tanstack/react-router@npm:1.170.42"
   dependencies:
-    "@tanstack/history": "npm:1.162.4"
+    "@tanstack/history": "npm:1.162.5"
     "@tanstack/react-store": "npm:^0.11.2"
-    "@tanstack/router-core": "npm:1.171.34"
+    "@tanstack/router-core": "npm:1.171.35"
     isbot: "npm:^5.1.22"
   peerDependencies:
     react: ">=18.0.0 || >=19.0.0"
     react-dom: ">=18.0.0 || >=19.0.0"
-  checksum: 10c0/38379f90199dbae07c73c0199508cec2524b60ffe9d0b91c46d674cb5c2a3392a223f9a2a0dda964687cfa9925dbff77a64a18cb7afe105ed25894444e313099
+  checksum: 10c0/3f797cf3fd23a48025dc33d0f15517abe4f3a644bbeb83d04cfbbe5ff69d6b7f6813df436fc89b5eb5ff6be2217f3aa8a9bb2b0b25f2101aef0b028cb034124f
   languageName: node
   linkType: hard
 
@@ -1803,27 +1803,27 @@ __metadata:
   linkType: hard
 
 "@tanstack/router-cli@npm:^1.132.0":
-  version: 1.167.40
-  resolution: "@tanstack/router-cli@npm:1.167.40"
+  version: 1.167.41
+  resolution: "@tanstack/router-cli@npm:1.167.41"
   dependencies:
-    "@tanstack/router-generator": "npm:1.167.40"
+    "@tanstack/router-generator": "npm:1.167.41"
     chokidar: "npm:^5.0.0"
     yargs: "npm:^17.7.2"
   bin:
     tsr: bin/tsr.cjs
-  checksum: 10c0/bd80d563e64e9331cb725f48a530eb21f114f13c90dd882ee9f199b66a9a5943a5c59a36c751962ed344133365f6d34cdf1cda1cd7b960c766442531e30d48b0
+  checksum: 10c0/01b88395941d0d9cb0ed76273ff4f4e56efe0a51eb3654d1ba197b27ca4f66e8671c064d46a793855071f63174bc993a6425968d79b9c486b09e1defe98e8839
   languageName: node
   linkType: hard
 
-"@tanstack/router-core@npm:1.171.34":
-  version: 1.171.34
-  resolution: "@tanstack/router-core@npm:1.171.34"
+"@tanstack/router-core@npm:1.171.35":
+  version: 1.171.35
+  resolution: "@tanstack/router-core@npm:1.171.35"
   dependencies:
-    "@tanstack/history": "npm:1.162.4"
+    "@tanstack/history": "npm:1.162.5"
     cookie-es: "npm:^3.0.0"
     seroval: "npm:^1.6.7"
     seroval-plugins: "npm:^1.6.7"
-  checksum: 10c0/d1d0154f9979b892e21ef73293805bf96e1b0136147991f7687b67ffcf268cd40364295fc8f0f026e6f6ac375378959045a16b9b1d889180960f2fa9e4894ce2
+  checksum: 10c0/143bdfc3fbb71626e928244fa24de1bf728c3eb0ad48ad62416ae9baef2444979186df0e654eb01d5d10b8e2d41d606d6523c462a761a1de5f8453dde1bdab1f
   languageName: node
   linkType: hard
 
@@ -1843,38 +1843,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/router-generator@npm:1.167.40":
-  version: 1.167.40
-  resolution: "@tanstack/router-generator@npm:1.167.40"
+"@tanstack/router-generator@npm:1.167.41":
+  version: 1.167.41
+  resolution: "@tanstack/router-generator@npm:1.167.41"
   dependencies:
     "@babel/types": "npm:^7.29.8"
-    "@tanstack/router-core": "npm:1.171.34"
+    "@tanstack/router-core": "npm:1.171.35"
     "@tanstack/router-utils": "npm:1.162.3"
     "@tanstack/virtual-file-routes": "npm:1.162.0"
     jiti: "npm:^2.7.0"
     magic-string: "npm:^0.30.21"
     prettier: "npm:^3.9.6"
     zod: "npm:^4.5.4"
-  checksum: 10c0/c396907e644ba57a37c9bbcc9db005bcc889adac844567ea356f2128414663f16d324214594bd419bb43fbfbe9b6e2b67caa2481b149d299b54050a107073326
+  checksum: 10c0/ea451172fac889eb4e9f07a6e8f284175999b082f81dab68f1159962d09da6aa131a92398f1ba91395137323941ad2327325f7f1da859b98d3c9f320e196c109
   languageName: node
   linkType: hard
 
 "@tanstack/router-plugin@npm:^1.0.0":
-  version: 1.168.42
-  resolution: "@tanstack/router-plugin@npm:1.168.42"
+  version: 1.168.43
+  resolution: "@tanstack/router-plugin@npm:1.168.43"
   dependencies:
     "@babel/core": "npm:^7.29.7"
     "@babel/template": "npm:^7.29.7"
     "@babel/types": "npm:^7.29.8"
-    "@tanstack/router-core": "npm:1.171.34"
-    "@tanstack/router-generator": "npm:1.167.40"
+    "@tanstack/router-core": "npm:1.171.35"
+    "@tanstack/router-generator": "npm:1.167.41"
     "@tanstack/router-utils": "npm:1.162.3"
     chokidar: "npm:^5.0.0"
     unplugin: "npm:^3.3.0"
     zod: "npm:^4.5.4"
   peerDependencies:
     "@rsbuild/core": ">=1.0.2 || ^2.0.0"
-    "@tanstack/react-router": ^1.170.41
+    "@tanstack/react-router": ^1.170.42
     vite: ">=5.0.0 || >=6.0.0 || >=7.0.0 || >=8.0.0"
     vite-plugin-solid: ^2.11.10 || ^3.0.0-0
     webpack: ">=5.92.0"
@@ -1889,7 +1889,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/d91f749ceb3f32676c7ffb21f4af2cb7446a3734341b570c15404b0ce6e58cf2572290119cee023cd84b86a2176abb2d95f60f7eaf6d02374b189284c996e877
+  checksum: 10c0/5fc3b90c8a17cf54e48862aced0dc9ee839b1244483b058fedfbbff74e9a52c3179c19b56fbb08b2c7feb72d7734e38c1319d3bfc41d2d80b869faaed6f6c632
   languageName: node
   linkType: hard
 
@@ -3945,11 +3945,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^3.9.6":
-  version: 3.9.9
-  resolution: "prettier@npm:3.9.9"
+  version: 3.9.10
+  resolution: "prettier@npm:3.9.10"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/d50ea2537b2ff7dbd5088a214f4d936484e55c665cea2185b477a55b0770be55f3b156a71f63a9a639def6b334667bb327139dc85f2a1041c0a34752cdc74647
+  checksum: 10c0/0b3531593aa6fb36ac6baf629cb058bda472c59a6938774f931fe55283a07c62e6f56e621b043a82d8a3e21fc284c08c34f9e539fc70072635f79b7bae1a1067
   languageName: node
   linkType: hard
 
@@ -4383,9 +4383,9 @@ __metadata:
   linkType: hard
 
 "tinybench@npm:^6.1.4":
-  version: 6.2.1
-  resolution: "tinybench@npm:6.2.1"
-  checksum: 10c0/e8942da9d15cabec52361c87b753351f2fec6d510e997d1b7b8dea0c4b5c5b7af75e8bdc3cca95b34a6dbc5ea470ffa28f4a41d7e63b7c92ac9838149c3554b0
+  version: 6.2.2
+  resolution: "tinybench@npm:6.2.2"
+  checksum: 10c0/f0e6391f4ca86875ce5a64510696323aa841c10495fdd1c6ca530457c7e77f2b3aa82d9d6f1553126420062b1008607257677ce2b25ff1948732a79d7a56514a
   languageName: node
   linkType: hard
 
