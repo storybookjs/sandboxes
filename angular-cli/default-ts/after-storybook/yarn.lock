@@ -329,20 +329,20 @@ __metadata:
   linkType: hard
 
 "@angular/common@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/common@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/common@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 22.2.2
+    "@angular/core": 22.2.3
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/1144c0c98d6f40bda2c556a011190fbcfef8739bd24c4303afbc5e86186bb490b89a61a1899a51c09e820d0b38a98f79aa209378a7c567eff704229776a90bc0
+  checksum: 10c0/19b79a6d5ac7a0d8094aa19d2db8e58e990a39e54f6c704a8ce31addf1593edba965f4fd6839d43cd9d216ceee3b57f4990be9523bde461dfd57664d6068a327
   languageName: node
   linkType: hard
 
 "@angular/compiler-cli@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/compiler-cli@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/compiler-cli@npm:22.2.3"
   dependencies:
     "@babel/core": "npm:8.0.1"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -353,7 +353,7 @@ __metadata:
     tslib: "npm:^2.3.0"
     yargs: "npm:^18.0.0"
   peerDependencies:
-    "@angular/compiler": 22.2.2
+    "@angular/compiler": 22.2.3
     typescript: ">=6.0 <6.1"
   peerDependenciesMeta:
     typescript:
@@ -361,26 +361,26 @@ __metadata:
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
-  checksum: 10c0/32b04e5d528e80e823ecda55752118d416374900988c787f297c13b31991423ae05de44210b1fe78d9480cacf17913326821f770cf76c2af15257eaa643df61d
+  checksum: 10c0/e4afd8d1bef6934ec7d080c6c3c1cc2a3b78d2bdee91c025aca17fe132126561dda01209a660e7b3fe2345591fd6b977ac6d13d14ddb5770a5bf25c0b9322570
   languageName: node
   linkType: hard
 
 "@angular/compiler@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/compiler@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/compiler@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
-  checksum: 10c0/a9d18de5bd8dacd4511c68426333e070d72c5ad8a8fef6eee750c259506ebf46061379144fa8ce019b132800a2b036f7a927939ca9af507d3ce61bf573e59584
+  checksum: 10c0/37dcfb477f17a934a7952365b9d592e970cf2e00eca9e44e2f3ecf64ba1f8bc0f12e3e26ac39e0c4761caefacd8bc62d8f1b85c3e20ad90ba15d774a58f5cb88
   languageName: node
   linkType: hard
 
 "@angular/core@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/core@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/core@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/compiler": 22.2.2
+    "@angular/compiler": 22.2.3
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0 || ~0.16.0
   peerDependenciesMeta:
@@ -388,83 +388,83 @@ __metadata:
       optional: true
     zone.js:
       optional: true
-  checksum: 10c0/f72c5035cafb33761949208aa0af3fa8b6d5ca0d468c2bb1f12cccd6b7b17ca349eb9fb16a3d0a9bfc3f630c11f4bfa4f992c181ff4d00b3f2f8dd87e73b227e
+  checksum: 10c0/7eba9ada86ce1c9ba2d7882d575686b4a477de917fa1318efe28fd2caefaa250e97dc9042b204b1c04c68b84ec42bb36206e7e15061464664fb0ef60dc0c7f6e
   languageName: node
   linkType: hard
 
 "@angular/forms@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/forms@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/forms@npm:22.2.3"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     tslib: "npm:^2.3.0"
     zod: "npm:^4.0.10"
   peerDependencies:
-    "@angular/common": 22.2.2
-    "@angular/core": 22.2.2
-    "@angular/platform-browser": 22.2.2
+    "@angular/common": 22.2.3
+    "@angular/core": 22.2.3
+    "@angular/platform-browser": 22.2.3
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/e4d162e6da2273a958b26afbdb49c470aa347867f7c14aea91c93fbe5e73ba58ad16cfffe358477e7004edf74c0d789d8d740f4cfc8d3384394db7646c60b759
+  checksum: 10c0/91bd040e5d6775bf6f1845d4abb4c7834173bf4dbaf12d2dcf40eac834764b555cd07870ba07ec14d6e557716dd68b6ee941c84db1ad9af79d6279b986dd3a45
   languageName: node
   linkType: hard
 
 "@angular/platform-browser-dynamic@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/platform-browser-dynamic@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/platform-browser-dynamic@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 22.2.2
-    "@angular/compiler": 22.2.2
-    "@angular/core": 22.2.2
-    "@angular/platform-browser": 22.2.2
-  checksum: 10c0/012831cc64e14890d90b47c1615520620fdf540f17e0add57bd3fd8ff9e7ba8ac3156bc559400f68eaad7c16a362c4997a4538e4265100a26c52c29b20779b1f
+    "@angular/common": 22.2.3
+    "@angular/compiler": 22.2.3
+    "@angular/core": 22.2.3
+    "@angular/platform-browser": 22.2.3
+  checksum: 10c0/fc2a0e7937b5520c324643bb11407841e032e20fad2f12aad4094cf5b9c364f9d75ae41dc81bd61ac6e88e31e89eb7d9c56abcc9eb21a533b294acf199e09169
   languageName: node
   linkType: hard
 
 "@angular/platform-browser@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/platform-browser@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/platform-browser@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/animations": 22.2.2
-    "@angular/common": 22.2.2
-    "@angular/core": 22.2.2
+    "@angular/animations": 22.2.3
+    "@angular/common": 22.2.3
+    "@angular/core": 22.2.3
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: 10c0/4658d4f3bdaf6a48ec84a3866abee02f1cf29861568b3a73ec658ef47bbd791fa2c4995a50d42994492949cd17ccc9a12019e83a3b2be2bb79b5e4cc885e8597
+  checksum: 10c0/5d9c918a1fcb1e40f2dc77573f8c44ffae9f78026148563006d4abfcab80b5a2c028f55645ad7f632bb2c432e1534e59eb52ca965769542211638299913739b8
   languageName: node
   linkType: hard
 
 "@angular/platform-server@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/platform-server@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/platform-server@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
     xhr2: "npm:^0.2.0"
   peerDependencies:
-    "@angular/common": 22.2.2
-    "@angular/compiler": 22.2.2
-    "@angular/core": 22.2.2
-    "@angular/platform-browser": 22.2.2
+    "@angular/common": 22.2.3
+    "@angular/compiler": 22.2.3
+    "@angular/core": 22.2.3
+    "@angular/platform-browser": 22.2.3
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/911e2a5b4e4d4ab6953aba2da0cf454f19bc5b0989c5a2a4f03c36da8d90b6a00d480e5cfdd805977e30d5755229f0e399a6954756097a72043d0ba76bc0d624
+  checksum: 10c0/a55f63c6318528a6c65f15545ee4471914e39b9f8a85ab2271b649fd43eb98423fc3fac95fee9f8f62797077c7c5d82a1c71b4448cb11c8c89811b6d52a5504d
   languageName: node
   linkType: hard
 
 "@angular/router@npm:^22.2.0":
-  version: 22.2.2
-  resolution: "@angular/router@npm:22.2.2"
+  version: 22.2.3
+  resolution: "@angular/router@npm:22.2.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 22.2.2
-    "@angular/core": 22.2.2
-    "@angular/platform-browser": 22.2.2
+    "@angular/common": 22.2.3
+    "@angular/core": 22.2.3
+    "@angular/platform-browser": 22.2.3
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/61d4484bd8eb93667f84b6bef7f9f7736563aca9514657c73c5a1d464496c5fefc701df49994d84d6ca603a16beb90f55f713906312c51d6ef10b2b189030f34
+  checksum: 10c0/8c235ba87e8d8646b74138be858587bead58938f2baa4e9a068ef5a729669a8173f41b110daec7cf7ab1a0f59903fa5eea61149b5c7ec6c2875d20f7090d6eaf
   languageName: node
   linkType: hard
 
@@ -3357,10 +3357,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oxc-project/types@npm:=0.153.0":
-  version: 0.153.0
-  resolution: "@oxc-project/types@npm:0.153.0"
-  checksum: 10c0/32011227bc4f0e6536c07ef79ce9254e5a453cdbfdb51b6717d0edc06b7d85a9a2a8ca12102de3b71f91a0e78d4facb538d17b28e6a7b6527ffc8901d8cd82c6
+"@oxc-project/types@npm:=0.154.0":
+  version: 0.154.0
+  resolution: "@oxc-project/types@npm:0.154.0"
+  checksum: 10c0/fa91599d087ea4d37c5a3b40dd8e2cb431a7d37730116069f2577dee0b104dc5abb06c96b931c517c8b86f618df1e0c7a37d24086f3cfe39d81eb6db59e70add
   languageName: node
   linkType: hard
 
@@ -3817,9 +3817,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-android-arm-eabi@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-android-arm-eabi@npm:1.2.13"
+"@rolldown/binding-android-arm-eabi@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-android-arm-eabi@npm:1.2.14"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
@@ -3831,9 +3831,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-android-arm64@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-android-arm64@npm:1.2.13"
+"@rolldown/binding-android-arm64@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-android-arm64@npm:1.2.14"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
@@ -3845,9 +3845,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-darwin-arm64@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-darwin-arm64@npm:1.2.13"
+"@rolldown/binding-darwin-arm64@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-darwin-arm64@npm:1.2.14"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -3859,9 +3859,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-darwin-x64@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-darwin-x64@npm:1.2.13"
+"@rolldown/binding-darwin-x64@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-darwin-x64@npm:1.2.14"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -3873,9 +3873,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-freebsd-x64@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-freebsd-x64@npm:1.2.13"
+"@rolldown/binding-freebsd-x64@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-freebsd-x64@npm:1.2.14"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
@@ -3887,9 +3887,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-arm-gnueabihf@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.13"
+"@rolldown/binding-linux-arm-gnueabihf@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.14"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -3901,9 +3901,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-arm64-gnu@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-arm64-gnu@npm:1.2.13"
+"@rolldown/binding-linux-arm64-gnu@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-arm64-gnu@npm:1.2.14"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
@@ -3915,9 +3915,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-arm64-musl@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-arm64-musl@npm:1.2.13"
+"@rolldown/binding-linux-arm64-musl@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-arm64-musl@npm:1.2.14"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
@@ -3929,9 +3929,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-ppc64-gnu@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-ppc64-gnu@npm:1.2.13"
+"@rolldown/binding-linux-ppc64-gnu@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-ppc64-gnu@npm:1.2.14"
   conditions: os=linux & cpu=ppc64 & libc=glibc
   languageName: node
   linkType: hard
@@ -3943,9 +3943,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-s390x-gnu@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-s390x-gnu@npm:1.2.13"
+"@rolldown/binding-linux-s390x-gnu@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-s390x-gnu@npm:1.2.14"
   conditions: os=linux & cpu=s390x & libc=glibc
   languageName: node
   linkType: hard
@@ -3957,9 +3957,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-x64-gnu@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-x64-gnu@npm:1.2.13"
+"@rolldown/binding-linux-x64-gnu@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-x64-gnu@npm:1.2.14"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -3971,9 +3971,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-linux-x64-musl@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-linux-x64-musl@npm:1.2.13"
+"@rolldown/binding-linux-x64-musl@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-linux-x64-musl@npm:1.2.14"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
@@ -3985,9 +3985,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-openharmony-arm64@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-openharmony-arm64@npm:1.2.13"
+"@rolldown/binding-openharmony-arm64@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-openharmony-arm64@npm:1.2.14"
   conditions: os=openharmony & cpu=arm64
   languageName: node
   linkType: hard
@@ -3999,9 +3999,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-win32-arm64-msvc@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-win32-arm64-msvc@npm:1.2.13"
+"@rolldown/binding-win32-arm64-msvc@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-win32-arm64-msvc@npm:1.2.14"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -4013,9 +4013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolldown/binding-win32-x64-msvc@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@rolldown/binding-win32-x64-msvc@npm:1.2.13"
+"@rolldown/binding-win32-x64-msvc@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@rolldown/binding-win32-x64-msvc@npm:1.2.14"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -6042,9 +6042,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.439":
-  version: 1.5.455
-  resolution: "electron-to-chromium@npm:1.5.455"
-  checksum: 10c0/ed89c19bf1f18af5c3309752ccdfdf36dcdaa262e2aceaac2b3fc655b9216ae4fe5fa1777568832c99695b40ae56850ef154ea97f119a40c74dc6d20ca11fbff
+  version: 1.5.456
+  resolution: "electron-to-chromium@npm:1.5.456"
+  checksum: 10c0/33ef7a48b1a082f751b908adbf11f74709b914fbad3b0743b1ab1ad66938e2e50677e08ea18491d72e448cc99020db1d8624a55baddfc37140ab686ace0b8959
   languageName: node
   linkType: hard
 
@@ -9020,12 +9020,12 @@ __metadata:
   linkType: hard
 
 "qs@npm:^6.15.2, qs@npm:^6.16.0":
-  version: 6.16.0
-  resolution: "qs@npm:6.16.0"
+  version: 6.16.1
+  resolution: "qs@npm:6.16.1"
   dependencies:
     es-define-property: "npm:^1.0.1"
     side-channel: "npm:^1.1.1"
-  checksum: 10c0/eb3e31992fbd70e31a1791e571ed817d70975de7d3bfcbbbec93d77d1dd305877e9e8fdbcc62303c228ee5c3606685622cd6231c042dbc4790bb4e7c65fcbe18
+  checksum: 10c0/84ee9124b251ab2953132fbea1d70c966aa6e6496cccabedbbb83afa412bf4177bddebc779ca3ddafe23da83b2f593d530b41be6a726e971404fabb20ff22c94
   languageName: node
   linkType: hard
 
@@ -9049,13 +9049,13 @@ __metadata:
   linkType: hard
 
 "react-dom@npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0":
-  version: 19.3.0
-  resolution: "react-dom@npm:19.3.0"
+  version: 19.3.1
+  resolution: "react-dom@npm:19.3.1"
   dependencies:
     scheduler: "npm:^0.28.0"
   peerDependencies:
-    react: ^19.3.0
-  checksum: 10c0/c513044b724dd6bfe9500a9682d60973e7f8a48cffba00b6b16d3e910e27dcc459bf71bf0a5c33d7d62a3843ca30de1bd1e2098058aa4ed71f618a24b6061da5
+    react: ^19.3.1
+  checksum: 10c0/382700916313b2ebc46acee80642f300bb8601eac6a9e7fefade5b8b30e66b05bf3aaa56a3c964589fcd578d27b486e847470c2697d879264e766661ff49fac7
   languageName: node
   linkType: hard
 
@@ -9067,9 +9067,9 @@ __metadata:
   linkType: hard
 
 "react@npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0":
-  version: 19.3.0
-  resolution: "react@npm:19.3.0"
-  checksum: 10c0/dd3099c3c43a7122bc01223bb26b0f8d5ba13cca569af6fb94a005fb54fa73223c9cb203bb226d40cfd49a82cbeef2e36ce84062a3a6d5b9fe8f4437694c7b52
+  version: 19.3.1
+  resolution: "react@npm:19.3.1"
+  checksum: 10c0/f0ed036d1223562c09c8347858ca712733ea6e27a30db709ee9c3f3f176d3e9e767afce735d59956addf3d030102e256bba82dea635fc1bdb0e01107e98fef10
   languageName: node
   linkType: hard
 
@@ -9288,25 +9288,25 @@ __metadata:
   linkType: hard
 
 "rolldown@npm:~1.2.6":
-  version: 1.2.13
-  resolution: "rolldown@npm:1.2.13"
+  version: 1.2.14
+  resolution: "rolldown@npm:1.2.14"
   dependencies:
-    "@oxc-project/types": "npm:=0.153.0"
-    "@rolldown/binding-android-arm-eabi": "npm:1.2.13"
-    "@rolldown/binding-android-arm64": "npm:1.2.13"
-    "@rolldown/binding-darwin-arm64": "npm:1.2.13"
-    "@rolldown/binding-darwin-x64": "npm:1.2.13"
-    "@rolldown/binding-freebsd-x64": "npm:1.2.13"
-    "@rolldown/binding-linux-arm-gnueabihf": "npm:1.2.13"
-    "@rolldown/binding-linux-arm64-gnu": "npm:1.2.13"
-    "@rolldown/binding-linux-arm64-musl": "npm:1.2.13"
-    "@rolldown/binding-linux-ppc64-gnu": "npm:1.2.13"
-    "@rolldown/binding-linux-s390x-gnu": "npm:1.2.13"
-    "@rolldown/binding-linux-x64-gnu": "npm:1.2.13"
-    "@rolldown/binding-linux-x64-musl": "npm:1.2.13"
-    "@rolldown/binding-openharmony-arm64": "npm:1.2.13"
-    "@rolldown/binding-win32-arm64-msvc": "npm:1.2.13"
-    "@rolldown/binding-win32-x64-msvc": "npm:1.2.13"
+    "@oxc-project/types": "npm:=0.154.0"
+    "@rolldown/binding-android-arm-eabi": "npm:1.2.14"
+    "@rolldown/binding-android-arm64": "npm:1.2.14"
+    "@rolldown/binding-darwin-arm64": "npm:1.2.14"
+    "@rolldown/binding-darwin-x64": "npm:1.2.14"
+    "@rolldown/binding-freebsd-x64": "npm:1.2.14"
+    "@rolldown/binding-linux-arm-gnueabihf": "npm:1.2.14"
+    "@rolldown/binding-linux-arm64-gnu": "npm:1.2.14"
+    "@rolldown/binding-linux-arm64-musl": "npm:1.2.14"
+    "@rolldown/binding-linux-ppc64-gnu": "npm:1.2.14"
+    "@rolldown/binding-linux-s390x-gnu": "npm:1.2.14"
+    "@rolldown/binding-linux-x64-gnu": "npm:1.2.14"
+    "@rolldown/binding-linux-x64-musl": "npm:1.2.14"
+    "@rolldown/binding-openharmony-arm64": "npm:1.2.14"
+    "@rolldown/binding-win32-arm64-msvc": "npm:1.2.14"
+    "@rolldown/binding-win32-x64-msvc": "npm:1.2.14"
     "@rolldown/pluginutils": "npm:^1.0.0"
   dependenciesMeta:
     "@rolldown/binding-android-arm-eabi":
@@ -9341,7 +9341,7 @@ __metadata:
       optional: true
   bin:
     rolldown: ./bin/cli.mjs
-  checksum: 10c0/20106c8531c4d90a88de8c2094885f1e2fd748cd05e3317d01292ab338ffa435d6acb678f4fdd8677d1b29be4212d29d3e3ca591ff06abd8423d817fe9e2729c
+  checksum: 10c0/61782e6764bb05e525517dc8b2d69b465033a48a6998b1fb21de01e787938f3f7a2aa1e8eee5d83c924d131cc629eeaea9fa56b69dd469f97b3c6bb7fb6ddcb2
   languageName: node
   linkType: hard
 
@@ -10395,9 +10395,9 @@ __metadata:
   linkType: hard
 
 "undici@npm:^8.4.1":
-  version: 8.11.2
-  resolution: "undici@npm:8.11.2"
-  checksum: 10c0/106f6991178fb7562fd90cdec7993c5f807a9428682306091f0c4b27fc474ec291f868e29972c6252988bf061ad193df943b3b99e775be157a28d92bbb95699d
+  version: 8.12.1
+  resolution: "undici@npm:8.12.1"
+  checksum: 10c0/8ba448a30f85ec9bffe0065b45b471a578dbb56eafd4162741fd7be3b955672e98fabd7a4ab0703365d5ffc6f1927f4ed1c1221f678aa67af18fb7bc3dfe283b
   languageName: node
   linkType: hard
 
