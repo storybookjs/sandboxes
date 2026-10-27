@@ -149,12 +149,6 @@
   <summary><b>Vue3-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/default-js/after-storybook?preset=node"
-      >
-        Vue v3 (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/vue3-vite/default-ts/after-storybook?preset=node"
       >
         Vue v3 (Vite | TypeScript)
@@ -185,12 +179,6 @@
   <summary><b>Html-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-vite/default-js/after-storybook?preset=node"
-      >
-        HTML Latest (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/html-vite/default-ts/after-storybook?preset=node"
       >
         HTML Latest (Vite | TypeScript)
@@ -214,12 +202,6 @@
 <details>
   <summary><b>Svelte-vite</b></summary>
   <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-vite/default-js/after-storybook?preset=node"
-      >
-        Svelte Latest (Vite | JavaScript)
-      </a>
-    </li>
     <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/svelte-vite/default-ts/after-storybook?preset=node"
       >
@@ -275,12 +257,6 @@
   <summary><b>Lit-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-vite/default-js/after-storybook?preset=node"
-      >
-        Lit Latest (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/lit-vite/default-ts/after-storybook?preset=node"
       >
         Lit Latest (Vite | TypeScript)
@@ -305,12 +281,6 @@
   <summary><b>Preact-vite</b></summary>
   <ul>
     <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/default-js/after-storybook?preset=node"
-      >
-        Preact Latest (Vite | JavaScript)
-      </a>
-    </li>
-    <li>
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/default-ts/after-storybook?preset=node"
       >
         Preact Latest (Vite | TypeScript)
@@ -320,24 +290,6 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/preact-vite/10-ts/after-storybook?preset=node"
       >
         Preact v10 (Vite | TypeScript)
-      </a>
-    </li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>Ember</b></summary>
-  <ul>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/ember/3-js/after-storybook?preset=node"
-      >
-        Ember v3 (Webpack | JavaScript)
-      </a>
-    </li>
-    <li>
-      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/ember/default-js/after-storybook?preset=node"
-      >
-        Ember v4 (Webpack | JavaScript)
       </a>
     </li>
   </ul>

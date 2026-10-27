@@ -175,7 +175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.3":
+"@types/node@npm:^24.19.2":
   version: 24.19.2
   resolution: "@types/node@npm:24.19.2"
   dependencies:
@@ -184,7 +184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^6.0.8":
+"@vitejs/plugin-vue@npm:^6.0.10":
   version: 6.0.10
   resolution: "@vitejs/plugin-vue@npm:6.0.10"
   dependencies:
@@ -370,13 +370,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "before-storybook@workspace:."
   dependencies:
-    "@types/node": "npm:^24.13.3"
-    "@vitejs/plugin-vue": "npm:^6.0.8"
+    "@types/node": "npm:^24.19.2"
+    "@vitejs/plugin-vue": "npm:^6.0.10"
     "@vue/tsconfig": "npm:^0.9.1"
-    typescript: "npm:~6.0.2"
-    vite: "npm:^8.3.0"
-    vue: "npm:^3.5.42"
-    vue-tsc: "npm:^3.3.11"
+    typescript: "npm:~6.0.3"
+    vite: "npm:^8.3.4"
+    vue: "npm:^3.5.44"
+    vue-tsc: "npm:^3.3.13"
   languageName: unknown
   linkType: soft
 
@@ -802,7 +802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~6.0.2":
+"typescript@npm:~6.0.3":
   version: 6.0.3
   resolution: "typescript@npm:6.0.3"
   bin:
@@ -812,7 +812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~6.0.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A~6.0.3#optional!builtin<compat/typescript>":
   version: 6.0.3
   resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
@@ -830,13 +830,13 @@ __metadata:
   linkType: hard
 
 "undici@npm:^8.4.1":
-  version: 8.12.2
-  resolution: "undici@npm:8.12.2"
-  checksum: 10c0/25b0e0a69585b2b2e2678fdcd07942bbe15b14c6686d496712b0ee37ce15753af90ab7335ee42c8e65ec60b72bf3a21adc72bbabf86c1eaca74f27a3779532de
+  version: 8.12.3
+  resolution: "undici@npm:8.12.3"
+  checksum: 10c0/714919e62b4160eea195fb35c7f5c4907235741e47bfde8a014ac58f6d24df13434e23400d7f48e2c455fd2b259d27f07fce514f04a5b4e99936ba62cbc4bb71
   languageName: node
   linkType: hard
 
-"vite@npm:^8.3.0":
+"vite@npm:^8.3.4":
   version: 8.3.4
   resolution: "vite@npm:8.3.4"
   dependencies:
@@ -900,7 +900,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^3.3.11":
+"vue-tsc@npm:^3.3.13":
   version: 3.3.13
   resolution: "vue-tsc@npm:3.3.13"
   dependencies:
@@ -914,7 +914,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.5.42":
+"vue@npm:^3.5.44":
   version: 3.5.44
   resolution: "vue@npm:3.5.44"
   dependencies:
