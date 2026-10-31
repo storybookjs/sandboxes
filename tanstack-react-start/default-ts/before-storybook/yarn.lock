@@ -102,10 +102,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-string-parser@npm:^7.29.7":
-  version: 7.29.7
-  resolution: "@babel/helper-string-parser@npm:7.29.7"
-  checksum: 10c0/194bc0f1716e396d5ffde56ad6119745fb9557662c98611590e5e454906783a4ccb21ce93056b8eb69a4909044834e45d96e50ac695bbe9e3221648fe033c06c
+"@babel/helper-string-parser@npm:^7.29.11":
+  version: 7.29.11
+  resolution: "@babel/helper-string-parser@npm:7.29.11"
+  checksum: 10c0/673a309056c593af89296464ff149d0478889e3f5a577add33f1d4d38c54e44d0381cf232f744965ee71534489ebaa4d5c45ba5f87e1d2ce9bf54a67d2d0d72d
   languageName: node
   linkType: hard
 
@@ -134,13 +134,13 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.23.6, @babel/parser@npm:^7.29.7, @babel/parser@npm:^7.29.8, @babel/parser@npm:^7.29.9":
-  version: 7.29.9
-  resolution: "@babel/parser@npm:7.29.9"
+  version: 7.29.11
+  resolution: "@babel/parser@npm:7.29.11"
   dependencies:
-    "@babel/types": "npm:^7.29.8"
+    "@babel/types": "npm:^7.29.11"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/171b16eb4527cdbbb72cb98710f91acb22356e2c40196ba3b7a1b84efa8c55d0b0992f399c8c675c3e17f67fd133676c5c4118e5f20db243f427c8b29b0c3f40
+  checksum: 10c0/4bf9d2e8520627c20bfefe34a0117348bf62a002fb1fdbeeee82a08ee02ff71767e079ac4e728a76da2e0db48cabf50121b3bdac0831ed4a9a6d8aa12765846d
   languageName: node
   linkType: hard
 
@@ -170,13 +170,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.23.6, @babel/types@npm:^7.29.7, @babel/types@npm:^7.29.8":
-  version: 7.29.8
-  resolution: "@babel/types@npm:7.29.8"
+"@babel/types@npm:^7.23.6, @babel/types@npm:^7.29.11, @babel/types@npm:^7.29.7, @babel/types@npm:^7.29.8":
+  version: 7.29.11
+  resolution: "@babel/types@npm:7.29.11"
   dependencies:
-    "@babel/helper-string-parser": "npm:^7.29.7"
+    "@babel/helper-string-parser": "npm:^7.29.11"
     "@babel/helper-validator-identifier": "npm:^7.29.7"
-  checksum: 10c0/be7c279f0abf2a086c633e21b49c7ca80275d05283cc5a268b67a708c9914bd0c944f1422b3eb3cb37682a2af5d560abf520ccf9b01b53ecbfe6b71fbc3fdde6
+  checksum: 10c0/d0d4edd2fbff0a8e79af1fea3c3c056de86bc0e01ed734d00062287638379933a232f087959c6eb67365c2f4fb44d57b88793cd1e87f0aad568f1c8b3b94da80
   languageName: node
   linkType: hard
 
@@ -1378,11 +1378,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.11.29":
-  version: 2.11.31
-  resolution: "baseline-browser-mapping@npm:2.11.31"
+  version: 2.11.32
+  resolution: "baseline-browser-mapping@npm:2.11.32"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/5c86b9a1efe9db2411b6f3268ae015ca7cc5229e5e53c20263936e9dbbe9651d2fc19dc46642f7a3db8ad2b4a300c5bbc702d3b79c49e740ff0fcc97e3c55692
+  checksum: 10c0/50aa1ebd997bf3fef7c3623c79c82f89217bf490debf291f9d7746366be50b5feb66e2404dabd8f374a2ada00f9b558f5961f1fee37691c858203bdefdb6c861
   languageName: node
   linkType: hard
 
@@ -1533,9 +1533,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.459":
-  version: 1.5.463
-  resolution: "electron-to-chromium@npm:1.5.463"
-  checksum: 10c0/03b594525895a1a93eb399d632b7193c6f9780c10e35331d23896f5f97b584d6a6983b401ad26db75334c55c912f2b63c82c8ac50747787298263ee84bcec506
+  version: 1.5.464
+  resolution: "electron-to-chromium@npm:1.5.464"
+  checksum: 10c0/65e6244c3b109942497ec6f7e8294258e74a7b410c804339fec39ecb2921926423e08f8f3a2a7979008c1a196a4c57145c1e76abe40ba374f60028fab23baa10
   languageName: node
   linkType: hard
 
@@ -2272,11 +2272,11 @@ __metadata:
   linkType: hard
 
 "seroval-plugins@npm:^1.6.7":
-  version: 1.7.0
-  resolution: "seroval-plugins@npm:1.7.0"
+  version: 1.7.1
+  resolution: "seroval-plugins@npm:1.7.1"
   peerDependencies:
     seroval: ^1.0
-  checksum: 10c0/4c34071ddaa5c3a8786e3b212328148ca182ec692627692b1a5d40829d9ae34e3cad69f4c326c335d692e382c6ce698b67d9710bd6cb306e26cf4d0f068114c5
+  checksum: 10c0/4462eefb4ef5e28e8f0d90f16a24e318507f183fac891a1728af42e75f1cb9a42314a8e479649b084256e1634c8a1870aa5e5fdd4c4a30cd2b27bbd7420a4929
   languageName: node
   linkType: hard
 
@@ -2290,9 +2290,9 @@ __metadata:
   linkType: hard
 
 "seroval@npm:^1.6.7":
-  version: 1.7.0
-  resolution: "seroval@npm:1.7.0"
-  checksum: 10c0/13d560b08add3d62a49ddf7581b4bf975fcc2adb23abf9b005616adfeb951d02429f81bb99379479bd702f364463fab9cf2121fc7970e6df37a2e3a303539721
+  version: 1.7.1
+  resolution: "seroval@npm:1.7.1"
+  checksum: 10c0/2674f790e3969f495543c4a04a81fe896ade1adc84abda579c6262dd07c4b0a3f7b6b8a2df84e96c4148f8bba398ff336d5a5188f0c43ba7be2ac0ff2d824abd
   languageName: node
   linkType: hard
 
@@ -2336,11 +2336,11 @@ __metadata:
   linkType: hard
 
 "srvx@npm:^1.0.0":
-  version: 1.0.6
-  resolution: "srvx@npm:1.0.6"
+  version: 1.0.7
+  resolution: "srvx@npm:1.0.7"
   bin:
     srvx: ./bin/srvx.mjs
-  checksum: 10c0/6fdda453c495024e1d92953047feba6e36ae13040bf0fe6cb54bd106370e9d0c3613bbd115372d0e670468e368fcd422cbc9aff71f716e1f0516ce6eca764a6e
+  checksum: 10c0/65a6923c251ef132c82a64689cbe9aaebc00a7900a773694eea24f69d8d9c48a26fdb91990b73a7ad0ba2c994b343dba45cfc74837634b4359876942ff763686
   languageName: node
   linkType: hard
 
