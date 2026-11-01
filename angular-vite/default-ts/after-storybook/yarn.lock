@@ -23,8 +23,8 @@ __metadata:
   linkType: hard
 
 "@analogjs/vite-plugin-angular@npm:^2.7.3":
-  version: 2.9.2
-  resolution: "@analogjs/vite-plugin-angular@npm:2.9.2"
+  version: 2.9.4
+  resolution: "@analogjs/vite-plugin-angular@npm:2.9.4"
   dependencies:
     magic-string: "npm:^0.30.21"
     obug: "npm:^2.1.1"
@@ -41,7 +41,7 @@ __metadata:
       optional: true
     vite:
       optional: true
-  checksum: 10c0/7ef00158b8170d8ea6902bfa1efe97db307785ab4ab946f3719b46ea13140abd5ef36826c74b0ff6804ec0290dbd6427fcd7fecf71f66927367b0462fa086b10
+  checksum: 10c0/7d0e6e77f0f1af43c6adaf914ad4ba6b401446b9d8773ba0a4ff683f034c270021ff05ce391fa2283b6f79a8bbdb8f40af10bbedd38256bb81ab115651c9096b
   languageName: node
   linkType: hard
 
@@ -6544,7 +6544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-proxy-middleware@npm:4.2.0, http-proxy-middleware@npm:^4.1.1":
+"http-proxy-middleware@npm:4.2.0":
   version: 4.2.0
   resolution: "http-proxy-middleware@npm:4.2.0"
   dependencies:
@@ -6554,6 +6554,19 @@ __metadata:
     is-plain-obj: "npm:^4.1.0"
     micromatch: "npm:^4.0.8"
   checksum: 10c0/2e8cffa4ff39f3daa8e4c14a6ba5c227d882c29c9163f5e5a089c69f49245845a09697ed4f6858be7cb840c8bc1c8fa5df49406ed0f753fa84a96283b116dd0b
+  languageName: node
+  linkType: hard
+
+"http-proxy-middleware@npm:^4.1.1":
+  version: 4.2.1
+  resolution: "http-proxy-middleware@npm:4.2.1"
+  dependencies:
+    debug: "npm:^4.4.3"
+    httpxy: "npm:^0.5.4"
+    is-glob: "npm:^4.0.3"
+    is-plain-obj: "npm:^4.1.0"
+    micromatch: "npm:^4.0.8"
+  checksum: 10c0/7cc306ebccd050fc38140861f40360caed79b08cf250219050326177594da1593cffee128346b36a569c8ab9f0579678fd0bda15af818567991814070c158c9a
   languageName: node
   linkType: hard
 
