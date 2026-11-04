@@ -122,6 +122,18 @@
 </details>
 
 <details>
+  <summary><b>Astro-vite</b></summary>
+  <ul>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/astro-vite/default-ts/after-storybook?preset=node"
+      >
+        Astro Latest (Vite | TypeScript)
+      </a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Tanstack-react-router</b></summary>
   <ul>
     <li>
