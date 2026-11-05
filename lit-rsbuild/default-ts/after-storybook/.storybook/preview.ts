@@ -1,6 +1,9 @@
-import type { Preview } from 'storybook-web-components-rsbuild'
+import { definePreview } from 'storybook-web-components-rsbuild'
+import addonA11y from '@storybook/addon-a11y';
+import addonDocs from '@storybook/addon-docs';
 
-const preview: Preview = {
+export default definePreview({
+  addons: [addonA11y(), addonDocs()],
   parameters: {
     controls: {
       matchers: {
@@ -9,6 +12,4 @@ const preview: Preview = {
       },
     },
   },
-};
-
-export default preview;
+});

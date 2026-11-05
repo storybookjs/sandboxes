@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/angular';
+import { defineMain } from '@storybook/angular/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -11,5 +11,4 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding"
   ],
   "framework": "@storybook/angular"
-};
-export default config;
+});

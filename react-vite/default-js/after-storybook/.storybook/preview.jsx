@@ -1,5 +1,9 @@
-/** @type { import('@storybook/react-vite').Preview } */
-const preview = {
+import { definePreview } from '@storybook/react-vite'
+import addonA11y from '@storybook/addon-a11y';
+import addonDocs from '@storybook/addon-docs';
+
+export default definePreview({
+  addons: [addonA11y(), addonDocs()],
   parameters: {
     controls: {
       matchers: {
@@ -8,6 +12,4 @@ const preview = {
       },
     },
   },
-};
-
-export default preview;
+});

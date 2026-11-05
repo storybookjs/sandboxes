@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/react-native-web-vite';
+import { defineMain } from '@storybook/react-native-web-vite/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -13,5 +13,4 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding"
   ],
   "framework": "@storybook/react-native-web-vite"
-};
-export default config;
+});

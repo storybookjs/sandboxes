@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/sveltekit';
+import { defineMain } from '@storybook/sveltekit/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|ts|svelte)"
@@ -12,5 +12,4 @@ const config: StorybookConfig = {
     "@storybook/addon-docs"
   ],
   "framework": "@storybook/sveltekit"
-};
-export default config;
+});

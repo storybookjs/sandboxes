@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/react-webpack5';
+import { defineMain } from '@storybook/react-webpack5/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -12,5 +12,4 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding"
   ],
   "framework": "@storybook/react-webpack5"
-};
-export default config;
+});

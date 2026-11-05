@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook-astro/framework';
+import { defineMain } from '@storybook-astro/framework/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -10,5 +10,4 @@ const config: StorybookConfig = {
     "@storybook/addon-docs"
   ],
   "framework": "@storybook-astro/framework"
-};
-export default config;
+});

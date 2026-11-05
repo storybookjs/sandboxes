@@ -1,9 +1,12 @@
-import type { Preview } from '@storybook/angular'
+import { definePreview } from '@storybook/angular'
 import { setCompodocJson } from "@storybook/addon-docs/angular";
 import docJson from "../documentation.json";
+import addonA11y from "@storybook/addon-a11y";
+import addonDocs from "@storybook/addon-docs";
 setCompodocJson(docJson);
 
-const preview: Preview = {
+export default definePreview({
+  addons: [addonA11y(), addonDocs()],
   parameters: {
     controls: {
       matchers: {
@@ -12,6 +15,4 @@ const preview: Preview = {
       },
     },
   },
-};
-
-export default preview;
+});

@@ -1,6 +1,6 @@
-import type { StorybookConfig } from 'storybook-react-rsbuild';
+import { defineMain } from 'storybook-react-rsbuild/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -11,5 +11,4 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding"
   ],
   "framework": "storybook-react-rsbuild"
-};
-export default config;
+});

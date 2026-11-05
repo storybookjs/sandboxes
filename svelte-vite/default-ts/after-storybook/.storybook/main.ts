@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/svelte-vite';
+import { defineMain } from '@storybook/svelte-vite/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|ts|svelte)"
@@ -12,5 +12,4 @@ const config: StorybookConfig = {
     "@storybook/addon-docs"
   ],
   "framework": "@storybook/svelte-vite"
-};
-export default config;
+});

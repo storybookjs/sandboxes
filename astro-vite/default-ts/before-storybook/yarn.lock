@@ -143,36 +143,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-satteri@npm:0.4.5":
-  version: 0.4.5
-  resolution: "@astrojs/markdown-satteri@npm:0.4.5"
+"@astrojs/markdown-satteri@npm:0.4.6":
+  version: 0.4.6
+  resolution: "@astrojs/markdown-satteri@npm:0.4.6"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.13.0"
-    "@astrojs/prism": "npm:4.1.1"
+    "@astrojs/prism": "npm:4.1.2"
     github-slugger: "npm:^2.0.0"
     satteri: "npm:^0.10.5"
-  checksum: 10c0/13363b13239ba959f406bbf6dd9601f5c01e4642213a51d7c0184edf255465b78b7dbb4e86800ab92e4aa2c51d4f0d2e5c9f8d69ee28960ec110529ad8f09c5c
+  checksum: 10c0/71b852d8d09bde6b27bc558a8ef011f745a20ff0857ec30431cb1377c2df0b92f0e2fb8227bce38f371c1553a532af532b8d88e878d32c12d2ba29831980fd34
   languageName: node
   linkType: hard
 
-"@astrojs/prism@npm:4.1.1":
-  version: 4.1.1
-  resolution: "@astrojs/prism@npm:4.1.1"
+"@astrojs/prism@npm:4.1.2":
+  version: 4.1.2
+  resolution: "@astrojs/prism@npm:4.1.2"
   dependencies:
     prismjs: "npm:^1.30.0"
-  checksum: 10c0/21bdf54704b5e0cba740e58211a1ba63b9f2443a9a327912d1406c38e11874689210b45d764d82bf10fedf0d5b1892631b93b9377da6b0172b2520d35f994e72
+  checksum: 10c0/33e971156932ce536dfb967c7c8488eb770914e1ccbb84ad01f2866424959918ae8e15f2585a8e6cc58f0eeda6f0f8bcf324eeb9ef73b9119919547cdf1cb24b
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.4.1":
-  version: 3.4.1
-  resolution: "@astrojs/telemetry@npm:3.4.1"
+"@astrojs/telemetry@npm:3.4.2":
+  version: 3.4.2
+  resolution: "@astrojs/telemetry@npm:3.4.2"
   dependencies:
     ci-info: "npm:^4.4.0"
     dset: "npm:^3.1.4"
     is-docker: "npm:^4.0.0"
     package-manager-detector: "npm:^1.9.0"
-  checksum: 10c0/101d575052176e0d36a1dcea4790facbcf264b02c43d8cee37c79e7d5ddcd9f9d20a54b37d2263f43997bb6e88fc8c30585987fee6c0399492307495eb953eef
+  checksum: 10c0/9749675090a4387541a33d8b3203787b05d98cf4ee8dacd8b89478802a55498a4c469542940c23c2febd17e3db5892994e08501bfbfb40d76353168c91dc0171
   languageName: node
   linkType: hard
 
@@ -946,13 +946,13 @@ __metadata:
   linkType: hard
 
 "astro@npm:^7.0.0":
-  version: 7.4.2
-  resolution: "astro@npm:7.4.2"
+  version: 7.4.4
+  resolution: "astro@npm:7.4.4"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.5.1"
     "@astrojs/internal-helpers": "npm:0.13.0"
-    "@astrojs/markdown-satteri": "npm:0.4.5"
-    "@astrojs/telemetry": "npm:3.4.1"
+    "@astrojs/markdown-satteri": "npm:0.4.6"
+    "@astrojs/telemetry": "npm:3.4.2"
     "@capsizecss/unpack": "npm:^4.0.1"
     "@clack/prompts": "npm:^1.8.1"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -984,7 +984,7 @@ __metadata:
     package-manager-detector: "npm:^1.9.0"
     piccolore: "npm:^0.1.3"
     picomatch: "npm:^4.0.7"
-    rolldown: "npm:^1.2.13"
+    rolldown: "npm:^1.2.14"
     sharp: "npm:^0.35.4"
     shiki: "npm:^4.5.0"
     smol-toml: "npm:^1.9.1"
@@ -997,7 +997,7 @@ __metadata:
     unifont: "npm:^1.0.3"
     unstorage: "npm:^1.17.5"
     verkit: "npm:^0.5.0"
-    vite: "npm:^8.3.4"
+    vite: "npm:^8.3.5"
     vitefu: "npm:^1.1.3"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^22.0.0"
@@ -1012,7 +1012,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10c0/cd49625fd5444dc11fead9b5890b7cf1ba0da4f5c2d2c82cd512e18c075ca3f1c7acfed6c0d959a6e7110599b7c87a0ff61560fd214152aef9bec0327b5dd4ec
+  checksum: 10c0/199a1537e5dcd4f610f4a41ccd29793cad3d8679a63c3d66f283649f49ef8b5481b553d2f51893ae4a7755389615ae443ba31998e2cd5f9bc5ce7488222f95dc
   languageName: node
   linkType: hard
 
@@ -2063,7 +2063,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rolldown@npm:^1.2.13, rolldown@npm:~1.2.14":
+"rolldown@npm:^1.2.14, rolldown@npm:~1.2.14":
   version: 1.2.15
   resolution: "rolldown@npm:1.2.15"
   dependencies:
@@ -2622,7 +2622,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^8.3.4":
+"vite@npm:^8.3.5":
   version: 8.3.5
   resolution: "vite@npm:8.3.5"
   dependencies:
