@@ -4970,6 +4970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ansi-styles@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "ansi-styles@npm:7.0.0"
+  checksum: 10c0/406cf8984c682d632738964db918d895d84ec4ff39bffd0dddc81c4a4669a77b57adb0b58b26a1cc6ebcff0e30581d5946fc9b6f0394f6d9ac0b42f5ea97d216
+  languageName: node
+  linkType: hard
+
 "argparse@npm:^2.0.1":
   version: 2.0.1
   resolution: "argparse@npm:2.0.1"
@@ -5460,12 +5467,12 @@ __metadata:
   linkType: hard
 
 "cli-truncate@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "cli-truncate@npm:6.1.1"
+  version: 6.2.0
+  resolution: "cli-truncate@npm:6.2.0"
   dependencies:
-    slice-ansi: "npm:^9.0.0"
-    string-width: "npm:^8.2.0"
-  checksum: 10c0/56760fd0987d1c93711ce603510cce12a97f91d7b4a4f892402a586522aa14633caca86fe410defcfac256f56ea88de757d82d5c874a20eb5861b24d5eebcffb
+    slice-ansi: "npm:^10.0.0"
+    string-width: "npm:^8.3.0"
+  checksum: 10c0/65dc4a2642e15c7bb8c2c4fe1de59a6cdedd91dd81aa5014bba72db85cf13729ddc22b50b45fcced01f79943e7b38f7625a7e4ccee926ca6ca4d2824965bb18d
   languageName: node
   linkType: hard
 
@@ -6084,9 +6091,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.464":
-  version: 1.5.470
-  resolution: "electron-to-chromium@npm:1.5.470"
-  checksum: 10c0/e52a06ac8addb4c3f17af2682f7bff24efd4067831324efd8fc04bf9af8c11de19a405816fe4417dc7461e147a44e48ca8c42fac9d3a0444fddfdc2d082bbc6a
+  version: 1.5.472
+  resolution: "electron-to-chromium@npm:1.5.472"
+  checksum: 10c0/7adccd4bde3776afc0a0a883f4cac736d69d7ab5e365a931373e7b46a6e497e44eb5fb4a14fc2af430f3cfe34348463ef15cccb538d6a09807221c07bfbcbda8
   languageName: node
   linkType: hard
 
@@ -8225,9 +8232,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.60":
-  version: 2.0.62
-  resolution: "node-releases@npm:2.0.62"
-  checksum: 10c0/9959dd3fa2bd9cc6251ae7adc598f6ba1df676ab2943521ba4872aa3e20d948cf127696adcb80465d903ff334317ace1a5f519e78d15754ed0b7f4f22f794f6b
+  version: 2.0.63
+  resolution: "node-releases@npm:2.0.63"
+  checksum: 10c0/857ce981b26449a6f369d72f3c9c6d82aa7255a7b16a50ff7bd8ab1baea3754e24a8f9fbbdf9ccf05e97d9525d8ebfb7430b5fd822bc530656b84d70a6660e21
   languageName: node
   linkType: hard
 
@@ -9707,8 +9714,8 @@ __metadata:
   linkType: hard
 
 "schema-utils@npm:^4.0.0, schema-utils@npm:^4.2.0, schema-utils@npm:^4.3.0, schema-utils@npm:^4.3.3, schema-utils@npm:^4.5.0, schema-utils@npm:^4.6.0, schema-utils@npm:^4.8.1":
-  version: 4.8.1
-  resolution: "schema-utils@npm:4.8.1"
+  version: 4.8.2
+  resolution: "schema-utils@npm:4.8.2"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
     ajv: "npm:^8.20.0"
@@ -9721,7 +9728,7 @@ __metadata:
       optional: true
   bin:
     schema-utils: bin/schema-utils.js
-  checksum: 10c0/b18b816e5628adb6a703883dbbb672aa3368e6462e16097c9df16d9ca192e41191b98c1b63b6cf18b0ee17a7223268ec9ca76935e8c50337cfa8484d3d289eea
+  checksum: 10c0/2b882206924e75b31c2319abd102dc591942e2549761b1e730851feb3aec55bd091ef681242fb043dff1f64c796598d27ebb3bcd569d69a39daa5a8f2761305a
   languageName: node
   linkType: hard
 
@@ -9895,6 +9902,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slice-ansi@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "slice-ansi@npm:10.0.0"
+  dependencies:
+    ansi-styles: "npm:^7.0.0"
+    string-width: "npm:^8.3.0"
+  checksum: 10c0/9c434baf30ec5ecfea458fd3c687df311111fd28acba5c491ee1fd65f23af74eec624b2a7975e084e1e0bc1e2f103837a12196e619aa164bc41bd5f88f1828cc
+  languageName: node
+  linkType: hard
+
 "slice-ansi@npm:^9.0.0":
   version: 9.0.1
   resolution: "slice-ansi@npm:9.0.1"
@@ -10025,7 +10042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^8.1.0, string-width@npm:^8.2.0, string-width@npm:^8.2.1":
+"string-width@npm:^8.1.0, string-width@npm:^8.2.0, string-width@npm:^8.2.1, string-width@npm:^8.3.0":
   version: 8.3.0
   resolution: "string-width@npm:8.3.0"
   dependencies:
@@ -10687,9 +10704,9 @@ __metadata:
   linkType: hard
 
 "weak-lru-cache@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "weak-lru-cache@npm:1.2.2"
-  checksum: 10c0/744847bd5b96ca86db1cb40d0aea7e92c02bbdb05f501181bf9c581e82fa2afbda32a327ffbe75749302b8492ab449f1c657ca02410d725f5d412d1e6c607d72
+  version: 1.2.3
+  resolution: "weak-lru-cache@npm:1.2.3"
+  checksum: 10c0/09e2c202c39e4fc8d71fafd8ff8d28c81c22f32cc351f0ecc00c721f1b9739697488c9faaefd75e7a0d32eb166af16df07678157d6e466ce07bd55aeb06ef20f
   languageName: node
   linkType: hard
 
@@ -10976,8 +10993,8 @@ __metadata:
   linkType: hard
 
 "ws@npm:^8.18.3, ws@npm:^8.20.0, ws@npm:^8.21.1":
-  version: 8.22.0
-  resolution: "ws@npm:8.22.0"
+  version: 8.22.1
+  resolution: "ws@npm:8.22.1"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -10986,7 +11003,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 10c0/7304d14ef38898dd366a528a85e2da389c4eebf30f4ce8a007bd2dce6025f9b619cefe44fe2354f0bad0ec541b1c9a4da06a3f3e046ab56f01fd52d5784ecfb2
+  checksum: 10c0/858ccc31e56a7549c25d0bfd522b65c64f7bffdc5460eeb4c29517d34728d34de102d2ebf8296160c8b4594fd45ead6a324acd9a1ea0b0b8742bbed4d52d9a51
   languageName: node
   linkType: hard
 
