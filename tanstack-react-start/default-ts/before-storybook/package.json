@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite dev --port 3000",
-    "generate-routes": "tsr generate",
+    "generate-routes": "vite build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -24,7 +24,6 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@tanstack/devtools-vite": "0.8.6",
-    "@tanstack/router-cli": "^1.132.0",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
