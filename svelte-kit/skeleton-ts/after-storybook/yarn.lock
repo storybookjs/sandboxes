@@ -397,14 +397,14 @@ __metadata:
   linkType: hard
 
 "@napi-rs/wasm-runtime@npm:^1.1.4, @napi-rs/wasm-runtime@npm:^1.1.5":
-  version: 1.2.6
-  resolution: "@napi-rs/wasm-runtime@npm:1.2.6"
+  version: 1.2.7
+  resolution: "@napi-rs/wasm-runtime@npm:1.2.7"
   dependencies:
     "@tybys/wasm-util": "npm:^0.10.3"
   peerDependencies:
-    "@emnapi/core": ^1.7.1 || 2.0.0-beta.2
-    "@emnapi/runtime": ^1.7.1 || 2.0.0-beta.2
-  checksum: 10c0/8fd47200ba18df97149dceb194d405cf1110c785f00c774746b8e6413c892c1cc3c3af41ebc6efee33b235e9f67b18ccc8c0fc35dfcd9c2f0567e5e782dac47e
+    "@emnapi/core": ^1.7.1 || 2.0.0-beta.2 || 2.0.0-beta.3
+    "@emnapi/runtime": ^1.7.1 || 2.0.0-beta.2 || 2.0.0-beta.3
+  checksum: 10c0/aab492b488fd86563eacda3fe356db68d273d11ec0e999793445d964dc7bbbf9e9a4b80f9c2e243d084393ee53434e668ac1e7308deb44b87b9c18926667a801
   languageName: node
   linkType: hard
 
@@ -836,36 +836,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/addon-a11y@npm:10.6.6"
+"@storybook/addon-a11y@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/addon-a11y@npm:10.6.7"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     axe-core: "npm:^4.2.0"
   peerDependencies:
-    storybook: ^10.6.6
-  checksum: 10c0/a4e81a54601c6516944c62f45182113d87f34d521117758eaf32309372800043963afadb60ceb42b424bba5fab8d7666890c3cf58ed6b3656a0f81edde19f9dc
+    storybook: ^10.6.7
+  checksum: 10c0/d9914d42a05db2c3cb6c59b03cfce7abeadca57907867769772075733d999e7595ac5234d4b47e49249ac51d6b3f7b065133522ad55c25504b4ad0bb643329ba
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/addon-docs@npm:10.6.6"
+"@storybook/addon-docs@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/addon-docs@npm:10.6.7"
   dependencies:
     "@mdx-js/react": "npm:^3.0.0"
     "@storybook/icons": "npm:^2.0.2"
-    "@storybook/react-dom-shim": "npm:10.6.6"
+    "@storybook/react-dom-shim": "npm:10.6.7"
     react: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent: "npm:^2.0.0"
     unplugin: "npm:^2.3.5"
   peerDependencies:
     "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.6.6
+    storybook: ^10.6.7
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/ac31e7e73cb503b0af69994dc2fdbfac925e926708a9d926d90c8f8fcc2afc5db7703ed19389c88a506f86817c073995647b831fdf34bf7e9dbf374a0b3b9231
+  checksum: 10c0/faa1fedd94927881bc7c83a88cbfab0d500a445748e331fbc5a2c1b75e73bdaac218e81557655b39b4a1cc16fd8ddd707f42717837073f7d19d8d360e2cc0791
   languageName: node
   linkType: hard
 
@@ -890,16 +890,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-vitest@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/addon-vitest@npm:10.6.6"
+"@storybook/addon-vitest@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/addon-vitest@npm:10.6.7"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@storybook/icons": "npm:^2.0.2"
   peerDependencies:
     "@vitest/browser": ^4.0.0 || ^5.0.0
     "@vitest/browser-playwright": ^4.0.0 || ^5.0.0
-    storybook: ^10.6.6
+    storybook: ^10.6.7
     vitest: ^4.0.0 || ^5.0.0
   peerDependenciesMeta:
     "@vitest/browser":
@@ -908,19 +908,19 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/5e1e4c247a83acd35ea882c8607a99234f036ebb35b493e51668a6177b4823e1678660d8cd4a843d3fb1772048401c3c84af194f0cb94e43be6d214017a07ad5
+  checksum: 10c0/e21cea52229eceb2b8e2a2ade27dd7ec958d54851b0dd7b03fed4c01be59f805bb0be8ab20d7dfde9049ad2e3ed1b17bd5b4cec3a800e9751d128730aab52eb5
   languageName: node
   linkType: hard
 
-"@storybook/builder-vite@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/builder-vite@npm:10.6.6"
+"@storybook/builder-vite@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/builder-vite@npm:10.6.7"
   dependencies:
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    storybook: ^10.6.6
+    storybook: ^10.6.7
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/c62afc55af502ccca1fe41084f44877e58109f28fad6d8eb1fc580dca3766b50af76f0b6397042811b92d974370bcf304c40ad13364138e08cfb087f424fab85
+  checksum: 10c0/7e3a155c1b30635767d0de3fc1d78838a6ddf609a8e4188072de9f0d7222689e8c78dbd40b1bca95ed7c9986b98238beaaa452c60c6b4f126e783e457ab3d560
   languageName: node
   linkType: hard
 
@@ -949,67 +949,67 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-dom-shim@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/react-dom-shim@npm:10.6.6"
+"@storybook/react-dom-shim@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/react-dom-shim@npm:10.6.7"
   peerDependencies:
     "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     "@types/react-dom": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.6.6
+    storybook: ^10.6.7
   peerDependenciesMeta:
     "@types/react":
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/cd7d38123fa9ca1f8851d43099aaeb84e3067bf5ac073c639cff41cdde143455d8dfc37a835c6bb0aab414ce9c621aa4d560cf07a6b6d1968b5cbab356817ef7
+  checksum: 10c0/daff75acaa44f89a34e328e3b14133479e5395ecc32c81ac0a2447d6838e4490a314df957c21c02d711e867522a4449ee0acbfcfa5ff352a9795266849e7c729
   languageName: node
   linkType: hard
 
-"@storybook/svelte-vite@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/svelte-vite@npm:10.6.6"
+"@storybook/svelte-vite@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/svelte-vite@npm:10.6.7"
   dependencies:
-    "@storybook/builder-vite": "npm:10.6.6"
-    "@storybook/svelte": "npm:10.6.6"
+    "@storybook/builder-vite": "npm:10.6.7"
+    "@storybook/svelte": "npm:10.6.7"
     magic-string: "npm:^1.1.0"
     svelte2tsx: "npm:^0.7.55"
     typescript: "npm:^4.9.4 || ^5.0.0"
   peerDependencies:
     "@sveltejs/vite-plugin-svelte": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-    storybook: ^10.6.6
+    storybook: ^10.6.7
     svelte: ^5.0.0
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/07eb3b8cec3bd6f5bd43e79d95eb713f53232a285aa97f172016a165e89b82651a78889815f41e40d88e29647fa1c631d31beb6c7a96c8aa83fa1c4ceeaa437b
+  checksum: 10c0/84bb202e3fc6ea31a764ca0007b8428895395bba2125ce906b939258b154d6f26cd00e254fc656bdd787db813822ffda9a53dd2695120723e9769d2073181c50
   languageName: node
   linkType: hard
 
-"@storybook/svelte@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/svelte@npm:10.6.6"
+"@storybook/svelte@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/svelte@npm:10.6.7"
   dependencies:
     ts-dedent: "npm:^2.0.0"
     type-fest: "npm:^5.6.0"
   peerDependencies:
-    storybook: ^10.6.6
+    storybook: ^10.6.7
     svelte: ^5.0.0
-  checksum: 10c0/c5788181903d35e6ad42f7d0d8a99fe8704e5e2c1050deb494b1e35ee5497555bd19bef73a95141bbc55ecfc2fac06961c0b393feedaf2dc5f22ae98f8755494
+  checksum: 10c0/ec603603321cd591a6c70f4e5088d45040a879572c4ba8c8843aa032a0ccf8dafbaca688962a03ec1a24af92bbfcf49baba2d8ad21391b771b3271c7f5dfccc4
   languageName: node
   linkType: hard
 
-"@storybook/sveltekit@npm:10.6.6":
-  version: 10.6.6
-  resolution: "@storybook/sveltekit@npm:10.6.6"
+"@storybook/sveltekit@npm:10.6.7":
+  version: 10.6.7
+  resolution: "@storybook/sveltekit@npm:10.6.7"
   dependencies:
-    "@storybook/builder-vite": "npm:10.6.6"
-    "@storybook/svelte": "npm:10.6.6"
-    "@storybook/svelte-vite": "npm:10.6.6"
+    "@storybook/builder-vite": "npm:10.6.7"
+    "@storybook/svelte": "npm:10.6.7"
+    "@storybook/svelte-vite": "npm:10.6.7"
   peerDependencies:
-    storybook: ^10.6.6
+    storybook: ^10.6.7
     svelte: ^5.0.0
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/76df926f8f52b2fef86dd262c28d80b55646f6b8c1e67522c0703b65d47a4b5710b2dc59ad581babaa011e24f14be48d3d1fdd1c63ede0da62c444905a534623
+  checksum: 10c0/1e27313506d831510722fed97bf14d879942eda3c4049667a50a334b2dab28ad1300dcaaab32ddc6a0c4c9299977ea6a6a3d834c97f0fc873d51e4ec500be1e3
   languageName: node
   linkType: hard
 
@@ -1471,18 +1471,18 @@ __metadata:
   resolution: "before-storybook@workspace:."
   dependencies:
     "@chromatic-com/storybook": "npm:latest"
-    "@storybook/addon-a11y": "npm:^10.6.6"
-    "@storybook/addon-docs": "npm:^10.6.6"
+    "@storybook/addon-a11y": "npm:^10.6.7"
+    "@storybook/addon-docs": "npm:^10.6.7"
     "@storybook/addon-svelte-csf": "npm:latest"
-    "@storybook/addon-vitest": "npm:^10.6.6"
-    "@storybook/sveltekit": "npm:^10.6.6"
+    "@storybook/addon-vitest": "npm:^10.6.7"
+    "@storybook/sveltekit": "npm:^10.6.7"
     "@sveltejs/adapter-auto": "npm:^7.0.1"
     "@sveltejs/kit": "npm:^2.63.0"
     "@sveltejs/vite-plugin-svelte": "npm:^7.1.2"
     "@vitest/browser-playwright": "npm:latest"
     "@vitest/coverage-v8": "npm:latest"
     playwright: "npm:latest"
-    storybook: "npm:^10.6.6"
+    storybook: "npm:^10.6.7"
     svelte: "npm:^5.56.1"
     svelte-check: "npm:^4.6.0"
     typescript: "npm:^6.0.3"
@@ -1544,8 +1544,8 @@ __metadata:
   linkType: hard
 
 "chromatic@npm:^18.12.1":
-  version: 18.13.9
-  resolution: "chromatic@npm:18.13.9"
+  version: 18.14.0
+  resolution: "chromatic@npm:18.14.0"
   dependencies:
     semver: "npm:^7.3.5"
   peerDependencies:
@@ -1568,7 +1568,7 @@ __metadata:
     chroma: dist/bin.cjs
     chromatic: dist/bin.cjs
     chromatic-cli: dist/bin.cjs
-  checksum: 10c0/7143b876f4de81b18ba11c06a7a9d72f2d7f9673897ab5ae643d3a5e134e652d39a3eeaae7e53c546de81ed38709a1273e143d69afa1bb28b0a642509b6e8d99
+  checksum: 10c0/f9150732afd92fdbbb28273939c64b11ee53da6b2ca59078744c0bfdb0ef45e354bcb2af12752e8cd1af60e470415e09715b52602a44b4752b8c5ae748f9a596
   languageName: node
   linkType: hard
 
@@ -2713,9 +2713,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:10.6.6":
-  version: 10.6.6
-  resolution: "storybook@npm:10.6.6"
+"storybook@npm:10.6.7":
+  version: 10.6.7
+  resolution: "storybook@npm:10.6.7"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@storybook/icons": "npm:^2.0.2"
@@ -2747,7 +2747,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./dist/bin/dispatcher.js
-  checksum: 10c0/0605c222bd544952a7285ab087793dc7db97a7418c609a45bac3480467aadabead102703e7ecb8bd0e3a357eeae7735d4731e01af7c83678e2342ca5804607ed
+  checksum: 10c0/504cdc8f337c22f951279ff0a8644e16dc800af87e10e7f4660e315974a437ac89e4270e30269feca303c5a17418be2ef3b4dc033caf7b9ff1051136364e6fed
   languageName: node
   linkType: hard
 
