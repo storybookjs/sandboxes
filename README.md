@@ -76,6 +76,12 @@
         React Prerelease (Vite | TypeScript)
       </a>
     </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/typescript-7-ts/after-storybook?preset=node"
+      >
+        React with TypeScript 7.1 (Vite | TypeScript)
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -260,6 +266,12 @@
       <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-vite/default-ts/after-storybook?preset=node"
       >
         Angular CLI Latest (Vite | TypeScript)
+      </a>
+    </li>
+    <li>
+      <a        href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/angular-vite/typescript-7-ts/after-storybook?preset=node"
+      >
+        Angular CLI with TypeScript 7.1 (Vite | TypeScript)
       </a>
     </li>
   </ul>

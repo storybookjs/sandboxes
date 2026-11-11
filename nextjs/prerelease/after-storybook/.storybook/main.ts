@@ -1,6 +1,6 @@
-import type { StorybookConfig } from '@storybook/nextjs';
+import { defineMain } from '@storybook/nextjs/node';
 
-const config: StorybookConfig = {
+export default defineMain({
   "stories": [
     "../src/**/*.mdx",
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
@@ -14,5 +14,4 @@ const config: StorybookConfig = {
   "staticDirs": [
     "../public"
   ]
-};
-export default config;
+});
