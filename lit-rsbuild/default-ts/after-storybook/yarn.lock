@@ -31,9 +31,9 @@ __metadata:
   linkType: hard
 
 "@babel/runtime@npm:^7.12.5":
-  version: 7.29.10
-  resolution: "@babel/runtime@npm:7.29.10"
-  checksum: 10c0/32f975da8e9c2cae6b33e1a477f8fe8bbff6722c982b5ce35f99affaf3a7a1b612c8272b43afa0e51d3000928d6f3ba38f9296301115db5640264907c027b0cd
+  version: 7.29.13
+  resolution: "@babel/runtime@npm:7.29.13"
+  checksum: 10c0/6e589f63a3f9192bc8de99a5bc02ff14daf14590e8de77c0f3487f4b7c3784181c60dfad927986d232fbf5581723bb577aae704b42ec14c8c44ad05b590b96d6
   languageName: node
   linkType: hard
 
@@ -1120,7 +1120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rsbuild/plugin-type-check@npm:^1.6.0":
+"@rsbuild/plugin-type-check@npm:^1.6.1":
   version: 1.6.1
   resolution: "@rsbuild/plugin-type-check@npm:1.6.1"
   dependencies:
@@ -1967,7 +1967,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cjs-module-lexer@npm:^2.2.1":
+"cjs-module-lexer@npm:^2.3.0":
   version: 2.3.0
   resolution: "cjs-module-lexer@npm:2.3.0"
   checksum: 10c0/9a6b9ca6f3c4734e108afa7a9cdf9ebf180329e1f94729a8a054102b2d66f5bbd62beb6a7b25ed8b0feca561c96542f34583fe5f0a72691751ff3ab718f5690f
@@ -2916,7 +2916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^1.4.2":
+"magic-string@npm:^1.4.5":
   version: 1.4.5
   resolution: "magic-string@npm:1.4.5"
   dependencies:
@@ -3546,18 +3546,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-builder-rsbuild@npm:3.6.1":
-  version: 3.6.1
-  resolution: "storybook-builder-rsbuild@npm:3.6.1"
+"storybook-builder-rsbuild@npm:3.6.2":
+  version: 3.6.2
+  resolution: "storybook-builder-rsbuild@npm:3.6.2"
   dependencies:
-    "@rsbuild/plugin-type-check": "npm:^1.6.0"
+    "@rsbuild/plugin-type-check": "npm:^1.6.1"
     browser-assert: "npm:^1.2.1"
     case-sensitive-paths-webpack-plugin: "npm:^2.4.0"
-    cjs-module-lexer: "npm:^2.2.1"
+    cjs-module-lexer: "npm:^2.3.0"
     constants-browserify: "npm:^1.0.0"
     es-module-lexer: "npm:^1.7.0"
     fs-extra: "npm:^11.4.1"
-    magic-string: "npm:^1.4.2"
+    magic-string: "npm:^1.4.5"
     path-browserify: "npm:^1.0.1"
     pathe: "npm:^2.0.3"
     picocolors: "npm:^1.1.1"
@@ -3572,7 +3572,7 @@ __metadata:
     "@rsbuild/core": ^1.5.0 || ^2.0.0-0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.6.0
+    storybook: ^10.6.5
   peerDependenciesMeta:
     react:
       optional: true
@@ -3580,21 +3580,21 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/bd9aaf0d104ade637d35049d27ba78274a60a61affab0be979dfe7c7d8e1213ebaa239b0a96815fa390908899a4a7c57ec0a7dc08f9690b80f9d5db81699b351
+  checksum: 10c0/03a76ec0429835c4cc3a3dbd63a1d15b2361e89f2949ae76a3aef8e4d89bedf105f8b883ceb593ae7b75ae58c65178c585b8d1b84eb74e7f182f0bd1c26d0c45
   languageName: node
   linkType: hard
 
 "storybook-web-components-rsbuild@npm:latest":
-  version: 3.6.1
-  resolution: "storybook-web-components-rsbuild@npm:3.6.1"
+  version: 3.6.2
+  resolution: "storybook-web-components-rsbuild@npm:3.6.2"
   dependencies:
-    "@storybook/web-components": "npm:^10.6.0"
-    storybook-builder-rsbuild: "npm:3.6.1"
+    "@storybook/web-components": "npm:^10.6.5"
+    storybook-builder-rsbuild: "npm:3.6.2"
   peerDependencies:
     "@rsbuild/core": ^1.5.0 || ^2.0.0-0
     lit: ^2.0.0 || ^3.0.0
-    storybook: ^10.6.0
-  checksum: 10c0/cdf64c1d74f0fce892bec1cb15591b8e5dc21fa920ac76de63f386aed7d6f585d37ab40ad2e9319544a90e0e215f69c0d648a8dbe23215ad0560410bc81d9671
+    storybook: ^10.6.5
+  checksum: 10c0/9011b9bef103ffb052a7c5eaa765658937b17c3aa49b86d601248cc338f5c6b584baf9bbd438bff1cb5b16151a5b3a9e3ce9e6b54c8567b9d9be506d624750e3
   languageName: node
   linkType: hard
 
