@@ -48,7 +48,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25":
+"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.31":
   version: 0.3.31
   resolution: "@jridgewell/trace-mapping@npm:0.3.31"
   dependencies:
@@ -201,18 +201,19 @@ __metadata:
   linkType: hard
 
 "@sveltejs/adapter-auto@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@sveltejs/adapter-auto@npm:8.0.0"
+  version: 8.0.1
+  resolution: "@sveltejs/adapter-auto@npm:8.0.1"
   peerDependencies:
     "@sveltejs/kit": ^3.0.0-next.0
-  checksum: 10c0/de6f5f2a55d0403f175c55cb8dfc829686be4a77d5b49a82655fa46cca4ae55ee6e49f82aec2e1ca123fe784409fef3436f30f67f569ed33e658f27a9256d685
+  checksum: 10c0/288a717e63dea21ee72cb8c2863b6f86df5ae12b5b115ea72b95c17bc4fc8d99f382154a7173690aacb07df16aeb69a0dcf47e45aa0283b47446c96da9435201
   languageName: node
   linkType: hard
 
 "@sveltejs/kit@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "@sveltejs/kit@npm:3.1.1"
+  version: 3.2.0
+  resolution: "@sveltejs/kit@npm:3.2.0"
   dependencies:
+    "@jridgewell/trace-mapping": "npm:^0.3.31"
     "@rolldown/pluginutils": "npm:^1.0.1"
     "@standard-schema/spec": "npm:^1.1.0"
     cookie: "npm:^2.0.1"
@@ -234,7 +235,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/f7f86a3788f1f952749990baaeeb92a19885269879db6e44435410ef8698019f2dcb006b6b997b9953f3eda8cd9e23291d98998148d1b0237800e0cdb474b759
+  checksum: 10c0/f604c5df59355c2a3451824082ea34f5b63349f6c1d88c77c76f059db2ac0f89ddc8fd04106d1a580d8911bd0c482861554ea5136df5a9274cb5893284ec802d
   languageName: node
   linkType: hard
 
